@@ -9,6 +9,7 @@ Goal: Establish a clean, trustworthy data core.
       Tokens (words)
     Normalize Strong’s lexicons (Greek & Hebrew)
     Define canonical IDs (no guessing)
+    
     Tasks:
       Tokenize verse text deterministically
       Strip punctuation consistently
