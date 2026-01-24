@@ -10,17 +10,19 @@ Goal: Establish a clean, trustworthy data core.
     Normalize Strong’s lexicons (Greek & Hebrew)
     Define canonical IDs (no guessing)
     
-    Tasks:
+  Tasks:
       Tokenize verse text deterministically
       Strip punctuation consistently
       Store original word order
       Assign token indexes per verse
       Validate lexicon fields (lemma, transliteration, definition)
-    Artifacts:
+  
+  Artifacts:
       /data/
       /scripts/
       Database schema diagram
-    Exit Criteria:
+  
+  Exit Criteria:
       Every verse can be rendered word-by-word
       No NLP guessing yet
 # PHASE 1 — Core Platform (v1.0)
