@@ -1,5 +1,6 @@
 # PHASE 0 — Foundation (v0.1)
 Goal: Establish a clean, trustworthy data core.
+  
   Deliverables:
     Normalize KJV text into:
       Books
