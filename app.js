@@ -38,6 +38,7 @@ function buildTable(data) {
       {title: "Ch", field: "chapter", width: 60},
       {title: "V", field: "verse", width: 60},
       {title: "Command", field: "command", width: 420, headerFilter: true},
+      {title: "Speaker", field: "speaker", width: 120, headerFilter: true},
 
       {title: "Theological", field: "theological", formatter: colorTag},
       {title: "Social", field: "social", formatter: colorTag},
