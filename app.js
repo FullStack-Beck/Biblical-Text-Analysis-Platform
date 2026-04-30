@@ -52,31 +52,52 @@ function buildTable(data) {
 
 }
 
-    function colorTag(cell) {
-      const val = cell.getValue();
+function colorTag(cell) {
+  const val = cell.getValue();
+  const field = cell.getField();
 
-      const colors = {
-        wisdom: "#3b82f6",
-        ethics: "#22c55e",
-        judgment: "#ef4444",
-        worship: "#a855f7",
-        prophecy: "#f59e0b",
-        narrative: "#06b6d4",
-        providence: "#10b981",
-        law: "#f97316",
-        covenant: "#eab308"
-      };
-
-      const color = colors[val] || "#64748b";
-
-      return `<span style="
-        background:${color};
-        padding:2px 6px;
-        border-radius:6px;
-        font-size:11px;
-        color:white;
-      ">${val}</span>`;
+  const maps = {
+    theological: {
+      wisdom: "#3b82f6",
+      ethics: "#22c55e",
+      judgment: "#ef4444",
+      worship: "#a855f7",
+      prophecy: "#f59e0b",
+      narrative: "#06b6d4",
+      providence: "#10b981",
+      law: "#f97316",
+      covenant: "#eab308"
+    },
+    social: {
+      individual: "#6366f1",
+      family: "#ec4899",
+      priesthood: "#8b5cf6",
+      national: "#14b8a6",
+      foreign_nations: "#f43f5e"
+    },
+    action: {
+      moral_behavior: "#22c55e",
+      ritual_behavior: "#a855f7",
+      governance: "#f59e0b",
+      warfare: "#ef4444",
+      economic_behavior: "#10b981",
+      construction: "#06b6d4",
+      judicial: "#eab308",
+      migration: "#3b82f6",
+      communication: "#6366f1"
     }
+  };
+
+  const color = maps[field]?.[val] || "#64748b";
+
+  return `<span style="
+    background:${color};
+    padding:2px 6px;
+    border-radius:6px;
+    font-size:11px;
+    color:white;
+  ">${val}</span>`;
+}
 
 function buildFilter(data, table) {
   const td = document.getElementById("tdFilter");
@@ -125,7 +146,7 @@ function buildChart(data) {
     data: {
       labels: Object.keys(counts),
       datasets: [{
-        label: "Theological Domain",
+        label: "How many commands fall into each theological domain?",
         data: Object.values(counts)
       }]
     }
