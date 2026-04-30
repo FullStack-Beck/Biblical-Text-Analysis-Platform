@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Inter, Arial, sans-serif;
+      margin: 0;
+      background: #0f172a; /* dark blue */
+      color: #e2e8f0;
+    }
+
+    h1 {
+      padding: 20px;
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      height: calc(100vh - 60px);
+    }
+
+    .panel {
+      background: #111827;
+      padding: 15px;
+      border-right: 1px solid #1f2937;
+      overflow: auto;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      background: #1f2937;
+      color: white;
+      border: 1px solid #374151;
+      border-radius: 6px;
+    }
+
+    .tabulator {
+      background: #111827;
+      border: none;
+      color: #36435c;
+      font-size: 13px;
+    }
+
+    .tabulator-table, .tabulator-header, .tabulator-row, .tabulator-header .tabulator-col {
+      background: #111827 !important;
+      color: #e2e8f0 !important;
+    }
+
+    .tabulator-header .tabulator-header-filter {
+      background: #1f2937 !important;
+    }
+
+    .tabulator-header .tabulator-header-filter input {
+      background: #1f2937 !important;
+      color: #e2e8f0 !important;
+      border: 1px solid #374151 !important;
+    }
+
+    .tabulator .tabulator-row {
+      background: #111827;
+      border-bottom: 1px solid #1f2937;
+    }
+
+    .tabulator .tabulator-row:hover {
+      background: #1e293b;
+    }
+
+    .tabulator-cell {
+      padding: 6px;
+    }
+  </style>
+  <title>Biblical Data Explorer</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://unpkg.com/tabulator-tables@5.5.0/dist/css/tabulator.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/tabulator-tables@5.5.0/dist/js/tabulator.min.js"></script>
+</head>
+<body>
+
+<h1>Biblical Dataset Explorer</h1>
+  <div class="container">
+
+    <!-- LEFT: Filters -->
+    <div class="panel">
+      <h3>Filters</h3>
+
+      <label>Theological Domain</label>
+      <select id="tdFilter"></select>
+
+      <label>Social Domain</label>
+      <select id="sdFilter"></select>
+
+      <label>Action Domain</label>
+      <select id="adFilter"></select>
+    </div>
+
+    <!-- RIGHT: Data -->
+    <div class="panel">
+      <h3>Data</h3>
+
+      <div id="table"></div>
+
+      <h3>Chart</h3>
+      <canvas id="chart"></canvas>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

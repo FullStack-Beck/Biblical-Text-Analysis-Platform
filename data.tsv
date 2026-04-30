@@ -1,0 +1,1095 @@
+canonical_key	extraction_layer	book	chapter_start	verse_start	chapter_end	verse_end	speaker	source_authority	authority_level	command_form	command_summary	theological_domain	social_domain	action_domain	ethical_intensity	command_status	related_key	derivation_confidence
+gen_01_28_01	STRICT	Genesis	1	28	1	28	God	divine	1	imperative	Be fruitful and multiply	covenant	national	governance	3	active		100
+gen_01_28_02	STRICT	Genesis	1	28	1	28	God	divine	1	imperative	Fill the earth and subdue it	covenant	national	governance	3	active	gen_01_28_01	100
+gen_01_28_03	STRICT	Genesis	1	28	1	28	God	divine	1	imperative	Rule over creatures	covenant	national	governance	3	active	gen_01_28_01	100
+gen_02_15_01	STRICT	Genesis	2	15	2	15	God	divine	1	imperative	Tend and keep the garden	covenant	individual	construction	3	active		100
+gen_02_16_01	STRICT	Genesis	2	16	2	17	God	divine	1	permissive	Eat freely from all trees	covenant	individual	moral_behavior	2	active		100
+gen_02_17_01	STRICT	Genesis	2	17	2	17	God	divine	1	prohibition	Do not eat from tree of knowledge	covenant	individual	moral_behavior	5	active	gen_02_16_01	100
+gen_03_14_01	THEMATIC	Genesis	3	14	3	14	God	divine	1	declarative	Serpent is cursed	judgment	national	judicial	5	active		100
+gen_03_16_01	THEMATIC	Genesis	3	16	3	16	God	divine	1	declarative	Sorrow in childbirth and relational hierarchy established	judgment	family	communication	5	active		100
+gen_03_17_01	THEMATIC	Genesis	3	17	3	19	God	divine	1	declarative	Ground is cursed; labor becomes painful	judgment	national	economic_behavior	5	active		100
+gen_04_07_01	STRICT	Genesis	4	7	4	7	God	divine	1	conditional	Sin is crouching but you must rule over it	ethics	individual	moral_behavior	4	active		100
+gen_04_15_01	STRICT	Genesis	4	15	4	15	God	divine	1	declarative	Mark of protection given	judgment	individual	judicial	4	active		100
+gen_06_14_01	STRICT	Genesis	6	14	6	14	God	divine	1	imperative	Build ark with rooms	covenant	family	construction	3	active		100
+gen_06_15_01	STRICT	Genesis	6	15	6	16	God	divine	1	imperative	Ark dimensions specified	covenant	family	construction	3	active	gen_06_14_01	100
+gen_06_19_01	STRICT	Genesis	6	19	6	21	God	divine	1	imperative	Bring animals into ark	covenant	family	governance	3	active		100
+gen_07_01_01	STRICT	Genesis	7	1	7	1	God	divine	1	imperative	Enter ark	covenant	family	migration	4	active	gen_06_14_01	100
+gen_07_02_01	STRICT	Genesis	7	2	7	3	God	divine	1	imperative	Take clean animals by sevens	covenant	family	ritual_behavior	4	active	gen_06_14_01	100
+gen_08_16_01	STRICT	Genesis	8	16	8	17	God	divine	1	imperative	Exit ark	covenant	family	migration	3	active		100
+gen_09_04_01	STRICT	Genesis	9	4	9	4	God	divine	1	prohibition	Do not eat blood	covenant	national	moral_behavior	4	active		100
+gen_09_05_01	STRICT	Genesis	9	5	9	6	God	divine	1	declarative	Blood accountability established	covenant	national	judicial	5	active	gen_09_04_01	100
+gen_12_01_01	STRICT	Genesis	12	1	12	1	God	divine	1	imperative	Leave your country	covenant	individual	migration	4	active		100
+gen_12_02_01	STRICT	Genesis	12	2	12	2	God	divine	1	imperative	Be a blessing	covenant	individual	moral_behavior	4	active	gen_12_01_01	100
+gen_17_10_01	STRICT	Genesis	17	10	17	10	God	divine	1	imperative	Circumcise every male	covenant	family	ritual_behavior	5	active	gen_17_09_01	100
+gen_19_17_01	STRICT	Genesis	19	17	19	17	Angels	angelic	2	imperative	Flee and do not look back	judgment	individual	migration	5	active		100
+gen_21_12_01	STRICT	Genesis	21	12	21	12	God	divine	1	imperative	Listen to Sarah regarding Isaac	covenant	family	communication	4	active		100
+gen_26_02_01	STRICT	Genesis	26	2	26	3	God	divine	1	imperative	Do not go to Egypt	covenant	individual	migration	4	active		100
+gen_31_03_01	STRICT	Genesis	31	3	31	3	God	divine	1	imperative	Return to your country	covenant	family	migration	4	active		100
+gen_35_01_01	STRICT	Genesis	35	1	35	1	God	divine	1	imperative	Go to Bethel and build altar	covenant	family	ritual_behavior	4	active		100
+gen_35_02_01	STRICT	Genesis	35	2	35	2	Jacob	human	4	imperative	Put away foreign gods	ethics	family	moral_behavior	4	active		100
+gen_46_03_01	STRICT	Genesis	46	3	46	3	God	divine	1	imperative	Go down to Egypt	covenant	family	migration	4	active		100
+gen_50_20_01	THEMATIC	Genesis	50	20	50	20	Joseph	human	4	declarative	God intended good from evil acts	providence	family	moral_behavior	5	active		100
+exo_13_02_01	STRICT	Exodus	13	2	13	2	God	divine	1	imperative	Consecrate every firstborn	covenant	family	ritual_behavior	4	active		100
+exo_13_03_01	THEMATIC	Exodus	13	3	13	3	Moses	prophetic	3	declarative	Remember deliverance from Egypt	covenant	national	communication	3	active	exo_13_02_01	75
+exo_13_06_01	STRICT	Exodus	13	6	13	7	Moses	prophetic	3	imperative	Keep Feast of Unleavened Bread	covenant	national	ritual_behavior	4	active	exo_13_03_01	100
+exo_13_08_01	STRICT	Exodus	13	8	13	9	Moses	prophetic	3	imperative	Tell children about deliverance	covenant	family	communication	3	active	exo_13_03_01	100
+exo_13_17_01	STRICT	Exodus	13	17	13	18	God	divine	1	imperative	Take wilderness route, not Philistine way	covenant	national	migration	4	active		100
+exo_14_13_01	STRICT	Exodus	14	13	14	15	God	divine	1	imperative	Fear not, stand still, go forward	covenant	national	warfare	5	active		100
+exo_14_16_01	STRICT	Exodus	14	16	14	16	God	divine	1	imperative	Stretch out rod over sea	covenant	individual	governance	5	active	exo_14_13_01	100
+exo_15_25_01	STRICT	Exodus	15	25	15	25	God	divine	1	imperative	Make bitter waters sweet	covenant	individual	governance	4	active		100
+exo_16_04_01	STRICT	Exodus	16	4	16	5	God	divine	1	imperative	Gather manna daily	covenant	national	economic_behavior	4	active		100
+exo_16_23_01	STRICT	Exodus	16	23	16	30	God	divine	1	imperative	Rest on Sabbath, gather double before	covenant	national	ritual_behavior	5	active	exo_20_08_01	100
+exo_16_32_01	STRICT	Exodus	16	32	16	33	Moses	human	4	imperative	Keep manna as memorial	covenant	national	communication	3	active		100
+exo_17_09_01	STRICT	Exodus	17	9	17	9	Moses	human	4	imperative	Choose men and fight Amalek	covenant	national	warfare	5	active		100
+exo_17_10_01	STRICT	Exodus	17	10	17	11	God	divine	1	imperative	Hold up rod during battle	covenant	individual	governance	5	active	exo_17_09_01	100
+exo_18_19_01	STRICT	Exodus	18	19	18	22	Jethro	human	4	imperative	Delegate judges and establish justice system	law	national	judicial	4	active		100
+exo_19_10_01	STRICT	Exodus	19	10	19	11	God	divine	1	imperative	Sanctify yourselves before Sinai	covenant	national	ritual_behavior	5	active		100
+exo_19_12_01	STRICT	Exodus	19	12	19	13	God	divine	1	prohibition	Do not touch the mountain boundary	covenant	national	judicial	5	active		100
+exo_20_03_01	STRICT	Exodus	20	3	20	6	God	divine	1	prohibition	No other gods or idols	covenant	national	judicial	5	active		100
+exo_20_07_01	STRICT	Exodus	20	7	20	7	God	divine	1	prohibition	Do not misuse God's name	covenant	national	judicial	5	active		100
+exo_20_08_01	STRICT	Exodus	20	8	20	11	God	divine	1	imperative	Remember Sabbath and keep it holy	covenant	national	ritual_behavior	5	active		100
+exo_20_12_01	STRICT	Exodus	20	12	20	12	God	divine	1	imperative	Honor parents	covenant	family	moral_behavior	5	active		100
+exo_20_13_01	STRICT	Exodus	20	13	20	17	God	divine	1	prohibition	Do not kill, steal, commit adultery, covet	covenant	national	moral_behavior	5	active		100
+exo_24_03_01	STRICT	Exodus	24	3	24	7	Moses	prophetic	3	imperative	Obey all covenant words	covenant	national	moral_behavior	5	active		100
+exo_25_08_01	STRICT	Exodus	25	8	25	9	God	divine	1	imperative	Build sanctuary	covenant	priesthood	construction	5	active		100
+exo_25_10_01	STRICT	Exodus	25	10	25	22	God	divine	1	imperative	Make ark and mercy seat	covenant	priesthood	construction	5	active	exo_25_08_01	100
+exo_27_20_01	STRICT	Exodus	27	20	27	21	God	divine	1	imperative	Provide oil for lamp	covenant	priesthood	ritual_behavior	4	active		100
+exo_28_01_01	STRICT	Exodus	28	1	28	43	God	divine	1	imperative	Establish priesthood garments	covenant	priesthood	ritual_behavior	5	active		100
+exo_29_01_01	STRICT	Exodus	29	1	29	42	God	divine	1	imperative	Consecrate priests and daily sacrifices	covenant	priesthood	ritual_behavior	5	active	exo_28_01_01	100
+exo_30_11_01	STRICT	Exodus	30	11	30	16	God	divine	1	imperative	Give census ransom offering	covenant	national	economic_behavior	4	active		100
+exo_30_22_01	STRICT	Exodus	30	22	30	38	God	divine	1	imperative	Make holy oil and incense	covenant	priesthood	ritual_behavior	4	active		100
+exo_30_32_01	STRICT	Exodus	30	32	30	38	God	divine	1	prohibition	Do not replicate holy oil	covenant	priesthood	ritual_behavior	5	active	exo_30_22_01	100
+exo_31_12_01	STRICT	Exodus	31	12	31	17	God	divine	1	prohibition	Keep Sabbath as covenant sign	covenant	national	ritual_behavior	5	active	exo_20_08_01	100
+exo_33_05_01	STRICT	Exodus	33	5	33	6	God	divine	1	imperative	Remove ornaments and repent	covenant	national	ritual_behavior	5	active		100
+exo_34_01_01	STRICT	Exodus	34	1	34	4	God	divine	1	imperative	Make new tablets and ascend Sinai	covenant	individual	construction	5	active		100
+exo_35_04_01	STRICT	Exodus	35	4	35	29	Moses	prophetic	3	imperative	Bring offerings for tabernacle	covenant	national	ritual_behavior	4	active		100
+exo_36_01_01	STRICT	Exodus	36	1	36	38	God	divine	1	imperative	Build tabernacle by skilled workers	covenant	priesthood	construction	4	active		100
+exo_40_01_01	STRICT	Exodus	40	1	40	33	God	divine	1	imperative	Set up and consecrate tabernacle	covenant	priesthood	construction	5	active	exo_36_01_01	100
+exo_40_34_01	STRICT	Exodus	40	34	40	38	God	divine	1	imperative	Follow cloud for movement	covenant	national	migration	4	active		100
+lev_01_02_01	STRICT	Leviticus	1	2	1	4	God	divine	1	imperative	Bring unblemished burnt offerings to tent	covenant	individual	ritual_behavior	5	active		100
+lev_01_05_01	STRICT	Leviticus	1	5	1	9	God	divine	1	imperative	Perform burnt offering ritual fully	covenant	priesthood	ritual_behavior	5	active	lev_01_02_01	100
+lev_02_01_01	STRICT	Leviticus	2	1	2	2	God	divine	1	imperative	Bring grain offering of flour, oil, frankincense	covenant	individual	ritual_behavior	4	active		100
+lev_02_11_01	STRICT	Leviticus	2	11	2	13	God	divine	1	prohibition	Do not use leaven or honey in offerings	covenant	individual	ritual_behavior	5	active	lev_02_01_01	100
+lev_02_02_01	STRICT	Leviticus	2	2	2	3	God	divine	1	imperative	Priests burn memorial portion of grain offering	covenant	priesthood	ritual_behavior	4	active	lev_02_01_01	100
+lev_03_01_01	STRICT	Leviticus	3	1	3	6	God	divine	1	imperative	Bring peace offerings from herd or flock	covenant	individual	ritual_behavior	4	active		100
+lev_03_17_01	STRICT	Leviticus	3	17	7	27	God	divine	1	prohibition	Do not eat fat or blood	covenant	priesthood	ritual_behavior	5	active		100
+lev_04_02_01	STRICT	Leviticus	4	2	4	3	God	divine	1	imperative	Bring sin offering for unintentional sin	covenant	individual	ritual_behavior	5	active		100
+lev_05_05_01	STRICT	Leviticus	5	5	5	6	God	divine	1	imperative	Confess sin and bring restitution offering	covenant	individual	judicial	5	active		100
+lev_06_09_01	STRICT	Leviticus	6	9	6	13	God	divine	1	imperative	Keep altar fire burning continually	covenant	priesthood	ritual_behavior	5	active		100
+lev_07_01_01	STRICT	Leviticus	7	1	7	38	God	divine	1	imperative	Follow all sacrifice regulations precisely	covenant	priesthood	ritual_behavior	5	active	lev_06_09_01	100
+lev_08_06_01	STRICT	Leviticus	8	6	8	30	God	divine	1	imperative	Ordain Aaron and sons through washing and anointing	covenant	priesthood	ritual_behavior	5	active		100
+lev_09_07_01	STRICT	Leviticus	9	7	9	7	God	divine	1	imperative	Aaron begin priestly ministry	covenant	priesthood	ritual_behavior	5	active	lev_08_06_01	100
+lev_10_03_01	STRICT	Leviticus	10	3	10	3	God	divine	1	declarative	God is holy; priests must not profane him	covenant	priesthood	judicial	5	active		100
+lev_10_08_01	STRICT	Leviticus	10	8	10	9	God	divine	1	prohibition	Do not drink wine before entering tabernacle	covenant	priesthood	ritual_behavior	5	active	lev_10_03_01	100
+lev_11_01_01	STRICT	Leviticus	11	1	11	47	God	divine	1	prohibition	Do not eat unclean animals	covenant	individual	ritual_behavior	5	active		100
+lev_11_08_01	STRICT	Leviticus	11	8	11	28	God	divine	1	prohibition	Do not touch carcasses that defile	covenant	individual	ritual_behavior	4	active	lev_11_01_01	100
+lev_12_01_01	STRICT	Leviticus	12	1	12	8	God	divine	1	imperative	Observe purification after childbirth	covenant	family	ritual_behavior	4	active		100
+lev_13_01_01	STRICT	Leviticus	13	1	13	46	God	divine	1	imperative	Priests examine skin disease and isolate	covenant	priesthood	judicial	5	active		100
+lev_14_01_01	STRICT	Leviticus	14	1	14	32	God	divine	1	imperative	Cleansing ritual for healed skin disease	covenant	priesthood	ritual_behavior	5	active	lev_13_01_01	100
+lev_15_01_01	STRICT	Leviticus	15	1	15	33	God	divine	1	imperative	Follow purity laws for bodily discharges	covenant	individual	ritual_behavior	4	active		100
+lev_16_02_01	STRICT	Leviticus	16	2	16	19	God	divine	1	imperative	High priest enters Holy of Holies once yearly	covenant	priesthood	ritual_behavior	5	active		100
+lev_16_20_01	STRICT	Leviticus	16	20	16	22	God	divine	1	imperative	Lay sins on scapegoat and send away	covenant	priesthood	ritual_behavior	5	active	lev_16_02_01	100
+lev_16_29_01	STRICT	Leviticus	16	29	16	31	God	divine	1	imperative	Afflict souls on Day of Atonement	covenant	national	ritual_behavior	5	active	lev_16_02_01	100
+lev_17_03_01	STRICT	Leviticus	17	3	17	12	God	divine	1	prohibition	Do not sacrifice outside tabernacle or eat blood	covenant	national	ritual_behavior	5	active		100
+lev_18_03_01	STRICT	Leviticus	18	3	18	30	God	divine	1	prohibition	Do not follow pagan sexual practices	covenant	national	moral_behavior	5	active		100
+lev_19_02_01	STRICT	Leviticus	19	2	19	2	God	divine	1	imperative	Be holy as I am holy	covenant	national	moral_behavior	5	active		100
+lev_19_09_01	STRICT	Leviticus	19	9	19	11	God	divine	1	imperative	Leave gleanings for the poor	covenant	national	economic_behavior	4	active		100
+lev_19_18_01	STRICT	Leviticus	19	18	19	18	God	divine	1	imperative	Love your neighbor as yourself	covenant	national	moral_behavior	5	active		100
+lev_19_35_01	STRICT	Leviticus	19	35	19	36	God	divine	1	imperative	Use honest weights and measures	covenant	national	economic_behavior	5	active		100
+lev_20_02_01	STRICT	Leviticus	20	2	20	8	God	divine	1	prohibition	Do not sacrifice children to Molech	covenant	national	moral_behavior	5	active		100
+lev_21_01_01	STRICT	Leviticus	21	1	21	7	God	divine	1	prohibition	Priests must maintain ritual purity	covenant	priesthood	ritual_behavior	5	active		100
+lev_22_02_01	STRICT	Leviticus	22	2	22	3	God	divine	1	prohibition	Priests must not approach holy things unclean	worship	priesthood	ritual_behavior	5	active	lev_21_01_01	100
+lev_23_02_01	STRICT	Leviticus	23	2	23	3	God	divine	1	imperative	Keep appointed feasts and Sabbath	worship	national	ritual_behavior	4	active		100
+lev_23_05_01	STRICT	Leviticus	23	5	23	8	God	divine	1	imperative	Keep Passover and Unleavened Bread	worship	national	ritual_behavior	4	active	lev_23_02_01	100
+lev_23_27_01	STRICT	Leviticus	23	27	23	32	God	divine	1	imperative	Keep Day of Atonement	worship	national	ritual_behavior	5	active	lev_16_29_01	100
+lev_23_34_01	STRICT	Leviticus	23	34	23	43	God	divine	1	imperative	Keep Feast of Tabernacles	worship	national	ritual_behavior	4	active	lev_23_02_01	100
+lev_24_02_01	STRICT	Leviticus	24	2	24	9	God	divine	1	imperative	Keep lamps burning and showbread set	worship	priesthood	ritual_behavior	4	active		100
+lev_24_16_01	STRICT	Leviticus	24	16	24	16	God	divine	1	prohibition	Do not blaspheme the Name	ethics	national	judicial	5	active		100
+lev_25_01_01	STRICT	Leviticus	25	1	25	7	God	divine	1	imperative	Keep sabbath year for land	covenant	national	ritual_behavior	4	active		100
+lev_25_08_01	STRICT	Leviticus	25	8	25	17	God	divine	1	imperative	Proclaim Jubilee freedom	covenant	national	economic_behavior	5	active		100
+lev_25_14_01	STRICT	Leviticus	25	14	25	23	God	divine	1	prohibition	Do not oppress or permanently sell land	ethics	national	judicial	5	active	lev_25_08_01	100
+lev_25_25_01	STRICT	Leviticus	25	25	25	36	God	divine	1	imperative	Redeem property and help poor	covenant	national	economic_behavior	5	active		100
+lev_26_01_01	STRICT	Leviticus	26	1	26	3	God	divine	1	prohibition	Do not make idols	worship	national	ritual_behavior	5	active		100
+lev_27_02_01	STRICT	Leviticus	27	2	27	28	God	divine	1	imperative	Keep vows and dedications properly	law	national	judicial	4	active		100
+num_01_02_01	STRICT	Numbers	1	2	1	3	God	divine	1	imperative	Census of Israelite men fit for war	covenant	national	governance	4	active		100
+num_01_47_01	STRICT	Numbers	1	47	1	53	God	divine	1	imperative	Levites separated from tribal census	covenant	priesthood	governance	4	active		100
+num_02_01_01	STRICT	Numbers	2	1	2	34	God	divine	1	imperative	Camp tribes around tabernacle in order	covenant	national	governance	4	active	num_01_02_01	100
+num_03_05_01	STRICT	Numbers	3	5	3	10	God	divine	1	imperative	Levites serve Aaron and tabernacle	worship	priesthood	ritual_behavior	5	active		100
+num_03_12_01	STRICT	Numbers	3	12	3	51	God	divine	1	imperative	Levites substitute for firstborn	covenant	priesthood	judicial	5	active	num_01_47_01	100
+num_08_05_01	STRICT	Numbers	8	5	8	15	God	divine	1	imperative	Purify Levites for ministry	worship	priesthood	ritual_behavior	5	active	num_03_05_01	100
+num_09_02_01	STRICT	Numbers	9	2	9	3	God	divine	1	imperative	Keep Passover at appointed time	worship	national	ritual_behavior	4	active		100
+num_09_10_01	STRICT	Numbers	9	10	9	11	God	divine	1	imperative	Keep second Passover if unclean	worship	national	ritual_behavior	4	active	num_09_02_01	100
+num_09_17_01	STRICT	Numbers	9	17	9	23	God	divine	1	imperative	Move and camp by cloud guidance	providence	national	migration	4	active		100
+num_10_01_01	STRICT	Numbers	10	1	10	10	God	divine	1	imperative	Make silver trumpets for assembly	covenant	national	construction	4	active		100
+num_10_13_01	STRICT	Numbers	10	13	10	28	God	divine	1	imperative	Set forward by ranks when signaled	providence	national	migration	4	active	num_10_01_01	100
+num_12_06_01	STRICT	Numbers	12	6	12	8	God	divine	1	prohibition	Do not rebel against Moses	ethics	national	judicial	5	active		100
+num_13_01_01	STRICT	Numbers	13	1	13	2	God	divine	1	imperative	Send spies into Canaan	providence	national	migration	4	active		100
+num_13_30_01	STRICT	Numbers	13	30	14	9	Caleb/Moses	prophetic	3	imperative	Go up and possess land	covenant	national	warfare	5	active	num_13_01_01	100
+num_14_25_01	STRICT	Numbers	14	25	14	35	God	divine	1	declarative	Wander forty years for unbelief	judgment	national	judicial	5	active	num_13_30_01	100
+num_15_38_01	STRICT	Numbers	15	38	15	40	God	divine	1	imperative	Make tassels to remember commandments	worship	national	ritual_behavior	4	active		100
+num_16_23_01	STRICT	Numbers	16	23	16	26	God	divine	1	declarative	Separation from rebellion	judgment	national	judicial	5	active		100
+num_18_21_01	STRICT	Numbers	18	21	18	24	God	divine	1	imperative	Israel must give tithes to Levites	covenant	national	economic_behavior	4	active		100
+num_19_02_01	STRICT	Numbers	19	2	19	10	God	divine	1	imperative	Red heifer purification law	worship	national	ritual_behavior	5	active		100
+num_20_08_01	STRICT	Numbers	20	8	20	8	God	divine	1	imperative	Speak to rock for water	providence	individual	communication	5	active		100
+num_21_08_01	STRICT	Numbers	21	8	21	9	God	divine	1	imperative	Look upon bronze serpent and live	worship	national	ritual_behavior	5	active		100
+num_22_20_01	STRICT	Numbers	22	20	22	35	God	divine	1	imperative	Balaam speak only God's words	prophecy	foreign_nations	communication	5	active		100
+num_25_04_01	STRICT	Numbers	25	4	25	5	God	divine	1	declarative	Judgment on idolators	judgment	national	judicial	5	active		100
+num_26_02_01	STRICT	Numbers	26	2	26	2	God	divine	1	imperative	Second census before inheritance	covenant	national	governance	4	active		100
+num_27_18_01	STRICT	Numbers	27	18	27	23	God	divine	1	imperative	Commission Joshua as leader	covenant	national	governance	5	active		100
+num_28_01_01	STRICT	Numbers	28	1	28	31	God	divine	1	imperative	Daily and festival offerings	worship	national	ritual_behavior	4	active		100
+num_30_02_01	STRICT	Numbers	30	2	30	16	God	divine	1	imperative	Keep vows and household order	law	national	judicial	4	active		100
+num_31_01_01	STRICT	Numbers	31	1	31	27	God	divine	1	imperative	Execute judgment on Midian	judgment	national	warfare	5	active		100
+num_32_20_01	STRICT	Numbers	32	20	32	27	Moses	prophetic	3	imperative	Help conquer land before settling	covenant	national	warfare	4	active		100
+num_33_51_01	STRICT	Numbers	33	51	33	54	God	divine	1	imperative	Drive out Canaanites and idols	judgment	national	warfare	5	active		100
+num_35_09_01	STRICT	Numbers	35	9	35	15	God	divine	1	imperative	Establish cities of refuge	law	national	judicial	5	active		100
+num_35_30_01	STRICT	Numbers	35	30	35	31	God	divine	1	imperative	Require witnesses for murder justice	law	national	judicial	5	active		100
+num_36_06_01	STRICT	Numbers	36	6	36	9	God	divine	1	imperative	Keep tribal inheritances intact	covenant	national	economic_behavior	4	active		100
+deu_01_08_01	STRICT	Deuteronomy	1	8	1	8	Moses	prophetic	3	imperative	Take possession of promised land	covenant	national	warfare	4	active		100
+deu_01_13_01	STRICT	Deuteronomy	1	13	1	17	Moses	prophetic	3	imperative	Appoint judges and leaders	covenant	national	governance	4	active		100
+deu_06_04_01	STRICT	Deuteronomy	6	4	6	5	Moses	prophetic	3	imperative	Love the LORD fully	ethics	national	moral_behavior	5	active		100
+deu_06_06_01	STRICT	Deuteronomy	6	6	6	9	Moses	prophetic	3	imperative	Teach commandments to children	ethics	family	communication	4	active		100
+deu_06_13_01	STRICT	Deuteronomy	6	13	6	16	Moses	prophetic	3	imperative	Serve and fear God only	worship	national	judicial	5	active		100
+deu_07_01_01	STRICT	Deuteronomy	7	1	7	5	Moses	prophetic	3	imperative	Destroy idols and pagan altars	judgment	national	warfare	5	active		100
+deu_10_12_01	STRICT	Deuteronomy	10	12	10	13	Moses	prophetic	3	imperative	Fear and serve God	worship	national	moral_behavior	5	active		100
+deu_10_16_01	STRICT	Deuteronomy	10	16	10	19	Moses	prophetic	3	imperative	Circumcise heart and love stranger	ethics	national	moral_behavior	5	active		100
+deu_12_02_01	STRICT	Deuteronomy	12	2	12	5	Moses	prophetic	3	imperative	Destroy pagan worship sites	worship	national	warfare	5	active		100
+deu_12_16_01	STRICT	Deuteronomy	12	16	12	23	Moses	prophetic	3	prohibition	Do not eat blood	worship	national	ritual_behavior	5	active		100
+deu_14_01_01	STRICT	Deuteronomy	14	1	14	21	Moses	prophetic	3	imperative	Follow clean food laws	worship	national	ritual_behavior	4	active		100
+deu_14_22_01	STRICT	Deuteronomy	14	22	14	29	Moses	prophetic	3	imperative	Tithe yearly produce	covenant	national	economic_behavior	4	active		100
+deu_15_01_01	STRICT	Deuteronomy	15	1	15	11	Moses	prophetic	3	imperative	Release debts in sabbatical year	covenant	national	economic_behavior	5	active		100
+deu_15_12_01	STRICT	Deuteronomy	15	12	15	18	Moses	prophetic	3	imperative	Free servants in seventh year	ethics	family	economic_behavior	5	active		100
+deu_16_01_01	STRICT	Deuteronomy	16	1	16	17	Moses	prophetic	3	imperative	Keep Passover and feasts	worship	national	ritual_behavior	4	active		100
+deu_16_18_01	STRICT	Deuteronomy	16	18	16	20	Moses	prophetic	3	imperative	Appoint judges without corruption	law	national	judicial	4	active		100
+deu_17_14_01	STRICT	Deuteronomy	17	14	17	20	Moses	prophetic	3	imperative	King must obey law and not exalt self	law	national	governance	5	active		100
+deu_18_09_01	STRICT	Deuteronomy	18	9	18	14	Moses	prophetic	3	prohibition	Do not practice divination	ethics	national	ritual_behavior	5	active		100
+deu_18_15_01	STRICT	Deuteronomy	18	15	18	19	Moses	prophetic	3	imperative	Heed future prophet	prophecy	national	moral_behavior	5	active		100
+deu_19_01_01	STRICT	Deuteronomy	19	1	19	13	Moses	prophetic	3	imperative	Establish cities of refuge	law	national	judicial	5	active		100
+deu_19_14_01	STRICT	Deuteronomy	19	14	19	21	Moses	prophetic	3	prohibition	Do not move landmarks or lie	law	national	judicial	5	active		100
+deu_20_01_01	STRICT	Deuteronomy	20	1	20	20	Moses	prophetic	3	imperative	Do not fear in battle	ethics	national	warfare	5	active		100
+deu_21_01_01	STRICT	Deuteronomy	21	1	23	23	Moses	prophetic	3	imperative	Justice for unsolved murder and family law	law	family	judicial	4	active		100
+deu_22_01_01	STRICT	Deuteronomy	22	1	12	12	Moses	prophetic	3	imperative	Protect neighbor’s property and purity	ethics	family	judicial	4	active		100
+deu_24_01_01	STRICT	Deuteronomy	24	1	22	22	Moses	prophetic	3	imperative	Protect marriage, poor, and workers	ethics	family	judicial	4	active		100
+deu_25_13_01	STRICT	Deuteronomy	25	13	25	16	Moses	prophetic	3	imperative	Use honest weights and measures	covenant	national	economic_behavior	5	active		100
+deu_26_01_01	STRICT	Deuteronomy	26	1	26	11	Moses	prophetic	3	imperative	Bring firstfruits and give thanks	worship	national	ritual_behavior	4	active		100
+deu_27_01_01	STRICT	Deuteronomy	27	1	27	26	Moses	prophetic	3	imperative	Write law on stones and proclaim covenant	law	national	communication	5	active		100
+deu_28_01_01	STRICT	Deuteronomy	28	1	28	68	Moses	prophetic	3	conditional	Covenant blessings and curses	covenant	national	judicial	5	active		100
+deu_30_15_01	STRICT	Deuteronomy	30	15	30	20	Moses	prophetic	3	imperative	Choose life and obey God	ethics	national	moral_behavior	5	active		100
+deu_31_07_01	STRICT	Deuteronomy	31	7	31	8	Moses	prophetic	3	imperative	Encourage Joshua to lead with courage	covenant	national	governance	4	active		100
+deu_31_10_01	STRICT	Deuteronomy	31	10	31	13	Moses	prophetic	3	imperative	Read the law every seventh year	law	national	communication	4	active		100
+deu_32_48_01	STRICT	Deuteronomy	32	48	32	52	God	divine	1	imperative	Ascend to view the land before death	providence	individual	migration	5	active		100
+jos_01_02_01	STRICT	Joshua	1	2	1	2	God	divine	1	imperative	Arise and go over Jordan with this people	covenant	national	migration	4	active		100
+jos_01_06_01	STRICT	Joshua	1	6	1	7	God	divine	1	imperative	Be strong and courageous to possess land	covenant	individual	moral_behavior	4	active	jos_01_02_01	100
+jos_01_07_01	STRICT	Joshua	1	7	1	8	God	divine	1	imperative	Observe all the law; do not turn aside	law	individual	moral_behavior	5	active	jos_01_06_01	100
+jos_01_08_01	STRICT	Joshua	1	8	1	8	God	divine	1	imperative	Meditate on the book of the law day and night	wisdom	individual	moral_behavior	4	active	jos_01_07_01	100
+jos_01_09_01	STRICT	Joshua	1	9	1	9	God	divine	1	imperative	Do not be afraid or dismayed	ethics	individual	moral_behavior	4	active	jos_01_06_01	100
+jos_01_10_01	STRICT	Joshua	1	10	1	11	Joshua	divine_authorized	2	imperative	Prepare provisions for crossing Jordan	providence	national	migration	3	active		100
+jos_01_12_01	STRICT	Joshua	1	12	1	15	Joshua	divine_authorized	2	imperative	Help your brethren until land is conquered	covenant	national	governance	4	active		100
+jos_02_01_01	STRICT	Joshua	2	1	2	1	Joshua	divine_authorized	2	imperative	Go spy out Jericho	providence	national	warfare	4	active		100
+jos_02_18_01	STRICT	Joshua	2	18	2	19	Spies	divine_authorized	2	imperative	Bind scarlet cord and gather household	covenant	family	ritual_behavior	5	active		100
+jos_03_05_01	STRICT	Joshua	3	5	3	5	Joshua	divine_authorized	2	imperative	Sanctify yourselves for tomorrow	worship	national	ritual_behavior	4	active		100
+jos_03_06_01	STRICT	Joshua	3	6	3	8	Joshua	divine_authorized	2	imperative	Priests carry ark into Jordan	worship	priesthood	ritual_behavior	5	active		100
+jos_03_03_01	STRICT	Joshua	3	3	3	4	Joshua	divine_authorized	2	imperative	Follow ark at distance	worship	national	ritual_behavior	4	active	jos_03_06_01	100
+jos_04_02_01	STRICT	Joshua	4	2	4	2	God	divine	1	imperative	Choose twelve men	providence	national	governance	4	active		100
+jos_04_03_01	STRICT	Joshua	4	3	4	8	Twelve men	divine_authorized	2	imperative	Take twelve stones from Jordan	covenant	national	ritual_behavior	4	active	jos_04_02_01	100
+jos_04_21_01	STRICT	Joshua	4	21	4	24	Joshua	divine_authorized	2	imperative	Teach children meaning of stones	ethics	family	communication	4	active	jos_04_03_01	100
+jos_05_02_01	STRICT	Joshua	5	2	5	8	Joshua	divine_authorized	2	imperative	Circumcise new generation	worship	national	ritual_behavior	5	active		100
+jos_05_10_01	STRICT	Joshua	5	10	5	10	Joshua	divine_authorized	2	imperative	Keep Passover in the land	worship	national	ritual_behavior	4	active		100
+jos_05_15_01	STRICT	Joshua	5	15	5	15	Captain of LORD	host_divine	1	imperative	Remove sandals; place is holy	worship	individual	ritual_behavior	5	active		100
+jos_06_03_01	STRICT	Joshua	6	3	6	4	God	divine	1	imperative	March around Jericho	narrative	national	warfare	5	active		100
+jos_06_04_01	STRICT	Joshua	6	4	6	5	God	divine	1	imperative	Priests blow trumpets	narrative	priesthood	warfare	5	active	jos_06_03_01	100
+jos_06_05_01	STRICT	Joshua	6	5	6	5	God	divine	1	imperative	Shout when trumpet sounds	narrative	national	warfare	5	active	jos_06_04_01	100
+jos_06_18_01	STRICT	Joshua	6	18	6	19	Joshua	divine_authorized	2	prohibition	Do not take accursed spoil	covenant	national	judicial	5	active		100
+jos_08_03_01	STRICT	Joshua	8	3	8	8	Joshua	divine_authorized	2	imperative	Ambush Ai	covenant	national	warfare	5	active		100
+jos_08_30_01	STRICT	Joshua	8	30	8	32	Joshua	divine_authorized	2	imperative	Build altar and write law	covenant	national	construction	5	active		100
+jos_08_34_01	STRICT	Joshua	8	34	8	35	Joshua	divine_authorized	2	imperative	Read blessings and curses	covenant	national	communication	5	active	jos_08_30_01	100
+jos_09_23_01	STRICT	Joshua	9	23	9	23	Joshua	divine_authorized	2	declarative	Gibeonites become servants	covenant	national	judicial	5	active		100
+jos_10_08_01	STRICT	Joshua	10	8	10	8	God	divine	1	imperative	Fear not; victory given	covenant	national	communication	4	active		100
+jos_10_12_01	STRICT	Joshua	10	12	10	12	Joshua	divine_authorized	2	imperative	Sun stand still	covenant	national	communication	5	active		100
+jos_11_23_01	STRICT	Joshua	11	23	11	23	God	divine	1	imperative	Divide land for inheritance	covenant	national	governance	4	active		100
+jos_13_01_01	STRICT	Joshua	13	1	13	7	God	divine	1	imperative	Divide remaining land	covenant	national	governance	4	active		100
+jos_13_06_01	STRICT	Joshua	13	6	13	6	God	divine	1	imperative	Drive out remaining inhabitants	covenant	national	warfare	5	active		100
+jos_14_12_01	STRICT	Joshua	14	12	14	12	Caleb	human	4	imperative	Give me this mountain	covenant	individual	migration	4	active		100
+jos_20_01_01	STRICT	Joshua	20	1	20	9	God	divine	1	imperative	Appoint cities of refuge	covenant	national	judicial	5	active		100
+jos_21_01_01	STRICT	Joshua	21	1	21	8	Joshua	divine_authorized	2	imperative	Give Levites cities	covenant	priesthood	governance	4	active		100
+jos_22_01_01	STRICT	Joshua	22	1	22	6	Joshua	divine_authorized	2	imperative	Return with riches; keep law	covenant	national	governance	4	active		100
+jos_24_14_01	STRICT	Joshua	24	14	24	15	Joshua	divine_authorized	2	imperative	Choose whom you will serve	covenant	individual	moral_behavior	5	active		100
+jos_24_23_01	STRICT	Joshua	24	23	24	23	Joshua	divine_authorized	2	imperative	Put away foreign gods	covenant	family	ritual_behavior	5	active	jos_24_14_01	100
+jud_02_02_01	STRICT	Judges	2	2	2	3	God	divine	1	imperative	Do not make covenant with inhabitants of the land	judgment	national	moral_behavior	5	active		100
+jud_02_02_02	STRICT	Judges	2	2	2	3	God	divine	1	imperative	Break down their altars	judgment	national	ritual_behavior	5	active	jud_02_02_01	100
+jud_02_02_03	STRICT	Judges	2	2	2	3	God	divine	1	prohibition	Do not obey their gods	ethics	national	moral_behavior	5	active	jud_02_02_01	100
+jud_02_07_01	STRICT	Judges	2	7	2	7	Narration	divine	1	imperative	Keep covenant and obey commands	ethics	national	moral_behavior	4	active		95
+jud_03_06_01	STRICT	Judges	3	6	3	6	Narration	divine	1	prohibition	Do not intermarry with pagan nations	ethics	family	moral_behavior	4	active		100
+jud_03_09_01	STRICT	Judges	3	9	3	9	God	divine	1	imperative	Cry out to the LORD for deliverance	judgment	individual	moral_behavior	4	active		100
+jud_04_06_01	STRICT	Judges	4	6	4	6	Deborah	prophetic	4	imperative	Go and deploy troops on Mount Tabor	prophecy	individual	warfare	4	active		98
+jud_04_14_01	STRICT	Judges	4	14	4	14	Deborah	prophetic	4	imperative	Go forward; the LORD has delivered Sisera into your hand	prophecy	individual	warfare	4	active	jud_04_06_01	98
+jud_06_14_01	STRICT	Judges	6	14	6	14	God	divine	1	imperative	Go in this thy might and save Israel	judgment	national	warfare	5	active		100
+jud_06_25_01	STRICT	Judges	6	25	6	26	God	divine	1	imperative	Tear down the altar of Baal	judgment	national	ritual_behavior	5	active	jud_06_14_01	100
+jud_06_26_01	STRICT	Judges	6	26	6	26	God	divine	1	imperative	Build an altar to the LORD in its place	worship	national	construction	5	active	jud_06_25_01	100
+jud_07_02_01	STRICT	Judges	7	2	7	2	God	divine	1	imperative	Reduce the army so Israel does not boast	providence	national	warfare	5	active		100
+jud_07_07_01	STRICT	Judges	7	7	7	7	God	divine	1	imperative	Use the 300 men I select for deliverance	providence	national	warfare	5	active	jud_07_02_01	100
+jud_07_09_01	STRICT	Judges	7	9	7	9	God	divine	1	imperative	Arise and go down to the camp	providence	national	migration	5	active	jud_07_07_01	100
+jud_07_16_01	STRICT	Judges	7	16	7	16	God	divine	1	imperative	Blow trumpets and break pitchers	providence	national	communication	4	active	jud_07_09_01	98
+jud_10_16_01	STRICT	Judges	10	16	10	16	God	divine	1	imperative	Put away foreign gods and serve the LORD	worship	national	ritual_behavior	5	active		100
+jud_11_30_01	STRICT	Judges	11	30	11	30	Jephthah	human	4	conditional	Make a vow for victory	wisdom	individual	moral_behavior	4	active		100
+jud_11_31_01	STRICT	Judges	11	31	11	31	Jephthah	human	4	declarative	Dedicate whatever comes from my house first to the LORD	worship	family	ritual_behavior	5	active	jud_11_30_01	100
+jud_13_04_01	STRICT	Judges	13	4	13	4	Angel	divine	2	prohibition	Do not drink wine or strong drink	worship	individual	moral_behavior	5	active		100
+jud_13_05_01	STRICT	Judges	13	5	13	5	God	divine	1	imperative	No razor shall come upon his head	worship	individual	ritual_behavior	5	active	jud_13_04_01	100
+jud_13_05_02	STRICT	Judges	13	5	13	5	God	divine	1	imperative	He shall begin to deliver Israel from the Philistines	judgment	national	warfare	5	active	jud_13_05_01	100
+jud_14_04_01	STRICT	Judges	14	4	14	4	Narration	divine	1	imperative	For this was from the LORD seeking occasion against Philistines	providence	national	communication	4	active		85
+jud_17_06_01	STRICT	Judges	17	6	17	6	Narration	divine	1	prohibition	There was no king; every man did what was right in his own eyes	ethics	national	moral_behavior	5	active		100
+jud_18_05_01	STRICT	Judges	18	5	18	6	Narration	divine	1	imperative	Ask counsel of God before acting	prophecy	individual	moral_behavior	4	active		90
+jud_20_13_01	STRICT	Judges	20	13	20	13	Israelite_leaders	communal	3	imperative	Deliver up the men of Gibeah for judgment	judgment	national	judicial	5	active		100
+jud_20_28_01	STRICT	Judges	20	28	20	28	God	divine	1	imperative	Go up against Benjamin again	judgment	national	warfare	5	active	jud_20_13_01	95
+jud_21_07_01	STRICT	Judges	21	7	21	7	Israelite_leaders	communal	3	imperative	Provide wives for Benjamin remnant	judgment	national	moral_behavior	4	active		100
+jud_21_17_01	STRICT	Judges	21	17	21	17	Israelite_leaders	communal	3	imperative	Do not let a tribe be destroyed	judgment	national	warfare	4	active	jud_21_07_01	100
+rut_01_08_01	STRICT	Ruth	1	8	1	9	Naomi	human	4	imperative	Return to your mother's house and your people	wisdom	family	migration	3	active		100
+rut_01_11_01	STRICT	Ruth	1	11	1	13	Naomi	human	4	imperative	Return to your people in Moab	wisdom	family	migration	3	active	rut_01_08_01	100
+rut_01_15_01	STRICT	Ruth	1	15	1	15	Naomi	human	4	imperative	Go back after your sister-in-law	wisdom	family	migration	3	active	rut_01_11_01	100
+rut_01_16_01	STRICT	Ruth	1	16	1	16	Ruth	human	4	imperative	I will go where you go	covenant	family	moral_behavior	5	active		100
+rut_01_16_02	STRICT	Ruth	1	16	1	16	Ruth	human	4	imperative	Your people shall be my people	covenant	family	moral_behavior	5	active	rut_01_16_01	100
+rut_01_16_03	STRICT	Ruth	1	16	1	16	Ruth	human	4	imperative	Your God shall be my God	covenant	family	communication	5	active	rut_01_16_02	100
+rut_01_17_01	STRICT	Ruth	1	17	1	17	Ruth	human	4	imperative	Where you die I will die	covenant	family	moral_behavior	5	active	rut_01_16_03	100
+rut_01_17_02	STRICT	Ruth	1	17	1	17	Ruth	human	4	imperative	The LORD deal with me if I leave you	covenant	family	moral_behavior	5	active	rut_01_17_01	100
+rut_02_08_01	STRICT	Ruth	2	8	2	9	Boaz	human	4	imperative	Do not glean in another field	providence	family	economic_behavior	4	active		100
+rut_02_08_02	STRICT	Ruth	2	8	2	9	Boaz	human	4	imperative	Stay here with my maidens	providence	family	moral_behavior	4	active	rut_02_08_01	100
+rut_02_09_01	STRICT	Ruth	2	9	2	9	Boaz	human	4	imperative	Drink from vessels drawn for you	providence	family	moral_behavior	4	active	rut_02_08_02	100
+rut_02_15_01	STRICT	Ruth	2	15	2	15	Boaz	human	4	imperative	Let her glean even among the sheaves	providence	family	economic_behavior	4	active		100
+rut_02_15_02	STRICT	Ruth	2	15	2	15	Boaz	human	4	imperative	Do not reproach her	ethics	family	moral_behavior	4	active	rut_02_15_01	100
+rut_02_21_01	STRICT	Ruth	2	21	2	21	Naomi	human	4	imperative	Stay close to Boaz’ servants	providence	family	moral_behavior	3	active		100
+rut_03_03_01	STRICT	Ruth	3	3	3	3	Naomi	human	4	imperative	Wash yourself and anoint yourself	wisdom	family	moral_behavior	4	active		100
+rut_03_03_02	STRICT	Ruth	3	3	3	3	Naomi	human	4	imperative	Go down to the threshing floor	wisdom	family	migration	4	active	rut_03_03_01	100
+rut_03_03_03	STRICT	Ruth	3	3	3	3	Naomi	human	4	imperative	Do not make yourself known until he finishes eating	wisdom	family	communication	4	active	rut_03_03_02	100
+rut_03_04_01	STRICT	Ruth	3	4	3	4	Naomi	human	4	imperative	Observe where he lies	wisdom	family	moral_behavior	4	active		100
+rut_03_04_02	STRICT	Ruth	3	4	3	4	Naomi	human	4	imperative	Uncover his feet and lie down	providence	family	moral_behavior	5	active	rut_03_04_01	100
+rut_03_05_01	STRICT	Ruth	3	5	3	5	Naomi	human	4	imperative	Do whatever he tells you	wisdom	family	moral_behavior	4	active	rut_03_04_02	100
+rut_03_09_01	STRICT	Ruth	3	9	3	9	Ruth	human	4	imperative	Spread your covering over me	covenant	family	moral_behavior	5	active		100
+rut_03_13_01	STRICT	Ruth	3	13	3	13	Boaz	human	4	imperative	I will redeem you if possible	covenant	family	economic_behavior	5	active	rut_03_09_01	100
+rut_03_18_01	STRICT	Ruth	3	18	3	18	Naomi	human	4	imperative	Sit still until the matter is settled	wisdom	family	moral_behavior	3	active		100
+rut_04_04_01	STRICT	Ruth	4	4	4	4	Boaz	human	4	imperative	Redeem the land if you will	law	family	economic_behavior	5	active		100
+rut_04_06_01	STRICT	Ruth	4	6	4	6	Boaz	human	4	imperative	I will redeem it if you decline	law	family	economic_behavior	5	active	rut_04_04_01	100
+rut_04_11_01	STRICT	Ruth	4	11	4	12	elders	communal	3	declarative	We are witnesses of the transaction	law	national	judicial	5	active		100
+rut_04_13_01	STRICT	Ruth	4	13	4	13	narration	divine	1	declarative	Boaz took Ruth as wife	narrative	family	communication	4	active		100
+sam_01_01_17_01	STRICT	1 Samuel	1	17	1	17	Eli	human	4	imperative	Go in peace and may God grant your petition	worship	individual	communication	3	active		100
+sam_01_03_09_01	STRICT	1 Samuel	3	9	3	9	Eli	human	4	imperative	If he calls again, say “Speak LORD, for your servant hears”	worship	individual	communication	3	active		100
+sam_01_08_09_01	STRICT	1 Samuel	8	9	8	9	God	divine	1	imperative	Listen to the voice of the people in appointing a king	covenant	national	governance	4	active		100
+sam_01_10_01_01	STRICT	1 Samuel	10	1	10	1	Samuel	prophetic	2	imperative	The LORD has anointed you to be king	covenant	national	governance	5	active		100
+sam_01_10_07_01	STRICT	1 Samuel	10	7	10	7	Samuel	prophetic	2	imperative	Do what your hand finds to do	providence	individual	moral_behavior	4	active		100
+sam_01_10_08_01	STRICT	1 Samuel	10	8	10	8	Samuel	prophetic	2	imperative	Go down before me to Gilgal and wait	covenant	national	migration	4	active		100
+sam_01_12_14_01	STRICT	1 Samuel	12	14	12	14	Samuel	prophetic	2	imperative	Fear the LORD and serve Him	covenant	national	moral_behavior	5	active		100
+sam_01_12_15_01	STRICT	1 Samuel	12	15	12	15	Samuel	prophetic	2	imperative	If you do not obey, the hand of the LORD will be against you	covenant	national	moral_behavior	5	active	sam_01_12_14_01	100
+sam_01_13_13_01	STRICT	1 Samuel	13	13	13	13	Samuel	prophetic	2	imperative	You have not kept the command of the LORD	judgment	national	communication	5	active		100
+sam_01_15_03_01	STRICT	1 Samuel	15	3	15	3	God	divine	1	imperative	Go and utterly destroy Amalek	judgment	national	warfare	5	active		100
+sam_01_15_09_01	STRICT	1 Samuel	15	9	15	9	Saul	human	3	declarative	Saul spared what God commanded to destroy	judgment	national	moral_behavior	5	active	sam_01_15_03_01	100
+sam_01_15_22_01	STRICT	1 Samuel	15	22	15	22	Samuel	prophetic	2	imperative	To obey is better than sacrifice	ethics	individual	moral_behavior	5	active		100
+sam_01_16_01_01	STRICT	1 Samuel	16	1	16	1	God	divine	1	imperative	Go to Bethlehem and anoint a new king	covenant	national	governance	5	active		100
+sam_01_16_12_01	STRICT	1 Samuel	16	12	16	12	God	divine	1	imperative	Arise, anoint him; this is he	covenant	individual	governance	5	active	sam_01_16_01_01	100
+sam_01_17_37_01	STRICT	1 Samuel	17	37	17	37	David	human	4	declarative	The LORD will deliver me from the Philistine	wisdom	individual	moral_behavior	4	active		100
+sam_01_18_17_01	STRICT	1 Samuel	18	17	18	17	Saul	human	3	imperative	Go and fight the LORD’s battles	ethics	national	warfare	4	active		100
+sam_01_24_06_01	STRICT	1 Samuel	24	6	24	6	David	human	3	prohibition	I will not stretch my hand against the LORD’s anointed	ethics	individual	moral_behavior	5	active		100
+sam_01_28_19_01	STRICT	1 Samuel	28	19	28	19	Samuel	prophetic	2	declarative	The LORD will deliver Israel into Philistine hand	judgment	national	warfare	5	active		100
+sam_01_30_08_01	STRICT	1 Samuel	30	8	30	8	God	divine	1	imperative	Pursue, for you shall surely recover	providence	individual	migration	4	active		100
+sam_02_02_01_01	STRICT	2 Samuel	2	1	2	1	God	divine	1	imperative	Go up to Hebron	covenant	individual	migration	4	active		100
+sam_02_02_07_01	STRICT	2 Samuel	2	7	2	7	David	human	3	imperative	Be strong and courageous	wisdom	national	moral_behavior	4	active		100
+sam_02_05_02_01	STRICT	2 Samuel	5	2	5	2	Israelites	communal	3	declarative	The LORD said you will shepherd Israel	prophecy	national	governance	5	active		100
+sam_02_05_19_01	STRICT	2 Samuel	5	19	5	19	God	divine	1	imperative	Go up for I will deliver the Philistines into your hand	providence	national	warfare	5	active		100
+sam_02_06_13_01	STRICT	2 Samuel	6	13	6	13	David	human	3	imperative	Bring up the ark of God	worship	national	ritual_behavior	5	active		100
+sam_02_07_05_01	STRICT	2 Samuel	7	5	7	5	God	divine	1	conditional	Shall you build me a house?	covenant	national	construction	4	active		100
+sam_02_07_13_01	STRICT	2 Samuel	7	13	7	13	God	divine	1	declarative	I will establish your kingdom forever	covenant	national	governance	5	active		100
+sam_02_11_15_01	STRICT	2 Samuel	11	15	11	15	David	human	3	imperative	Place Uriah in the front line to be struck down	ethics	individual	warfare	5	active		100
+sam_02_12_07_01	STRICT	2 Samuel	12	7	12	7	Nathan	prophetic	2	imperative	You are the man	judgment	individual	judicial	5	active		100
+sam_02_12_10_01	STRICT	2 Samuel	12	10	12	10	God	divine	1	declarative	Sword shall not depart from your house	judgment	family	judicial	5	active		100
+jos_05_10_01	STRICT	Joshua	5	10	5	10	Joshua	divine_authorized	2	imperative	Keep Passover in the land	covenant	national	ritual_behavior	4	active		100
+jos_05_15_01	STRICT	Joshua	5	15	5	15	Captain of LORD	host_divine	1	imperative	Remove sandals; place is holy	covenant	individual	ritual_behavior	5	active		100
+jos_06_03_01	STRICT	Joshua	6	3	6	4	God	divine	1	imperative	March around Jericho	covenant	national	warfare	5	active		100
+jos_06_04_01	STRICT	Joshua	6	4	6	5	God	divine	1	imperative	Priests blow trumpets	covenant	priesthood	ritual_behavior	5	active	jos_06_03_01	100
+jos_06_05_01	STRICT	Joshua	6	5	6	5	God	divine	1	imperative	Shout when trumpet sounds	covenant	national	communication	5	active	jos_06_04_01	100
+sam_02_24_18_01	STRICT	2 Samuel	24	18	24	18	God	divine	1	imperative	Build an altar to the LORD	worship	national	ritual_behavior	5	active		100
+1ki_02_02_01	STRICT	1 Kings	2	2	2	2	David	human	4	imperative	Be strong and show yourself a man	covenant	family	governance	4	active		100
+1ki_02_03_01	STRICT	1 Kings	2	3	2	3	David	human	4	imperative	Keep the charge of the LORD your God	covenant	individual	moral_behavior	5	active		100
+1ki_03_05_01	STRICT	1 Kings	3	5	3	5	God	divine	1	imperative	Ask what I shall give you	covenant	individual	communication	4	active		100
+1ki_06_12_01	STRICT	1 Kings	6	12	6	13	God	divine	1	conditional	If you walk in My statutes I will dwell among you	covenant	national	moral_behavior	5	active		100
+1ki_08_61_01	THEMATIC	1 Kings	8	61	8	61	Solomon	human	4	imperative	Let your heart be wholly devoted to the LORD	covenant	national	judicial	5	active		95
+1ki_09_04_01	STRICT	1 Kings	9	4	9	4	God	divine	1	conditional	If you walk before Me in integrity	covenant	national	moral_behavior	5	active	1ki_06_12_01	100
+1ki_11_11_01	STRICT	1 Kings	11	11	11	11	God	divine	1	declarative	I will tear the kingdom from you	covenant	national	judicial	5	active		100
+1ki_17_03_01	STRICT	1 Kings	17	3	17	3	God	divine	1	imperative	Hide yourself by the brook Cherith	covenant	individual	migration	4	active		100
+1ki_17_09_01	STRICT	1 Kings	17	9	17	9	God	divine	1	imperative	Arise, go to Zarephath	covenant	individual	migration	4	active		100
+1ki_18_01_01	STRICT	1 Kings	18	1	18	1	God	divine	1	imperative	Go show yourself to Ahab	covenant	national	governance	5	active		100
+1ki_18_31_01	STRICT	1 Kings	18	31	18	31	Elijah	human	4	imperative	Repair the altar of the LORD	covenant	national	construction	5	active		100
+1ki_19_15_01	STRICT	1 Kings	19	15	19	15	God	divine	1	imperative	Anoint Hazael, Jehu, and Elisha	covenant	national	governance	5	active		100
+1ki_21_19_01	THEMATIC	1 Kings	21	19	21	19	Elijah	prophetic	2	declarative	Thus says the LORD against Ahab	covenant	national	judicial	5	active		95
+2ki_02_20_01	STRICT	2 Kings	2	20	2	20	Elisha	prophetic	2	imperative	Bring me a new bowl and salt	covenant	individual	ritual_behavior	4	active		100
+2ki_02_21_01	STRICT	2 Kings	2	21	2	21	Elisha	prophetic	2	imperative	Throw salt into the spring	covenant	national	ritual_behavior	4	active	2ki_02_20_01	100
+2ki_04_03_01	STRICT	2 Kings	4	3	4	3	Elisha	prophetic	2	imperative	Borrow empty vessels	covenant	family	ritual_behavior	4	active		100
+2ki_04_04_01	STRICT	2 Kings	4	4	4	4	Elisha	prophetic	2	imperative	Shut the door upon you and your sons	covenant	family	governance	4	active	2ki_04_03_01	100
+2ki_05_10_01	STRICT	2 Kings	5	10	5	10	Elisha	prophetic	2	imperative	Wash in Jordan seven times	covenant	individual	ritual_behavior	5	active		100
+2ki_05_13_01	STRICT	2 Kings	5	13	5	13	Elisha	prophetic	2	imperative	Wash and be clean	covenant	individual	ritual_behavior	5	active	2ki_05_10_01	100
+2ki_06_06_01	STRICT	2 Kings	6	6	6	6	Elisha	prophetic	2	imperative	Cut down a stick and cast it in	covenant	individual	ritual_behavior	4	active		100
+2ki_11_12_01	STRICT	2 Kings	11	12	11	12	Jehoiada	priest	2	imperative	Crown the king and give him the testimony	covenant	national	governance	5	active		100
+2ki_17_13_01	THEMATIC	2 Kings	17	13	17	13	God	divine	1	imperative	Turn from evil ways and keep commandments	covenant	national	moral_behavior	5	active		100
+2ki_18_04_01	STRICT	2 Kings	18	4	18	4	Hezekiah	king	3	imperative	Break the bronze serpent	covenant	national	ritual_behavior	5	active		100
+2ki_18_06_01	STRICT	2 Kings	18	6	18	6	Hezekiah	king	3	imperative	Cling to the LORD and keep His commandments	covenant	national	moral_behavior	5	active		100
+2ki_22_11_01	STRICT	2 Kings	22	11	22	11	Josiah	king	3	imperative	Tear your clothes upon hearing the law	covenant	national	moral_behavior	5	active		100
+2ki_23_04_01	STRICT	2 Kings	23	4	23	4	Josiah	king	3	imperative	Burn vessels made for Baal	covenant	national	ritual_behavior	5	active		100
+2ki_23_21_01	STRICT	2 Kings	23	21	23	21	Josiah	king	3	imperative	Keep the Passover to the LORD	covenant	national	ritual_behavior	5	active		100
+1ch_16_08_01	STRICT	1 Chronicles	16	8	16	8	David	human	4	imperative	Give thanks to the LORD and call upon His name	covenant	national	moral_behavior	5	active		100
+1ch_16_11_01	STRICT	1 Chronicles	16	11	16	11	David	human	4	imperative	Seek the LORD and His strength	covenant	individual	moral_behavior	5	active		100
+1ch_16_29_01	THEMATIC	1 Chronicles	16	29	16	29	David	human	4	imperative	Bring an offering and worship the LORD	covenant	national	moral_behavior	5	active		100
+1ch_21_08_01	STRICT	1 Chronicles	21	8	21	8	David	human	4	imperative	Take away my iniquity	covenant	individual	moral_behavior	5	active		100
+1ch_21_18_01	STRICT	1 Chronicles	21	18	21	18	God	divine	1	imperative	Build an altar to the LORD	covenant	national	construction	5	active		100
+1ch_22_11_01	STRICT	1 Chronicles	22	11	22	11	David	human	4	imperative	Be strong and build the house of the LORD	covenant	national	construction	5	active		100
+1ch_22_13_01	STRICT	1 Chronicles	22	13	22	13	David	human	4	imperative	Keep the law of the LORD diligently	covenant	national	moral_behavior	5	active		100
+1ch_28_09_01	STRICT	1 Chronicles	28	9	28	9	David	human	4	imperative	Know the God of your father and serve Him	covenant	individual	judicial	5	active		100
+1ch_28_20_01	STRICT	1 Chronicles	28	20	28	20	David	human	4	imperative	Be strong and do the work	covenant	national	governance	4	active		100
+1ch_29_09_01	THEMATIC	1 Chronicles	29	9	29	9	Israelites	human	4	declarative	The people rejoiced and gave willingly	covenant	national	moral_behavior	4	active		75
+2ch_01_10_01	STRICT	2 Chronicles	1	10	1	10	Solomon	human	4	imperative	Give me wisdom and knowledge	wisdom	individual	communication	5	active		100
+2ch_02_05_01	STRICT	2 Chronicles	2	5	2	5	Solomon	human	4	imperative	The house to be built must be great	covenant	national	construction	5	active		100
+2ch_06_14_01	STRICT	2 Chronicles	6	14	6	14	Solomon	human	4	declarative	Walk before You with a perfect heart	covenant	individual	moral_behavior	5	active		100
+2ch_07_14_01	STRICT	2 Chronicles	7	14	7	14	God	divine	1	conditional	If My people humble themselves and pray	covenant	national	moral_behavior	5	active		100
+2ch_12_06_01	THEMATIC	2 Chronicles	12	6	12	6	Leaders	human	4	declarative	The LORD is righteous	judgment	national	judicial	5	active		95
+2ch_15_02_01	STRICT	2 Chronicles	15	2	15	2	Azariah	prophetic	2	imperative	The LORD is with you while you are with Him	covenant	national	communication	5	active		100
+2ch_15_12_01	STRICT	2 Chronicles	15	12	15	12	Israelites	human	4	declarative	They entered covenant to seek the LORD	covenant	national	moral_behavior	5	active		100
+2ch_19_09_01	STRICT	2 Chronicles	19	9	19	9	Jehoshaphat	king	3	imperative	Act in the fear of the LORD faithfully	covenant	national	moral_behavior	5	active		100
+2ch_20_17_01	STRICT	2 Chronicles	20	17	20	17	God	divine	1	imperative	Do not fear, stand still and see salvation	covenant	national	communication	5	active		100
+2ch_20_20_01	STRICT	2 Chronicles	20	20	20	20	Jehoshaphat	king	3	imperative	Believe in the LORD and you will be established	covenant	national	moral_behavior	5	active		100
+2ch_24_20_01	STRICT	2 Chronicles	24	20	24	20	Prophet	prophetic	2	imperative	Why do you transgress the commandments?	covenant	national	communication	5	active		100
+2ch_26_05_01	STRICT	2 Chronicles	26	5	26	5	Uzziah	king	3	declarative	He sought God and God made him prosper	covenant	national	communication	4	active		95
+2ch_29_05_01	STRICT	2 Chronicles	29	5	29	5	Hezekiah	king	3	imperative	Consecrate yourselves and consecrate the house	covenant	national	ritual_behavior	5	active		100
+2ch_30_08_01	STRICT	2 Chronicles	30	8	30	8	Hezekiah	king	3	imperative	Yield yourselves to the LORD and enter His sanctuary	covenant	national	ritual_behavior	5	active		100
+2ch_34_21_01	STRICT	2 Chronicles	34	21	34	21	Josiah	king	3	imperative	Go inquire of the LORD for me	covenant	national	communication	5	active		100
+2ch_34_31_01	STRICT	2 Chronicles	34	31	34	31	Josiah	king	3	declarative	To walk after the LORD and keep His commandments	covenant	national	moral_behavior	5	active		100
+ezr_01_02_01	THEMATIC	Ezra	1	2	1	2	Cyrus	king	3	declarative	Let the house of the LORD be rebuilt	covenant	national	construction	5	active		100
+ezr_01_03_01	STRICT	Ezra	1	3	1	3	Cyrus	king	3	imperative	Go up and build the house of the LORD	covenant	national	construction	5	active	ezr_01_02_01	100
+ezr_01_04_01	THEMATIC	Ezra	1	4	1	4	Cyrus	king	3	imperative	Support the returning exiles with goods	covenant	national	economic_behavior	4	active		100
+ezr_02_01_01	THEMATIC	Ezra	2	1	2	1	Narrator	divine	3	declarative	These are the people who returned	narrative	national	communication	3	active		95
+ezr_03_02_01	STRICT	Ezra	3	2	3	2	Jeshua & Zerubbabel	leaders	3	imperative	Build the altar of the God of Israel	covenant	priesthood	governance	5	active		100
+ezr_03_03_01	STRICT	Ezra	3	3	3	3	Israelites	national	4	declarative	They set the altar in its place	covenant	priesthood	communication	4	active	ezr_03_02_01	100
+ezr_03_04_01	STRICT	Ezra	3	4	3	4	Israelites	national	4	imperative	Offer burnt offerings daily	covenant	priesthood	ritual_behavior	5	active	ezr_03_02_01	100
+ezr_04_03_01	STRICT	Ezra	4	3	4	3	Zerubbabel & leaders	leaders	3	prohibition	You have no part in building the house	covenant	national	construction	5	active		100
+ezr_04_23_01	THEMATIC	Ezra	4	23	4	23	King’s officials	government	3	imperative	Force the rebuilding to stop	covenant	national	governance	5	active		100
+ezr_06_07_01	STRICT	Ezra	6	7	6	7	Darius	king	3	prohibition	Let the work of this house of God alone	covenant	national	construction	5	active		100
+ezr_06_08_01	STRICT	Ezra	6	8	6	9	Darius	king	3	imperative	Provide resources for rebuilding	covenant	national	economic_behavior	5	active	ezr_06_07_01	100
+ezr_06_12_01	STRICT	Ezra	6	12	6	12	Darius	king	3	imperative	Let it be done with diligence	covenant	national	governance	4	active		100
+ezr_07_10_01	STRICT	Ezra	7	10	7	10	Ezra	scribe	4	imperative	Set your heart to study the law	wisdom	individual	moral_behavior	5	active		100
+ezr_07_11_01	STRICT	Ezra	7	11	7	11	Artaxerxes	king	3	declarative	You are sent to inquire about Judah	covenant	national	governance	4	active		100
+ezr_07_23_01	STRICT	Ezra	7	23	7	23	Artaxerxes	king	3	imperative	Do everything commanded for the temple	covenant	national	governance	5	active		100
+ezr_09_03_01	STRICT	Ezra	9	3	9	3	Ezra	scribe	4	declarative	I tore my garment in grief	covenant	individual	moral_behavior	5	active		100
+ezr_09_06_01	THEMATIC	Ezra	9	6	9	6	Ezra	scribe	4	declarative	Our sins are higher than our heads	covenant	national	moral_behavior	5	active		100
+ezr_10_04_01	STRICT	Ezra	10	4	10	4	Shemiah	leader	3	imperative	Arise, for the matter belongs to you	covenant	national	governance	5	active		100
+ezr_10_11_01	STRICT	Ezra	10	11	10	11	Ezra	scribe	4	imperative	Separate yourselves from foreign wives	covenant	national	moral_behavior	5	active		100
+ezr_10_12_01	THEMATIC	Ezra	10	12	10	12	Assembly	national	4	declarative	They agreed to obey and separate	covenant	national	moral_behavior	5	active	ezr_10_11_01	100
+neh_01_03_01	STRICT	Nehemiah	1	3	1	4	Reporters	narrative	3	declarative	Jerusalem walls are broken and burned	narrative	national	governance	3	active		95
+neh_01_06_01	STRICT	Nehemiah	1	6	1	6	Nehemiah	prayer	4	imperative	Let your ear be attentive to your servant’s prayer	covenant	individual	communication	3	active		100
+neh_02_05_01	STRICT	Nehemiah	2	5	2	5	Nehemiah	human	4	imperative	Let me go and rebuild Jerusalem walls	covenant	national	governance	4	active		98
+neh_02_17_01	STRICT	Nehemiah	2	17	2	17	Nehemiah	leadership	3	imperative	Come let us rebuild the wall	covenant	national	construction	4	active	neh_02_05_01	100
+neh_02_20_01	STRICT	Nehemiah	2	20	2	20	Nehemiah	divine	1	declarative	The God of heaven will prosper us	covenant	individual	communication	4	active		100
+neh_04_09_01	STRICT	Nehemiah	4	9	4	9	Israelites	narrative	5	declarative	We prayed and set a watch against enemies	covenant	national	governance	4	active		97
+neh_04_14_01	STRICT	Nehemiah	4	14	4	14	Nehemiah	leadership	3	imperative	Fight for your families and homes	providence	family	warfare	5	active		100
+neh_04_17_01	STRICT	Nehemiah	4	17	4	17	Builders	narrative	5	declarative	Workers built with one hand and held weapons with the other	narrative	national	warfare	4	active		96
+neh_05_07_01	STRICT	Nehemiah	5	7	5	7	Nehemiah	judicial	3	imperative	Stop exacting usury from your brothers	ethics	national	economic_behavior	5	active		100
+neh_05_11_01	STRICT	Nehemiah	5	11	5	11	Nehemiah	authority	3	imperative	Restore fields, vineyards, houses immediately	ethics	national	economic_behavior	5	active	neh_05_07_01	100
+neh_05_13_01	STRICT	Nehemiah	5	13	5	13	Nehemiah	judicial	3	declarative	God will shake out every man who does not keep covenant	judgment	national	moral_behavior	5	active		98
+neh_06_03_01	STRICT	Nehemiah	6	3	6	3	Nehemiah	leadership	3	imperative	I am doing a great work, I cannot come down	ethics	national	governance	4	active		100
+neh_06_09_01	STRICT	Nehemiah	6	9	6	9	Nehemiah	prayer	4	imperative	Now strengthen my hands, O God	covenant	individual	communication	4	active		100
+neh_07_03_01	STRICT	Nehemiah	7	3	7	3	Nehemiah	administration	3	imperative	Do not open the gates until sun is hot	providence	national	governance	4	active		99
+neh_08_01_01	STRICT	Nehemiah	8	1	8	1	Ezra	priestly	3	imperative	Bring the Book of the Law of Moses	law	national	governance	5	active		100
+neh_08_03_01	STRICT	Nehemiah	8	3	8	3	Ezra	priestly	3	declarative	The Law was read from morning until midday	narrative	national	communication	4	active		98
+neh_08_09_01	STRICT	Nehemiah	8	9	8	9	Nehemiah	leadership	3	imperative	Do not mourn; the joy of the LORD is your strength	covenant	individual	communication	4	active		100
+neh_08_10_01	STRICT	Nehemiah	8	10	8	10	Nehemiah	leadership	3	imperative	Go, eat the fat and drink sweet drink	worship	national	ritual_behavior	3	active		100
+neh_08_14_01	STRICT	Nehemiah	8	14	8	14	Israelites	scripture	3	imperative	Keep the Feast of Booths as written	covenant	priesthood	ritual_behavior	5	active		100
+neh_09_03_01	STRICT	Nehemiah	9	3	9	3	Levites	priesthood	2	declarative	Confessed sins and read the Law	covenant	national	communication	5	active		97
+neh_09_38_01	STRICT	Nehemiah	9	38	9	38	Israelites	national	4	declarative	We make a sure covenant and write it	covenant	national	communication	5	active		100
+neh_10_29_01	STRICT	Nehemiah	10	29	10	29	Israelites	national	4	imperative	Walk in God’s law and observe commandments	law	national	moral_behavior	5			100
+neh_10_31_01	STRICT	Nehemiah	10	31	10	31	Israelites	covenant	3	prohibition	Do not buy from foreigners on Sabbath	law	national	economic_behavior	5	active		100
+neh_10_34_01	STRICT	Nehemiah	10	34	10	34	Israelites	covenant	3	imperative	Bring wood offerings for the altar	worship	priesthood	ritual_behavior	4	active		98
+neh_10_39_01	STRICT	Nehemiah	10	39	10	39	Israelites	covenant	3	imperative	Do not neglect the house of our God	worship	priesthood	moral_behavior	5	active		100
+neh_13_07_01	STRICT	Nehemiah	13	7	13	7	Nehemiah	authority	3	imperative	Cast out Tobiah from the chamber	judgment	national	governance	5	active		100
+neh_13_11_01	STRICT	Nehemiah	13	11	13	11	Nehemiah	authority	3	imperative	Restore the Levites to their posts	worship	priesthood	ritual_behavior	4	active		100
+neh_13_15_01	STRICT	Nehemiah	13	15	13	15	Nehemiah	authority	3	imperative	Halt commerce on Sabbath	law	national	economic_behavior	5	active		100
+neh_13_23_01	STRICT	Nehemiah	13	23	13	23	Nehemiah	authority	3	imperative	Do not marry foreign wives	law	foreign_nations	moral_behavior	5	active		100
+neh_13_30_01	STRICT	Nehemiah	13	30	13	30	Nehemiah	authority	3	declarative	I cleansed them from all foreign influence	ethics	foreign_nations	moral_behavior	5	active		98
+neh_13_31_01	STRICT	Nehemiah	13	31	13	31	Nehemiah	prayer	4	imperative	Remember me for good, O my God	covenant	individual	moral_behavior	4	active		100
+est_01_10_01	STRICT	Esther	1	10	1	12	King Ahasuerus	royal	3	imperative	Vashti summoned to appear before the king	judgment	national	governance	2	active		100
+est_01_12_01	STRICT	Esther	1	12	1	12	Vashti	royal	3	prohibition	Vashti refuses to come before the king	judgment	individual	moral_behavior	3	active	est_01_10_01	100
+est_01_19_01	STRICT	Esther	1	19	1	19	King Ahasuerus	royal	3	declarative	Vashti removed; royal edict issued	law	national	governance	4	active	est_01_10_01	100
+est_02_03_01	STRICT	Esther	2	3	2	4	King's servants	royal	3	imperative	Seek new queen from all provinces	narrative	national	governance	3	active		98
+est_02_10_01	STRICT	Esther	2	10	2	10	Mordecai	family	4	imperative	Do not reveal your Jewish identity	ethics	individual	communication	5	active		100
+est_02_20_01	STRICT	Esther	2	20	2	20	Mordecai	family	4	imperative	Esther obeyed Mordecai’s instruction	ethics	family	moral_behavior	4	active	est_02_10_01	100
+est_03_08_01	STRICT	Esther	3	8	3	9	Haman	royal_authority	3	declarative	Decree issued to destroy the Jews	judgment	national	governance	5	active		100
+est_03_13_01	STRICT	Esther	3	13	3	13	King's scribes	royal	3	imperative	Send letters to all provinces to destroy Jews	judgment	national	communication	5	active	est_03_08_01	100
+est_04_01_01	STRICT	Esther	4	1	4	3	Mordecai	human	4	imperative	Mordecai calls for mourning and fasting	ethics	national	ritual_behavior	5	active		100
+est_04_08_01	STRICT	Esther	4	8	4	8	Mordecai	family	4	imperative	Esther must plead before the king	ethics	foreign_nations	communication	5	active	est_04_01_01	100
+est_04_11_01	STRICT	Esther	4	11	4	11	Esther	individual	4	conditional	If I perish, I perish (risk acceptance)	ethics	individual	moral_behavior	5	active	est_04_08_01	100
+est_04_16_01	STRICT	Esther	4	16	4	16	Esther	social_leader	4	imperative	Fast for me three days	worship	national	ritual_behavior	5	active	est_04_08_01	100
+est_05_02_01	STRICT	Esther	5	2	5	2	King Ahasuerus	royal	3	imperative	Esther granted audience before the king	providence	foreign_nations	communication	3	active		98
+est_05_04_01	STRICT	Esther	5	4	5	4	Esther	royal_context	4	imperative	Invite king and Haman to banquet	wisdom	foreign_nations	communication	3	active		98
+est_06_01_01	STRICT	Esther	6	1	6	3	King Ahasuerus	royal	3	declarative	Record of Mordecai’s loyalty discovered	providence	national	communication	3	active		100
+est_06_10_01	STRICT	Esther	6	10	6	10	King Ahasuerus	royal	3	imperative	Honor Mordecai publicly	ethics	national	governance	4	active	est_06_01_01	100
+est_07_03_01	STRICT	Esther	7	3	7	3	Queen Esther	royal	4	imperative	Spare my life and my people	ethics	foreign_nations	moral_behavior	5	active	est_04_08_01	100
+est_07_06_01	STRICT	Esther	7	6	7	6	Esther	royal	4	declarative	Haman identified as enemy	narrative	national	judicial	5	active		100
+est_07_09_01	STRICT	Esther	7	9	7	9	King's servants	royal	3	imperative	Haman executed immediately	judgment	national	judicial	5	active	est_03_08_01	100
+est_08_08_01	STRICT	Esther	8	8	8	8	King Ahasuerus	royal	3	imperative	Write decree allowing Jews to defend themselves	judgment	national	governance	5	active	est_03_08_01	100
+est_08_11_01	STRICT	Esther	8	11	8	11	King's scribes	royal	3	imperative	Jews may assemble and defend themselves	judgment	national	governance	5	active	est_08_08_01	100
+est_09_20_01	STRICT	Esther	9	20	9	22	Mordecai	social_leader	4	imperative	Establish Purim feast	worship	national	ritual_behavior	4	active	est_08_11_01	100
+est_09_26_01	STRICT	Esther	9	26	9	28	Mordecai	social_leader	4	imperative	Keep days of Purim annually	worship	national	ritual_behavior	4	active	est_09_20_01	100
+est_10_03_01	STRICT	Esther	10	3	10	3	Mordecai	administration	4	declarative	Mordecai promoted for the good of his people	providence	national	governance	3	active		98
+job_01_08_01	STRICT	Job	1	8	1	8	YHWH	divine	1	declarative	Job is blameless and upright	wisdom	individual	moral_behavior	5	active		100
+job_01_11_01	STRICT	Job	1	11	1	11	Satan	rebellious_spiritual	2	permissive	Stretch out your hand and touch all he has	providence	individual	moral_behavior	5	active		100
+job_01_12_01	STRICT	Job	1	12	1	12	YHWH	divine	1	permissive	All that he has is in your power except his life	providence	individual	moral_behavior	5	active	job_01_11_01	100
+job_02_03_01	STRICT	Job	2	3	2	3	YHWH	divine	1	declarative	Job still holds fast his integrity despite suffering	providence	individual	moral_behavior	5	active		100
+job_02_06_01	STRICT	Job	2	6	2	6	YHWH	divine	1	permissive	He is in your hand but spare his life	providence	individual	moral_behavior	5	active	job_01_12_01	100
+job_02_09_01	STRICT	Job	2	9	2	9	Job’s wife	human	4	imperative	Curse God and die	ethics	individual	moral_behavior	5	active		100
+job_02_10_01	STRICT	Job	2	10	2	10	Job	human	4	declarative	Shall we accept good from God and not adversity	wisdom	individual	moral_behavior	5	active	job_02_09_01	100
+job_05_08_01	STRICT	Job	5	8	5	8	Eliphaz	human_wisdom	4	imperative	Seek God and commit your cause to Him	wisdom	individual	moral_behavior	4	active		95
+job_05_17_01	STRICT	Job	5	17	5	17	Eliphaz	human_wisdom	4	imperative	Do not despise the discipline of the Almighty	wisdom	individual	moral_behavior	5	active		95
+job_06_24_01	STRICT	Job	6	24	6	24	Job	human	4	imperative	Teach me and I will be silent	wisdom	individual	communication	4	active		98
+job_06_25_01	STRICT	Job	6	25	6	25	Job	human	4	declarative	How painful are honest words	wisdom	individual	communication	4	active		98
+job_08_05_01	STRICT	Job	8	5	8	6	Bildad	human_wisdom	4	imperative	If you seek God earnestly He will restore you	wisdom	individual	moral_behavior	4	active		95
+job_09_02_01	STRICT	Job	9	2	9	2	Job	human	4	declarative	How can a man be righteous before God	wisdom	individual	moral_behavior	5	active		100
+job_09_34_01	STRICT	Job	9	34	9	34	Job	human	4	declarative	Let Him remove His rod from me	wisdom	individual	moral_behavior	5	active		100
+job_11_13_01	STRICT	Job	11	13	11	13	Zophar	human_wisdom	4	imperative	Prepare your heart and stretch out your hands	wisdom	individual	moral_behavior	4	active		95
+job_13_03_01	STRICT	Job	13	3	13	3	Job	human	4	imperative	I desire to reason with the Almighty	wisdom	individual	communication	5	active		100
+job_13_05_01	STRICT	Job	13	5	13	5	Job	human	4	imperative	Oh that you would be silent	wisdom	individual	communication	4	active		98
+job_19_25_01	STRICT	Job	19	25	19	25	Job	human	4	declarative	I know my Redeemer lives	ethics	individual	moral_behavior	5	active		100
+job_21_14_01	STRICT	Job	21	14	21	14	Job	human	4	declarative	They say to God depart from us	wisdom	individual	communication	5	active		95
+job_23_03_01	STRICT	Job	23	3	23	3	Job	human	4	declarative	Oh that I knew where I might find Him	wisdom	individual	communication	5	active		100
+job_23_10_01	STRICT	Job	23	10	23	10	Job	human	4	declarative	He knows the way I take	providence	individual	communication	5	active		100
+job_28_28_01	STRICT	Job	28	28	28	28	wisdom_voice	divine_principle	3	declarative	The fear of the Lord is wisdom	wisdom	individual	moral_behavior	5	active		100
+job_31_01_01	STRICT	Job	31	1	31	1	Job	human	4	declarative	I made a covenant with my eyes	wisdom	individual	moral_behavior	5	active		100
+job_31_24_01	STRICT	Job	31	24	31	24	Job	human	4	prohibition	If I have made gold my trust	wisdom	individual	moral_behavior	5	active		100
+job_38_03_01	STRICT	Job	38	3	38	3	YHWH	divine	1	imperative	Gird up your loins like a man	wisdom	individual	communication	5	active		100
+job_38_04_01	STRICT	Job	38	4	38	4	YHWH	divine	1	declarative	Where were you when I laid the foundation of the earth	wisdom	individual	communication	5	active		100
+job_40_07_01	STRICT	Job	40	7	40	7	YHWH	divine	1	imperative	Gird up your loins like a man	wisdom	individual	communication	5	active	job_38_03_01	100
+job_40_08_01	STRICT	Job	40	8	40	8	YHWH	divine	1	permissive	Will you condemn me to justify yourself	ethics	individual	moral_behavior	5	active		100
+job_42_06_01	STRICT	Job	42	6	42	6	Job	human	4	declarative	I repent in dust and ashes	wisdom	individual	moral_behavior	5	active		100
+job_42_10_01	STRICT	Job	42	10	42	10	YHWH	divine	1	declarative	The Lord restored Job’s fortunes	providence	national	governance	5	active		100
+psa_01_01_01	STRICT	Psalms	1	1	1	1	Psalmist	wisdom	4	prohibition	Do not walk in the counsel of the wicked	wisdom	individual	moral_behavior	5	active		100
+psa_01_01_02	STRICT	Psalms	1	1	1	1	Psalmist	wisdom	4	prohibition	Do not stand in the way of sinners	wisdom	individual	moral_behavior	5	active	psa_01_01_01	100
+psa_01_01_03	STRICT	Psalms	1	1	1	1	Psalmist	wisdom	4	prohibition	Do not sit in the seat of scoffers	wisdom	individual	moral_behavior	5	active	psa_01_01_01	100
+psa_02_10_01	STRICT	Psalms	2	10	2	11	Psalmist	wisdom	4	imperative	Be wise O kings	wisdom	national	governance	5	active		100
+psa_02_11_01	STRICT	Psalms	2	11	2	11	Psalmist	wisdom	4	imperative	Serve the LORD with fear	worship	national	ritual_behavior	5	active	psa_02_10_01	100
+psa_02_12_01	STRICT	Psalms	2	12	2	12	Psalmist	wisdom	4	imperative	Kiss the Son	worship	national	ritual_behavior	5	active	psa_02_10_01	100
+psa_04_04_01	STRICT	Psalms	4	4	4	4	Psalmist	wisdom	4	imperative	Be angry and do not sin	wisdom	individual	moral_behavior	4	active		100
+psa_04_04_02	STRICT	Psalms	4	4	4	4	Psalmist	wisdom	4	imperative	Meditate in your heart and be still	wisdom	individual	moral_behavior	4	active	psa_04_04_01	100
+psa_27_14_01	STRICT	Psalms	27	14	27	14	Psalmist	wisdom	4	imperative	Wait for the LORD	wisdom	individual	moral_behavior	5	active		100
+psa_27_14_02	STRICT	Psalms	27	14	27	14	Psalmist	wisdom	4	imperative	Be strong and take courage	wisdom	individual	moral_behavior	5	active	psa_27_14_01	100
+psa_32_09_01	STRICT	Psalms	32	9	32	9	Psalmist	wisdom	4	prohibition	Do not be like the horse or mule	wisdom	individual	moral_behavior	4	active		100
+psa_34_14_01	STRICT	Psalms	34	14	34	14	Psalmist	wisdom	4	imperative	Turn away from evil	wisdom	individual	moral_behavior	5	active		100
+psa_34_14_02	STRICT	Psalms	34	14	34	14	Psalmist	wisdom	4	imperative	Do good	wisdom	individual	moral_behavior	5	active	psa_34_14_01	100
+psa_34_14_03	STRICT	Psalms	34	14	34	14	Psalmist	wisdom	4	imperative	Seek peace and pursue it	wisdom	individual	moral_behavior	5	active	psa_34_14_01	100
+psa_37_03_01	STRICT	Psalms	37	3	37	3	Psalmist	wisdom	4	imperative	Trust in the LORD	wisdom	individual	moral_behavior	5	active		100
+psa_37_03_02	STRICT	Psalms	37	3	37	3	Psalmist	wisdom	4	imperative	Do good	wisdom	individual	moral_behavior	5	active	psa_37_03_01	100
+psa_37_04_01	STRICT	Psalms	37	4	37	4	Psalmist	wisdom	4	imperative	Delight yourself in the LORD	wisdom	individual	moral_behavior	5	active	psa_37_03_01	100
+psa_37_05_01	STRICT	Psalms	37	5	37	5	Psalmist	wisdom	4	imperative	Commit your way to the LORD	wisdom	individual	moral_behavior	5	active	psa_37_03_01	100
+psa_37_07_01	STRICT	Psalms	37	7	37	7	Psalmist	wisdom	4	imperative	Be still before the LORD	wisdom	individual	moral_behavior	5	active	psa_37_03_01	100
+psa_37_08_01	STRICT	Psalms	37	8	37	8	Psalmist	wisdom	4	prohibition	Do not fret	wisdom	individual	moral_behavior	4	active	psa_37_03_01	100
+psa_46_10_01	STRICT	Psalms	46	10	46	10	YHWH	divine	1	imperative	Be still and know that I am God	covenant	individual	ritual_behavior	5	active		100
+psa_62_08_01	STRICT	Psalms	62	8	62	8	Psalmist	wisdom	4	imperative	Trust in Him at all times	wisdom	individual	moral_behavior	5	active		100
+psa_62_08_02	STRICT	Psalms	62	8	62	8	Psalmist	wisdom	4	imperative	Pour out your heart before Him	wisdom	individual	communication	5	active	psa_62_08_01	100
+psa_95_06_01	STRICT	Psalms	95	6	95	6	Psalmist	worship	4	imperative	Come worship and bow down	worship	individual	ritual_behavior	5	active		100
+psa_95_06_02	STRICT	Psalms	95	6	95	6	Psalmist	worship	4	imperative	Kneel before the LORD	worship	individual	ritual_behavior	5	active	psa_95_06_01	100
+psa_95_08_01	STRICT	Psalms	95	8	95	8	YHWH	divine	1	prohibition	Do not harden your hearts	covenant	individual	moral_behavior	5	active		100
+psa_96_01_01	STRICT	Psalms	96	1	96	1	Psalmist	worship	4	imperative	Sing to the LORD a new song	worship	individual	ritual_behavior	5	active		100
+psa_96_02_01	STRICT	Psalms	96	2	96	2	Psalmist	worship	4	imperative	Bless His name	worship	individual	ritual_behavior	5	active	psa_96_01_01	100
+psa_96_03_01	STRICT	Psalms	96	3	96	3	Psalmist	worship	4	imperative	Declare His glory among the nations	worship	national	communication	5	active	psa_96_01_01	100
+psa_100_02_01	STRICT	Psalms	100	2	100	2	Psalmist	worship	4	imperative	Serve the LORD with gladness	worship	individual	ritual_behavior	5	active		100
+psa_100_02_02	STRICT	Psalms	100	2	100	2	Psalmist	worship	4	imperative	Come before Him with singing	worship	individual	ritual_behavior	5	active	psa_100_02_01	100
+psa_105_01_01	STRICT	Psalms	105	1	105	1	Psalmist	worship	4	imperative	Give thanks to the LORD	worship	individual	ritual_behavior	5	active		100
+psa_105_01_02	STRICT	Psalms	105	1	105	1	Psalmist	worship	4	imperative	Call upon His name	worship	individual	communication	5	active	psa_105_01_01	100
+psa_105_01_03	STRICT	Psalms	105	1	105	1	Psalmist	worship	4	imperative	Make known His deeds	worship	national	communication	5	active	psa_105_01_01	100
+psa_150_01_01	STRICT	Psalms	150	1	150	1	Psalmist	worship	4	imperative	Praise God in His sanctuary	worship	individual	ritual_behavior	5	active		100
+psa_150_06_01	STRICT	Psalms	150	6	150	6	Psalmist	worship	4	imperative	Let everything that has breath praise the LORD	worship	individual	ritual_behavior	5	active	psa_150_01_01	100
+pro_01_08_01	STRICT	Proverbs	1	8	1	8	Father/Teacher	human	4	imperative	Hear your father's instruction	wisdom	family	communication	3	active		100
+pro_01_08_02	STRICT	Proverbs	1	8	1	8	Father/Teacher	human	4	prohibition	Do not forsake your mother's teaching	wisdom	family	communication	3	active	pro_01_08_01	100
+pro_01_10_01	STRICT	Proverbs	1	10	1	10	Father/Teacher	human	4	prohibition	Do not consent to sinners	wisdom	individual	moral_behavior	4	active		100
+pro_01_15_01	STRICT	Proverbs	1	15	1	15	Father/Teacher	human	4	prohibition	Do not walk in the way with them	wisdom	individual	moral_behavior	4	active	pro_01_10_01	100
+pro_01_15_02	STRICT	Proverbs	1	15	1	15	Father/Teacher	human	4	prohibition	Keep your foot from their path	wisdom	individual	moral_behavior	4	active	pro_01_15_01	100
+pro_01_22_01	THEMATIC	Proverbs	1	22	1	22	Wisdom personified	divine	2	imperative	Turn at my reproof	wisdom	individual	moral_behavior	4	active		90
+pro_01_23_01	THEMATIC	Proverbs	1	23	1	23	Wisdom personified	divine	2	imperative	Receive my words and I will pour out my spirit	wisdom	individual	communication	3	active	pro_01_22_01	85
+pro_02_01_01	STRICT	Proverbs	2	1	2	1	Father/Teacher	human	4	conditional	Receive my words and treasure my commandments	wisdom	individual	communication	3	active		100
+pro_02_02_01	STRICT	Proverbs	2	2	2	2	Father/Teacher	human	4	imperative	Incline your ear to wisdom	wisdom	individual	communication	3	active	pro_02_01_01	100
+pro_02_02_02	STRICT	Proverbs	2	2	2	2	Father/Teacher	human	4	imperative	Apply your heart to understanding	wisdom	individual	communication	3	active	pro_02_02_01	100
+pro_02_03_01	THEMATIC	Proverbs	2	3	2	4	Father/Teacher	human	4	conditional	Seek wisdom like silver	wisdom	individual	moral_behavior	4	active		95
+pro_03_01_01	STRICT	Proverbs	3	1	3	1	Father/Teacher	human	4	imperative	Do not forget my teaching	wisdom	individual	moral_behavior	3	active		100
+pro_03_01_02	STRICT	Proverbs	3	1	3	1	Father/Teacher	human	4	imperative	Keep my commandments in your heart	wisdom	individual	moral_behavior	3	active	pro_03_01_01	100
+pro_03_03_01	STRICT	Proverbs	3	3	3	3	Father/Teacher	human	4	prohibition	Do not let steadfast love and faithfulness leave you	wisdom	individual	moral_behavior	4	active		100
+pro_03_03_02	STRICT	Proverbs	3	3	3	3	Father/Teacher	human	4	imperative	Bind them around your neck and write them on your heart	wisdom	individual	moral_behavior	4	active	pro_03_03_01	100
+pro_03_05_01	STRICT	Proverbs	3	5	3	5	Father/Teacher	human	4	imperative	Trust in the LORD with all your heart	wisdom	individual	moral_behavior	5	active		100
+pro_03_05_02	STRICT	Proverbs	3	5	3	5	Father/Teacher	human	4	prohibition	Do not lean on your own understanding	wisdom	individual	moral_behavior	4	active	pro_03_05_01	100
+pro_03_06_01	STRICT	Proverbs	3	6	3	6	Father/Teacher	human	4	imperative	Acknowledge Him in all your ways	wisdom	individual	moral_behavior	4	active	pro_03_05_01	100
+pro_03_07_01	STRICT	Proverbs	3	7	3	7	Father/Teacher	human	4	prohibition	Do not be wise in your own eyes	wisdom	individual	moral_behavior	4	active		100
+pro_03_07_02	STRICT	Proverbs	3	7	3	7	Father/Teacher	human	4	imperative	Fear the LORD and turn away from evil	wisdom	individual	moral_behavior	5	active	pro_03_07_01	100
+pro_03_09_01	STRICT	Proverbs	3	9	3	9	Father/Teacher	human	4	imperative	Honor the LORD with your wealth	wisdom	individual	moral_behavior	4	active		100
+pro_03_11_01	STRICT	Proverbs	3	11	3	11	Father/Teacher	human	4	prohibition	Do not despise the LORD’s discipline	wisdom	individual	moral_behavior	4	active		100
+pro_04_05_01	STRICT	Proverbs	4	5	4	5	Father/Teacher	human	4	imperative	Get wisdom	wisdom	individual	moral_behavior	5	active		100
+pro_04_05_02	STRICT	Proverbs	4	5	4	5	Father/Teacher	human	4	imperative	Get understanding	wisdom	individual	moral_behavior	5	active	pro_04_05_01	100
+pro_04_05_03	STRICT	Proverbs	4	5	4	5	Father/Teacher	human	4	prohibition	Do not forget or turn away from my words	wisdom	individual	moral_behavior	4	active	pro_04_05_01	100
+pro_04_06_01	STRICT	Proverbs	4	6	4	6	Father/Teacher	human	4	prohibition	Do not forsake wisdom	wisdom	individual	moral_behavior	4	active		100
+pro_04_07_01	THEMATIC	Proverbs	4	7	4	7	Father/Teacher	human	4	declarative	Wisdom is supreme so get it	wisdom	individual	moral_behavior	5	active	pro_04_05_01	90
+pro_04_14_01	STRICT	Proverbs	4	14	4	14	Father/Teacher	human	4	prohibition	Do not enter the path of the wicked	wisdom	individual	moral_behavior	5	active		100
+pro_04_15_01	STRICT	Proverbs	4	15	4	15	Father/Teacher	human	4	imperative	Avoid it and pass on	wisdom	individual	moral_behavior	5	active	pro_04_14_01	100
+pro_04_23_01	STRICT	Proverbs	4	23	4	23	Father/Teacher	human	4	imperative	Keep your heart with all vigilance	wisdom	individual	moral_behavior	5	active		100
+pro_04_24_01	STRICT	Proverbs	4	24	4	24	Father/Teacher	human	4	prohibition	Put away crooked speech	wisdom	individual	communication	4	active		100
+pro_05_01_01	STRICT	Proverbs	5	1	5	1	Father/Teacher	human	4	imperative	Pay attention to wisdom	wisdom	individual	communication	3	active		100
+pro_05_08_01	STRICT	Proverbs	5	8	5	8	Father/Teacher	human	4	imperative	Keep your way far from the adulteress	wisdom	individual	moral_behavior	5	active		100
+pro_05_15_01	THEMATIC	Proverbs	5	15	5	18	Father/Teacher	human	4	imperative	Rejoice in your own wife	wisdom	family	moral_behavior	5	active		95
+pro_06_01_01	THEMATIC	Proverbs	6	1	6	5	Father/Teacher	human	4	imperative	Free yourself from surety obligations	wisdom	individual	economic_behavior	4	active		90
+pro_06_06_01	STRICT	Proverbs	6	6	6	6	Father/Teacher	human	4	imperative	Go to the ant and consider her ways	wisdom	individual	communication	3	active		100
+pro_06_09_01	THEMATIC	Proverbs	6	9	6	11	Father/Teacher	human	4	imperative	Do not sleep excessively	wisdom	individual	moral_behavior	4	active		90
+pro_06_20_01	STRICT	Proverbs	6	20	6	20	Father/Teacher	human	4	imperative	Keep your father’s commandment	wisdom	family	moral_behavior	4	active		100
+pro_06_20_02	STRICT	Proverbs	6	20	6	20	Father/Teacher	human	4	prohibition	Do not forsake your mother’s teaching	wisdom	family	communication	4	active	pro_06_20_01	100
+pro_07_02_01	STRICT	Proverbs	7	2	7	2	Father/Teacher	human	4	imperative	Keep my commandments and live	wisdom	individual	moral_behavior	5	active		100
+pro_07_04_01	THEMATIC	Proverbs	7	4	7	4	Father/Teacher	human	4	imperative	Say to wisdom “You are my sister”	wisdom	individual	communication	4	active		90
+pro_08_32_01	THEMATIC	Proverbs	8	32	8	33	Wisdom personified	divine	2	imperative	Listen to me and be wise	wisdom	individual	communication	4	active		95
+pro_08_33_01	THEMATIC	Proverbs	8	33	8	33	Wisdom personified	divine	2	prohibition	Do not neglect instruction	wisdom	individual	communication	4	active	pro_08_32_01	95
+pro_09_06_01	THEMATIC	Proverbs	9	6	9	6	Wisdom personified	divine	2	imperative	Leave simple ways and live	wisdom	individual	moral_behavior	5	active		95
+pro_09_08_01	STRICT	Proverbs	9	8	9	8	Father/Teacher	human	4	prohibition	Do not rebuke a scoffer	wisdom	individual	communication	3	active		100
+pro_09_08_02	STRICT	Proverbs	9	8	9	8	Father/Teacher	human	4	imperative	Rebuke a wise man and he will love you	wisdom	individual	communication	3	active	pro_09_08_01	100
+pro_09_09_01	THEMATIC	Proverbs	9	9	9	9	Father/Teacher	human	4	imperative	Give instruction to a wise man	wisdom	individual	communication	3	active		95
+pro_10_04_01	THEMATIC	Proverbs	10	4	10	4	Narration	human	4	imperative	Be diligent in work	wisdom	individual	moral_behavior	4	active		85
+pro_10_19_01	THEMATIC	Proverbs	10	19	10	19	Narration	human	4	imperative	Restrain your lips	wisdom	individual	communication	4	active		90
+pro_11_01_01	STRICT	Proverbs	11	1	11	1	Narration	divine	2	prohibition	Do not use dishonest scales	wisdom	individual	economic_behavior	5	active		100
+pro_11_25_01	THEMATIC	Proverbs	11	25	11	25	Narration	human	4	imperative	Be generous to others	wisdom	individual	economic_behavior	4	active		90
+pro_12_01_01	STRICT	Proverbs	12	1	12	1	Narration	human	4	imperative	Love discipline	wisdom	individual	moral_behavior	4	active		100
+pro_12_01_02	STRICT	Proverbs	12	1	12	1	Narration	human	4	prohibition	Do not hate correction	wisdom	individual	moral_behavior	4	active	pro_12_01_01	100
+pro_12_18_01	THEMATIC	Proverbs	12	18	12	18	Narration	human	4	imperative	Speak words that heal	wisdom	individual	communication	4	active		85
+pro_13_01_01	STRICT	Proverbs	13	1	13	1	Narration	human	4	imperative	Listen to instruction	wisdom	family	communication	3	active		100
+pro_13_03_01	STRICT	Proverbs	13	3	13	3	Narration	human	4	imperative	Guard your mouth	wisdom	individual	communication	4	active		100
+pro_13_20_01	STRICT	Proverbs	13	20	13	20	Narration	human	4	imperative	Walk with the wise	wisdom	individual	moral_behavior	4	active		100
+pro_14_16_01	THEMATIC	Proverbs	14	16	14	16	Narration	human	4	imperative	Turn away from evil	wisdom	individual	moral_behavior	4	active		90
+pro_14_21_01	THEMATIC	Proverbs	14	21	14	21	Narration	human	4	imperative	Show kindness to the poor	wisdom	individual	moral_behavior	5	active		90
+pro_15_01_01	THEMATIC	Proverbs	15	1	15	1	Narration	human	4	imperative	Give a soft answer	wisdom	individual	communication	4	active		90
+pro_15_03_01	THEMATIC	Proverbs	15	3	15	3	Narration	divine	2	imperative	Live with awareness that the LORD sees all	wisdom	individual	moral_behavior	4	active		85
+pro_15_33_01	THEMATIC	Proverbs	15	33	15	33	Narration	human	4	imperative	Fear the LORD and pursue humility	wisdom	individual	moral_behavior	5	active		95
+pro_16_03_01	STRICT	Proverbs	16	3	16	3	Narration	human	4	imperative	Commit your works to the LORD	wisdom	individual	moral_behavior	5	active		100
+pro_16_16_01	THEMATIC	Proverbs	16	16	16	16	Narration	human	4	imperative	Get wisdom rather than gold	wisdom	individual	moral_behavior	4	active		90
+pro_16_18_01	THEMATIC	Proverbs	16	18	16	18	Narration	human	4	prohibition	Do not be proud	wisdom	individual	moral_behavior	5	active		90
+pro_17_14_01	THEMATIC	Proverbs	17	14	17	14	Narration	human	4	imperative	Stop conflict before it escalates	wisdom	individual	moral_behavior	4	active		90
+pro_17_27_01	THEMATIC	Proverbs	17	27	17	27	Narration	human	4	imperative	Be slow to speak	wisdom	individual	communication	4	active		90
+pro_18_13_01	THEMATIC	Proverbs	18	13	18	13	Narration	human	4	prohibition	Do not answer before listening	wisdom	individual	communication	4	active		90
+pro_18_21_01	THEMATIC	Proverbs	18	21	18	21	Narration	human	4	imperative	Use your words wisely	wisdom	individual	communication	5	active		85
+pro_19_20_01	STRICT	Proverbs	19	20	19	20	Narration	human	4	imperative	Listen to advice and accept instruction	wisdom	individual	communication	4	active		100
+pro_19_21_01	THEMATIC	Proverbs	19	21	19	21	Narration	divine	2	imperative	Submit to the LORD’s purpose	wisdom	individual	moral_behavior	5	active		85
+pro_20_13_01	STRICT	Proverbs	20	13	20	13	Narration	human	4	prohibition	Do not love sleep excessively	wisdom	individual	moral_behavior	4	active		100
+pro_20_22_01	STRICT	Proverbs	20	22	20	22	Narration	human	4	prohibition	Do not say “I will repay evil”	wisdom	individual	moral_behavior	5	active		100
+pro_20_22_02	STRICT	Proverbs	20	22	20	22	Narration	human	4	imperative	Wait for the LORD	wisdom	individual	moral_behavior	5	active	pro_20_22_01	100
+pro_21_03_01	STRICT	Proverbs	21	3	21	3	Narration	divine	2	imperative	Do righteousness and justice	wisdom	individual	moral_behavior	5	active		100
+pro_21_23_01	STRICT	Proverbs	21	23	21	23	Narration	human	4	imperative	Guard your mouth and tongue	wisdom	individual	communication	4	active		100
+pro_22_06_01	STRICT	Proverbs	22	6	22	6	Narration	human	4	imperative	Train up a child in the right way	wisdom	family	moral_behavior	5	active		100
+pro_22_22_01	STRICT	Proverbs	22	22	22	22	Narration	divine	2	prohibition	Do not rob the poor	wisdom	individual	economic_behavior	5	active		100
+pro_22_24_01	STRICT	Proverbs	22	24	22	24	Narration	human	4	prohibition	Do not associate with a man given to anger	wisdom	individual	moral_behavior	4	active		100
+pro_23_04_01	STRICT	Proverbs	23	4	23	4	Narration	human	4	prohibition	Do not toil to acquire wealth	wisdom	individual	economic_behavior	4	active		100
+pro_23_12_01	STRICT	Proverbs	23	12	23	12	Narration	human	4	imperative	Apply your heart to instruction	wisdom	individual	communication	4	active		100
+pro_23_17_01	STRICT	Proverbs	23	17	23	17	Narration	human	4	prohibition	Do not envy sinners	wisdom	individual	moral_behavior	4	active		100
+pro_23_17_02	STRICT	Proverbs	23	17	23	17	Narration	human	4	imperative	Continue in the fear of the LORD	wisdom	individual	moral_behavior	5	active	pro_23_17_01	100
+pro_24_01_01	STRICT	Proverbs	24	1	24	1	Narration	human	4	prohibition	Do not envy evil men	wisdom	individual	moral_behavior	4	active		100
+pro_24_17_01	STRICT	Proverbs	24	17	24	17	Narration	human	4	prohibition	Do not rejoice when your enemy falls	wisdom	individual	moral_behavior	5	active		100
+pro_24_19_01	STRICT	Proverbs	24	19	24	19	Narration	human	4	prohibition	Do not fret because of evildoers	wisdom	individual	moral_behavior	4	active		100
+pro_25_21_01	STRICT	Proverbs	25	21	25	21	Narration	divine	2	imperative	Feed your enemy if he is hungry	wisdom	individual	moral_behavior	5	active		100
+pro_25_21_02	STRICT	Proverbs	25	21	25	21	Narration	divine	2	imperative	Give drink to your enemy if he is thirsty	wisdom	individual	moral_behavior	5	active	pro_25_21_01	100
+pro_26_04_01	STRICT	Proverbs	26	4	26	4	Narration	human	4	prohibition	Do not answer a fool according to his folly	wisdom	individual	communication	4	active		100
+pro_26_05_01	STRICT	Proverbs	26	5	26	5	Narration	human	4	imperative	Answer a fool according to his folly	wisdom	individual	communication	4	active	pro_26_04_01	100
+pro_27_01_01	STRICT	Proverbs	27	1	27	1	Narration	human	4	prohibition	Do not boast about tomorrow	wisdom	individual	moral_behavior	4	active		100
+pro_27_17_01	THEMATIC	Proverbs	27	17	27	17	Narration	human	4	imperative	Sharpen one another in relationships	wisdom	individual	moral_behavior	4	active		85
+pro_28_13_01	THEMATIC	Proverbs	28	13	28	13	Narration	divine	2	imperative	Confess and forsake sin	wisdom	individual	moral_behavior	5	active		95
+pro_29_01_01	STRICT	Proverbs	29	1	29	1	Narration	human	4	prohibition	Do not harden your neck after rebuke	wisdom	individual	moral_behavior	5	active		100
+pro_29_25_01	THEMATIC	Proverbs	29	25	29	25	Narration	divine	2	imperative	Trust in the LORD instead of fearing man	wisdom	individual	moral_behavior	5	active		90
+pro_30_08_01	THEMATIC	Proverbs	30	8	30	9	Agur	human	4	imperative	Give neither poverty nor riches	wisdom	individual	economic_behavior	4	active		85
+pro_31_08_01	STRICT	Proverbs	31	8	31	8	Lemuel	human	4	imperative	Speak up for those who cannot speak	wisdom	individual	communication	5	active		100
+pro_31_09_01	STRICT	Proverbs	31	9	31	9	Lemuel	human	4	imperative	Judge righteously and defend the poor	wisdom	individual	governance	5	active	pro_31_08_01	100
+ecc_05_01_01	STRICT	Ecclesiastes	5	1	5	1	Teacher	human	4	imperative	Guard your steps when going to the house of God	wisdom	individual	moral_behavior	5	active		100
+ecc_05_01_02	STRICT	Ecclesiastes	5	1	5	1	Teacher	human	4	imperative	Draw near to listen rather than to offer sacrifice of fools	wisdom	individual	moral_behavior	5	active	ecc_05_01_01	100
+ecc_05_02_01	STRICT	Ecclesiastes	5	2	5	2	Teacher	human	4	prohibition	Do not be rash with your mouth	wisdom	individual	communication	4	active		100
+ecc_05_02_02	STRICT	Ecclesiastes	5	2	5	2	Teacher	human	4	prohibition	Do not let your heart be hasty to utter a word before God	wisdom	individual	communication	5	active	ecc_05_02_01	100
+ecc_05_04_01	STRICT	Ecclesiastes	5	4	5	5	Teacher	human	4	imperative	Fulfill your vow to God	wisdom	individual	ritual_behavior	5	active		100
+ecc_05_04_02	STRICT	Ecclesiastes	5	4	5	5	Teacher	human	4	prohibition	Do not delay paying vows	wisdom	individual	ritual_behavior	5	active	ecc_05_04_01	100
+ecc_05_06_01	STRICT	Ecclesiastes	5	6	5	6	Teacher	human	4	prohibition	Do not let your mouth lead you into sin	wisdom	individual	communication	5	active		100
+ecc_05_06_02	STRICT	Ecclesiastes	5	6	5	6	Teacher	human	4	prohibition	Do not say before the messenger it was a mistake	wisdom	individual	communication	4	active	ecc_05_06_01	100
+ecc_05_07_01	THEMATIC	Ecclesiastes	5	7	5	7	Teacher	human	4	imperative	Fear God over empty words	wisdom	individual	moral_behavior	5	active		90
+ecc_07_02_01	THEMATIC	Ecclesiastes	7	2	7	2	Teacher	human	4	imperative	Consider the reality of death	wisdom	individual	moral_behavior	4	active		85
+ecc_07_09_01	STRICT	Ecclesiastes	7	9	7	9	Teacher	human	4	prohibition	Do not be quickly provoked in your spirit	wisdom	individual	moral_behavior	4	active		100
+ecc_07_10_01	STRICT	Ecclesiastes	7	10	7	10	Teacher	human	4	prohibition	Do not say why were the former days better	wisdom	individual	moral_behavior	3	active		100
+ecc_07_14_01	THEMATIC	Ecclesiastes	7	14	7	14	Teacher	human	4	imperative	Consider God’s work in prosperity and adversity	wisdom	individual	moral_behavior	4	active		85
+ecc_07_16_01	STRICT	Ecclesiastes	7	16	7	16	Teacher	human	4	prohibition	Do not be overly righteous	wisdom	individual	moral_behavior	3	active		100
+ecc_07_16_02	STRICT	Ecclesiastes	7	16	7	16	Teacher	human	4	prohibition	Do not make yourself too wise	wisdom	individual	moral_behavior	3	active	ecc_07_16_01	100
+ecc_07_17_01	STRICT	Ecclesiastes	7	17	7	17	Teacher	human	4	prohibition	Do not be overly wicked	wisdom	individual	moral_behavior	5	active		100
+ecc_07_17_02	STRICT	Ecclesiastes	7	17	7	17	Teacher	human	4	prohibition	Do not be a fool	wisdom	individual	moral_behavior	5	active	ecc_07_17_01	100
+ecc_07_18_01	THEMATIC	Ecclesiastes	7	18	7	18	Teacher	human	4	imperative	Take hold of instruction and fear God	wisdom	individual	moral_behavior	5	active		85
+ecc_07_21_01	STRICT	Ecclesiastes	7	21	7	21	Teacher	human	4	prohibition	Do not take to heart everything people say	wisdom	individual	moral_behavior	3	active		100
+ecc_08_02_01	STRICT	Ecclesiastes	8	2	8	2	Teacher	human	4	imperative	Keep the king’s command	wisdom	national	governance	4	active		100
+ecc_08_03_01	STRICT	Ecclesiastes	8	3	8	3	Teacher	human	4	prohibition	Do not be in a hurry to leave his presence	wisdom	national	governance	3	active	ecc_08_02_01	100
+ecc_08_03_02	STRICT	Ecclesiastes	8	3	8	3	Teacher	human	4	prohibition	Do not stand in an evil cause	wisdom	national	moral_behavior	5	active	ecc_08_02_01	100
+ecc_08_12_01	THEMATIC	Ecclesiastes	8	12	8	12	Teacher	human	4	imperative	Fear God though judgment is delayed	wisdom	individual	moral_behavior	5	active		90
+ecc_09_07_01	STRICT	Ecclesiastes	9	7	9	7	Teacher	human	4	imperative	Go eat your bread with joy	wisdom	individual	moral_behavior	2	active		100
+ecc_09_07_02	STRICT	Ecclesiastes	9	7	9	7	Teacher	human	4	imperative	Drink your wine with a merry heart	wisdom	individual	moral_behavior	2	active	ecc_09_07_01	100
+ecc_09_08_01	STRICT	Ecclesiastes	9	8	9	8	Teacher	human	4	imperative	Let your garments always be white	wisdom	individual	moral_behavior	2	active		100
+ecc_09_08_02	STRICT	Ecclesiastes	9	8	9	8	Teacher	human	4	imperative	Let your head lack no oil	wisdom	individual	moral_behavior	2	active	ecc_09_08_01	100
+ecc_09_09_01	STRICT	Ecclesiastes	9	9	9	9	Teacher	human	4	imperative	Enjoy life with your wife	wisdom	family	moral_behavior	3	active		100
+ecc_09_10_01	STRICT	Ecclesiastes	9	10	9	10	Teacher	human	4	imperative	Do whatever your hand finds with all your might	wisdom	individual	moral_behavior	4	active		100
+ecc_10_04_01	STRICT	Ecclesiastes	10	4	10	4	Teacher	human	4	prohibition	Do not leave your post when authority rises against you	wisdom	national	governance	3	active		100
+ecc_10_18_01	THEMATIC	Ecclesiastes	10	18	10	18	Teacher	human	4	imperative	Avoid laziness in responsibility	wisdom	individual	moral_behavior	4	active		85
+ecc_10_20_01	STRICT	Ecclesiastes	10	20	10	20	Teacher	human	4	prohibition	Do not curse the king even in thought	wisdom	national	communication	4	active		100
+ecc_10_20_02	STRICT	Ecclesiastes	10	20	10	20	Teacher	human	4	prohibition	Do not curse the rich in your bedroom	wisdom	individual	communication	3	active	ecc_10_20_01	100
+ecc_11_01_01	THEMATIC	Ecclesiastes	11	1	11	1	Teacher	human	4	imperative	Invest generously despite uncertainty	wisdom	individual	economic_behavior	4	active		90
+ecc_11_04_01	THEMATIC	Ecclesiastes	11	4	11	4	Teacher	human	4	prohibition	Do not wait for perfect conditions to act	wisdom	individual	moral_behavior	4	active		90
+ecc_11_06_01	STRICT	Ecclesiastes	11	6	11	6	Teacher	human	4	imperative	Sow your seed morning and evening	wisdom	individual	economic_behavior	4	active		100
+ecc_11_09_01	STRICT	Ecclesiastes	11	9	11	9	Teacher	human	4	imperative	Rejoice in your youth	wisdom	individual	moral_behavior	2	active		100
+ecc_11_09_02	STRICT	Ecclesiastes	11	9	11	9	Teacher	human	4	imperative	Walk in the ways of your heart and sight	wisdom	individual	moral_behavior	2	active	ecc_11_09_01	100
+ecc_11_09_03	THEMATIC	Ecclesiastes	11	9	11	9	Teacher	human	4	imperative	Remember God will bring judgment	wisdom	individual	moral_behavior	5	active	ecc_11_09_01	90
+ecc_11_10_01	STRICT	Ecclesiastes	11	10	11	10	Teacher	human	4	imperative	Remove sorrow and put away evil	wisdom	individual	moral_behavior	4	active		100
+ecc_12_01_01	STRICT	Ecclesiastes	12	1	12	1	Teacher	human	4	imperative	Remember your Creator in youth	wisdom	individual	moral_behavior	5	active		100
+ecc_12_13_01	STRICT	Ecclesiastes	12	13	12	13	Teacher	human	4	imperative	Fear God and keep His commandments	wisdom	individual	moral_behavior	5	active	ecc_12_01_01	100
+son_01_02_01	STRICT	Song of Solomon	1	2	1	2	Beloved	divine/human	3	declarative	Let him kiss me with the kisses of his mouth	wisdom	individual	moral_behavior	2	active		100
+son_01_04_01	STRICT	Song of Solomon	1	4	1	4	Beloved	divine/human	3	declarative	Draw me after you; let us run	wisdom	individual	migration	2	active	son_01_02_01	100
+son_01_06_01	STRICT	Song of Solomon	1	6	1	6	Beloved	divine/human	3	declarative	Do not stare because I am dark	ethics	individual	communication	2	active		100
+son_01_07_01	STRICT	Song of Solomon	1	7	1	7	Beloved	divine/human	3	imperative	Tell me where you pasture your flock	wisdom	individual	communication	3	active		100
+son_02_04_01	STRICT	Song of Solomon	2	4	2	4	Lover	divine/human	3	declarative	He brought me to the banqueting house	wisdom	individual	migration	2	active	son_01_04_01	100
+son_02_07_01	STRICT	Song of Solomon	2	7	2	7	Beloved	divine/human	3	imperative	Do not awaken love before it desires	ethics	individual	moral_behavior	5	active		100
+son_02_15_01	STRICT	Song of Solomon	2	15	2	15	Beloved	divine/human	3	imperative	Catch the foxes that spoil vineyards	ethics	family	moral_behavior	3	active		100
+son_03_04_01	STRICT	Song of Solomon	3	4	3	4	Beloved	divine/human	3	declarative	I found him whom my soul loves	wisdom	individual	moral_behavior	2	active	son_02_04_01	100
+son_04_01_01	STRICT	Song of Solomon	4	1	4	1	Lover	divine/human	3	declarative	Behold you are beautiful my love	wisdom	individual	moral_behavior	2	active		100
+son_04_07_01	STRICT	Song of Solomon	4	7	4	7	Lover	divine/human	3	declarative	You are altogether beautiful my love	wisdom	individual	moral_behavior	2	active	son_04_01_01	100
+son_05_01_01	STRICT	Song of Solomon	5	1	5	1	Lover	divine/human	3	imperative	Eat and drink friends; be intoxicated with love	wisdom	individual	moral_behavior	2	active		100
+son_05_16_01	STRICT	Song of Solomon	5	16	5	16	Beloved	divine/human	3	declarative	He is altogether lovely	wisdom	individual	moral_behavior	2	active	son_04_07_01	100
+son_06_03_01	STRICT	Song of Solomon	6	3	6	3	Beloved	divine/human	3	declarative	I am my beloved's and my beloved is mine	wisdom	individual	moral_behavior	2	active	son_03_04_01	100
+son_07_10_01	STRICT	Song of Solomon	7	10	7	10	Beloved	divine/human	3	declarative	I am my beloved's and his desire is for me	wisdom	individual	moral_behavior	2	active	son_06_03_01	100
+son_08_04_01	STRICT	Song of Solomon	8	4	8	4	Beloved	divine/human	3	imperative	Do not awaken love until it pleases	ethics	individual	moral_behavior	5	active	son_02_07_01	100
+son_08_06_01	STRICT	Song of Solomon	8	6	8	6	Beloved	divine/human	3	declarative	Love is strong as death	wisdom	individual	moral_behavior	5	active		100
+son_08_07_01	STRICT	Song of Solomon	8	7	8	7	Beloved	divine/human	3	declarative	Many waters cannot quench love	wisdom	individual	moral_behavior	5	active	son_08_06_01	100
+isa_01_16_01	STRICT	Isaiah	1	16	1	16	YHWH	divine	1	imperative	Wash yourselves; make yourselves clean	ethics	individual	moral_behavior	5	active		100
+isa_01_17_01	STRICT	Isaiah	1	17	1	17	YHWH	divine	1	imperative	Learn to do good; seek justice	ethics	national	moral_behavior	5	active	isa_01_16_01	100
+isa_01_18_01	STRICT	Isaiah	1	18	1	18	YHWH	divine	1	declarative	Though your sins are like scarlet they shall be white	judgment	individual	moral_behavior	5	active	isa_01_16_01	100
+isa_01_19_01	STRICT	Isaiah	1	19	1	19	YHWH	divine	1	imperative	If you are willing and obedient you shall eat good	ethics	individual	moral_behavior	4	active	isa_01_17_01	100
+isa_01_20_01	STRICT	Isaiah	1	20	1	20	YHWH	divine	1	prohibition	If you refuse you shall be devoured	judgment	individual	moral_behavior	5	active	isa_01_19_01	100
+isa_02_03_01	STRICT	Isaiah	2	3	2	3	YHWH	divine	1	imperative	Come let us go to the mountain of the LORD	worship	foreign_nations	migration	3	active		100
+isa_02_04_01	STRICT	Isaiah	2	4	2	4	YHWH	divine	1	declarative	They shall beat swords into plowshares	prophecy	foreign_nations	warfare	5	active	isa_02_03_01	100
+isa_02_05_01	STRICT	Isaiah	2	5	2	5	YHWH	divine	1	imperative	Walk in the light of the LORD	ethics	individual	moral_behavior	4	active		100
+isa_05_20_01	STRICT	Isaiah	5	20	5	20	YHWH	divine	1	prohibition	Woe to those who call evil good	ethics	national	moral_behavior	5	active		100
+isa_06_08_01	STRICT	Isaiah	6	8	6	8	YHWH	divine	1	imperative	Whom shall I send and who will go for us	prophecy	individual	migration	4	active		100
+isa_06_08_02	STRICT	Isaiah	6	8	6	8	Isaiah	human	4	imperative	Here am I send me	prophecy	individual	migration	4	active	isa_06_08_01	100
+isa_07_09_01	STRICT	Isaiah	7	9	7	9	YHWH	divine	1	declarative	If you do not stand firm you will not stand	ethics	national	moral_behavior	5	active		100
+isa_09_06_01	STRICT	Isaiah	9	6	9	6	YHWH	divine	1	declarative	Unto us a child is born	prophecy	national	communication	5	active		100
+isa_09_06_02	STRICT	Isaiah	9	6	9	6	YHWH	divine	1	declarative	He will be called Wonderful Counselor	prophecy	national	communication	5	active	isa_09_06_01	100
+isa_11_02_01	STRICT	Isaiah	11	2	11	2	YHWH	divine	1	declarative	The Spirit of the LORD shall rest upon him	prophecy	individual	governance	5	active		100
+isa_11_06_01	STRICT	Isaiah	11	6	11	6	YHWH	divine	1	declarative	Wolf shall dwell with lamb	prophecy	foreign_nations	communication	5	active	isa_02_04_01	100
+isa_12_03_01	STRICT	Isaiah	12	3	12	3	YHWH	divine	1	imperative	With joy you shall draw water from salvation	worship	individual	ritual_behavior	3	active		100
+isa_13_11_01	STRICT	Isaiah	13	11	13	11	YHWH	divine	1	declarative	I will punish the world for its evil	judgment	foreign_nations	moral_behavior	5	active		100
+isa_14_27_01	STRICT	Isaiah	14	27	14	27	YHWH	divine	1	declarative	The LORD has purposed and who will annul it	providence	national	governance	5	active		100
+isa_17_07_01	STRICT	Isaiah	17	7	17	7	YHWH	divine	1	declarative	Man shall look to his Maker	ethics	individual	moral_behavior	4	active		100
+isa_19_19_01	STRICT	Isaiah	19	19	19	19	YHWH	divine	1	imperative	There will be an altar to the LORD in Egypt	worship	foreign_nations	construction	4	active		100
+isa_20_03_01	STRICT	Isaiah	20	3	20	3	YHWH	divine	1	declarative	As Isaiah walked naked and barefoot	judgment	individual	communication	4	active		100
+isa_21_06_01	STRICT	Isaiah	21	6	21	6	YHWH	divine	1	imperative	Go set a watchman	judgment	national	governance	4	active		100
+isa_22_22_01	STRICT	Isaiah	22	22	22	22	YHWH	divine	1	declarative	I will place on his shoulder the key of David	covenant	national	governance	5	active		100
+isa_26_03_01	STRICT	Isaiah	26	3	26	3	YHWH	divine	1	declarative	You will keep him in perfect peace	wisdom	individual	moral_behavior	5	active		100
+isa_26_04_01	STRICT	Isaiah	26	4	26	4	YHWH	divine	1	imperative	Trust in the LORD forever	wisdom	individual	moral_behavior	5	active	isa_26_03_01	100
+isa_30_21_01	STRICT	Isaiah	30	21	30	21	YHWH	divine	1	declarative	This is the way walk in it	ethics	individual	moral_behavior	5	active		100
+isa_35_04_01	STRICT	Isaiah	35	4	35	4	YHWH	divine	1	imperative	Be strong fear not	wisdom	individual	moral_behavior	4	active		100
+isa_40_01_01	STRICT	Isaiah	40	1	40	1	YHWH	divine	1	imperative	Comfort my people	wisdom	national	communication	4	active		100
+isa_40_31_01	STRICT	Isaiah	40	31	40	31	YHWH	divine	1	declarative	Those who wait on the LORD shall renew strength	providence	individual	moral_behavior	5	active	isa_40_01_01	100
+isa_41_10_01	STRICT	Isaiah	41	10	41	10	YHWH	divine	1	imperative	Fear not for I am with you	providence	individual	moral_behavior	5	active		100
+isa_42_01_01	STRICT	Isaiah	42	1	42	1	YHWH	divine	1	declarative	My servant whom I uphold	prophecy	individual	communication	5	active		100
+isa_43_01_01	STRICT	Isaiah	43	1	43	1	YHWH	divine	1	declarative	I have redeemed you by name	providence	individual	communication	5	active	isa_40_01_01	100
+isa_43_19_01	STRICT	Isaiah	43	19	43	19	YHWH	divine	1	declarative	Behold I am doing a new thing	prophecy	national	communication	5	active		100
+isa_44_06_01	STRICT	Isaiah	44	6	44	6	YHWH	divine	1	declarative	I am the first and the last	prophecy	national	communication	5	active		100
+isa_45_22_01	STRICT	Isaiah	45	22	45	22	YHWH	divine	1	imperative	Turn to me and be saved	prophecy	foreign_nations	moral_behavior	5	active		100
+isa_46_09_01	STRICT	Isaiah	46	9	46	9	YHWH	divine	1	declarative	Remember the former things	wisdom	national	moral_behavior	4	active		100
+isa_48_17_01	STRICT	Isaiah	48	17	48	17	YHWH	divine	1	imperative	I am the LORD your God who teaches you ethics	ethics	individual	communication	5	active	isa_30_21_01	100
+isa_49_06_01	STRICT	Isaiah	49	6	49	6	YHWH	divine	1	declarative	I will make you a light to the nations	prophecy	foreign_nations	moral_behavior	5	active		100
+isa_50_04_01	STRICT	Isaiah	50	4	50	4	YHWH	divine	1	declarative	The Lord has given me the tongue of the learned	wisdom	individual	communication	4	active		100
+isa_53_05_01	STRICT	Isaiah	53	5	53	5	YHWH	divine	1	declarative	He was wounded for our transgressions	ethics	foreign_nations	moral_behavior	5	active	isa_42_01_01	100
+isa_55_01_01	STRICT	Isaiah	55	1	55	1	YHWH	divine	1	imperative	Everyone who thirsts come to waters	wisdom	foreign_nations	communication	4	active		100
+isa_55_02_01	STRICT	Isaiah	55	2	55	2	YHWH	divine	1	imperative	Listen diligently and eat what is good	wisdom	individual	moral_behavior	4	active	isa_55_01_01	100
+isa_58_06_01	STRICT	Isaiah	58	6	58	6	YHWH	divine	1	imperative	Loose the bonds of wickedness	ethics	national	judicial	5	command		100
+isa_58_10_01	STRICT	Isaiah	58	10	58	10	YHWH	divine	1	imperative	Feed the hungry and satisfy afflicted	ethics	individual	moral_behavior	5	command	isa_58_06_01	100
+isa_60_01_01	STRICT	Isaiah	60	1	60	1	YHWH	divine	1	imperative	Arise shine for your light has come	prophecy	national	moral_behavior	4	active		100
+isa_61_01_01	STRICT	Isaiah	61	1	61	1	YHWH	divine	1	declarative	The Spirit of the LORD is upon me	prophecy	individual	communication	5	active		100
+isa_61_03_01	STRICT	Isaiah	61	3	61	3	YHWH	divine	1	declarative	Give beauty for ashes	prophecy	individual	moral_behavior	5	active	isa_61_01_01	100
+isa_66_02_01	STRICT	Isaiah	66	2	66	2	YHWH	divine	1	declarative	I will look to the humble and contrite	ethics	individual	moral_behavior	5	promise		100
+isa_66_13_01	STRICT	Isaiah	66	13	66	13	YHWH	divine	1	declarative	As a mother comforts so I will comfort you	wisdom	family	communication	4	active	isa_40_01_01	100
+jer_01_05_01	STRICT	Jeremiah	1	5	1	5	YHWH	divine	1	declarative	Before I formed you I knew you	prophecy	individual	communication	5	active		100
+jer_01_07_01	STRICT	Jeremiah	1	7	1	7	YHWH	divine	1	imperative	Do not say I am a youth	prophecy	individual	communication	4	active	jer_01_05_01	100
+jer_01_08_01	STRICT	Jeremiah	1	8	1	8	YHWH	divine	1	imperative	Do not be afraid for I am with you	prophecy	individual	moral_behavior	5	active	jer_01_07_01	100
+jer_01_10_01	STRICT	Jeremiah	1	10	1	10	YHWH	divine	1	declarative	I appoint you over nations	prophecy	foreign_nations	governance	5	active		100
+jer_01_17_01	STRICT	Jeremiah	1	17	1	17	YHWH	divine	1	imperative	Stand up and speak all I command	prophecy	individual	communication	5	command	jer_01_08_01	100
+jer_02_13_01	STRICT	Jeremiah	2	13	2	13	YHWH	divine	1	declarative	My people have forsaken me	judgment	national	moral_behavior	5	rebuke		100
+jer_03_12_01	STRICT	Jeremiah	3	12	3	12	YHWH	divine	1	imperative	Return faithless Israel	judgment	national	moral_behavior	5	active		100
+jer_03_22_01	STRICT	Jeremiah	3	22	3	22	YHWH	divine	1	imperative	Return and I will heal your faithlessness	providence	individual	moral_behavior	5	active	jer_03_12_01	100
+jer_05_01_01	STRICT	Jeremiah	5	1	5	1	YHWH	divine	1	imperative	Run to and fro seek truth	ethics	national	judicial	5	command		100
+jer_05_23_01	STRICT	Jeremiah	5	23	5	23	YHWH	divine	1	declarative	They have stubborn hearts and rebellious	judgment	national	moral_behavior	5	active		100
+jer_06_16_01	STRICT	Jeremiah	6	16	6	16	YHWH	divine	1	imperative	Stand in the ways and ask for the ancient paths	ethics	individual	communication	5	command	jer_05_01_01	100
+jer_07_23_01	STRICT	Jeremiah	7	23	7	23	YHWH	divine	1	imperative	Obey my voice and I will be your God	covenant	national	communication	5	command		100
+jer_09_23_01	STRICT	Jeremiah	9	23	9	23	YHWH	divine	1	prohibition	Let not the wise boast in wisdom	wisdom	individual	moral_behavior	4	warning		100
+jer_10_23_01	STRICT	Jeremiah	10	23	10	23	YHWH	divine	1	declarative	It is not in man to direct his steps	providence	individual	moral_behavior	5	active		100
+jer_11_04_01	STRICT	Jeremiah	11	4	11	4	YHWH	divine	1	declarative	Obey my voice according to covenant	covenant	national	judicial	5	command	jer_07_23_01	100
+jer_12_16_01	STRICT	Jeremiah	12	16	12	16	YHWH	divine	1	declarative	If they learn my ways they shall be built up	ethics	foreign_nations	moral_behavior	4	promise		100
+jer_13_11_01	STRICT	Jeremiah	13	11	13	11	YHWH	divine	1	declarative	I bound Israel to me as waistband	covenant	national	moral_behavior	5	teaching		100
+jer_15_16_01	STRICT	Jeremiah	15	16	15	16	Jeremiah	human	4	declarative	Your words were found and I ate them	prophecy	individual	moral_behavior	4	response		100
+jer_16_10_01	STRICT	Jeremiah	16	10	16	10	YHWH	divine	1	declarative	This great evil is because you forsook me	judgment	national	moral_behavior	5	rebuke	jer_02_13_01	100
+jer_17_05_01	STRICT	Jeremiah	17	5	17	5	YHWH	divine	1	declarative	Cursed is the man who trusts in man	wisdom	individual	moral_behavior	5	warning		100
+jer_17_07_01	STRICT	Jeremiah	17	7	17	7	YHWH	divine	1	declarative	Blessed is the man who trusts in the LORD	wisdom	individual	moral_behavior	5	promise	jer_17_05_01	100
+jer_17_09_01	STRICT	Jeremiah	17	9	17	9	YHWH	divine	1	declarative	The heart is deceitful above all things	wisdom	individual	moral_behavior	5	active		100
+jer_18_06_01	STRICT	Jeremiah	18	6	18	6	YHWH	divine	1	declarative	Like clay in the potter's hand are you	covenant	national	moral_behavior	5	teaching		100
+jer_19_11_01	STRICT	Jeremiah	19	11	19	11	YHWH	divine	1	declarative	I will break this people as potter's vessel	judgment	national	moral_behavior	5	judgment	jer_18_06_01	100
+jer_20_09_01	STRICT	Jeremiah	20	9	20	9	Jeremiah	human	4	declarative	His word is like fire in my bones	prophecy	individual	communication	4	response	jer_01_17_01	100
+jer_21_08_01	STRICT	Jeremiah	21	8	21	8	YHWH	divine	1	declarative	I set before you life and death	prophecy	national	moral_behavior	5	active		100
+jer_22_03_01	STRICT	Jeremiah	22	3	22	3	YHWH	divine	1	imperative	Do justice and deliver the oppressed	ethics	national	judicial	5	command	jer_05_01_01	100
+jer_23_05_01	STRICT	Jeremiah	23	5	23	5	YHWH	divine	1	declarative	I will raise a righteous Branch	prophecy	national	governance	5	active		100
+jer_24_07_01	STRICT	Jeremiah	24	7	24	7	YHWH	divine	1	declarative	I will give them a heart to know me	covenant	national	moral_behavior	5	active	jer_03_22_01	100
+jer_25_11_01	STRICT	Jeremiah	25	11	25	11	YHWH	divine	1	declarative	This land shall become desolation	judgment	national	migration	5	judgment		100
+jer_29_07_01	STRICT	Jeremiah	29	7	29	7	YHWH	divine	1	imperative	Seek the welfare of the city	providence	national	moral_behavior	5	active		100
+jer_29_11_01	STRICT	Jeremiah	29	11	29	11	YHWH	divine	1	declarative	I know the plans I have for you	providence	individual	communication	5	active	jer_24_07_01	100
+jer_31_03_01	STRICT	Jeremiah	31	3	31	3	YHWH	divine	1	declarative	I have loved you with everlasting love	covenant	national	moral_behavior	5	promise		100
+jer_31_33_01	STRICT	Jeremiah	31	33	31	33	YHWH	divine	1	declarative	I will write my law on their hearts	covenant	national	moral_behavior	5	promise	jer_07_23_01	100
+jer_32_27_01	STRICT	Jeremiah	32	27	32	27	YHWH	divine	1	declarative	Is anything too hard for me	providence	national	communication	5	active		100
+jer_33_03_01	STRICT	Jeremiah	33	3	33	3	YHWH	divine	1	imperative	Call to me and I will answer you	wisdom	individual	communication	5	active		100
+jer_33_06_01	STRICT	Jeremiah	33	6	33	6	YHWH	divine	1	declarative	I will bring health and healing	providence	national	moral_behavior	5	active	jer_03_22_01	100
+jer_38_20_01	STRICT	Jeremiah	38	20	38	20	Jeremiah	human	4	imperative	Obey the voice of the LORD and it will be well	wisdom	individual	moral_behavior	5	active	jer_07_23_01	100
+jer_42_06_01	STRICT	Jeremiah	42	6	42	6	People	human	4	imperative	Whether good or bad we will obey the LORD	covenant	national	moral_behavior	5	response	jer_07_23_01	100
+jer_44_04_01	STRICT	Jeremiah	44	4	44	4	YHWH	divine	1	imperative	Do not do this abominable thing	ethics	national	judicial	5	prohibition		100
+jer_51_56_01	STRICT	Jeremiah	51	56	51	56	YHWH	divine	1	declarative	The LORD is a God of recompense	judgment	foreign_nations	judicial	5	teaching		100
+lam_01_09_01	STRICT	Lamentations	1	9	1	9	Zion (personified voice)	divine_narrative	2	imperative	Look O LORD upon my affliction	judgment	national	communication	4	active		95
+lam_01_11_01	STRICT	Lamentations	1	11	1	11	Jerusalem (voice)	divine_narrative	2	imperative	See O LORD and consider for I am despised	judgment	national	communication	4	active		95
+lam_01_20_01	STRICT	Lamentations	1	20	1	20	Jerusalem (voice)	divine_narrative	2	imperative	Look O LORD for I am in distress	judgment	national	communication	4	active		95
+lam_02_18_01	STRICT	Lamentations	2	18	2	18	Zion (voice)	divine_narrative	2	imperative	Cry aloud to the LORD O wall of Zion	judgment	national	communication	5	active		94
+lam_02_19_01	STRICT	Lamentations	2	19	2	19	Narrator	divine_narrative	2	imperative	Rise cry out in the night at the watches	judgment	national	communication	5	active		94
+lam_03_21_01	STRICT	Lamentations	3	21	3	21	Prophetic voice	divine_narrative	2	declarative	Yet this I call to mind and therefore I have hope	providence	individual	communication	4	active		96
+lam_03_40_01	STRICT	Lamentations	3	40	3	40	Prophetic voice	divine_narrative	2	imperative	Let us test and examine our ways and return to the LORD	ethics	national	moral_behavior	5	active		96
+lam_03_41_01	STRICT	Lamentations	3	41	3	41	Prophetic voice	divine_narrative	2	imperative	Let us lift up our hearts and hands to God in heaven	worship	national	ritual_behavior	5	active	lam_03_40_01	96
+lam_04_21_01	STRICT	Lamentations	4	21	4	22	Narrator	divine_narrative	2	imperative	Rejoice and be glad O daughter of Edom but judgment will pass	judgment	foreign_nations	communication	4	active		93
+lam_05_01_01	STRICT	Lamentations	5	1	5	1	Narrator	divine_narrative	2	imperative	Remember O LORD what has befallen us	judgment	national	communication	5	active		95
+lam_05_21_01	STRICT	Lamentations	5	21	5	21	Narrator	divine_narrative	2	imperative	Restore us to yourself O LORD and we shall be restored	providence	national	migration	5	active		97
+lam_05_22_01	STRICT	Lamentations	5	22	5	22	Narrator	divine_narrative	2	imperative	Renew our days as of old	providence	national	migration	5	active	lam_05_21_01	97
+eze_07_02_01	STRICT	Ezekiel	7	2	7	2	God	divine	1	declarative	The end has come upon the land	judgment	national	communication	5	active		100
+eze_07_23_01	THEMATIC	Ezekiel	7	23	7	23	God	divine	1	imperative	Prepare chains for judgment	judgment	national	judicial	5	active		85
+eze_08_06_01	THEMATIC	Ezekiel	8	6	8	6	God	divine	1	declarative	See the abominations committed here	judgment	national	communication	4	active		80
+eze_09_04_01	STRICT	Ezekiel	9	4	9	4	God	divine	1	imperative	Mark those who sigh over abominations	judgment	individual	judicial	5	active		100
+eze_09_05_01	STRICT	Ezekiel	9	5	9	5	God	divine	1	imperative	Strike without pity	judgment	national	warfare	5	active		100
+eze_11_19_01	THEMATIC	Ezekiel	11	19	11	20	God	divine	1	declarative	Walk in my statutes and keep my rules	covenant	national	moral_behavior	5	active		90
+eze_12_03_01	STRICT	Ezekiel	12	3	12	3	God	divine	1	imperative	Prepare baggage for exile	prophecy	individual	migration	4	active		100
+eze_12_06_01	STRICT	Ezekiel	12	6	12	6	God	divine	1	imperative	Carry it on your shoulder at dusk	prophecy	individual	communication	4	active	eze_12_03_01	100
+eze_12_07_01	STRICT	Ezekiel	12	7	12	7	Ezekiel	human	3	imperative	Do as commanded	prophecy	individual	moral_behavior	4	active	eze_12_03_01	100
+eze_13_02_01	STRICT	Ezekiel	13	2	13	2	God	divine	1	imperative	Prophesy against false prophets	judgment	national	communication	5	active		100
+eze_14_06_01	STRICT	Ezekiel	14	6	14	6	God	divine	1	imperative	Repent and turn from idols	ethics	national	moral_behavior	5	active		100
+eze_16_60_01	THEMATIC	Ezekiel	16	60	16	62	God	divine	1	declarative	Remember the covenant	covenant	national	communication	4	active		85
+eze_18_30_01	STRICT	Ezekiel	18	30	18	30	God	divine	1	imperative	Repent and turn from all transgressions	ethics	national	moral_behavior	5	active		100
+eze_18_31_01	STRICT	Ezekiel	18	31	18	31	God	divine	1	imperative	Make yourselves a new heart and spirit	ethics	national	moral_behavior	5	active	eze_18_30_01	100
+eze_18_32_01	THEMATIC	Ezekiel	18	32	18	32	God	divine	1	imperative	Turn and live	ethics	national	moral_behavior	5	active		95
+eze_20_07_01	STRICT	Ezekiel	20	7	20	7	God	divine	1	imperative	Cast away detestable things	ethics	national	moral_behavior	5	active		100
+eze_20_08_01	THEMATIC	Ezekiel	20	8	20	8	God	divine	1	prohibition	Do not defile yourselves with idols	ethics	national	judicial	5	active		90
+eze_20_39_01	THEMATIC	Ezekiel	20	39	20	39	God	divine	1	imperative	Go serve your idols then return	covenant	national	moral_behavior	4	contextual		70
+eze_21_09_01	STRICT	Ezekiel	21	9	21	9	God	divine	1	imperative	Prophesy and say a sword is sharpened	judgment	national	communication	5	active		100
+eze_22_02_01	STRICT	Ezekiel	22	2	22	2	God	divine	1	imperative	Judge the bloody city	judgment	national	judicial	5	active		100
+eze_23_37_01	THEMATIC	Ezekiel	23	37	23	37	God	divine	1	declarative	Expose their sins	judgment	national	judicial	5	active		80
+eze_24_16_01	STRICT	Ezekiel	24	16	24	16	God	divine	1	prohibition	Do not mourn or weep	prophecy	individual	moral_behavior	4	active		100
+eze_24_17_01	STRICT	Ezekiel	24	17	24	17	God	divine	1	imperative	Groan quietly and do not mourn	prophecy	individual	moral_behavior	4	active	eze_24_16_01	100
+eze_33_07_01	STRICT	Ezekiel	33	7	33	7	God	divine	1	imperative	Warn them from me	prophecy	national	communication	5	active		100
+eze_33_11_01	THEMATIC	Ezekiel	33	11	33	11	God	divine	1	imperative	Turn back from evil ways	ethics	national	moral_behavior	5	active		95
+eze_34_02_01	STRICT	Ezekiel	34	2	34	2	God	divine	1	imperative	Prophesy against shepherds	judgment	national	communication	5	active		100
+eze_36_27_01	THEMATIC	Ezekiel	36	27	36	27	God	divine	1	declarative	Walk in my statutes	covenant	national	judicial	5	active		90
+eze_37_04_01	STRICT	Ezekiel	37	4	37	4	God	divine	1	imperative	Prophesy over these bones	prophecy	individual	communication	5	active		100
+eze_37_09_01	STRICT	Ezekiel	37	9	37	9	God	divine	1	imperative	Prophesy to the breath	prophecy	individual	communication	5	active	eze_37_04_01	100
+eze_38_02_01	STRICT	Ezekiel	38	2	38	2	God	divine	1	imperative	Set your face against Gog	judgment	foreign_nations	communication	5	active		100
+eze_39_17_01	STRICT	Ezekiel	39	17	39	17	God	divine	1	imperative	Speak to birds and beasts to gather	judgment	national	warfare	5	active		100
+eze_43_10_01	STRICT	Ezekiel	43	10	43	10	God	divine	1	imperative	Describe the temple to the house of Israel	worship	national	communication	4	active		100
+eze_44_09_01	STRICT	Ezekiel	44	9	44	9	God	divine	1	prohibition	No foreigner shall enter my sanctuary	worship	foreign_nations	migration	5	active		100
+eze_44_23_01	STRICT	Ezekiel	44	23	44	23	God	divine	1	imperative	Teach my people the difference between holy and common	law	priesthood	communication	5	active		100
+eze_45_09_01	STRICT	Ezekiel	45	9	45	9	God	divine	1	imperative	Put away violence and oppression	law	national	moral_behavior	5	active		100
+eze_45_10_01	STRICT	Ezekiel	45	10	45	10	God	divine	1	imperative	Use just balances and measures	law	national	economic_behavior	5	active		100
+eze_46_09_01	THEMATIC	Ezekiel	46	9	46	9	God	divine	1	imperative	Enter and exit in ordered worship	worship	national	ritual_behavior	4	active		85
+eze_47_12_01	THEMATIC	Ezekiel	47	12	47	12	God	divine	1	declarative	Trees provide food and healing from the land	providence	national	communication	3	active		75
+dan_01_08_01	STRICT	Daniel	1	8	1	8	Daniel	human	4	prohibition	Do not defile yourself with the king's food	ethics	individual	moral_behavior	5	active		100
+dan_01_12_01	STRICT	Daniel	1	12	1	12	Daniel	human	4	imperative	Test your servants for ten days	wisdom	individual	communication	2	active		100
+dan_02_18_01	THEMATIC	Daniel	2	18	2	18	Daniel	human	4	imperative	Seek mercy from God concerning the mystery	ethics	individual	communication	5	active		95
+dan_02_21_01	THEMATIC	Daniel	2	21	2	21	Narration	divine	2	declarative	God removes kings and sets up kings	providence	national	governance	4	active		85
+dan_03_16_01	THEMATIC	Daniel	3	16	3	18	Shadrach/Meshach/Abednego	human	4	prohibition	Do not serve other gods or worship the image	ethics	national	ritual_behavior	5	active		95
+dan_03_28_01	THEMATIC	Daniel	3	28	3	29	Nebuchadnezzar	human	4	prohibition	Do not speak against the God of Israel	law	national	communication	4	active		85
+dan_04_27_01	STRICT	Daniel	4	27	4	27	Daniel	human	3	imperative	Break off your sins by practicing righteousness	ethics	individual	moral_behavior	5	active		100
+dan_05_23_01	THEMATIC	Daniel	5	23	5	23	Daniel	human	3	prohibition	Do not exalt yourself against the Lord	ethics	individual	moral_behavior	5	active		90
+dan_06_10_01	THEMATIC	Daniel	6	10	6	10	Narration	human	4	imperative	Continue praying faithfully	worship	individual	communication	5	active		90
+dan_06_26_01	STRICT	Daniel	6	26	6	26	Darius	human	4	imperative	Fear and tremble before the God of Daniel	worship	national	moral_behavior	5	active		100
+dan_07_27_01	THEMATIC	Daniel	7	27	7	27	Divine vision	divine	2	imperative	Serve and obey the Most High	covenant	national	moral_behavior	5	active		85
+dan_09_04_01	THEMATIC	Daniel	9	4	9	4	Daniel	human	4	imperative	Confess sin and seek God's mercy	law	individual	communication	5	active		95
+dan_09_11_01	THEMATIC	Daniel	9	11	9	11	Daniel	human	4	prohibition	Do not turn aside from God's law	law	national	moral_behavior	5	active		90
+dan_10_11_01	STRICT	Daniel	10	11	10	11	Angel	divine	2	imperative	Understand the words spoken to you	prophecy	individual	communication	4	active		100
+dan_10_12_01	THEMATIC	Daniel	10	12	10	12	Angel	divine	2	imperative	Set your heart to understand and humble yourself	ethics	individual	moral_behavior	5	active		90
+dan_12_03_01	THEMATIC	Daniel	12	3	12	3	Divine vision	divine	2	imperative	Lead many to righteousness	ethics	national	communication	5	active		80
+hos_01_02_01	STRICT	Hosea	1	2	1	2	God	divine	1	imperative	Go take a wife of whoredom	prophecy	individual	migration	5	active		100
+hos_01_02_02	STRICT	Hosea	1	2	1	2	God	divine	1	imperative	Have children of whoredom	prophecy	family	moral_behavior	5	active	hos_01_02_01	100
+hos_02_01_01	THEMATIC	Hosea	2	1	2	1	God	divine	1	imperative	Say to your brothers My people	covenant	family	communication	4	active		85
+hos_02_02_01	STRICT	Hosea	2	2	2	2	God	divine	1	imperative	Plead with your mother	judgment	family	communication	5	active		100
+hos_02_02_02	STRICT	Hosea	2	2	2	2	God	divine	1	imperative	Put away her whoredom from her face	ethics	family	moral_behavior	5	active	hos_02_02_01	100
+hos_02_16_01	THEMATIC	Hosea	2	16	2	16	God	divine	1	declarative	You shall call me My Husband	covenant	national	communication	4	active		80
+hos_04_01_01	THEMATIC	Hosea	4	1	4	1	God	divine	1	imperative	Hear the word of the LORD	judgment	national	communication	4	active		90
+hos_04_15_01	STRICT	Hosea	4	15	4	15	God	divine	1	prohibition	Do not go to Gilgal	judgment	national	migration	5	active		100
+hos_04_15_02	STRICT	Hosea	4	15	4	15	God	divine	1	prohibition	Do not go up to Beth-aven	judgment	national	migration	5	active	hos_04_15_01	100
+hos_06_01_01	THEMATIC	Hosea	6	1	6	1	Narration	human	4	imperative	Return to the LORD	covenant	national	moral_behavior	5	active		95
+hos_06_03_01	THEMATIC	Hosea	6	3	6	3	Narration	human	4	imperative	Press on to know the LORD	wisdom	national	moral_behavior	4	active		90
+hos_08_01_01	STRICT	Hosea	8	1	8	1	God	divine	1	imperative	Set the trumpet to your lips	prophecy	national	communication	5	active		100
+hos_10_12_01	STRICT	Hosea	10	12	10	12	God	divine	1	imperative	Sow righteousness	ethics	national	moral_behavior	5	active		100
+hos_10_12_02	STRICT	Hosea	10	12	10	12	God	divine	1	imperative	Reap steadfast love	ethics	national	moral_behavior	5	active	hos_10_12_01	100
+hos_10_12_03	STRICT	Hosea	10	12	10	12	God	divine	1	imperative	Break up your fallow ground	ethics	national	construction	5	active	hos_10_12_01	100
+hos_10_12_04	STRICT	Hosea	10	12	10	12	God	divine	1	imperative	Seek the LORD	ethics	national	moral_behavior	5	active	hos_10_12_01	100
+hos_12_06_01	STRICT	Hosea	12	6	12	6	God	divine	1	imperative	Return to your God	covenant	national	moral_behavior	5	active		100
+hos_12_06_02	STRICT	Hosea	12	6	12	6	God	divine	1	imperative	Hold fast to love and justice	ethics	national	moral_behavior	5	active	hos_12_06_01	100
+hos_12_06_03	STRICT	Hosea	12	6	12	6	God	divine	1	imperative	Wait continually for your God	covenant	national	moral_behavior	5	active	hos_12_06_01	100
+hos_14_01_01	STRICT	Hosea	14	1	14	1	God	divine	1	imperative	Return O Israel to the LORD your God	ethics	national	moral_behavior	5	active		100
+hos_14_02_01	STRICT	Hosea	14	2	14	2	God	divine	1	imperative	Take with you words and return to the LORD	ethics	national	communication	5	active	hos_14_01_01	100
+hos_14_02_02	STRICT	Hosea	14	2	14	2	God	divine	1	imperative	Say Take away all iniquity	ethics	national	communication	5	active	hos_14_01_01	100
+hos_14_09_01	THEMATIC	Hosea	14	9	14	9	Narration	human	4	imperative	Walk in the ways of the LORD	wisdom	individual	moral_behavior	5	active		90
+joe_01_14_01	STRICT	Joel	1	14	1	14	God	divine	1	imperative	Call a sacred fast	judgment	national	ritual_behavior	5	active		100
+joe_01_14_02	STRICT	Joel	1	14	1	14	God	divine	1	imperative	Call a solemn assembly	judgment	national	governance	5	active	joe_01_14_01	100
+joe_01_14_03	STRICT	Joel	1	14	1	14	God	divine	1	imperative	Gather the elders	judgment	national	governance	5	active	joe_01_14_01	100
+joe_01_14_04	STRICT	Joel	1	14	1	14	God	divine	1	imperative	Cry out to the LORD	judgment	national	communication	5	active	joe_01_14_01	100
+joe_01_15_01	THEMATIC	Joel	1	15	1	15	Narration	divine	2	declarative	The day of the LORD is near	judgment	national	communication	5	active		90
+joe_01_19_01	STRICT	Joel	1	19	1	19	God	divine	1	imperative	Cry out to you O LORD	prophecy	individual	communication	5	active		100
+joe_01_20_01	STRICT	Joel	1	20	1	20	God	divine	1	imperative	Call to you O LORD	prophecy	individual	communication	5	active	joe_01_19_01	100
+joe_02_01_01	STRICT	Joel	2	1	2	1	God	divine	1	imperative	Blow the trumpet in Zion	judgment	national	communication	5	active		100
+joe_02_12_01	STRICT	Joel	2	12	2	12	God	divine	1	imperative	Return to me with all your heart	ethics	national	moral_behavior	5	active		100
+joe_02_13_01	STRICT	Joel	2	13	2	13	God	divine	1	imperative	Rend your hearts and not your garments	ethics	national	moral_behavior	5	active	joe_02_12_01	100
+joe_02_13_02	STRICT	Joel	2	13	2	13	God	divine	1	imperative	Return to the LORD your God	ethics	national	moral_behavior	5	active	joe_02_12_01	100
+joe_02_14_01	THEMATIC	Joel	2	14	2	14	Narration	human	4	declarative	Who knows if he will relent	providence	national	communication	4	active		80
+joe_02_15_01	STRICT	Joel	2	15	2	15	God	divine	1	imperative	Blow the trumpet in Zion again	judgment	national	communication	5	active	joe_02_01_01	100
+joe_02_16_01	STRICT	Joel	2	16	2	16	God	divine	1	imperative	Gather the people	judgment	national	governance	5	active	joe_02_15_01	100
+joe_02_16_02	STRICT	Joel	2	16	2	16	God	divine	1	imperative	Sanctify the congregation	worship	national	ritual_behavior	5	active	joe_02_16_01	100
+joe_02_17_01	STRICT	Joel	2	17	2	17	God	divine	1	imperative	Let the priests weep between porch and altar	worship	priesthood	communication	5	active		100
+joe_02_21_01	THEMATIC	Joel	2	21	2	21	Narration	human	4	imperative	Fear not O land	narrative	national	moral_behavior	3	active		85
+joe_02_23_01	THEMATIC	Joel	2	23	2	23	Narration	divine	2	declarative	He has given the early rain	wisdom	national	communication	3	active		80
+joe_02_25_01	THEMATIC	Joel	2	25	2	25	Narration	divine	2	declarative	I will restore the years the locusts have eaten	prophecy	national	communication	4	active		85
+joe_02_27_01	THEMATIC	Joel	2	27	2	27	Narration	divine	2	declarative	You shall know I am in the midst of Israel	covenant	national	communication	4	active		85
+joe_02_28_01	THEMATIC	Joel	2	28	2	28	God	divine	1	declarative	I will pour out my Spirit	prophecy	national	communication	4	active		90
+joe_02_29_01	THEMATIC	Joel	2	29	2	29	God	divine	1	declarative	Your sons and daughters shall prophesy	prophecy	national	communication	4	active	joe_02_28_01	90
+joe_03_09_01	STRICT	Joel	3	9	3	9	God	divine	1	imperative	Prepare for war	judgment	national	warfare	5	active		100
+joe_03_12_01	STRICT	Joel	3	12	3	12	God	divine	1	imperative	Let the nations arise	judgment	foreign_nations	warfare	5	active	joe_03_09_01	100
+joe_03_14_01	THEMATIC	Joel	3	14	3	14	Narration	human	4	declarative	The day of the LORD is near again	judgment	national	communication	5	active		85
+joe_03_17_01	THEMATIC	Joel	3	17	3	17	Narration	divine	2	declarative	I am the LORD your God	covenant	national	communication	5	active		90
+joe_03_18_01	THEMATIC	Joel	3	18	3	18	Narration	divine	2	declarative	The mountains shall drip wine	prophecy	national	communication	3	active		75
+joe_03_21_01	THEMATIC	Joel	3	21	3	21	Narration	divine	2	declarative	The LORD dwells in Zion	covenant	national	communication	4	active		85
+amo_01_02_01	THEMATIC	Amos	1	2	1	2	God	divine	1	declarative	The LORD roars from Zion	judgment	national	communication	5	active		85
+amo_02_06_01	STRICT	Amos	2	6	2	6	God	divine	1	prohibition	Do not sell the righteous for silver	law	national	economic_behavior	5	active		100
+amo_02_07_01	STRICT	Amos	2	7	2	7	God	divine	1	prohibition	Do not trample the head of the poor	law	national	moral_behavior	5	active	amo_02_06_01	100
+amo_03_01_01	THEMATIC	Amos	3	1	3	1	God	divine	1	declarative	Hear this word against Israel	judgment	national	communication	4	active		90
+amo_03_06_01	THEMATIC	Amos	3	6	3	6	Narration	divine	2	declarative	Does disaster come without the LORD	judgment	national	communication	4	active		80
+amo_03_10_01	THEMATIC	Amos	3	10	3	10	God	divine	1	declarative	They do not know how to do right	ethics	national	moral_behavior	4	active		85
+amo_04_01_01	STRICT	Amos	4	1	4	1	God	divine	1	prohibition	Do not oppress the poor	wisdom	national	moral_behavior	5	active		100
+amo_04_04_01	STRICT	Amos	4	4	4	4	God	divine	1	imperative	Come to Bethel and transgress	judgment	national	ritual_behavior	5	contextual		100
+amo_04_05_01	STRICT	Amos	4	5	4	5	God	divine	1	imperative	Offer sacrifices of thanksgiving	worship	national	ritual_behavior	4	contextual		100
+amo_04_06_01	THEMATIC	Amos	4	6	4	6	God	divine	1	declarative	Yet you did not return to me	ethics	national	moral_behavior	5	active		90
+amo_04_12_01	THEMATIC	Amos	4	12	4	12	God	divine	1	imperative	Prepare to meet your God	judgment	national	moral_behavior	5	active		95
+amo_05_04_01	STRICT	Amos	5	4	5	4	God	divine	1	imperative	Seek me and live	ethics	individual	moral_behavior	5	active		100
+amo_05_05_01	STRICT	Amos	5	5	5	5	God	divine	1	prohibition	Do not seek Bethel	ethics	national	moral_behavior	5	active	amo_05_04_01	100
+amo_05_06_01	STRICT	Amos	5	6	5	6	God	divine	1	imperative	Seek the LORD and live	ethics	individual	moral_behavior	5	active	amo_05_04_01	100
+amo_05_07_01	THEMATIC	Amos	5	7	5	7	Narration	human	4	declarative	You turn justice into wormwood	judgment	national	judicial	5	active		85
+amo_05_10_01	STRICT	Amos	5	10	5	10	God	divine	1	prohibition	Do not hate him who reproves in the gate	ethics	national	communication	5	active		100
+amo_05_14_01	STRICT	Amos	5	14	5	14	God	divine	1	imperative	Seek good and not evil	ethics	national	moral_behavior	5	active		100
+amo_05_15_01	STRICT	Amos	5	15	5	15	God	divine	1	imperative	Hate evil and love good	ethics	national	moral_behavior	5	active	amo_05_14_01	100
+amo_05_21_01	STRICT	Amos	5	21	5	21	God	divine	1	prohibition	I reject your feasts	worship	national	ritual_behavior	5	contextual		100
+amo_05_24_01	THEMATIC	Amos	5	24	5	24	God	divine	1	imperative	Let justice roll down like waters	ethics	national	judicial	5	active		95
+amo_06_01_01	THEMATIC	Amos	6	1	6	1	Narration	human	4	declarative	Woe to those at ease in Zion	judgment	national	moral_behavior	5	active		80
+amo_06_04_01	STRICT	Amos	6	4	6	4	God	divine	1	prohibition	Do not lie on ivory beds	ethics	national	moral_behavior	4	active		100
+amo_06_05_01	THEMATIC	Amos	6	5	6	5	Narration	human	4	declarative	You sing idle songs	ethics	national	communication	4	active		80
+amo_06_06_01	STRICT	Amos	6	6	6	6	God	divine	1	prohibition	Do not drink wine in bowls	ethics	national	moral_behavior	4	active		100
+amo_06_07_01	STRICT	Amos	6	7	6	7	God	divine	1	declarative	You shall go into exile	judgment	national	migration	5	active		100
+amo_07_02_01	THEMATIC	Amos	7	2	7	2	Amos	human	3	imperative	Spare your people O LORD	ethics	national	communication	5	active		90
+amo_07_03_01	THEMATIC	Amos	7	3	7	3	God	divine	1	declarative	The LORD relented	judgment	national	communication	4	active		85
+amo_07_14_01	THEMATIC	Amos	7	14	7	14	Amos	human	3	declarative	I was not a prophet	narrative	individual	communication	4	active		80
+amo_08_04_01	STRICT	Amos	8	4	8	4	God	divine	1	prohibition	Do not trample the needy	ethics	national	moral_behavior	5	active		100
+amo_08_11_01	THEMATIC	Amos	8	11	8	11	God	divine	1	declarative	I will send a famine of hearing words	judgment	national	communication	5	active		85
+amo_09_11_01	THEMATIC	Amos	9	11	9	11	God	divine	1	declarative	I will raise up David's fallen tent	covenant	national	construction	4	active		90
+amo_09_13_01	THEMATIC	Amos	9	13	9	13	Narration	divine	2	declarative	The mountains shall drip wine	providence	national	communication	3	active		75
+amo_09_15_01	THEMATIC	Amos	9	15	9	15	God	divine	1	declarative	I will plant them on their land	covenant	national	migration	4	active		90
+oba_01_01_01	THEMATIC	Obadiah	1	1	1	1	Narration	divine	2	declarative	A vision concerning Edom	judgment	foreign_nations	communication	4	active		80
+oba_01_03_01	THEMATIC	Obadiah	1	3	1	3	Narration	divine	2	declarative	Pride has deceived you	ethics	foreign_nations	moral_behavior	5	active		85
+oba_01_04_01	THEMATIC	Obadiah	1	4	1	4	God	divine	1	declarative	Though you soar like the eagle you will be brought down	judgment	foreign_nations	communication	5	active		85
+oba_01_10_01	STRICT	Obadiah	1	10	1	10	God	divine	1	prohibition	Do not stand against your brother Jacob	ethics	foreign_nations	moral_behavior	5	active		100
+oba_01_11_01	THEMATIC	Obadiah	1	11	1	11	God	divine	1	declarative	You stood aloof on the day of disaster	ethics	foreign_nations	moral_behavior	5	active		85
+oba_01_12_01	STRICT	Obadiah	1	12	1	12	God	divine	1	prohibition	Do not gloat over Judah's destruction	ethics	foreign_nations	communication	5	active		100
+oba_01_13_01	STRICT	Obadiah	1	13	1	13	God	divine	1	prohibition	Do not enter the gate of my people	ethics	foreign_nations	migration	5	active		100
+oba_01_14_01	STRICT	Obadiah	1	14	1	14	God	divine	1	prohibition	Do not hand over survivors	ethics	foreign_nations	moral_behavior	5	active		100
+oba_01_15_01	THEMATIC	Obadiah	1	15	1	15	God	divine	1	declarative	The day of the LORD is near	judgment	foreign_nations	communication	5	active		90
+oba_01_17_01	THEMATIC	Obadiah	1	17	1	17	God	divine	1	declarative	On Mount Zion there will be deliverance	covenant	national	communication	4	active		90
+oba_01_18_01	THEMATIC	Obadiah	1	18	1	18	God	divine	1	declarative	The house of Jacob will be fire	covenant	national	warfare	4	active		85
+oba_01_21_01	THEMATIC	Obadiah	1	21	1	21	God	divine	1	declarative	The kingdom shall be the LORD's	covenant	national	governance	5	active		90
+jon_01_02_01	STRICT	Jonah	1	2	1	2	God	divine	1	imperative	Arise and go to Nineveh	prophecy	individual	migration	5	active		100
+jon_01_03_01	STRICT	Jonah	1	3	1	3	Jonah	human	4	declarative	Jonah fled from the presence of the LORD	narrative	individual	migration	5	active	jon_01_02_01	100
+jon_01_04_01	THEMATIC	Jonah	1	4	1	4	God	divine	1	declarative	The LORD hurled a great wind	providence	individual	communication	4	active		85
+jon_01_06_01	STRICT	Jonah	1	6	1	6	Captain	human	4	imperative	Arise call on your God	prophecy	individual	communication	4	active		100
+jon_01_12_01	STRICT	Jonah	1	12	1	12	Jonah	human	4	imperative	Take me up and cast me into the sea	prophecy	individual	migration	5	active		100
+jon_01_15_01	THEMATIC	Jonah	1	15	1	15	Narration	divine	2	declarative	The sea ceased from its raging	providence	individual	communication	3	active		80
+jon_01_17_01	THEMATIC	Jonah	1	17	1	17	God	divine	1	declarative	The LORD appointed a great fish	providence	individual	communication	4	active		85
+jon_02_02_01	STRICT	Jonah	2	2	2	2	Jonah	human	4	declarative	I called out to the LORD from distress	prophecy	individual	communication	5	active		100
+jon_02_10_01	THEMATIC	Jonah	2	10	2	10	Narration	divine	2	declarative	The LORD spoke to the fish	providence	individual	communication	4	active		85
+jon_03_02_01	STRICT	Jonah	3	2	3	2	God	divine	1	imperative	Arise go to Nineveh and proclaim it	prophecy	national	migration	5	active	jon_01_02_01	100
+jon_03_05_01	THEMATIC	Jonah	3	5	3	5	Narration	human	4	declarative	The people of Nineveh believed God	ethics	national	moral_behavior	5	active		95
+jon_03_07_01	STRICT	Jonah	3	7	3	7	King of Nineveh	human	4	imperative	Let neither man nor beast taste anything	ethics	national	ritual_behavior	5	active		100
+jon_03_08_01	STRICT	Jonah	3	8	3	8	King of Nineveh	human	4	imperative	Let everyone turn from evil ways	ethics	national	moral_behavior	5	active	jon_03_07_01	100
+jon_03_10_01	THEMATIC	Jonah	3	10	3	10	Narration	divine	2	declarative	God relented from disaster	judgment	national	communication	4	active		90
+jon_04_02_01	STRICT	Jonah	4	2	4	2	Jonah	human	4	declarative	I knew you are a gracious God	ethics	individual	moral_behavior	4	active		100
+jon_04_04_01	STRICT	Jonah	4	4	4	4	God	divine	1	imperative	Is it right for you to be angry?	ethics	individual	communication	5	active		100
+jon_04_06_01	THEMATIC	Jonah	4	6	4	6	God	divine	1	declarative	The LORD appointed a plant	providence	individual	communication	4	active		85
+jon_04_10_01	THEMATIC	Jonah	4	10	4	10	God	divine	1	declarative	You pity the plant more than people	ethics	individual	moral_behavior	5	active		90
+jon_04_11_01	THEMATIC	Jonah	4	11	4	11	God	divine	1	imperative	Should I not pity Nineveh	ethics	national	moral_behavior	5	active		95
+mic_01_02_01	THEMATIC	Micah	1	2	1	2	God	divine	1	declarative	Hear all you peoples	judgment	foreign_nations	communication	4	active		90
+mic_02_01_01	STRICT	Micah	2	1	2	1	God	divine	1	prohibition	Do not devise evil on your beds	ethics	individual	moral_behavior	5	active		100
+mic_02_02_01	STRICT	Micah	2	2	2	2	God	divine	1	prohibition	Do not covet fields and seize them	law	national	moral_behavior	5	active	mic_02_01_01	100
+mic_02_07_01	THEMATIC	Micah	2	7	2	7	Narration	divine	2	declarative	Do my words do good to those who walk uprightly	wisdom	individual	communication	4	active		85
+mic_03_01_01	THEMATIC	Micah	3	1	3	1	God	divine	1	imperative	Hear you heads of Jacob	judgment	national	communication	5	active		90
+mic_03_02_01	STRICT	Micah	3	2	3	2	God	divine	1	prohibition	Do not love evil	ethics	individual	moral_behavior	5	active		100
+mic_03_09_01	THEMATIC	Micah	3	9	3	9	God	divine	1	declarative	You detest justice	ethics	national	moral_behavior	5	active		85
+mic_03_11_01	THEMATIC	Micah	3	11	3	11	Narration	divine	2	declarative	Her priests teach for a price	ethics	priesthood	moral_behavior	5	active		85
+mic_03_12_01	THEMATIC	Micah	3	12	3	12	God	divine	1	declarative	Zion shall be plowed as a field	judgment	national	governance	5	active		90
+mic_04_02_01	THEMATIC	Micah	4	2	4	2	Narration	divine	2	declarative	Let us go up to the mountain of the LORD	worship	national	migration	4	active		85
+mic_04_03_01	THEMATIC	Micah	4	3	4	3	God	divine	1	declarative	They shall beat swords into plowshares	prophecy	foreign_nations	construction	5	active		90
+mic_04_04_01	THEMATIC	Micah	4	4	4	4	Narration	divine	2	declarative	They shall sit under vine and fig tree	prophecy	national	communication	4	active		85
+mic_05_02_01	THEMATIC	Micah	5	2	5	2	God	divine	1	declarative	A ruler will come from Bethlehem	covenant	national	communication	4	active		90
+mic_05_04_01	THEMATIC	Micah	5	4	5	4	God	divine	1	declarative	He shall stand and shepherd in strength	covenant	national	governance	4	active		85
+mic_06_01_01	THEMATIC	Micah	6	1	6	1	God	divine	1	imperative	Arise plead your case before the mountains	judgment	national	communication	5	active		90
+mic_06_06_01	STRICT	Micah	6	6	6	6	Narration	human	4	imperative	What does the LORD require of you	ethics	individual	communication	5	active		100
+mic_06_08_01	STRICT	Micah	6	8	6	8	God	divine	1	imperative	Do justice	ethics	national	judicial	5	active		100
+mic_06_08_02	STRICT	Micah	6	8	6	8	God	divine	1	imperative	Love mercy	ethics	national	moral_behavior	5	active	mic_06_08_01	100
+mic_06_08_03	STRICT	Micah	6	8	6	8	God	divine	1	imperative	Walk humbly with your God	ethics	individual	moral_behavior	5	active	mic_06_08_01	100
+mic_06_10_01	STRICT	Micah	6	10	6	10	God	divine	1	prohibition	Do not use dishonest scales	law	national	moral_behavior	5	active		100
+mic_06_13_01	THEMATIC	Micah	6	13	6	13	God	divine	1	declarative	I have begun to strike you	judgment	national	communication	5	active		85
+mic_07_02_01	THEMATIC	Micah	7	2	7	2	Narration	human	4	declarative	The faithful have perished	judgment	national	communication	4	active		80
+mic_07_07_01	THEMATIC	Micah	7	7	7	7	Narration	human	4	imperative	I will wait for the God of my salvation	wisdom	individual	moral_behavior	5	active		90
+mic_07_08_01	THEMATIC	Micah	7	8	7	8	Narration	human	4	imperative	Do not rejoice over me my enemy	ethics	individual	communication	4	active		85
+mic_07_18_01	THEMATIC	Micah	7	18	7	18	Narration	divine	2	declarative	He delights in steadfast love	covenant	national	communication	4	active		90
+mic_07_19_01	THEMATIC	Micah	7	19	7	19	Narration	divine	2	declarative	He will tread our iniquities underfoot	covenant	national	communication	4	active		90
+mic_07_20_01	THEMATIC	Micah	7	20	7	20	Narration	divine	2	declarative	You will show faithfulness to Jacob	covenant	national	communication	4	active		90
+nah_01_02_01	THEMATIC	Nahum	1	2	1	2	God	divine	1	declarative	The LORD is jealous and avenging	judgment	national	communication	5	active		90
+nah_01_03_01	THEMATIC	Nahum	1	3	1	3	Narration	divine	2	declarative	The LORD is slow to anger but great in power	judgment	national	communication	4	active		85
+nah_01_07_01	THEMATIC	Nahum	1	7	1	7	God	divine	1	declarative	The LORD is good, a stronghold in trouble	covenant	individual	communication	4	active		90
+nah_01_09_01	STRICT	Nahum	1	9	1	9	God	divine	1	prohibition	Do not plot evil against the LORD	ethics	national	moral_behavior	5	active		100
+nah_01_14_01	THEMATIC	Nahum	1	14	1	14	God	divine	1	declarative	No more descendants of the wicked shall remain	judgment	national	communication	5	active		90
+nah_02_01_01	THEMATIC	Nahum	2	1	2	1	Narration	human	4	imperative	He who scatters has come against you	judgment	foreign_nations	warfare	4	active		80
+nah_02_03_01	THEMATIC	Nahum	2	3	2	3	Narration	divine	2	declarative	The shields of his mighty men are red	judgment	foreign_nations	warfare	4	active		80
+nah_02_10_01	THEMATIC	Nahum	2	10	2	10	Narration	divine	2	declarative	Desolation, ruin, and waste	judgment	foreign_nations	warfare	5	active		85
+nah_02_13_01	THEMATIC	Nahum	2	13	2	13	God	divine	1	declarative	I am against you declares the LORD	judgment	foreign_nations	judicial	5	active		95
+nah_03_01_01	THEMATIC	Nahum	3	1	3	1	God	divine	1	declarative	Woe to the bloody city	judgment	foreign_nations	judicial	5	active		90
+nah_03_04_01	THEMATIC	Nahum	3	4	3	4	God	divine	1	declarative	Because of many harlotries	ethics	foreign_nations	moral_behavior	5	active		85
+nah_03_05_01	THEMATIC	Nahum	3	5	3	5	God	divine	1	declarative	I am against you declares the LORD of hosts	judgment	foreign_nations	judicial	5	active		95
+nah_03_07_01	THEMATIC	Nahum	3	7	3	7	God	divine	1	declarative	All who see you will flee from you	judgment	foreign_nations	migration	5	active		85
+nah_03_08_01	THEMATIC	Nahum	3	8	3	8	Narration	human	4	declarative	Are you better than Thebes	judgment	foreign_nations	communication	4	active		80
+nah_03_11_01	THEMATIC	Nahum	3	11	3	11	Narration	divine	2	declarative	You also will become drunk	judgment	foreign_nations	judicial	5	active		85
+nah_03_19_01	THEMATIC	Nahum	3	19	3	19	Narration	human	4	declarative	There is no healing for your wound	judgment	foreign_nations	judicial	5	active		85
+hab_01_02_01	THEMATIC	Habakkuk	1	2	1	2	Prophet	human	4	imperative	How long shall I cry for help	prophecy	individual	communication	4	active		85
+hab_01_05_01	THEMATIC	Habakkuk	1	5	1	5	God	divine	1	declarative	Look among the nations and be astonished	judgment	foreign_nations	communication	4	active		85
+hab_01_06_01	THEMATIC	Habakkuk	1	6	1	6	God	divine	1	declarative	I am raising up the Chaldeans	judgment	foreign_nations	governance	5	active		90
+hab_01_12_01	THEMATIC	Habakkuk	1	12	1	12	Prophet	human	4	declarative	Are you not from everlasting O LORD	ethics	individual	communication	4	active		80
+hab_02_02_01	STRICT	Habakkuk	2	2	2	2	God	divine	1	imperative	Write the vision and make it plain	prophecy	individual	communication	4	active		100
+hab_02_03_01	THEMATIC	Habakkuk	2	3	2	3	God	divine	1	declarative	The vision awaits its appointed time	prophecy	national	communication	4	active		85
+hab_02_04_01	THEMATIC	Habakkuk	2	4	2	4	God	divine	1	declarative	The righteous shall live by faith	ethics	individual	moral_behavior	5	active		95
+hab_02_06_01	THEMATIC	Habakkuk	2	6	2	6	Narration	human	4	declarative	Woe to him who heaps up what is not his	ethics	individual	economic_behavior	5	active		85
+hab_02_09_01	THEMATIC	Habakkuk	2	9	2	9	Narration	human	4	declarative	Woe to him who gets evil gain for his house	ethics	individual	economic_behavior	5	active		85
+hab_02_12_01	THEMATIC	Habakkuk	2	12	2	12	Narration	divine	2	declarative	Woe to him who builds a town with bloodshed	judgment	foreign_nations	construction	5	active		85
+hab_02_15_01	THEMATIC	Habakkuk	2	15	2	15	Narration	human	4	declarative	Woe to him who makes his neighbor drink wrath	ethics	family	moral_behavior	5	active		85
+hab_02_20_01	STRICT	Habakkuk	2	20	2	20	God	divine	1	imperative	The LORD is in his holy temple	worship	national	moral_behavior	5	active		100
+hab_03_02_01	THEMATIC	Habakkuk	3	2	3	2	Prophet	human	4	imperative	In wrath remember mercy	prophecy	individual	communication	5	active		90
+hab_03_03_01	THEMATIC	Habakkuk	3	3	3	3	Narration	divine	2	declarative	God came from Teman	judgment	foreign_nations	communication	4	active		85
+hab_03_16_01	THEMATIC	Habakkuk	3	16	3	16	Prophet	human	4	declarative	I tremble at the coming day	ethics	individual	moral_behavior	4	active		80
+hab_03_17_01	THEMATIC	Habakkuk	3	17	3	18	Prophet	human	4	declarative	Though the fig tree does not blossom	ethics	individual	moral_behavior	5	active		90
+hab_03_19_01	THEMATIC	Habakkuk	3	19	3	19	Prophet	human	4	declarative	The LORD is my strength	ethics	individual	moral_behavior	5	active		90
+zep_01_02_01	THEMATIC	Zephaniah	1	2	1	2	God	divine	1	declarative	I will utterly sweep away everything	judgment	foreign_nations	warfare	5	active		90
+zep_01_07_01	THEMATIC	Zephaniah	1	7	1	7	God	divine	1	imperative	Be silent before the LORD	judgment	national	communication	5	active		90
+zep_01_12_01	THEMATIC	Zephaniah	1	12	1	12	God	divine	1	declarative	I will punish the complacent	judgment	national	judicial	5	active		90
+zep_01_14_01	THEMATIC	Zephaniah	1	14	1	14	Narration	divine	2	declarative	The great day of the LORD is near	judgment	national	communication	5	active		85
+zep_02_01_01	STRICT	Zephaniah	2	1	2	1	God	divine	1	imperative	Gather yourselves together	law	national	migration	5	active		100
+zep_02_02_01	STRICT	Zephaniah	2	2	2	2	God	divine	1	imperative	Seek the LORD	law	national	moral_behavior	5	active		100
+zep_02_03_01	STRICT	Zephaniah	2	3	2	3	God	divine	1	imperative	Seek righteousness	ethics	national	moral_behavior	5	active		100
+zep_02_03_02	STRICT	Zephaniah	2	3	2	3	God	divine	1	imperative	Seek humility	ethics	national	moral_behavior	5	active		100
+zep_02_03_03	STRICT	Zephaniah	2	3	2	3	God	divine	1	prohibition	Perhaps you may be hidden in the day of wrath	judgment	national	moral_behavior	5	active		100
+zep_02_04_01	THEMATIC	Zephaniah	2	4	2	4	Narration	divine	2	declarative	Gaza shall be abandoned	judgment	foreign_nations	warfare	5	active		85
+zep_02_05_01	THEMATIC	Zephaniah	2	5	2	5	Narration	divine	2	declarative	Woe to the inhabitants of the sea coast	judgment	foreign_nations	communication	5	active		85
+zep_02_11_01	THEMATIC	Zephaniah	2	11	2	11	Narration	divine	2	declarative	The LORD will be awesome against the gods of the earth	judgment	national	communication	5	active		85
+zep_03_02_01	STRICT	Zephaniah	3	2	3	2	God	divine	1	prohibition	She does not trust in the LORD	ethics	national	moral_behavior	5	active		100
+zep_03_05_01	THEMATIC	Zephaniah	3	5	3	5	God	divine	1	declarative	The LORD within her is righteous	covenant	national	communication	4	active		85
+zep_03_07_01	THEMATIC	Zephaniah	3	7	3	7	God	divine	1	imperative	Accept correction	law	national	moral_behavior	5	active		90
+zep_03_08_01	THEMATIC	Zephaniah	3	8	3	8	God	divine	1	imperative	Wait for me	law	national	moral_behavior	5	active		90
+zep_03_09_01	THEMATIC	Zephaniah	3	9	3	9	God	divine	1	declarative	I will restore pure speech	covenant	national	communication	4	active		85
+zep_03_11_01	THEMATIC	Zephaniah	3	11	3	11	God	divine	1	declarative	You shall not be haughty	covenant	national	moral_behavior	5	active		85
+zep_03_12_01	THEMATIC	Zephaniah	3	12	3	12	God	divine	1	declarative	I will leave a humble people	covenant	national	moral_behavior	4	active		85
+zep_03_14_01	THEMATIC	Zephaniah	3	14	3	14	Narration	human	4	imperative	Sing aloud O daughter of Zion	worship	national	communication	4	active		90
+zep_03_15_01	THEMATIC	Zephaniah	3	15	3	15	God	divine	1	declarative	The LORD has taken away judgments	covenant	national	judicial	4	active		90
+zep_03_17_01	THEMATIC	Zephaniah	3	17	3	17	God	divine	1	declarative	The LORD will rejoice over you	covenant	national	communication	4	active		90
+zep_03_19_01	THEMATIC	Zephaniah	3	19	3	19	God	divine	1	declarative	I will save the lame and gather the outcast	covenant	national	migration	4	active		90
+zep_03_20_01	THEMATIC	Zephaniah	3	20	3	20	God	divine	1	declarative	I will restore your fortunes	covenant	national	economic_behavior	4	active		90
+hag_01_02_01	THEMATIC	Haggai	1	2	1	2	God	divine	1	declarative	These people say the time has not come	judgment	national	communication	5	active		100
+hag_01_04_01	THEMATIC	Haggai	1	4	1	4	God	divine	1	imperative	Is it time for you to dwell in paneled houses	judgment	national	moral_behavior	5	active		100
+hag_01_05_01	THEMATIC	Haggai	1	5	1	5	God	divine	1	imperative	Consider your ways	wisdom	national	moral_behavior	5	active		100
+hag_01_06_01	THEMATIC	Haggai	1	6	1	6	Narration	divine	2	declarative	You have sown much and harvested little	judgment	national	economic_behavior	4	active		85
+hag_01_08_01	STRICT	Haggai	1	8	1	8	God	divine	1	imperative	Go up to the hills and bring wood	law	national	construction	5	active		100
+hag_01_09_01	THEMATIC	Haggai	1	9	1	9	God	divine	1	declarative	My house lies in ruins while you run to your own houses	judgment	national	construction	5	active		75
+hag_01_12_01	THEMATIC	Haggai	1	12	1	12	Narration	human	4	declarative	The people obeyed the voice of the LORD	narrative	national	moral_behavior	5	active		85
+hag_01_13_01	STRICT	Haggai	1	13	1	13	God	divine	1	imperative	I am with you	providence	national	communication	4	active		100
+hag_01_14_01	THEMATIC	Haggai	1	14	1	14	God	divine	1	declarative	The LORD stirred up the spirit of Zerubbabel	providence	national	communication	4	active		85
+hag_02_03_01	THEMATIC	Haggai	2	3	2	3	Narration	human	4	imperative	Who is left among you who saw this house	providence	national	communication	4	active		80
+hag_02_04_01	STRICT	Haggai	2	4	2	4	God	divine	1	imperative	Be strong all you people	providence	national	moral_behavior	5	active		100
+hag_02_05_01	STRICT	Haggai	2	5	2	5	God	divine	1	imperative	Work for I am with you	covenant	national	construction	5	active		hag_02_04_01
+hag_02_06_01	THEMATIC	Haggai	2	6	2	6	God	divine	1	declarative	Yet once more I will shake the heavens	judgment	individual	communication	4	active		85
+hag_02_08_01	THEMATIC	Haggai	2	8	2	8	God	divine	1	declarative	The silver and gold are mine	law	national	economic_behavior	4	active		85
+hag_02_09_01	THEMATIC	Haggai	2	9	2	9	God	divine	1	declarative	The latter glory shall be greater than the former	covenant	national	communication	4	active		90
+hag_02_10_01	THEMATIC	Haggai	2	10	2	10	God	divine	1	declarative	Ask the priests about the law	law	priesthood	communication	4	active		85
+hag_02_15_01	STRICT	Haggai	2	15	2	15	God	divine	1	imperative	Consider from this day onward	providence	national	moral_behavior	5	active		100
+hag_02_18_01	THEMATIC	Haggai	2	18	2	18	God	divine	1	declarative	From this day I will bless you	covenant	national	communication	4	active		90
+hag_02_20_01	THEMATIC	Haggai	2	20	2	20	God	divine	1	declarative	I will overthrow the throne of kingdoms	judgment	national	governance	5	active		90
+hag_02_23_01	THEMATIC	Haggai	2	23	2	23	God	divine	1	declarative	I will make you like a signet ring	covenant	national	governance	4	active		90
+zec_01_03_01	STRICT	Zechariah	1	3	1	3	God	divine	1	imperative	Return to me	law	national	moral_behavior	5	active		100
+zec_01_04_01	STRICT	Zechariah	1	4	1	4	God	divine	1	prohibition	Do not be like your fathers	ethics	national	moral_behavior	5	active		100
+zec_01_06_01	THEMATIC	Zechariah	1	6	1	6	Narration	divine	2	declarative	Our ways and deeds caught up with us	judgment	national	moral_behavior	4	active		85
+zec_01_09_01	THEMATIC	Zechariah	1	9	1	9	Narration	divine	2	declarative	I saw a man riding a red horse	prophecy	national	communication	3	active		80
+zec_01_13_01	STRICT	Zechariah	1	13	1	13	God	divine	1	declarative	Comfort my people	prophecy	national	communication	4	active		100
+zec_01_16_01	THEMATIC	Zechariah	1	16	1	16	God	divine	1	declarative	I have returned to Jerusalem	covenant	national	communication	4	active		90
+zec_01_18_01	THEMATIC	Zechariah	1	18	1	18	Narration	divine	2	declarative	I saw four horns	prophecy	national	communication	3	active		80
+zec_02_03_01	THEMATIC	Zechariah	2	3	2	3	Narration	divine	2	declarative	I saw a man with a measuring line	prophecy	national	communication	3	active		80
+zec_02_08_01	THEMATIC	Zechariah	2	8	2	8	God	divine	1	declarative	Whoever touches you touches the apple of my eye	covenant	national	communication	4	active		90
+zec_02_10_01	STRICT	Zechariah	2	10	2	10	God	divine	1	imperative	Sing and rejoice	covenant	national	communication	4	active		100
+zec_03_02_01	THEMATIC	Zechariah	3	2	3	2	God	divine	1	declarative	The LORD rebuke you	judgment	individual	judicial	4	active		85
+zec_03_04_01	THEMATIC	Zechariah	3	4	3	4	God	divine	1	declarative	I have taken away your iniquity	covenant	priesthood	ritual_behavior	5	active		90
+zec_03_07_01	STRICT	Zechariah	3	7	3	7	God	divine	1	imperative	Walk in my ways	law	priesthood	moral_behavior	5	active		100
+zec_03_08_01	THEMATIC	Zechariah	3	8	3	8	God	divine	1	declarative	I am bringing my servant the Branch	covenant	national	communication	4	active		90
+zec_04_06_01	THEMATIC	Zechariah	4	6	4	6	God	divine	1	declarative	Not by might but by my Spirit	covenant	national	communication	5	active		90
+zec_04_10_01	THEMATIC	Zechariah	4	10	4	10	God	divine	1	declarative	Who despises the day of small things	ethics	national	moral_behavior	4	active		85
+zec_04_14_01	THEMATIC	Zechariah	4	14	4	14	Narration	divine	2	declarative	These are the two anointed ones	prophecy	priesthood	communication	3	active		80
+zec_05_03_01	THEMATIC	Zechariah	5	3	5	3	God	divine	1	declarative	This is the curse going out	judgment	national	judicial	5	active		85
+zec_05_04_01	THEMATIC	Zechariah	5	4	5	4	God	divine	1	declarative	I will send it out and it shall remain	judgment	national	judicial	5	active		85
+zec_06_04_01	THEMATIC	Zechariah	6	4	6	4	Narration	divine	2	declarative	These are the four spirits of heaven	prophecy	individual	communication	3	active		80
+zec_06_09_01	STRICT	Zechariah	6	9	6	9	God	divine	1	imperative	Receive silver and gold	law	priesthood	economic_behavior	4	active		100
+zec_06_13_01	THEMATIC	Zechariah	6	13	6	13	God	divine	1	declarative	He shall build the temple	covenant	national	construction	4	active		90
+zec_07_09_01	STRICT	Zechariah	7	9	7	9	God	divine	1	imperative	Execute true justice	ethics	national	judicial	5	active		100
+zec_07_10_01	STRICT	Zechariah	7	10	7	10	God	divine	1	prohibition	Do not oppress the widow	ethics	family	moral_behavior	5	active		100
+zec_07_13_01	THEMATIC	Zechariah	7	13	7	13	God	divine	1	declarative	They would not hear	judgment	national	communication	5	active		85
+zec_08_03_01	THEMATIC	Zechariah	8	3	8	3	God	divine	1	declarative	I will return to Zion	covenant	national	communication	4	active		90
+zec_08_05_01	THEMATIC	Zechariah	8	5	8	5	Narration	divine	2	declarative	The streets will be full of children	prophecy	national	communication	3	active		80
+zec_08_16_01	STRICT	Zechariah	8	16	8	16	God	divine	1	imperative	Speak truth to one another	ethics	national	moral_behavior	5	active		100
+zec_08_19_01	THEMATIC	Zechariah	8	19	8	19	God	divine	1	declarative	Love truth and peace	ethics	national	moral_behavior	5	active		90
+zec_09_09_01	THEMATIC	Zechariah	9	9	9	9	God	divine	1	declarative	Your king comes humble	prophecy	national	communication	4	active		90
+zec_09_10_01	THEMATIC	Zechariah	9	10	9	10	God	divine	1	declarative	He shall speak peace to nations	prophecy	foreign_nations	communication	4	active		90
+zec_10_06_01	THEMATIC	Zechariah	10	6	10	6	God	divine	1	declarative	I will strengthen the house of Judah	covenant	national	communication	4	active		90
+zec_11_04_01	THEMATIC	Zechariah	11	4	11	4	God	divine	1	imperative	Shepherd the flock	prophecy	national	governance	4	active		90
+zec_12_10_01	THEMATIC	Zechariah	12	10	12	10	God	divine	1	declarative	They will look on me whom they pierced	prophecy	national	communication	5	active		95
+zec_13_01_01	THEMATIC	Zechariah	13	1	13	1	God	divine	1	declarative	A fountain shall be opened for sin	covenant	national	communication	5	active		90
+zec_13_09_01	THEMATIC	Zechariah	13	9	13	9	God	divine	1	declarative	I will refine them like silver	judgment	national	communication	5	active		90
+zec_14_09_01	THEMATIC	Zechariah	14	9	14	9	God	divine	1	declarative	The LORD will be king over all the earth	covenant	national	governance	5	active		95
+mal_01_02_01	THEMATIC	Malachi	1	2	1	2	God	divine	1	declarative	I have loved you	ethics	national	communication	4	active		90
+mal_01_06_01	STRICT	Malachi	1	6	1	6	God	divine	1	imperative	Honor my name	worship	priesthood	communication	5	active		100
+mal_01_07_01	STRICT	Malachi	1	7	1	7	God	divine	1	prohibition	Do not offer polluted sacrifices	worship	priesthood	ritual_behavior	5	active		100
+mal_01_08_01	THEMATIC	Malachi	1	8	1	8	God	divine	1	declarative	You offer blind animals for sacrifice	worship	priesthood	ritual_behavior	5	active		85
+mal_01_11_01	THEMATIC	Malachi	1	11	1	11	God	divine	1	declarative	My name will be great among the nations	covenant	foreign_nations	communication	4	active		90
+mal_01_13_01	STRICT	Malachi	1	13	1	13	God	divine	1	prohibition	Do not bring stolen animals	ethics	priesthood	judicial	5	active		100
+mal_02_02_01	STRICT	Malachi	2	2	2	2	God	divine	1	imperative	Obey my voice	law	priesthood	moral_behavior	5	active		100
+mal_02_07_01	THEMATIC	Malachi	2	7	2	7	Narration	divine	2	declarative	The lips of a priest should guard knowledge	law	priesthood	communication	4	active		85
+mal_02_08_01	STRICT	Malachi	2	8	2	8	God	divine	1	prohibition	Do not turn aside from the law	law	priesthood	moral_behavior	5	active		100
+mal_02_10_01	THEMATIC	Malachi	2	10	2	10	Narration	human	4	declarative	We have one Father covenant violation	ethics	national	communication	5	active		85
+mal_02_13_01	THEMATIC	Malachi	2	13	2	13	God	divine	1	declarative	You cover the altar with tears	worship	individual	ritual_behavior	4	active		85
+mal_02_14_01	STRICT	Malachi	2	14	2	14	God	divine	1	prohibition	Do not deal treacherously with your wife	ethics	family	moral_behavior	5	active		100
+mal_02_16_01	STRICT	Malachi	2	16	2	16	God	divine	1	prohibition	Do not be faithless in marriage	ethics	family	moral_behavior	5	active		100
+mal_03_01_01	THEMATIC	Malachi	3	1	3	1	God	divine	1	declarative	I will send my messenger	covenant	national	communication	4	active		90
+mal_03_05_01	THEMATIC	Malachi	3	5	3	5	God	divine	1	declarative	I will draw near for judgment	judgment	national	judicial	5	active		90
+mal_03_06_01	THEMATIC	Malachi	3	6	3	6	God	divine	1	declarative	I the LORD do not change	covenant	national	communication	4	active		90
+mal_03_08_01	STRICT	Malachi	3	8	3	8	God	divine	1	prohibition	Do not rob God	law	national	economic_behavior	5	active		100
+mal_03_10_01	STRICT	Malachi	3	10	3	10	God	divine	1	imperative	Bring the full tithe	law	national	economic_behavior	5	active		100
+mal_03_13_01	THEMATIC	Malachi	3	13	3	13	God	divine	1	declarative	Your words have been harsh against me	ethics	national	communication	4	active		85
+mal_03_16_01	THEMATIC	Malachi	3	16	3	16	Narration	human	4	declarative	Those who feared the LORD spoke together	narrative	individual	communication	4	active		85
+mal_03_17_01	THEMATIC	Malachi	3	17	3	17	God	divine	1	declarative	They shall be mine on the day I make up my jewels	covenant	national	communication	4	active		90
+mal_04_02_01	THEMATIC	Malachi	4	2	4	2	God	divine	1	declarative	The sun of righteousness shall rise	covenant	national	communication	4	active		90
+mal_04_04_01	STRICT	Malachi	4	4	4	4	God	divine	1	imperative	Remember the law of Moses	law	national	moral_behavior	5	active		100
+mal_04_05_01	THEMATIC	Malachi	4	5	4	5	God	divine	1	declarative	I will send Elijah before the great day	prophecy	national	communication	4	active		90
+mal_04_06_01	THEMATIC	Malachi	4	6	4	6	God	divine	1	declarative	He will turn hearts of fathers to children	ethics	family	moral_behavior	5	active		95
