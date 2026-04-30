@@ -98,27 +98,27 @@ lev_19_18_01	STRICT	Leviticus	19	18	19	18	God	divine	1	imperative	Love your neig
 lev_19_35_01	STRICT	Leviticus	19	35	19	36	God	divine	1	imperative	Use honest weights and measures	covenant	national	economic_behavior	5	active		100
 lev_20_02_01	STRICT	Leviticus	20	2	20	8	God	divine	1	prohibition	Do not sacrifice children to Molech	covenant	national	moral_behavior	5	active		100
 lev_21_01_01	STRICT	Leviticus	21	1	21	7	God	divine	1	prohibition	Priests must maintain ritual purity	covenant	priesthood	ritual_behavior	5	active		100
-lev_22_02_01	STRICT	Leviticus	22	2	22	3	God	divine	1	prohibition	Priests must not approach holy things unclean	worship	priesthood	ritual_behavior	5	active	lev_21_01_01	100
-lev_23_02_01	STRICT	Leviticus	23	2	23	3	God	divine	1	imperative	Keep appointed feasts and Sabbath	worship	national	ritual_behavior	4	active		100
-lev_23_05_01	STRICT	Leviticus	23	5	23	8	God	divine	1	imperative	Keep Passover and Unleavened Bread	worship	national	ritual_behavior	4	active	lev_23_02_01	100
-lev_23_27_01	STRICT	Leviticus	23	27	23	32	God	divine	1	imperative	Keep Day of Atonement	worship	national	ritual_behavior	5	active	lev_16_29_01	100
-lev_23_34_01	STRICT	Leviticus	23	34	23	43	God	divine	1	imperative	Keep Feast of Tabernacles	worship	national	ritual_behavior	4	active	lev_23_02_01	100
-lev_24_02_01	STRICT	Leviticus	24	2	24	9	God	divine	1	imperative	Keep lamps burning and showbread set	worship	priesthood	ritual_behavior	4	active		100
+lev_22_02_01	STRICT	Leviticus	22	2	22	3	God	divine	1	prohibition	Priests must not approach holy things unclean	law	priesthood	ritual_behavior	5	active	lev_21_01_01	100
+lev_23_02_01	STRICT	Leviticus	23	2	23	3	God	divine	1	imperative	Keep appointed feasts and Sabbath	law	national	ritual_behavior	4	active		100
+lev_23_05_01	STRICT	Leviticus	23	5	23	8	God	divine	1	imperative	Keep Passover and Unleavened Bread	law	national	ritual_behavior	4	active	lev_23_02_01	100
+lev_23_27_01	STRICT	Leviticus	23	27	23	32	God	divine	1	imperative	Keep Day of Atonement	law	national	ritual_behavior	5	active	lev_16_29_01	100
+lev_23_34_01	STRICT	Leviticus	23	34	23	43	God	divine	1	imperative	Keep Feast of Tabernacles	law	national	ritual_behavior	4	active	lev_23_02_01	100
+lev_24_02_01	STRICT	Leviticus	24	2	24	9	God	divine	1	imperative	Keep lamps burning and showbread set	law	priesthood	ritual_behavior	4	active		100
 lev_24_16_01	STRICT	Leviticus	24	16	24	16	God	divine	1	prohibition	Do not blaspheme the Name	ethics	national	judicial	5	active		100
 lev_25_01_01	STRICT	Leviticus	25	1	25	7	God	divine	1	imperative	Keep sabbath year for land	covenant	national	ritual_behavior	4	active		100
 lev_25_08_01	STRICT	Leviticus	25	8	25	17	God	divine	1	imperative	Proclaim Jubilee freedom	covenant	national	economic_behavior	5	active		100
 lev_25_14_01	STRICT	Leviticus	25	14	25	23	God	divine	1	prohibition	Do not oppress or permanently sell land	ethics	national	judicial	5	active	lev_25_08_01	100
 lev_25_25_01	STRICT	Leviticus	25	25	25	36	God	divine	1	imperative	Redeem property and help poor	covenant	national	economic_behavior	5	active		100
-lev_26_01_01	STRICT	Leviticus	26	1	26	3	God	divine	1	prohibition	Do not make idols	worship	national	ritual_behavior	5	active		100
+lev_26_01_01	STRICT	Leviticus	26	1	26	3	God	divine	1	prohibition	Do not make idols	law	national	ritual_behavior	5	active		100
 lev_27_02_01	STRICT	Leviticus	27	2	27	28	God	divine	1	imperative	Keep vows and dedications properly	law	national	judicial	4	active		100
 num_01_02_01	STRICT	Numbers	1	2	1	3	God	divine	1	imperative	Census of Israelite men fit for war	covenant	national	governance	4	active		100
 num_01_47_01	STRICT	Numbers	1	47	1	53	God	divine	1	imperative	Levites separated from tribal census	covenant	priesthood	governance	4	active		100
 num_02_01_01	STRICT	Numbers	2	1	2	34	God	divine	1	imperative	Camp tribes around tabernacle in order	covenant	national	governance	4	active	num_01_02_01	100
-num_03_05_01	STRICT	Numbers	3	5	3	10	God	divine	1	imperative	Levites serve Aaron and tabernacle	worship	priesthood	ritual_behavior	5	active		100
+num_03_05_01	STRICT	Numbers	3	5	3	10	God	divine	1	imperative	Levites serve Aaron and tabernacle	law	priesthood	ritual_behavior	5	active		100
 num_03_12_01	STRICT	Numbers	3	12	3	51	God	divine	1	imperative	Levites substitute for firstborn	covenant	priesthood	judicial	5	active	num_01_47_01	100
-num_08_05_01	STRICT	Numbers	8	5	8	15	God	divine	1	imperative	Purify Levites for ministry	worship	priesthood	ritual_behavior	5	active	num_03_05_01	100
-num_09_02_01	STRICT	Numbers	9	2	9	3	God	divine	1	imperative	Keep Passover at appointed time	worship	national	ritual_behavior	4	active		100
-num_09_10_01	STRICT	Numbers	9	10	9	11	God	divine	1	imperative	Keep second Passover if unclean	worship	national	ritual_behavior	4	active	num_09_02_01	100
+num_08_05_01	STRICT	Numbers	8	5	8	15	God	divine	1	imperative	Purify Levites for ministry	law	priesthood	ritual_behavior	5	active	num_03_05_01	100
+num_09_02_01	STRICT	Numbers	9	2	9	3	God	divine	1	imperative	Keep Passover at appointed time	law	national	ritual_behavior	4	active		100
+num_09_10_01	STRICT	Numbers	9	10	9	11	God	divine	1	imperative	Keep second Passover if unclean	law	national	ritual_behavior	4	active	num_09_02_01	100
 num_09_17_01	STRICT	Numbers	9	17	9	23	God	divine	1	imperative	Move and camp by cloud guidance	providence	national	migration	4	active		100
 num_10_01_01	STRICT	Numbers	10	1	10	10	God	divine	1	imperative	Make silver trumpets for assembly	covenant	national	construction	4	active		100
 num_10_13_01	STRICT	Numbers	10	13	10	28	God	divine	1	imperative	Set forward by ranks when signaled	providence	national	migration	4	active	num_10_01_01	100
@@ -126,17 +126,17 @@ num_12_06_01	STRICT	Numbers	12	6	12	8	God	divine	1	prohibition	Do not rebel agai
 num_13_01_01	STRICT	Numbers	13	1	13	2	God	divine	1	imperative	Send spies into Canaan	providence	national	migration	4	active		100
 num_13_30_01	STRICT	Numbers	13	30	14	9	Caleb/Moses	prophetic	3	imperative	Go up and possess land	covenant	national	warfare	5	active	num_13_01_01	100
 num_14_25_01	STRICT	Numbers	14	25	14	35	God	divine	1	declarative	Wander forty years for unbelief	judgment	national	judicial	5	active	num_13_30_01	100
-num_15_38_01	STRICT	Numbers	15	38	15	40	God	divine	1	imperative	Make tassels to remember commandments	worship	national	ritual_behavior	4	active		100
+num_15_38_01	STRICT	Numbers	15	38	15	40	God	divine	1	imperative	Make tassels to remember commandments	law	national	ritual_behavior	4	active		100
 num_16_23_01	STRICT	Numbers	16	23	16	26	God	divine	1	declarative	Separation from rebellion	judgment	national	judicial	5	active		100
 num_18_21_01	STRICT	Numbers	18	21	18	24	God	divine	1	imperative	Israel must give tithes to Levites	covenant	national	economic_behavior	4	active		100
-num_19_02_01	STRICT	Numbers	19	2	19	10	God	divine	1	imperative	Red heifer purification law	worship	national	ritual_behavior	5	active		100
+num_19_02_01	STRICT	Numbers	19	2	19	10	God	divine	1	imperative	Red heifer purification law law national	ritual_behavior	5	active		100
 num_20_08_01	STRICT	Numbers	20	8	20	8	God	divine	1	imperative	Speak to rock for water	providence	individual	communication	5	active		100
-num_21_08_01	STRICT	Numbers	21	8	21	9	God	divine	1	imperative	Look upon bronze serpent and live	worship	national	ritual_behavior	5	active		100
+num_21_08_01	STRICT	Numbers	21	8	21	9	God	divine	1	imperative	Look upon bronze serpent and live	providence	national	ritual_behavior	5	active		100
 num_22_20_01	STRICT	Numbers	22	20	22	35	God	divine	1	imperative	Balaam speak only God's words	prophecy	foreign_nations	communication	5	active		100
 num_25_04_01	STRICT	Numbers	25	4	25	5	God	divine	1	declarative	Judgment on idolators	judgment	national	judicial	5	active		100
 num_26_02_01	STRICT	Numbers	26	2	26	2	God	divine	1	imperative	Second census before inheritance	covenant	national	governance	4	active		100
 num_27_18_01	STRICT	Numbers	27	18	27	23	God	divine	1	imperative	Commission Joshua as leader	covenant	national	governance	5	active		100
-num_28_01_01	STRICT	Numbers	28	1	28	31	God	divine	1	imperative	Daily and festival offerings	worship	national	ritual_behavior	4	active		100
+num_28_01_01	STRICT	Numbers	28	1	28	31	God	divine	1	imperative	Daily and festival offerings	law	national	ritual_behavior	4	active		100
 num_30_02_01	STRICT	Numbers	30	2	30	16	God	divine	1	imperative	Keep vows and household order	law	national	judicial	4	active		100
 num_31_01_01	STRICT	Numbers	31	1	31	27	God	divine	1	imperative	Execute judgment on Midian	judgment	national	warfare	5	active		100
 num_32_20_01	STRICT	Numbers	32	20	32	27	Moses	prophetic	3	imperative	Help conquer land before settling	covenant	national	warfare	4	active		100
@@ -148,17 +148,17 @@ deu_01_08_01	STRICT	Deuteronomy	1	8	1	8	Moses	prophetic	3	imperative	Take posses
 deu_01_13_01	STRICT	Deuteronomy	1	13	1	17	Moses	prophetic	3	imperative	Appoint judges and leaders	covenant	national	governance	4	active		100
 deu_06_04_01	STRICT	Deuteronomy	6	4	6	5	Moses	prophetic	3	imperative	Love the LORD fully	ethics	national	moral_behavior	5	active		100
 deu_06_06_01	STRICT	Deuteronomy	6	6	6	9	Moses	prophetic	3	imperative	Teach commandments to children	ethics	family	communication	4	active		100
-deu_06_13_01	STRICT	Deuteronomy	6	13	6	16	Moses	prophetic	3	imperative	Serve and fear God only	worship	national	judicial	5	active		100
+deu_06_13_01	STRICT	Deuteronomy	6	13	6	16	Moses	prophetic	3	imperative	Serve and fear God only	law	national	judicial	5	active		100
 deu_07_01_01	STRICT	Deuteronomy	7	1	7	5	Moses	prophetic	3	imperative	Destroy idols and pagan altars	judgment	national	warfare	5	active		100
-deu_10_12_01	STRICT	Deuteronomy	10	12	10	13	Moses	prophetic	3	imperative	Fear and serve God	worship	national	moral_behavior	5	active		100
+deu_10_12_01	STRICT	Deuteronomy	10	12	10	13	Moses	prophetic	3	imperative	Fear and serve God	law	national	moral_behavior	5	active		100
 deu_10_16_01	STRICT	Deuteronomy	10	16	10	19	Moses	prophetic	3	imperative	Circumcise heart and love stranger	ethics	national	moral_behavior	5	active		100
-deu_12_02_01	STRICT	Deuteronomy	12	2	12	5	Moses	prophetic	3	imperative	Destroy pagan worship sites	worship	national	warfare	5	active		100
-deu_12_16_01	STRICT	Deuteronomy	12	16	12	23	Moses	prophetic	3	prohibition	Do not eat blood	worship	national	ritual_behavior	5	active		100
-deu_14_01_01	STRICT	Deuteronomy	14	1	14	21	Moses	prophetic	3	imperative	Follow clean food laws	worship	national	ritual_behavior	4	active		100
+deu_12_02_01	STRICT	Deuteronomy	12	2	12	5	Moses	prophetic	3	imperative	Destroy pagan worship sites	law	national	warfare	5	active		100
+deu_12_16_01	STRICT	Deuteronomy	12	16	12	23	Moses	prophetic	3	prohibition	Do not eat blood	law	national	ritual_behavior	5	active		100
+deu_14_01_01	STRICT	Deuteronomy	14	1	14	21	Moses	prophetic	3	imperative	Follow clean food laws	law	national	ritual_behavior	4	active		100
 deu_14_22_01	STRICT	Deuteronomy	14	22	14	29	Moses	prophetic	3	imperative	Tithe yearly produce	covenant	national	economic_behavior	4	active		100
 deu_15_01_01	STRICT	Deuteronomy	15	1	15	11	Moses	prophetic	3	imperative	Release debts in sabbatical year	covenant	national	economic_behavior	5	active		100
 deu_15_12_01	STRICT	Deuteronomy	15	12	15	18	Moses	prophetic	3	imperative	Free servants in seventh year	ethics	family	economic_behavior	5	active		100
-deu_16_01_01	STRICT	Deuteronomy	16	1	16	17	Moses	prophetic	3	imperative	Keep Passover and feasts	worship	national	ritual_behavior	4	active		100
+deu_16_01_01	STRICT	Deuteronomy	16	1	16	17	Moses	prophetic	3	imperative	Keep Passover and feasts	law	national	ritual_behavior	4	active		100
 deu_16_18_01	STRICT	Deuteronomy	16	18	16	20	Moses	prophetic	3	imperative	Appoint judges without corruption	law	national	judicial	4	active		100
 deu_17_14_01	STRICT	Deuteronomy	17	14	17	20	Moses	prophetic	3	imperative	King must obey law and not exalt self	law	national	governance	5	active		100
 deu_18_09_01	STRICT	Deuteronomy	18	9	18	14	Moses	prophetic	3	prohibition	Do not practice divination	ethics	national	ritual_behavior	5	active		100
@@ -170,7 +170,7 @@ deu_21_01_01	STRICT	Deuteronomy	21	1	23	23	Moses	prophetic	3	imperative	Justice 
 deu_22_01_01	STRICT	Deuteronomy	22	1	12	12	Moses	prophetic	3	imperative	Protect neighbor’s property and purity	ethics	family	judicial	4	active		100
 deu_24_01_01	STRICT	Deuteronomy	24	1	22	22	Moses	prophetic	3	imperative	Protect marriage, poor, and workers	ethics	family	judicial	4	active		100
 deu_25_13_01	STRICT	Deuteronomy	25	13	25	16	Moses	prophetic	3	imperative	Use honest weights and measures	covenant	national	economic_behavior	5	active		100
-deu_26_01_01	STRICT	Deuteronomy	26	1	26	11	Moses	prophetic	3	imperative	Bring firstfruits and give thanks	worship	national	ritual_behavior	4	active		100
+deu_26_01_01	STRICT	Deuteronomy	26	1	26	11	Moses	prophetic	3	imperative	Bring firstfruits and give thanks	law	national	ritual_behavior	4	active		100
 deu_27_01_01	STRICT	Deuteronomy	27	1	27	26	Moses	prophetic	3	imperative	Write law on stones and proclaim covenant	law	national	communication	5	active		100
 deu_28_01_01	STRICT	Deuteronomy	28	1	28	68	Moses	prophetic	3	conditional	Covenant blessings and curses	covenant	national	judicial	5	active		100
 deu_30_15_01	STRICT	Deuteronomy	30	15	30	20	Moses	prophetic	3	imperative	Choose life and obey God	ethics	national	moral_behavior	5	active		100
@@ -186,14 +186,14 @@ jos_01_10_01	STRICT	Joshua	1	10	1	11	Joshua	divine_authorized	2	imperative	Prepa
 jos_01_12_01	STRICT	Joshua	1	12	1	15	Joshua	divine_authorized	2	imperative	Help your brethren until land is conquered	covenant	national	governance	4	active		100
 jos_02_01_01	STRICT	Joshua	2	1	2	1	Joshua	divine_authorized	2	imperative	Go spy out Jericho	providence	national	warfare	4	active		100
 jos_02_18_01	STRICT	Joshua	2	18	2	19	Spies	divine_authorized	2	imperative	Bind scarlet cord and gather household	covenant	family	ritual_behavior	5	active		100
-jos_03_05_01	STRICT	Joshua	3	5	3	5	Joshua	divine_authorized	2	imperative	Sanctify yourselves for tomorrow	worship	national	ritual_behavior	4	active		100
-jos_03_06_01	STRICT	Joshua	3	6	3	8	Joshua	divine_authorized	2	imperative	Priests carry ark into Jordan	worship	priesthood	ritual_behavior	5	active		100
-jos_03_03_01	STRICT	Joshua	3	3	3	4	Joshua	divine_authorized	2	imperative	Follow ark at distance	worship	national	ritual_behavior	4	active	jos_03_06_01	100
+jos_03_05_01	STRICT	Joshua	3	5	3	5	Joshua	divine_authorized	2	imperative	Sanctify yourselves for tomorrow	law	national	ritual_behavior	4	active		100
+jos_03_06_01	STRICT	Joshua	3	6	3	8	Joshua	divine_authorized	2	imperative	Priests carry ark into Jordan	law	priesthood	ritual_behavior	5	active		100
+jos_03_03_01	STRICT	Joshua	3	3	3	4	Joshua	divine_authorized	2	imperative	Follow ark at distance	law	national	ritual_behavior	4	active	jos_03_06_01	100
 jos_04_02_01	STRICT	Joshua	4	2	4	2	God	divine	1	imperative	Choose twelve men	providence	national	governance	4	active		100
 jos_04_03_01	STRICT	Joshua	4	3	4	8	Twelve men	divine_authorized	2	imperative	Take twelve stones from Jordan	covenant	national	ritual_behavior	4	active	jos_04_02_01	100
 jos_04_21_01	STRICT	Joshua	4	21	4	24	Joshua	divine_authorized	2	imperative	Teach children meaning of stones	ethics	family	communication	4	active	jos_04_03_01	100
-jos_05_02_01	STRICT	Joshua	5	2	5	8	Joshua	divine_authorized	2	imperative	Circumcise new generation	worship	national	ritual_behavior	5	active		100
-jos_05_10_01	STRICT	Joshua	5	10	5	10	Joshua	divine_authorized	2	imperative	Keep Passover in the land	worship	national	ritual_behavior	4	active		100
+jos_05_02_01	STRICT	Joshua	5	2	5	8	Joshua	divine_authorized	2	imperative	Circumcise new generation	law	national	ritual_behavior	5	active		100
+jos_05_10_01	STRICT	Joshua	5	10	5	10	Joshua	divine_authorized	2	imperative	Keep Passover in the land	law	national	ritual_behavior	4	active		100
 jos_05_15_01	STRICT	Joshua	5	15	5	15	Captain of LORD	host_divine	1	imperative	Remove sandals; place is holy	worship	individual	ritual_behavior	5	active		100
 jos_06_03_01	STRICT	Joshua	6	3	6	4	God	divine	1	imperative	March around Jericho	narrative	national	warfare	5	active		100
 jos_06_04_01	STRICT	Joshua	6	4	6	5	God	divine	1	imperative	Priests blow trumpets	narrative	priesthood	warfare	5	active	jos_06_03_01	100
@@ -229,11 +229,11 @@ jud_07_02_01	STRICT	Judges	7	2	7	2	God	divine	1	imperative	Reduce the army so Is
 jud_07_07_01	STRICT	Judges	7	7	7	7	God	divine	1	imperative	Use the 300 men I select for deliverance	providence	national	warfare	5	active	jud_07_02_01	100
 jud_07_09_01	STRICT	Judges	7	9	7	9	God	divine	1	imperative	Arise and go down to the camp	providence	national	migration	5	active	jud_07_07_01	100
 jud_07_16_01	STRICT	Judges	7	16	7	16	God	divine	1	imperative	Blow trumpets and break pitchers	providence	national	communication	4	active	jud_07_09_01	98
-jud_10_16_01	STRICT	Judges	10	16	10	16	God	divine	1	imperative	Put away foreign gods and serve the LORD	worship	national	ritual_behavior	5	active		100
+jud_10_16_01	STRICT	Judges	10	16	10	16	God	divine	1	imperative	Put away foreign gods and serve the LORD	law	national	ritual_behavior	5	active		100
 jud_11_30_01	STRICT	Judges	11	30	11	30	Jephthah	human	4	conditional	Make a vow for victory	wisdom	individual	moral_behavior	4	active		100
 jud_11_31_01	STRICT	Judges	11	31	11	31	Jephthah	human	4	declarative	Dedicate whatever comes from my house first to the LORD	worship	family	ritual_behavior	5	active	jud_11_30_01	100
-jud_13_04_01	STRICT	Judges	13	4	13	4	Angel	divine	2	prohibition	Do not drink wine or strong drink	worship	individual	moral_behavior	5	active		100
-jud_13_05_01	STRICT	Judges	13	5	13	5	God	divine	1	imperative	No razor shall come upon his head	worship	individual	ritual_behavior	5	active	jud_13_04_01	100
+jud_13_04_01	STRICT	Judges	13	4	13	4	Angel	divine	2	prohibition	Do not drink wine or strong drink	law	individual	moral_behavior	5	active		100
+jud_13_05_01	STRICT	Judges	13	5	13	5	God	divine	1	imperative	No razor shall come upon his head	law	individual	ritual_behavior	5	active	jud_13_04_01	100
 jud_13_05_02	STRICT	Judges	13	5	13	5	God	divine	1	imperative	He shall begin to deliver Israel from the Philistines	judgment	national	warfare	5	active	jud_13_05_01	100
 jud_14_04_01	STRICT	Judges	14	4	14	4	Narration	divine	1	imperative	For this was from the LORD seeking occasion against Philistines	providence	national	communication	4	active		85
 jud_17_06_01	STRICT	Judges	17	6	17	6	Narration	divine	1	prohibition	There was no king; every man did what was right in his own eyes	ethics	national	moral_behavior	5	active		100
@@ -429,8 +429,8 @@ est_07_06_01	STRICT	Esther	7	6	7	6	Esther	royal	4	declarative	Haman identified a
 est_07_09_01	STRICT	Esther	7	9	7	9	King's servants	royal	3	imperative	Haman executed immediately	judgment	national	judicial	5	active	est_03_08_01	100
 est_08_08_01	STRICT	Esther	8	8	8	8	King Ahasuerus	royal	3	imperative	Write decree allowing Jews to defend themselves	judgment	national	governance	5	active	est_03_08_01	100
 est_08_11_01	STRICT	Esther	8	11	8	11	King's scribes	royal	3	imperative	Jews may assemble and defend themselves	judgment	national	governance	5	active	est_08_08_01	100
-est_09_20_01	STRICT	Esther	9	20	9	22	Mordecai	social_leader	4	imperative	Establish Purim feast	worship	national	ritual_behavior	4	active	est_08_11_01	100
-est_09_26_01	STRICT	Esther	9	26	9	28	Mordecai	social_leader	4	imperative	Keep days of Purim annually	worship	national	ritual_behavior	4	active	est_09_20_01	100
+est_09_20_01	STRICT	Esther	9	20	9	22	Mordecai	social_leader	4	imperative	Establish Purim feast	law	national	ritual_behavior	4	active	est_08_11_01	100
+est_09_26_01	STRICT	Esther	9	26	9	28	Mordecai	social_leader	4	imperative	Keep days of Purim annually	law	national	ritual_behavior	4	active	est_09_20_01	100
 est_10_03_01	STRICT	Esther	10	3	10	3	Mordecai	administration	4	declarative	Mordecai promoted for the good of his people	providence	national	governance	3	active		98
 job_01_08_01	STRICT	Job	1	8	1	8	YHWH	divine	1	declarative	Job is blameless and upright	wisdom	individual	moral_behavior	5	active		100
 job_01_11_01	STRICT	Job	1	11	1	11	Satan	rebellious_spiritual	2	permissive	Stretch out your hand and touch all he has	providence	individual	moral_behavior	5	active		100
