@@ -129,7 +129,7 @@ num_14_25_01	STRICT	Numbers	14	25	14	35	God	divine	1	declarative	Wander forty ye
 num_15_38_01	STRICT	Numbers	15	38	15	40	God	divine	1	imperative	Make tassels to remember commandments	law	national	ritual_behavior	4	active		100
 num_16_23_01	STRICT	Numbers	16	23	16	26	God	divine	1	declarative	Separation from rebellion	judgment	national	judicial	5	active		100
 num_18_21_01	STRICT	Numbers	18	21	18	24	God	divine	1	imperative	Israel must give tithes to Levites	covenant	national	economic_behavior	4	active		100
-num_19_02_01	STRICT	Numbers	19	2	19	10	God	divine	1	imperative	Red heifer purification law     law     national	ritual_behavior	5	active		100
+num_19_02_01	STRICT	Numbers	19	2	19	10	God	divine	1	imperative	Red heifer purification law	law	national	ritual_behavior	5	active		100
 num_20_08_01	STRICT	Numbers	20	8	20	8	God	divine	1	imperative	Speak to rock for water	providence	individual	communication	5	active		100
 num_21_08_01	STRICT	Numbers	21	8	21	9	God	divine	1	imperative	Look upon bronze serpent and live	providence	national	ritual_behavior	5	active		100
 num_22_20_01	STRICT	Numbers	22	20	22	35	God	divine	1	imperative	Balaam speak only God's words	prophecy	foreign_nations	communication	5	active		100

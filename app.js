@@ -21,10 +21,48 @@
       }));
 
       buildTable(data);
-      buildFilter(data);
       buildChart(data);
     }
   });
+
+  const resizer = document.getElementById("resizer");
+  const tableContainer = document.getElementById("tableContainer");
+
+  let isDragging = false;
+
+  resizer.addEventListener("mousedown", () => {
+    isDragging = true;
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+
+    const rect = tableContainer.getBoundingClientRect();
+    const newHeight = e.clientY - rect.top;
+
+    if (newHeight > 150 && newHeight < window.innerHeight * 0.8) {
+      tableContainer.style.height = newHeight + "px";
+    }
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+  });
+
+  document.addEventListener("mousemove", (e) => {
+  if (!isDragging) return;
+
+  const rect = tableContainer.getBoundingClientRect();
+  const newHeight = e.clientY - rect.top;
+
+  if (newHeight > 150 && newHeight < window.innerHeight * 0.8) {
+    tableContainer.style.height = newHeight + "px";
+
+    // 🔥 force tabulator to re-render
+    const table = Tabulator.findTable("#table")[0];
+    if (table) table.redraw();
+  }
+});
 
   function multiSelectFilter(cell, onRendered, success, cancel, values) {
 
@@ -77,7 +115,7 @@
     const table = new Tabulator("#table", {
       data: data,
       layout: "fitColumns",
-      height: "500px",
+      height: "100%",
 
       columns: [
         {title: "Book", field: "book", headerFilter: true},
@@ -146,25 +184,4 @@
       font-size:11px;
       color:white;
     ">${val}</span>`;
-  }
-
-  function buildChart(data) {
-    const counts = {};
-
-    data.forEach(d => {
-      const key = d.theological;
-      if (!key) return;
-      counts[key] = (counts[key] || 0) + 1;
-    });
-
-    new Chart(document.getElementById("chart"), {
-      type: "bar",
-      data: {
-        labels: Object.keys(counts),
-        datasets: [{
-          label: "How many commands fall into each theological domain?",
-          data: Object.values(counts)
-        }]
-      }
-    });
   }
