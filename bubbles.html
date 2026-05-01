@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0f172a;
+      color: white;
+      font-family: sans-serif;
+      overflow: hidden;
+    }
+
+    /* 🔥 Drawer */
+    #controls {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 240px;
+      height: 100vh;
+      background: #111827;
+      padding: 12px;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+      z-index: 10;
+      overflow-y: auto;
+    }
+
+    #controls.open {
+      transform: translateX(0);
+    }
+
+    #toggleBtn {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      width: 40px;
+      height: 40px;
+      z-index: 1000;
+      background: #1f2937;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 6px;
+      opacity: 0.2;
+    }
+
+
+    #toggleBtn:hover {
+        opacity: 1;
+    }
+
+    button {
+      display: block;
+      margin-bottom: 8px;
+      width: 100%;
+      background: #1f2937;
+      color: white;
+      border: none;
+      padding: 8px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    select {
+      width: 100%;
+      margin-bottom: 12px;
+      padding: 6px;
+      background: #1f2937;
+      color: white;
+      border: none;
+      border-radius: 6px;
+    }
+
+    #legend {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+
+    /* Canvas */
+    #canvasContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+<button id="toggleBtn">☰</button>
+
+<div id="controls">
+  <h3>Group</h3>
+  <button onclick="setGroup('none')">None</button>
+  <button onclick="setGroup('book')">Book</button>
+  <button onclick="setGroup('theological')">Theological</button>
+  <button onclick="setGroup('social')">Social</button>
+  <button onclick="setGroup('action')">Action</button>
+
+  <h3>Color By</h3>
+  <select id="colorSelect">
+    <option value="theological">Theological</option>
+    <option value="social">Social</option>
+    <option value="action">Action</option>
+    <option value="book">Book</option>
+  </select>
+
+  <div id="legend"></div>
+
+  <button onclick="resetView()">Reset</button>
+</div>
+
+<div id="canvasContainer">
+  <svg id="canvas"></svg>
+</div>
+
+<script src="bubbles.js"></script>
+
+<script>
+  document.getElementById("toggleBtn").onclick = () => {
+    document.getElementById("controls").classList.toggle("open");
+  };
+</script>
+
+</body>
+</html>
