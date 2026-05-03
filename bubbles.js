@@ -111,7 +111,6 @@ function buildLegend() {
 
 function resetView() {
   circles.attr("opacity", 1);
-  setGroup("none");
 }
 
 function drawGroupLabels(groups, positions) {
@@ -138,95 +137,114 @@ function drawGroupLabels(groups, positions) {
     .text(g => g);
 }
 
+function buildSlices(type) {
+  const groups = [...new Set(nodes.map(d => d[type]).filter(Boolean))];
+
+  // group sizes
+  const counts = {};
+  groups.forEach(g => counts[g] = 0);
+  nodes.forEach(d => counts[d[type]]++);
+
+  // sort biggest first
+  groups.sort((a, b) => counts[b] - counts[a]);
+
+  const total = groups.reduce((sum, g) => sum + counts[g], 0);
+
+  const slices = {};
+
+  let startAngle = 0;
+  const gap = 0.02; // space between slices
+
+  groups.forEach(g => {
+    const ratio = counts[g] / total;
+    const angleSize = ratio * Math.PI * 2;
+
+    slices[g] = {
+      start: startAngle + gap,
+      end: startAngle + angleSize - gap
+    };
+
+    startAngle += angleSize;
+  });
+
+  return slices;
+}
+
+function drawSliceLabels(slices, cx, cy, radius) {
+  const svg = d3.select("#canvas");
+  let labelLayer = svg.select("#labels");
+
+  if (labelLayer.empty()) {
+    labelLayer = svg.append("g").attr("id", "labels");
+  }
+
+  labelLayer.selectAll("text").remove();
+
+  Object.entries(slices).forEach(([g, s]) => {
+    const angle = (s.start + s.end) / 2;
+
+    labelLayer.append("text")
+      .attr("x", cx + Math.cos(angle) * (radius + 80))
+      .attr("y", cy + Math.sin(angle) * (radius + 80))
+      .attr("text-anchor", "middle")
+      .attr("fill", "#94a3b8")
+      .attr("font-size", "12px")
+      .text(g);
+  });
+}
+
+function sliceForce(type, slices, cx, cy, radius) {
+  return function(alpha) {
+
+    nodes.forEach(d => {
+      const g = d[type];
+      if (!g || !slices[g]) return;
+
+      const slice = slices[g];
+
+      const angle = (slice.start + slice.end) / 2;
+
+      const targetX = cx + Math.cos(angle) * radius;
+      const targetY = cy + Math.sin(angle) * radius;
+
+      // stable pull (NOT velocity injection)
+      d.vx += (targetX - d.x) * 0.06 * alpha;
+      d.vy += (targetY - d.y) * 0.06 * alpha;
+
+      d.vx *= 0.85;
+      d.vy *= 0.85;
+    });
+  };
+}
+
 function setGroup(type) {
   currentGroup = type;
-  window.setGroup = setGroup;
-  window.resetView = resetView;
 
   const { width, height } = getCanvasSize();
 
-  // 🔹 RESET MODE
   if (type === "none") {
-    d3.select("#labels").selectAll("text").remove();
-
     simulation
       .force("x", d3.forceX(width / 2).strength(0.05))
       .force("y", d3.forceY(height / 2).strength(0.05))
-      .force("collision", d3.forceCollide().radius(6));
+      .force("collision", d3.forceCollide().radius(6))
+      .force("slice", null);
 
     simulation.alpha(1).restart();
     return;
   }
 
-  // 🔹 GET GROUPS
-  const groups = [...new Set(nodes.map(d => d[type]).filter(Boolean))];
+  const slices = buildSlices(type);
 
-    // 🔹 CREATE GRID POSITIONS (FIXED + PADDED)
-    const margin = 80; // 👈 tweak this for breathing room
+  const cx = width / 2;
+  const cy = height / 2;
+  const radius = Math.min(width, height) * 0.32;
 
-    const usableWidth = width - margin * 2;
-    const usableHeight = height - margin * 2;
+  simulation
+    .force("slice", sliceForce(type, slices, cx, cy, radius))
+    .force("center", d3.forceCenter(cx, cy).strength(0.03))
+    .force("collision", d3.forceCollide().radius(6));
 
-    const cols = Math.ceil(Math.sqrt(groups.length));
-    const rows = Math.ceil(groups.length / cols);
-
-    const cellWidth = usableWidth / cols;
-    const cellHeight = usableHeight / rows;
-
-    const positions = {};
-
-    groups.forEach((g, i) => {
-    const col = i % cols;
-    const row = Math.floor(i / cols);
-
-        positions[g] = {
-                x: margin + col * cellWidth + cellWidth / 2,
-                y: margin + row * cellHeight + cellHeight / 2
-        };
-    });
-
-  // 🔹 SPECIAL CASE: BOOK (ordered spiral inside clusters)
-  if (type === "book") {
-    const grouped = {};
-    groups.forEach(g => grouped[g] = []);
-    nodes.forEach(d => grouped[d.book]?.push(d));
-
-    Object.values(grouped).forEach(arr =>
-      arr.sort((a, b) => a.chapter - b.chapter || a.verse - b.verse)
-    );
-
-    groups.forEach(g => {
-      const center = positions[g];
-      const group = grouped[g];
-
-      const perRow = Math.ceil(Math.sqrt(group.length));
-      const spacing = 10;
-
-        group.forEach((d, i) => {
-            const col = i % perRow;
-            const row = Math.floor(i / perRow);
-
-            d.targetX = center.x + (col - perRow / 2) * spacing;
-            d.targetY = center.y + (row - perRow / 2) * spacing;
-        });
-    });
-
-    simulation
-      .force("x", d3.forceX(d => d.targetX).strength(0.6))
-      .force("y", d3.forceY(d => d.targetY).strength(0.6))
-      .force("collision", d3.forceCollide().radius(6).strength(0.7));
-  }
-
-  // 🔹 NORMAL GROUPING
-  else {
-    simulation
-      .force("x", d3.forceX(d => positions[d[type]].x).strength(0.4))
-      .force("y", d3.forceY(d => positions[d[type]].y).strength(0.4))
-      .force("collision", d3.forceCollide().radius(7));
-  }
-
-  // 🔹 LABELS
-  drawGroupLabels(groups, positions);
+  drawSliceLabels(slices, cx, cy, radius);
 
   simulation.alpha(1).restart();
 }
