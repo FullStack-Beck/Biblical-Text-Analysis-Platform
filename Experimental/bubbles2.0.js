@@ -13,7 +13,7 @@ let hoverHighlight = null;    // temporary hover
 const SHAPE_SIZE = 160; // tuned for visual balance (not data-driven)
 const COLLISION_RADIUS = Math.sqrt(SHAPE_SIZE) * 1.1 + 4; // adds padding to prevent overlap
 
-Papa.parse("dataV.3.tsv", {
+Papa.parse("DataV.3.tsv", {
   download: true,
   header: true,
   skipEmptyLines: true,
