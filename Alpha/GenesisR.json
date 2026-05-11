@@ -1,0 +1,1292 @@
+[
+  {
+    "source_key": "gen_01_28_01",
+    "target_key": "gen_01_28_02",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Fruitfulness precedes dominion mandate."
+  },
+
+  {
+    "source_key": "gen_01_28_02",
+    "target_key": "gen_01_28_03",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Dominion instruction expands subduing mandate into animal governance."
+  },
+
+  {
+    "source_key": "gen_01_28_01",
+    "target_key": "gen_01_28_03",
+    "relationship_type": "continuation",
+    "strength": 0.88,
+    "notes": "Human multiplication connected to delegated dominion responsibility."
+  },
+
+  {
+    "source_key": "gen_01_29_01",
+    "target_key": "gen_01_30_01",
+    "relationship_type": "parallel_account",
+    "strength": 0.82,
+    "notes": "Provision pattern applies to both humanity and animal creation."
+  },
+
+  {
+    "source_key": "gen_02_16_01",
+    "target_key": "gen_02_17_01",
+    "relationship_type": "contrast",
+    "strength": 0.95,
+    "notes": "Permission contrasted with prohibition regarding the trees."
+  },
+
+  {
+    "source_key": "gen_02_15_01",
+    "target_key": "gen_02_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.75,
+    "notes": "Stewardship responsibility precedes dietary permission."
+  },
+
+  {
+    "source_key": "gen_02_17_01",
+    "target_key": "gen_03_06_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.98,
+    "notes": "Violation of prohibition results in the fall narrative."
+  },
+
+  {
+    "source_key": "gen_02_18_01",
+    "target_key": "gen_02_24_01",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "Marriage union expands the principle that man should not be alone."
+  },
+
+  {
+    "source_key": "gen_02_24_01",
+    "target_key": "mat_19_05_01",
+    "relationship_type": "quotation",
+    "strength": 1.0,
+    "notes": "Jesus directly quotes Genesis 2:24 regarding marriage."
+  },
+
+  {
+    "source_key": "gen_02_24_01",
+    "target_key": "eph_05_31_01",
+    "relationship_type": "quotation",
+    "strength": 1.0,
+    "notes": "Paul directly quotes Genesis 2:24 concerning marriage and Christ/church typology."
+  },
+
+  {
+    "source_key": "gen_03_03_01",
+    "target_key": "gen_02_17_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.98,
+    "notes": "Eve repeats the original prohibition given in Genesis 2."
+  },
+
+  {
+    "source_key": "gen_03_04_01",
+    "target_key": "gen_03_03_01",
+    "relationship_type": "contrast",
+    "strength": 0.95,
+    "notes": "Serpent contradicts God's warning repeated by Eve."
+  },
+
+  {
+    "source_key": "gen_03_14_01",
+    "target_key": "gen_03_04_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Serpent deception results in divine curse."
+  },
+
+  {
+    "source_key": "gen_03_15_01",
+    "target_key": "rom_16_20_01",
+    "relationship_type": "typology",
+    "strength": 0.82,
+    "notes": "Themes of ultimate serpent defeat echoed in Romans 16:20."
+  },
+
+  {
+    "source_key": "gen_03_15_01",
+    "target_key": "rev_12_09_01",
+    "relationship_type": "prophetic_connection",
+    "strength": 0.79,
+    "notes": "Serpent imagery connected to later apocalyptic Satan imagery."
+  },
+
+  {
+    "source_key": "gen_03_17_01",
+    "target_key": "rom_08_20_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.76,
+    "notes": "Creation subjected to corruption because of the fall."
+  },
+
+  {
+    "source_key": "gen_04_07_01",
+    "target_key": "gen_04_10_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "Cain fails to rule over sin, resulting in Abel's murder and divine confrontation."
+  },
+  {
+    "source_key": "gen_04_10_01",
+    "target_key": "gen_04_11_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.98,
+    "notes": "Divine rebuke leads directly into judicial curse."
+  },
+  {
+    "source_key": "gen_04_11_01",
+    "target_key": "gen_04_15_01",
+    "relationship_type": "continuation",
+    "strength": 0.82,
+    "notes": "Protection mark and vengeance warning continue the judicial consequences narrative."
+  },
+  {
+    "source_key": "gen_04_07_01",
+    "target_key": "gen_04_15_01",
+    "relationship_type": "contrast",
+    "strength": 0.71,
+    "notes": "Failure to master sin results in judgment yet is paired with divine restraint against vengeance."
+  },
+
+  {
+    "source_key": "gen_05_01_01",
+    "target_key": "gen_01_27_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.98,
+    "notes": "Genesis 5 restates humanity created in God's likeness."
+  },
+
+  {
+    "source_key": "gen_05_03_01",
+    "target_key": "gen_05_01_01",
+    "relationship_type": "echo",
+    "strength": 0.83,
+    "notes": "Adam's likeness language echoes divine image language."
+  },
+
+  {
+    "source_key": "gen_05_22_01",
+    "target_key": "heb_11_05_01",
+    "relationship_type": "ot_fulfillment",
+    "strength": 0.91,
+    "notes": "Hebrews interprets Enoch as an example of faith."
+  },
+
+  {
+    "source_key": "gen_05_29_01",
+    "target_key": "gen_03_17_01",
+    "relationship_type": "echo",
+    "strength": 0.88,
+    "notes": "Noah naming prophecy references curse upon labor from Genesis 3."
+  },
+
+  {
+    "source_key": "gen_05_22_01",
+    "target_key": "gen_05_29_01",
+    "relationship_type": "contrast",
+    "strength": 0.52,
+    "notes": "Enoch escapes death while Noah remains in mortal genealogy."
+  },
+
+  {
+    "source_key": "gen_06_13_01",
+    "target_key": "gen_06_13_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Human violence results in divine judgment."
+  },
+
+  {
+    "source_key": "gen_06_13_02",
+    "target_key": "gen_06_14_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.96,
+    "notes": "Impending destruction motivates ark construction."
+  },
+
+  {
+    "source_key": "gen_06_14_01",
+    "target_key": "gen_06_14_02",
+    "relationship_type": "expansion",
+    "strength": 0.98,
+    "notes": "Pitching instructions expand ark construction details."
+  },
+
+  {
+    "source_key": "gen_06_14_02",
+    "target_key": "gen_06_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Ark construction instructions continue sequentially."
+  },
+
+  {
+    "source_key": "gen_06_15_01",
+    "target_key": "gen_06_16_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "Additional architectural specifications are added."
+  },
+
+  {
+    "source_key": "gen_06_16_01",
+    "target_key": "gen_06_19_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.90,
+    "notes": "Ark preparation transitions into preservation instructions."
+  },
+
+  {
+    "source_key": "gen_06_19_01",
+    "target_key": "gen_06_21_01",
+    "relationship_type": "expansion",
+    "strength": 0.91,
+    "notes": "Animal preservation instructions expand into food provisioning."
+  },
+
+  {
+    "source_key": "gen_06_14_01",
+    "target_key": "gen_06_22_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Noah obeys the ark construction command."
+  },
+
+  {
+    "source_key": "gen_06_19_01",
+    "target_key": "gen_06_22_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.84,
+    "notes": "Noah fulfills preservation instructions."
+  },
+
+  {
+    "source_key": "gen_07_01_01",
+    "target_key": "gen_07_02_01",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "Animal instructions expand the ark-entry command."
+  },
+
+  {
+    "source_key": "gen_07_02_01",
+    "target_key": "gen_07_04_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Animal gathering precedes impending flood judgment."
+  },
+
+  {
+    "source_key": "gen_07_01_01",
+    "target_key": "gen_07_05_01",
+    "relationship_type": "application",
+    "strength": 0.95,
+    "notes": "Noah obeys the divine command."
+  },
+
+  {
+    "source_key": "gen_07_01_01",
+    "target_key": "gen_07_13_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.97,
+    "notes": "The family entering the ark fulfills God's earlier command."
+  },
+
+  {
+    "source_key": "gen_07_13_01",
+    "target_key": "gen_07_16_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.83,
+    "notes": "After Noah enters, God seals the ark."
+  },
+
+  {
+    "source_key": "gen_07_04_01",
+    "target_key": "gen_07_16_01",
+    "relationship_type": "contrast",
+    "strength": 0.61,
+    "notes": "Judgment falls outside while salvation is preserved inside the ark."
+  },
+
+  {
+    "source_key": "gen_08_15_01",
+    "target_key": "gen_08_15_02",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Release of animals follows command for Noah's family to leave the ark."
+  },
+
+  {
+    "source_key": "gen_08_15_01",
+    "target_key": "gen_08_20_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.85,
+    "notes": "Leaving the ark enables Noah's worship response."
+  },
+
+  {
+    "source_key": "gen_08_20_01",
+    "target_key": "gen_08_21_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "God's covenant declaration follows Noah's sacrifice."
+  },
+
+  {
+    "source_key": "gen_08_20_01",
+    "target_key": "gen_06_14_01",
+    "relationship_type": "continuation",
+    "strength": 0.74,
+    "notes": "Noah's obedience in worship continues covenant faithfulness established during ark construction."
+  },
+
+  {
+    "source_key": "gen_08_21_01",
+    "target_key": "gen_03_17_01",
+    "relationship_type": "reversal",
+    "strength": 0.87,
+    "notes": "Promise not to curse the ground again partially reverses the Genesis 3 ground curse pattern."
+  },
+
+  {
+    "source_key": "gen_09_01_01",
+    "target_key": "gen_09_01_02",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Both commands form a unified creation mandate statement."
+  },
+
+  {
+    "source_key": "gen_09_01_01",
+    "target_key": "gen_09_07_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.98,
+    "notes": "Fruitfulness and multiplication mandate repeated after flood."
+  },
+
+  {
+    "source_key": "gen_09_03_01",
+    "target_key": "gen_09_04_01",
+    "relationship_type": "restriction",
+    "strength": 0.97,
+    "notes": "Permission to eat animals immediately restricted by blood prohibition."
+  },
+
+  {
+    "source_key": "gen_09_04_01",
+    "target_key": "gen_09_05_01",
+    "relationship_type": "expansion",
+    "strength": 0.88,
+    "notes": "Sanctity of blood expanded from dietary restriction into judicial principle."
+  },
+
+  {
+    "source_key": "gen_09_05_01",
+    "target_key": "gen_09_07_01",
+    "relationship_type": "contrast",
+    "strength": 0.73,
+    "notes": "Human violence contrasted with divine command toward life and multiplication."
+  },
+
+  {
+    "source_key": "gen_11_03_01",
+    "target_key": "gen_11_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Brick-making precedes tower construction."
+  },
+
+  {
+    "source_key": "gen_11_04_01",
+    "target_key": "gen_11_04_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.85,
+    "notes": "Tower-building intended to establish collective identity and prevent dispersion."
+  },
+
+  {
+    "source_key": "gen_11_04_02",
+    "target_key": "gen_11_07_01",
+    "relationship_type": "contrast",
+    "strength": 0.92,
+    "notes": "Human desire for unified identity contrasted with divine judgment through language confusion."
+  },
+
+  {
+    "source_key": "gen_11_07_01",
+    "target_key": "gen_11_08_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.98,
+    "notes": "Language confusion results in human dispersion."
+  },
+
+  {
+    "source_key": "gen_11_04_01",
+    "target_key": "gen_01_28_02",
+    "relationship_type": "contrast",
+    "strength": 0.83,
+    "notes": "Babel centralization contrasts humanity's earlier mandate to fill the earth."
+  },
+
+  {
+    "source_key": "gen_11_08_01",
+    "target_key": "gen_01_28_02",
+    "relationship_type": "continuation",
+    "strength": 0.79,
+    "notes": "Human dispersion indirectly fulfills the creation mandate to spread across the earth."
+  },
+
+  {
+    "source_key": "gen_12_01_01",
+    "target_key": "gen_13_17_01",
+    "relationship_type": "continuation",
+    "strength": 0.93,
+    "notes": "Abram's departure leads into covenant inheritance progression."
+  },
+  {
+    "source_key": "gen_12_01_01",
+    "target_key": "gen_13_14_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.89,
+    "notes": "Obedient departure precedes renewed land promise."
+  },
+  {
+    "source_key": "gen_12_02_01",
+    "target_key": "gen_12_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Covenant blessing statements continue sequentially."
+  },
+  {
+    "source_key": "gen_13_08_01",
+    "target_key": "gen_13_09_01",
+    "relationship_type": "expansion",
+    "strength": 0.91,
+    "notes": "Peaceful separation expands the command against strife."
+  },
+  {
+    "source_key": "gen_13_14_01",
+    "target_key": "gen_13_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Viewing the land precedes walking through it."
+  },
+  {
+    "source_key": "gen_12_08_01",
+    "target_key": "gen_13_17_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.62,
+    "notes": "Worship and covenant inheritance remain linked themes in Abram narrative."
+  },
+
+  {
+    "source_key": "gen_14_18_01",
+    "target_key": "gen_14_19_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Melchizedek's priestly ministry precedes his blessing upon Abram."
+  },
+
+  {
+    "source_key": "gen_14_19_01",
+    "target_key": "gen_14_20_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Blessing of Abram followed by blessing of God."
+  },
+
+  {
+    "source_key": "gen_14_20_01",
+    "target_key": "gen_14_20_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.85,
+    "notes": "Abram's tithe follows acknowledgment of divine deliverance."
+  },
+
+  {
+    "source_key": "gen_14_21_01",
+    "target_key": "gen_14_22_01",
+    "relationship_type": "contrast",
+    "strength": 0.88,
+    "notes": "Abram rejects the economic offer made by the king of Sodom."
+  },
+
+  {
+    "source_key": "gen_14_20_02",
+    "target_key": "gen_14_22_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.65,
+    "notes": "Both passages concern stewardship and Abram's handling of material wealth."
+  },
+
+  {
+    "source_key": "gen_15_01_01",
+    "target_key": "gen_15_05_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "Covenant reassurance progresses into visual covenant illustration."
+  },
+
+  {
+    "source_key": "gen_15_05_01",
+    "target_key": "gen_15_18_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Promise of descendants develops into territorial covenant inheritance."
+  },
+
+  {
+    "source_key": "gen_15_09_01",
+    "target_key": "gen_15_18_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Sacrificial covenant ritual precedes formal covenant ratification."
+  },
+
+  {
+    "source_key": "gen_15_13_01",
+    "target_key": "gen_15_18_01",
+    "relationship_type": "prophetic_connection",
+    "strength": 0.91,
+    "notes": "Future affliction prophecy precedes inheritance fulfillment."
+  },
+
+  {
+    "source_key": "gen_15_05_01",
+    "target_key": "gen_15_13_01",
+    "relationship_type": "expansion",
+    "strength": 0.74,
+    "notes": "Descendant promise expanded through prophetic historical detail."
+  },
+
+  {
+    "source_key": "gen_16_02_01",
+    "target_key": "gen_16_06_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.83,
+    "notes": "Sarai's instruction regarding Hagar contributes to later household conflict and Abram's response."
+  },
+  {
+    "source_key": "gen_16_06_01",
+    "target_key": "gen_16_09_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Abram's delegation leads to Hagar's mistreatment and flight, prompting divine intervention."
+  },
+  {
+    "source_key": "gen_16_09_01",
+    "target_key": "gen_16_10_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "The promise follows the command to return and submit."
+  },
+  {
+    "source_key": "gen_16_10_01",
+    "target_key": "gen_16_11_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "The multiplication promise precedes the naming instruction for Ishmael."
+  },
+  {
+    "source_key": "gen_16_11_01",
+    "target_key": "gen_16_12_01",
+    "relationship_type": "prophetic_connection",
+    "strength": 0.92,
+    "notes": "The naming of Ishmael is directly connected to prophecy concerning his future character and descendants."
+  },
+
+  {
+    "source_key": "gen_17_01_01",
+    "target_key": "gen_17_09_01",
+    "relationship_type": "continuation",
+    "strength": 0.88,
+    "notes": "Walking blamelessly continues into covenant obedience."
+  },
+
+  {
+    "source_key": "gen_17_09_01",
+    "target_key": "gen_17_10_01",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Keeping the covenant is expanded through circumcision instructions."
+  },
+
+  {
+    "source_key": "gen_17_10_01",
+    "target_key": "gen_17_11_01",
+    "relationship_type": "restatement",
+    "strength": 0.97,
+    "notes": "Circumcision command restated with covenant symbolism explained."
+  },
+
+  {
+    "source_key": "gen_17_10_01",
+    "target_key": "gen_17_14_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "Failure to obey circumcision command results in covenant judgment."
+  },
+
+  {
+    "source_key": "gen_17_02_01",
+    "target_key": "gen_17_04_01",
+    "relationship_type": "expansion",
+    "strength": 0.91,
+    "notes": "General covenant promise expanded into national fatherhood promise."
+  },
+
+  {
+    "source_key": "gen_18_06_01",
+    "target_key": "gen_18_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "Sequential hospitality preparation actions."
+  },
+
+  {
+    "source_key": "gen_18_10_01",
+    "target_key": "gen_17_19_01",
+    "relationship_type": "continuation",
+    "strength": 0.97,
+    "notes": "Reaffirms prior covenant promise concerning Isaac."
+  },
+
+  {
+    "source_key": "gen_18_14_01",
+    "target_key": "jer_32_27_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.88,
+    "notes": "Shared affirmation of divine omnipotence."
+  },
+
+  {
+    "source_key": "gen_18_19_01",
+    "target_key": "mic_06_08_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.90,
+    "notes": "Shared justice and righteousness ethic."
+  },
+
+  {
+    "source_key": "gen_19_12_01",
+    "target_key": "gen_19_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Initial evacuation warning develops into urgent command to flee."
+  },
+  {
+    "source_key": "gen_19_15_01",
+    "target_key": "gen_19_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Command progression intensifies as destruction becomes imminent."
+  },
+  {
+    "source_key": "gen_19_17_01",
+    "target_key": "gen_19_17_02",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Specific prohibition expands the broader escape instruction."
+  },
+  {
+    "source_key": "gen_19_17_01",
+    "target_key": "gen_19_17_03",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "Specific destination instruction expands evacuation command."
+  },
+  {
+    "source_key": "gen_19_17_02",
+    "target_key": "gen_19_17_03",
+    "relationship_type": "series_sequence",
+    "strength": 0.82,
+    "notes": "Prohibition against looking back accompanies command to continue fleeing."
+  },
+  {
+    "source_key": "gen_19_15_01",
+    "target_key": "gen_19_17_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.78,
+    "notes": "Failure to obey escape instructions would result in destruction."
+  },
+
+  {
+    "source_key": "gen_20_03_01",
+    "target_key": "gen_20_07_03",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Initial warning develops into explicit death consequence."
+  },
+
+  {
+    "source_key": "gen_20_06_01",
+    "target_key": "gen_20_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.88,
+    "notes": "Divine explanation precedes restoration command."
+  },
+
+  {
+    "source_key": "gen_20_07_01",
+    "target_key": "gen_20_07_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Restoration of Sarah leads to Abrahamic intercession."
+  },
+
+  {
+    "source_key": "gen_20_07_01",
+    "target_key": "gen_20_07_03",
+    "relationship_type": "contrast",
+    "strength": 0.92,
+    "notes": "Obedience leads to life while refusal leads to death."
+  },
+
+  {
+    "source_key": "gen_20_07_02",
+    "target_key": "gen_20_17_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.98,
+    "notes": "Abraham's promised prayer becomes fulfilled through healing."
+  },
+
+  {
+    "source_key": "gen_20_08_01",
+    "target_key": "gen_20_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.70,
+    "notes": "Abimelech's response sequence culminates in restoration and healing."
+  },
+
+  {
+    "source_key": "gen_21_10_01",
+    "target_key": "gen_21_12_01",
+    "relationship_type": "application",
+    "strength": 0.92,
+    "notes": "God affirms Sarah's instruction regarding Hagar and Ishmael."
+  },
+
+  {
+    "source_key": "gen_21_12_01",
+    "target_key": "gen_21_13_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Abraham is told to listen to Sarah because Ishmael will also become a nation."
+  },
+
+  {
+    "source_key": "gen_22_02_01",
+    "target_key": "gen_22_02_02",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Travel to Moriah precedes sacrificial offering."
+  },
+
+  {
+    "source_key": "gen_22_02_02",
+    "target_key": "gen_22_12_01",
+    "relationship_type": "reversal",
+    "strength": 0.95,
+    "notes": "Initial sacrificial command is halted by divine intervention."
+  },
+
+  {
+    "source_key": "gen_22_12_01",
+    "target_key": "gen_22_13_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.91,
+    "notes": "Stopping Isaac's sacrifice leads to substitutionary ram offering."
+  },
+
+  {
+    "source_key": "gen_22_02_02",
+    "target_key": "gen_22_13_01",
+    "relationship_type": "typology",
+    "strength": 0.86,
+    "notes": "Substitutionary ram foreshadows later sacrificial themes."
+  },
+
+  {
+    "source_key": "gen_22_02_02",
+    "target_key": "gen_22_16_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.94,
+    "notes": "Abraham's obedience results in covenant reaffirmation."
+  },
+
+  {
+    "source_key": "gen_21_04_01",
+    "target_key": "gen_22_16_01",
+    "relationship_type": "continuation",
+    "strength": 0.82,
+    "notes": "Covenant obedience theme continues from circumcision to sacrifice narrative."
+  },
+
+  {
+    "source_key": "gen_24_03_01",
+    "target_key": "gen_24_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Negative prohibition followed by positive covenant instruction."
+  },
+
+  {
+    "source_key": "gen_24_04_01",
+    "target_key": "gen_24_06_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.87,
+    "notes": "Covenant marriage instruction leads to prohibition against returning Isaac."
+  },
+
+  {
+    "source_key": "gen_24_06_01",
+    "target_key": "gen_24_08_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.98,
+    "notes": "Near-identical prohibition repeated for emphasis."
+  },
+
+  {
+    "source_key": "gen_24_03_01",
+    "target_key": "gen_24_08_01",
+    "relationship_type": "continuation",
+    "strength": 0.82,
+    "notes": "Marriage covenant preservation continues through repeated land-separation commands."
+  },
+
+  {
+    "source_key": "gen_24_04_01",
+    "target_key": "gen_24_58_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.91,
+    "notes": "Rebekah's decision fulfills Abraham's servant mission."
+  },
+
+  {
+    "source_key": "gen_24_27_01",
+    "target_key": "gen_24_04_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.75,
+    "notes": "Servant blesses God after successful guidance in fulfilling Abraham's instruction."
+  },
+
+  {
+    "source_key": "gen_26_02_01",
+    "target_key": "gen_26_02_02",
+    "relationship_type": "contrast",
+    "strength": 0.95,
+    "notes": "Negative prohibition contrasted with positive covenant direction."
+  },
+  {
+    "source_key": "gen_26_02_02",
+    "target_key": "gen_26_03_01",
+    "relationship_type": "continuation",
+    "strength": 0.93,
+    "notes": "God expands instruction for Isaac to remain in covenant territory."
+  },
+  {
+    "source_key": "gen_26_05_01",
+    "target_key": "gen_26_03_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.89,
+    "notes": "Isaac's covenant blessing tied to Abraham's prior obedience."
+  },
+  {
+    "source_key": "gen_27_08_01",
+    "target_key": "gen_27_09_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Instruction followed by practical command."
+  },
+  {
+    "source_key": "gen_27_09_01",
+    "target_key": "gen_27_13_01",
+    "relationship_type": "restatement",
+    "strength": 0.91,
+    "notes": "Rebekah reiterates the instruction after Jacob hesitates."
+  },
+  {
+    "source_key": "gen_27_08_01",
+    "target_key": "gen_27_13_01",
+    "relationship_type": "intensification",
+    "strength": 0.88,
+    "notes": "Repeated maternal command reinforces urgency and authority."
+  },
+
+  {
+    "source_key": "gen_28_01_01",
+    "target_key": "gen_28_01_03",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Marriage prohibition followed by covenant-approved marriage instruction."
+  },
+  {
+    "source_key": "gen_28_01_02",
+    "target_key": "gen_28_01_03",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Journey to Padanaram enables covenant-family marriage."
+  },
+  {
+    "source_key": "gen_28_13_01",
+    "target_key": "gen_28_15_01",
+    "relationship_type": "expansion",
+    "strength": 0.91,
+    "notes": "Land promise expanded with divine-presence assurance."
+  },
+  {
+    "source_key": "gen_28_01_01",
+    "target_key": "gen_28_13_01",
+    "relationship_type": "continuation",
+    "strength": 0.73,
+    "notes": "Covenant-faithful marriage instruction linked to Abrahamic inheritance promises."
+  },
+  {
+    "source_key": "gen_29_19_01",
+    "target_key": "gen_30_27_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.67,
+    "notes": "Repeated requests for Jacob to remain in Laban's household."
+  },
+
+  {
+    "source_key": "gen_31_03_01",
+    "target_key": "gen_31_13_01",
+    "relationship_type": "restatement",
+    "strength": 0.97,
+    "notes": "Second divine instruction repeats and strengthens the earlier return command."
+  },
+  {
+    "source_key": "gen_31_13_01",
+    "target_key": "gen_32_09_01",
+    "relationship_type": "quotation",
+    "strength": 0.96,
+    "notes": "Jacob quotes and recalls God's earlier command during prayer."
+  },
+  {
+    "source_key": "gen_31_03_01",
+    "target_key": "gen_32_09_01",
+    "relationship_type": "quotation",
+    "strength": 0.93,
+    "notes": "Jacob's prayer directly recalls God's initial return instruction."
+  },
+  {
+    "source_key": "gen_31_24_01",
+    "target_key": "gen_31_44_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.71,
+    "notes": "Divine warning contributes to peaceful covenant resolution between Laban and Jacob."
+  },
+  {
+    "source_key": "gen_31_03_01",
+    "target_key": "gen_32_26_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.42,
+    "notes": "Both passages involve divine-human encounter surrounding Jacob's covenant journey."
+  },
+
+  {
+    "source_key": "gen_35_01_01",
+    "target_key": "gen_35_02_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "God's command to return to Bethel causes household purification."
+  },
+
+  {
+    "source_key": "gen_35_02_01",
+    "target_key": "gen_35_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Purification precedes journey to Bethel."
+  },
+
+  {
+    "source_key": "gen_35_01_01",
+    "target_key": "gen_35_03_01",
+    "relationship_type": "application",
+    "strength": 0.88,
+    "notes": "Jacob applies God's command corporately to his household."
+  },
+
+  {
+    "source_key": "gen_35_10_01",
+    "target_key": "gen_35_11_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.91,
+    "notes": "Renaming Israel precedes covenant blessing."
+  },
+
+  {
+    "source_key": "gen_35_11_01",
+    "target_key": "gen_01_28_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.98,
+    "notes": "Be fruitful and multiply repeats creation blessing language."
+  },
+
+  {
+    "source_key": "gen_34_15_01",
+    "target_key": "gen_17_10_01",
+    "relationship_type": "continuation",
+    "strength": 0.92,
+    "notes": "Circumcision requirement continues Abrahamic covenant sign."
+  },
+
+  {
+    "source_key": "gen_37_13_01",
+    "target_key": "gen_37_14_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Israel expands the instruction given to Joseph."
+  },
+
+  {
+    "source_key": "gen_37_20_01",
+    "target_key": "gen_37_21_01",
+    "relationship_type": "contrast",
+    "strength": 0.96,
+    "notes": "Reuben opposes the murder plot."
+  },
+
+  {
+    "source_key": "gen_37_21_01",
+    "target_key": "gen_37_22_01",
+    "relationship_type": "expansion",
+    "strength": 0.90,
+    "notes": "Reuben clarifies the alternative plan to spare Joseph."
+  },
+
+  {
+    "source_key": "gen_39_07_01",
+    "target_key": "gen_39_09_01",
+    "relationship_type": "contrast",
+    "strength": 0.98,
+    "notes": "Joseph rejects Potiphar's wife's temptation."
+  },
+
+  {
+    "source_key": "gen_39_09_01",
+    "target_key": "gen_37_21_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.62,
+    "notes": "Both involve restraint from sinful violence or immorality."
+  },
+
+  {
+    "source_key": "gen_40_14_01",
+    "target_key": "gen_40_14_02",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Joseph's requests progress from remembrance to covenant kindness."
+  },
+
+  {
+    "source_key": "gen_40_14_02",
+    "target_key": "gen_40_14_03",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Kindness expressed through advocacy before Pharaoh."
+  },
+
+  {
+    "source_key": "gen_40_14_03",
+    "target_key": "gen_40_14_04",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Mentioning Joseph to Pharaoh intended to result in release."
+  },
+
+  {
+    "source_key": "gen_41_33_01",
+    "target_key": "gen_41_34_01",
+    "relationship_type": "expansion",
+    "strength": 0.94,
+    "notes": "Administrative recommendation expanded into specific governance structure."
+  },
+
+  {
+    "source_key": "gen_41_34_01",
+    "target_key": "gen_41_35_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "Appointment of officers enables grain storage policy."
+  },
+
+  {
+    "source_key": "gen_41_35_01",
+    "target_key": "gen_42_02_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.90,
+    "notes": "Joseph's preservation strategy later enables Jacob's family survival."
+  },
+
+  {
+    "source_key": "gen_43_03_01",
+    "target_key": "gen_43_05_01",
+    "relationship_type": "restatement",
+    "strength": 0.96,
+    "notes": "Judah repeats the same condition regarding Benjamin."
+  },
+  {
+    "source_key": "gen_43_04_01",
+    "target_key": "gen_43_13_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.84,
+    "notes": "Jacob's eventual decision fulfills Judah's condition."
+  },
+  {
+    "source_key": "gen_43_11_01",
+    "target_key": "gen_43_12_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.89,
+    "notes": "Jacob gives sequential preparation instructions."
+  },
+  {
+    "source_key": "gen_43_12_01",
+    "target_key": "gen_43_13_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.88,
+    "notes": "Travel preparation culminates in returning to Egypt."
+  },
+  {
+    "source_key": "gen_44_01_01",
+    "target_key": "gen_44_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Joseph's servant instructions proceed in order."
+  },
+  {
+    "source_key": "gen_44_02_01",
+    "target_key": "gen_44_04_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "The planted cup motivates pursuit."
+  },
+  {
+    "source_key": "gen_44_04_01",
+    "target_key": "gen_44_05_01",
+    "relationship_type": "application",
+    "strength": 0.82,
+    "notes": "Steward carries out Joseph's accusation plan."
+  },
+  {
+    "source_key": "gen_45_04_01",
+    "target_key": "gen_45_05_01",
+    "relationship_type": "expansion",
+    "strength": 0.90,
+    "notes": "Joseph's invitation leads into reassurance and forgiveness."
+  },
+
+  {
+    "source_key": "gen_46_03_01",
+    "target_key": "gen_46_03_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.92,
+    "notes": "Jacob is told not to fear because God will establish a great nation in Egypt."
+  },
+
+  {
+    "source_key": "gen_46_03_02",
+    "target_key": "gen_46_04_01",
+    "relationship_type": "continuation",
+    "strength": 0.88,
+    "notes": "Promise of nationhood continues into promise of divine presence and return."
+  },
+
+  {
+    "source_key": "gen_46_33_01",
+    "target_key": "gen_47_06_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.84,
+    "notes": "Joseph's instruction contributes to Pharaoh granting favorable land."
+  },
+
+  {
+    "source_key": "gen_47_06_01",
+    "target_key": "gen_47_06_02",
+    "relationship_type": "series_sequence",
+    "strength": 0.81,
+    "notes": "Settlement provision followed by delegated administrative responsibility."
+  },
+
+  {
+    "source_key": "gen_47_29_01",
+    "target_key": "gen_47_30_01",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Initial prohibition against Egyptian burial expanded into explicit burial instructions."
+  },
+
+  {
+    "source_key": "gen_46_04_01",
+    "target_key": "gen_47_30_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.67,
+    "notes": "Both passages emphasize future return to covenant land."
+  },
+
+  {
+    "source_key": "gen_48_03_01",
+    "target_key": "gen_50_24_01",
+    "relationship_type": "continuation",
+    "strength": 0.93,
+    "notes": "Joseph's prophecy continues the Abrahamic covenant promises recalled by Jacob."
+  },
+
+  {
+    "source_key": "gen_48_09_01",
+    "target_key": "gen_48_20_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "The summons of Ephraim and Manasseh leads directly into the covenant blessing declaration."
+  },
+
+  {
+    "source_key": "gen_49_01_01",
+    "target_key": "gen_49_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Parallel gathering and listening commands introducing Jacob's prophetic discourse."
+  },
+
+  {
+    "source_key": "gen_49_29_01",
+    "target_key": "gen_50_05_01",
+    "relationship_type": "continuation",
+    "strength": 0.96,
+    "notes": "Joseph fulfills and recounts Jacob's burial instruction."
+  },
+
+  {
+    "source_key": "gen_50_24_01",
+    "target_key": "gen_50_25_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.91,
+    "notes": "Joseph's prophecy of deliverance grounds the command concerning his bones."
+  },
+
+  {
+    "source_key": "gen_48_03_01",
+    "target_key": "gen_48_20_01",
+    "relationship_type": "continuation",
+    "strength": 0.84,
+    "notes": "Blessing formula toward Ephraim and Manasseh continues covenant multiplication themes."
+  },
+
+  {
+    "source_key": "gen_50_25_01",
+    "target_key": "exo_13_19_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.99,
+    "notes": "Moses fulfills Joseph's command by carrying Joseph's bones during the Exodus."
+  }
+]
