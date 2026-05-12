@@ -1,0 +1,2428 @@
+[
+    {
+      "source_key": "exo_01_08_01",
+      "target_key": "exo_01_11_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.94,
+      "notes": "Pharaoh's fear and policy directly lead to Israelite oppression."
+    },
+    {
+      "source_key": "exo_01_08_01",
+      "target_key": "exo_01_15_01",
+      "relationship_type": "intensification",
+      "strength": 0.90,
+      "notes": "Pharaoh escalates from oppression to infanticide."
+    },
+    {
+      "source_key": "exo_01_15_01",
+      "target_key": "exo_01_17_01",
+      "relationship_type": "contrast",
+      "strength": 0.98,
+      "notes": "The midwives refuse Pharaoh's wicked command because they fear God."
+    },
+    {
+      "source_key": "exo_01_15_01",
+      "target_key": "exo_01_22_01",
+      "relationship_type": "intensification",
+      "strength": 0.95,
+      "notes": "After the midwives fail to comply, Pharaoh broadens the command to all Egypt."
+    },
+    {
+      "source_key": "exo_01_17_01",
+      "target_key": "exo_01_22_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.73,
+      "notes": "The preservation of Hebrew sons contributes to Pharaoh escalating his decree."
+    },
+    {
+      "source_key": "exo_02_01_01",
+      "target_key": "exo_02_05_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.98,
+      "notes": "Moses' preservation leads directly to his adoption into Pharaoh's house."
+    },
+    {
+      "source_key": "exo_02_05_01",
+      "target_key": "exo_02_11_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.96,
+      "notes": "Moses grows within Egypt before intervening against oppression."
+    },
+    {
+      "source_key": "exo_02_11_01",
+      "target_key": "exo_02_13_01",
+      "relationship_type": "continuation",
+      "strength": 0.91,
+      "notes": "Moses continues attempting justice among Hebrews."
+    },
+    {
+      "source_key": "exo_02_13_01",
+      "target_key": "exo_02_15_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.94,
+      "notes": "Exposure of Moses' actions results in his exile."
+    },
+    {
+      "source_key": "exo_02_15_01",
+      "target_key": "exo_02_16_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.95,
+      "notes": "Moses arrives in Midian and immediately acts as defender."
+    },
+    {
+      "source_key": "exo_02_16_01",
+      "target_key": "exo_02_18_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.88,
+      "notes": "Moses' assistance results in acceptance into Reuel's household."
+    },
+    {
+      "source_key": "exo_02_18_01",
+      "target_key": "exo_02_23_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.82,
+      "notes": "Moses settles in Midian while Israel's suffering continues."
+    },
+    {
+      "source_key": "exo_02_01_01",
+      "target_key": "exo_02_23_01",
+      "relationship_type": "typology",
+      "strength": 0.76,
+      "notes": "Moses' preservation anticipates Israel's future deliverance through him."
+    },
+    {
+      "source_key": "exo_02_11_01",
+      "target_key": "exo_02_23_01",
+      "relationship_type": "contrast",
+      "strength": 0.74,
+      "notes": "Human-driven deliverance contrasts with God's covenant-driven deliverance."
+    },
+    {
+      "source_key": "exo_02_16_01",
+      "target_key": "exo_02_13_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.79,
+      "notes": "Moses repeatedly acts to defend the oppressed."
+    },
+    {
+      "source_key": "exo_03_05_01",
+      "target_key": "exo_03_06_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.89,
+      "notes": "Recognition of holy ground produces reverent fear before God."
+    },
+    {
+      "source_key": "exo_03_10_01",
+      "target_key": "exo_03_16_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.95,
+      "notes": "Gathering Israel's elders follows Moses' commissioning."
+    },
+    {
+      "source_key": "exo_03_16_01",
+      "target_key": "exo_03_18_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.97,
+      "notes": "After gathering the elders, Moses is instructed to confront Pharaoh."
+    },
+    {
+      "source_key": "exo_03_18_01",
+      "target_key": "exo_03_22_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.82,
+      "notes": "Israel's departure from Egypt leads to receiving valuables from Egyptians."
+    },
+    {
+      "source_key": "exo_03_10_01",
+      "target_key": "exo_03_18_01",
+      "relationship_type": "expansion",
+      "strength": 0.91,
+      "notes": "The later instruction expands Moses' deliverance mission with procedural detail."
+    },
+    {
+      "source_key": "exo_03_05_01",
+      "target_key": "exo_03_18_01",
+      "relationship_type": "continuation",
+      "strength": 0.66,
+      "notes": "Holy reverence before God continues into covenant worship obligations."
+    },
+    {
+      "source_key": "exo_03_10_01",
+      "target_key": "exo_03_22_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.78,
+      "notes": "Deliverance from Egypt ultimately results in material provision during the Exodus."
+    },
+    {
+      "source_key": "exo_04_01_01",
+      "target_key": "exo_04_02_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.95,
+      "notes": "Moses' fear of unbelief leads to God providing miraculous signs."
+    },
+    {
+      "source_key": "exo_04_02_01",
+      "target_key": "exo_04_06_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.98,
+      "notes": "The leprous hand sign follows the rod miracle in sequence."
+    },
+    {
+      "source_key": "exo_04_06_01",
+      "target_key": "exo_04_09_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.98,
+      "notes": "The Nile sign is presented as a third escalating sign."
+    },
+    {
+      "source_key": "exo_04_09_01",
+      "target_key": "exo_04_11_01",
+      "relationship_type": "expansion",
+      "strength": 0.72,
+      "notes": "God expands Moses' commissioning beyond signs into empowered speech."
+    },
+    {
+      "source_key": "exo_04_10_01",
+      "target_key": "exo_04_11_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.96,
+      "notes": "Moses' objection concerning speech causes God's reassurance."
+    },
+    {
+      "source_key": "exo_04_11_01",
+      "target_key": "exo_04_13_01",
+      "relationship_type": "contrast",
+      "strength": 0.83,
+      "notes": "God's assurance contrasts Moses' continued reluctance."
+    },
+    {
+      "source_key": "exo_04_13_01",
+      "target_key": "exo_03_10_01",
+      "relationship_type": "continuation",
+      "strength": 0.89,
+      "notes": "The final commissioning continues God's earlier command for Moses to confront Pharaoh."
+    },
+    {
+      "source_key": "exo_05_01_01",
+      "target_key": "exo_05_03_01",
+      "relationship_type": "expansion",
+      "strength": 0.95,
+      "notes": "Second request expands the purpose and warning associated with Israel's departure."
+    },
+    {
+      "source_key": "exo_05_01_01",
+      "target_key": "exo_05_04_01",
+      "relationship_type": "contrast",
+      "strength": 0.93,
+      "notes": "Pharaoh rejects the divine command delivered by Moses."
+    },
+    {
+      "source_key": "exo_05_04_01",
+      "target_key": "exo_05_06_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.88,
+      "notes": "Pharaoh's rejection leads directly to harsher oppression."
+    },
+    {
+      "source_key": "exo_05_06_01",
+      "target_key": "exo_05_08_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.96,
+      "notes": "Brick quota maintenance follows the straw restriction."
+    },
+    {
+      "source_key": "exo_05_08_01",
+      "target_key": "exo_05_09_01",
+      "relationship_type": "intensification",
+      "strength": 0.90,
+      "notes": "Pharaoh escalates labor requirements further."
+    },
+    {
+      "source_key": "exo_05_03_01",
+      "target_key": "exo_05_17_01",
+      "relationship_type": "contrast",
+      "strength": 0.91,
+      "notes": "Israel's desire to sacrifice to God is denied by Pharaoh."
+    },
+    {
+      "source_key": "exo_05_09_01",
+      "target_key": "exo_05_17_01",
+      "relationship_type": "continuation",
+      "strength": 0.84,
+      "notes": "Pharaoh continues the same anti-worship labor policy."
+    },
+    {
+      "source_key": "exo_05_01_01",
+      "target_key": "exo_05_17_01",
+      "relationship_type": "contrast",
+      "strength": 0.97,
+      "notes": "Divine command to worship is directly opposed by Pharaoh's command to work."
+    },
+    {
+      "source_key": "exo_06_02_01",
+      "target_key": "exo_06_06_01",
+      "relationship_type": "expansion",
+      "strength": 0.95,
+      "notes": "The redemption proclamation expands the covenant declaration."
+    },
+    {
+      "source_key": "exo_06_02_01",
+      "target_key": "exo_06_07_01",
+      "relationship_type": "continuation",
+      "strength": 0.96,
+      "notes": "The covenant promise continues into the covenant relationship formula."
+    },
+    {
+      "source_key": "exo_06_06_01",
+      "target_key": "exo_06_10_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.93,
+      "notes": "After declaring redemption to Israel, Moses is sent to Pharaoh."
+    },
+    {
+      "source_key": "exo_06_10_01",
+      "target_key": "exo_06_13_01",
+      "relationship_type": "expansion",
+      "strength": 0.91,
+      "notes": "The individual commission to Moses expands into a joint commission with Aaron."
+    },
+    {
+      "source_key": "exo_06_07_01",
+      "target_key": "exo_06_13_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.88,
+      "notes": "God's covenant claim over Israel motivates the deliverance mission."
+    },
+    {
+      "source_key": "exo_06_02_01",
+      "target_key": "exo_06_13_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.84,
+      "notes": "Both passages emphasize covenant faithfulness and deliverance from Egypt."
+    },
+    {
+      "source_key": "exo_07_01_01",
+      "target_key": "exo_07_08_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.93,
+      "notes": "Initial commissioning leads into miracle authentication instructions."
+    },
+    {
+      "source_key": "exo_07_08_01",
+      "target_key": "exo_07_14_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.95,
+      "notes": "Miracle authentication progresses into first plague confrontation."
+    },
+    {
+      "source_key": "exo_07_14_01",
+      "target_key": "exo_07_19_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.97,
+      "notes": "Pharaoh's refusal results in execution of the first plague."
+    },
+    {
+      "source_key": "exo_07_03_01",
+      "target_key": "exo_07_14_01",
+      "relationship_type": "prophetic_connection",
+      "strength": 0.89,
+      "notes": "God's declaration of Pharaoh's hardened heart explains the coming judgments."
+    },
+    {
+      "source_key": "exo_07_03_01",
+      "target_key": "exo_07_19_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.92,
+      "notes": "The hardening motif directly contributes to the plague sequence."
+    },
+    {
+      "source_key": "exo_07_01_01",
+      "target_key": "exo_07_14_01",
+      "relationship_type": "continuation",
+      "strength": 0.88,
+      "notes": "Moses continues carrying out God's command before Pharaoh."
+    },
+    {
+      "source_key": "exo_07_19_01",
+      "target_key": "exo_07_08_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.79,
+      "notes": "Both involve rod-based miraculous signs demonstrating divine authority."
+    },
+    {
+      "source_key": "exo_08_01_01",
+      "target_key": "exo_08_20_01",
+      "relationship_type": "direct_repeat",
+      "strength": 1.0,
+      "notes": "Exact repeated demand to release Israel."
+    },
+    {
+      "source_key": "exo_08_02_01",
+      "target_key": "exo_08_21_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.91,
+      "notes": "Parallel conditional plague warnings."
+    },
+    {
+      "source_key": "exo_08_05_01",
+      "target_key": "exo_08_16_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.95,
+      "notes": "Sequential plague enactment instructions to Aaron."
+    },
+    {
+      "source_key": "exo_08_08_01",
+      "target_key": "exo_08_25_01",
+      "relationship_type": "continuation",
+      "strength": 0.84,
+      "notes": "Pharaoh continues negotiating under judgment pressure."
+    },
+    {
+      "source_key": "exo_08_25_01",
+      "target_key": "exo_08_26_01",
+      "relationship_type": "contrast",
+      "strength": 0.88,
+      "notes": "Moses rejects Pharaoh's compromise proposal."
+    },
+    {
+      "source_key": "exo_08_01_01",
+      "target_key": "exo_08_02_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.93,
+      "notes": "Refusal to obey causes plague judgment."
+    },
+    {
+      "source_key": "exo_08_20_01",
+      "target_key": "exo_08_21_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.93,
+      "notes": "Demand for release paired with warning of flies."
+    },
+    {
+      "source_key": "exo_08_08_01",
+      "target_key": "exo_08_09_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.9,
+      "notes": "Moses responds directly to Pharaoh's request."
+    },
+    {
+      "source_key": "exo_08_01_01",
+      "target_key": "exo_08_25_01",
+      "relationship_type": "contrast",
+      "strength": 0.78,
+      "notes": "Pharaoh offers partial compliance instead of full release."
+    },
+    {
+      "source_key": "exo_09_01_01",
+      "target_key": "exo_09_13_01",
+      "relationship_type": "direct_repeat",
+      "strength": 0.99,
+      "notes": "Repeated command to release Israel."
+    },
+    {
+      "source_key": "exo_09_03_01",
+      "target_key": "exo_09_19_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.83,
+      "notes": "Livestock judgment escalates into hail warning."
+    },
+    {
+      "source_key": "exo_09_08_01",
+      "target_key": "exo_09_22_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.92,
+      "notes": "Sequential plague sign actions performed by Moses."
+    },
+    {
+      "source_key": "exo_09_19_01",
+      "target_key": "exo_09_22_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.95,
+      "notes": "Warning precedes unleashing of hail plague."
+    },
+    {
+      "source_key": "exo_09_27_01",
+      "target_key": "exo_09_29_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.88,
+      "notes": "Pharaoh requests prayer and Moses responds."
+    },
+    {
+      "source_key": "exo_09_01_01",
+      "target_key": "exo_09_22_01",
+      "relationship_type": "continuation",
+      "strength": 0.84,
+      "notes": "Both commands participate in the ongoing plague confrontation narrative."
+    },
+    {
+      "source_key": "exo_09_13_01",
+      "target_key": "exo_09_19_01",
+      "relationship_type": "expansion",
+      "strength": 0.79,
+      "notes": "The confrontation expands into a detailed mercy warning before judgment."
+    },
+    {
+      "source_key": "exo_09_27_01",
+      "target_key": "exo_09_01_01",
+      "relationship_type": "contrast",
+      "strength": 0.71,
+      "notes": "Pharaoh temporarily yields after repeatedly resisting God's command."
+    },
+    {
+    "source_key": "exo_10_01_01",
+    "target_key": "exo_10_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "God commands Moses to confront Pharaoh, followed by the actual confrontation."
+  },
+  {
+    "source_key": "exo_10_03_01",
+    "target_key": "exo_10_04_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Refusal to release Israel leads to the locust warning."
+  },
+  {
+    "source_key": "exo_10_04_01",
+    "target_key": "exo_10_12_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.98,
+    "notes": "The threatened locust plague is executed through Moses."
+  },
+  {
+    "source_key": "exo_10_07_01",
+    "target_key": "exo_10_08_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.82,
+    "notes": "Pharaoh's servants pressure him, resulting in partial negotiation."
+  },
+  {
+    "source_key": "exo_10_08_01",
+    "target_key": "exo_10_10_01",
+    "relationship_type": "restriction",
+    "strength": 0.93,
+    "notes": "Pharaoh narrows permission from general worship to only the men."
+  },
+  {
+    "source_key": "exo_10_09_01",
+    "target_key": "exo_10_10_01",
+    "relationship_type": "contrast",
+    "strength": 0.90,
+    "notes": "Moses insists all Israel must go, while Pharaoh restricts participation."
+  },
+  {
+    "source_key": "exo_10_12_01",
+    "target_key": "exo_10_16_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.94,
+    "notes": "The locust plague produces Pharaoh's plea for forgiveness."
+  },
+  {
+    "source_key": "exo_10_16_01",
+    "target_key": "exo_10_18_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Pharaoh's request leads Moses to intercede before God."
+  },
+  {
+    "source_key": "exo_10_21_01",
+    "target_key": "exo_10_24_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.90,
+    "notes": "The plague of darkness pressures Pharaoh into another compromise offer."
+  },
+  {
+    "source_key": "exo_10_24_01",
+    "target_key": "exo_10_25_01",
+    "relationship_type": "contrast",
+    "strength": 0.91,
+    "notes": "Pharaoh restricts livestock, but Moses insists sacrificial animals are necessary."
+  },
+  {
+    "source_key": "exo_10_25_01",
+    "target_key": "exo_10_28_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.85,
+    "notes": "Moses rejects Pharaoh's terms, provoking Pharaoh's expulsion threat."
+  },
+  {
+    "source_key": "exo_10_28_01",
+    "target_key": "exo_10_29_01",
+    "relationship_type": "restatement",
+    "strength": 0.94,
+    "notes": "Moses repeats and confirms Pharaoh's declaration."
+  },
+  {
+    "source_key": "exo_10_03_01",
+    "target_key": "exo_10_07_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.79,
+    "notes": "Both statements call for Israel to be released to worship the LORD."
+  },
+  {
+    "source_key": "exo_10_01_01",
+    "target_key": "exo_09_01_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.93,
+    "notes": "The recurring command to confront Pharaoh continues the plague narrative pattern."
+  },
+  {
+    "source_key": "exo_10_03_01",
+    "target_key": "exo_05_01_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.97,
+    "notes": "The demand to let Israel go and serve the LORD repeats Moses' original request."
+  },
+  {
+    "source_key": "exo_10_02_01",
+    "target_key": "deu_06_07_01",
+    "relationship_type": "continuation",
+    "strength": 0.76,
+    "notes": "Teaching future generations about God's works continues into covenant instruction in Deuteronomy."
+  },
+  {
+      "source_key": "exo_11_01_01",
+      "target_key": "exo_11_01_02",
+      "relationship_type": "series_sequence",
+      "strength": 0.97,
+      "notes": "Final plague announcement leads into Israel's expulsion."
+    },
+    {
+      "source_key": "exo_11_01_02",
+      "target_key": "exo_11_02_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.88,
+      "notes": "Israel prepares to depart by requesting valuables from Egyptians."
+    },
+    {
+      "source_key": "exo_11_02_01",
+      "target_key": "exo_11_03_01",
+      "relationship_type": "fulfillment",
+      "strength": 0.93,
+      "notes": "God grants favor to Israel so the Egyptians comply."
+    },
+    {
+      "source_key": "exo_11_04_01",
+      "target_key": "exo_11_06_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.98,
+      "notes": "Death of the firstborn results in great mourning across Egypt."
+    },
+    {
+      "source_key": "exo_11_04_01",
+      "target_key": "exo_11_07_01",
+      "relationship_type": "contrast",
+      "strength": 0.95,
+      "notes": "Judgment upon Egypt contrasted with protection over Israel."
+    },
+    {
+      "source_key": "exo_11_07_01",
+      "target_key": "exo_11_07_02",
+      "relationship_type": "cause_effect",
+      "strength": 0.92,
+      "notes": "Israel's protection demonstrates God's distinction between the nations."
+    },
+    {
+      "source_key": "exo_11_07_02",
+      "target_key": "exo_11_08_01",
+      "relationship_type": "fulfillment",
+      "strength": 0.86,
+      "notes": "Egyptian officials ultimately acknowledge God's distinction by urging Israel to leave."
+    },
+    {
+      "source_key": "exo_11_09_01",
+      "target_key": "exo_11_10_01",
+      "relationship_type": "fulfillment",
+      "strength": 0.97,
+      "notes": "Pharaoh's refusal fulfills God's earlier declaration."
+    },
+    {
+      "source_key": "exo_11_01_01",
+      "target_key": "exo_11_04_01",
+      "relationship_type": "expansion",
+      "strength": 0.91,
+      "notes": "The final plague announcement is expanded with specific details about the death of the firstborn."
+    },
+    {
+      "source_key": "exo_11_04_01",
+      "target_key": "exo_11_08_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.94,
+      "notes": "The tenth plague causes Egypt to forcefully send Israel away."
+    },
+    {
+      "source_key": "exo_11_09_01",
+      "target_key": "exo_11_04_01",
+      "relationship_type": "continuation",
+      "strength": 0.79,
+      "notes": "The final plague continues the pattern of multiplying divine wonders."
+    },
+    {
+      "source_key": "exo_11_10_01",
+      "target_key": "exo_11_01_01",
+      "relationship_type": "summary",
+      "strength": 0.74,
+      "notes": "Chapter conclusion summarizes the hardened resistance leading to the final plague."
+    },
+    {
+    "source_key": "exo_12_02_01",
+    "target_key": "exo_12_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Calendar establishment precedes Passover lamb selection."
+  },
+  {
+    "source_key": "exo_12_03_01",
+    "target_key": "exo_12_04_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "Household lamb selection expanded with sharing provisions."
+  },
+  {
+    "source_key": "exo_12_04_01",
+    "target_key": "exo_12_05_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.88,
+    "notes": "Community participation instructions precede lamb qualification requirements."
+  },
+  {
+    "source_key": "exo_12_05_01",
+    "target_key": "exo_12_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Selection of the lamb precedes its preservation and slaughter."
+  },
+  {
+    "source_key": "exo_12_06_01",
+    "target_key": "exo_12_07_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.94,
+    "notes": "The slain lamb provides the blood applied to the doorway."
+  },
+  {
+    "source_key": "exo_12_07_01",
+    "target_key": "exo_12_11_01",
+    "relationship_type": "continuation",
+    "strength": 0.86,
+    "notes": "Blood application continues into the full Passover observance instructions."
+  },
+  {
+    "source_key": "exo_12_08_01",
+    "target_key": "exo_12_09_01",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "Meal instructions expanded through preparation restrictions."
+  },
+  {
+    "source_key": "exo_12_09_01",
+    "target_key": "exo_12_10_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.84,
+    "notes": "Cooking restrictions precede disposal instructions."
+  },
+  {
+    "source_key": "exo_12_10_01",
+    "target_key": "exo_12_11_01",
+    "relationship_type": "continuation",
+    "strength": 0.89,
+    "notes": "Consumption restrictions continue into readiness instructions."
+  },
+  {
+    "source_key": "exo_12_03_01",
+    "target_key": "exo_12_07_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.91,
+    "notes": "Selection of the lamb leads to sacrificial blood application."
+  },
+  {
+    "source_key": "exo_12_05_01",
+    "target_key": "jhn_01_29_01",
+    "relationship_type": "typology",
+    "strength": 0.93,
+    "notes": "The spotless Passover lamb foreshadows Christ as the Lamb of God."
+  },
+  {
+    "source_key": "exo_12_07_01",
+    "target_key": "heb_11_28_01",
+    "relationship_type": "ot_reference",
+    "strength": 0.91,
+    "notes": "Hebrews references Moses keeping Passover and sprinkling blood."
+  },
+  {
+    "source_key": "exo_12_10_01",
+    "target_key": "jhn_19_33_01",
+    "relationship_type": "typology",
+    "strength": 0.78,
+    "notes": "Passover completion imagery parallels Christ's body remaining unbroken and fully offered."
+  },
+  {
+    "source_key": "exo_12_11_01",
+    "target_key": "exo_12_17_01",
+    "relationship_type": "continuation",
+    "strength": 0.84,
+    "notes": "The haste of Passover continues into the Feast of Unleavened Bread observance."
+  },
+  {
+    "source_key": "exo_13_01_01",
+    "target_key": "exo_13_12_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.97,
+    "notes": "Firstborn consecration command repeated with expanded detail."
+  },
+
+  {
+    "source_key": "exo_13_12_01",
+    "target_key": "exo_13_13_01",
+    "relationship_type": "expansion",
+    "strength": 0.96,
+    "notes": "Consecration of firstborn expanded into redemption procedures."
+  },
+
+  {
+    "source_key": "exo_13_03_01",
+    "target_key": "exo_13_05_01",
+    "relationship_type": "continuation",
+    "strength": 0.91,
+    "notes": "Remembrance of deliverance continues into ritual observance instructions."
+  },
+
+  {
+    "source_key": "exo_13_03_02",
+    "target_key": "exo_13_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "Leaven prohibition followed by detailed feast observance."
+  },
+
+  {
+    "source_key": "exo_13_06_01",
+    "target_key": "exo_13_07_01",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Eating unleavened bread expanded into total removal of leaven."
+  },
+
+  {
+    "source_key": "exo_13_05_01",
+    "target_key": "exo_13_10_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.94,
+    "notes": "Annual observance command restated formally."
+  },
+
+  {
+    "source_key": "exo_13_08_01",
+    "target_key": "exo_13_14_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.96,
+    "notes": "Parents instructed repeatedly to explain redemption to children."
+  },
+
+  {
+    "source_key": "exo_13_09_01",
+    "target_key": "exo_13_16_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.98,
+    "notes": "Hand and forehead memorial imagery repeated almost verbatim."
+  },
+
+  {
+    "source_key": "exo_13_03_01",
+    "target_key": "exo_13_08_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.84,
+    "notes": "Remembering deliverance leads to teaching future generations."
+  },
+
+  {
+    "source_key": "exo_13_01_01",
+    "target_key": "exo_13_13_01",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "Initial sanctification principle develops into substitutionary redemption."
+  },
+
+  {
+    "source_key": "exo_13_03_02",
+    "target_key": "exo_13_07_01",
+    "relationship_type": "intensification",
+    "strength": 0.89,
+    "notes": "Initial prohibition intensifies into complete removal of leaven from all quarters."
+  },
+
+  {
+    "source_key": "exo_13_12_01",
+    "target_key": "exo_13_14_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.82,
+    "notes": "Consecration rituals prompt covenant explanation to future generations."
+  },
+  {
+    "source_key": "exo_14_01_01",
+    "target_key": "exo_14_04_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.96,
+    "notes": "Israel's positioning by the sea provokes Pharaoh's pursuit and God's glorification."
+  },
+  {
+    "source_key": "exo_14_13_01",
+    "target_key": "exo_14_14_01",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Moses expands the call to fearlessness with assurance that the LORD will fight for Israel."
+  },
+  {
+    "source_key": "exo_14_14_01",
+    "target_key": "exo_14_15_01",
+    "relationship_type": "contrast",
+    "strength": 0.78,
+    "notes": "Israel is told to be still, yet also commanded to move forward in obedient faith."
+  },
+  {
+    "source_key": "exo_14_15_01",
+    "target_key": "exo_14_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The command for Israel to advance is immediately followed by instructions to divide the sea."
+  },
+  {
+    "source_key": "exo_14_16_01",
+    "target_key": "exo_14_26_01",
+    "relationship_type": "parallel_account",
+    "strength": 0.91,
+    "notes": "Both commands involve Moses stretching out his hand over the sea for divine intervention."
+  },
+  {
+    "source_key": "exo_14_04_01",
+    "target_key": "exo_14_17_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.94,
+    "notes": "God repeats His intention to gain honor over Pharaoh and reveal Himself through judgment."
+  },
+  {
+    "source_key": "exo_14_17_01",
+    "target_key": "exo_14_26_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "The destruction of the Egyptian army fulfills God's declaration of judgment and self-revelation."
+  },
+  {
+    "source_key": "exo_14_13_01",
+    "target_key": "exo_14_31_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.84,
+    "notes": "Israel's fear is transformed into faith after witnessing the LORD's salvation."
+  },
+  {
+    "source_key": "exo_14_15_01",
+    "target_key": "heb_11_29_01",
+    "relationship_type": "ot_fulfillment",
+    "strength": 0.83,
+    "notes": "Hebrews interprets Israel's Red Sea crossing as an act of faith."
+  },
+  {
+    "source_key": "exo_14_16_01",
+    "target_key": "psa_106_09_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.81,
+    "notes": "Psalm 106 recalls the LORD rebuking and dividing the Red Sea."
+  },
+  {
+    "source_key": "exo_14_26_01",
+    "target_key": "1co_10_01_01",
+    "relationship_type": "typology",
+    "strength": 0.87,
+    "notes": "Paul treats the Red Sea crossing and judgment event typologically for the church."
+  },
+  {
+    "source_key": "exo_14_31_01",
+    "target_key": "jhn_20_29_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.67,
+    "notes": "Witnessing divine acts results in belief and trust in God's revealed authority."
+  },
+  {
+    "source_key": "exo_15_01_01",
+    "target_key": "exo_15_21_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.99,
+    "notes": "Miriam repeats the Song of Moses worship refrain almost verbatim."
+  },
+  {
+    "source_key": "exo_15_01_01",
+    "target_key": "exo_15_11_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.91,
+    "notes": "The song progresses from celebration of victory to praise of God's holiness."
+  },
+  {
+    "source_key": "exo_15_11_01",
+    "target_key": "exo_15_18_01",
+    "relationship_type": "expansion",
+    "strength": 0.86,
+    "notes": "God's uniqueness and holiness expand into His eternal kingship."
+  },
+  {
+    "source_key": "exo_15_13_01",
+    "target_key": "exo_15_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "God's redemption and guidance lead toward Israel's inheritance."
+  },
+  {
+    "source_key": "exo_15_17_01",
+    "target_key": "exo_15_18_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.78,
+    "notes": "God establishing His people in the inheritance demonstrates His eternal reign."
+  },
+  {
+    "source_key": "exo_15_21_01",
+    "target_key": "psa_136_15_01",
+    "relationship_type": "echo",
+    "strength": 0.74,
+    "notes": "Psalm 136 echoes the overthrow of Pharaoh in the sea as worship remembrance."
+  },
+  {
+    "source_key": "exo_15_26_01",
+    "target_key": "deu_28_01_01",
+    "relationship_type": "continuation",
+    "strength": 0.92,
+    "notes": "The obedience-blessing structure is expanded later in Deuteronomy covenant law."
+  },
+  {
+    "source_key": "exo_15_26_01",
+    "target_key": "deu_28_15_01",
+    "relationship_type": "contrast",
+    "strength": 0.88,
+    "notes": "Blessing for obedience contrasts later covenant curses for disobedience."
+  },
+  {
+    "source_key": "exo_15_26_01",
+    "target_key": "exo_19_05_01",
+    "relationship_type": "expansion",
+    "strength": 0.84,
+    "notes": "Marah obedience language anticipates the fuller Sinai covenant requirements."
+  },
+  {
+    "source_key": "exo_15_26_02",
+    "target_key": "psa_103_03_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.79,
+    "notes": "The LORD as healer is repeated in later covenant worship theology."
+  },
+  {
+    "source_key": "exo_15_26_01",
+    "target_key": "exo_15_26_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "Obedience covenant is grounded in God's healing covenant identity."
+  },
+  {
+    "source_key": "exo_15_01_01",
+    "target_key": "rev_15_03_01",
+    "relationship_type": "prophetic_connection",
+    "strength": 0.82,
+    "notes": "Revelation references the Song of Moses in eschatological worship imagery."
+  },
+  {
+      "source_key": "exo_16_01_01",
+      "target_key": "exo_16_04_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.95,
+      "notes": "Israel's complaint leads to God's manna provision."
+    },
+    {
+      "source_key": "exo_16_04_01",
+      "target_key": "exo_16_15_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.97,
+      "notes": "Initial manna promise followed by detailed gathering instructions."
+    },
+    {
+      "source_key": "exo_16_15_01",
+      "target_key": "exo_16_19_01",
+      "relationship_type": "restriction",
+      "strength": 0.93,
+      "notes": "General manna gathering restricted by prohibition against hoarding."
+    },
+    {
+      "source_key": "exo_16_19_01",
+      "target_key": "exo_16_27_01",
+      "relationship_type": "contrast",
+      "strength": 0.84,
+      "notes": "Israel disobeys both weekday and Sabbath manna commands."
+    },
+    {
+      "source_key": "exo_16_22_01",
+      "target_key": "exo_16_27_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.91,
+      "notes": "Failure to obey Sabbath preparation causes rebuke."
+    },
+    {
+      "source_key": "exo_16_22_01",
+      "target_key": "gen_02_02_01",
+      "relationship_type": "continuation",
+      "strength": 0.90,
+      "notes": "Sabbath principle continues from creation rest pattern."
+    },
+    {
+      "source_key": "exo_16_32_01",
+      "target_key": "heb_09_04_01",
+      "relationship_type": "ot_reference",
+      "strength": 0.96,
+      "notes": "Hebrews references the golden pot containing manna."
+    },
+    {
+      "source_key": "exo_16_04_01",
+      "target_key": "jhn_06_31_01",
+      "relationship_type": "typology",
+      "strength": 0.98,
+      "notes": "Manna from heaven foreshadows Christ as the bread of life."
+    },
+    {
+      "source_key": "exo_16_15_01",
+      "target_key": "2co_08_15_01",
+      "relationship_type": "quotation",
+      "strength": 0.99,
+      "notes": "Paul directly quotes the manna equality principle."
+    },
+    {
+      "source_key": "exo_16_01_01",
+      "target_key": "num_11_01_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.89,
+      "notes": "Israel repeatedly murmurs during wilderness testing."
+    },
+    {
+      "source_key": "exo_16_27_01",
+      "target_key": "heb_03_18_01",
+      "relationship_type": "application",
+      "strength": 0.82,
+      "notes": "Hebrews applies Israel's wilderness disobedience as a warning."
+    },
+    {
+    "source_key": "exo_17_02_01",
+    "target_key": "deu_06_16_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.97,
+    "notes": "Deuteronomy repeats the prohibition against tempting the LORD at Massah."
+  },
+  {
+    "source_key": "exo_17_02_01",
+    "target_key": "mat_04_07_01",
+    "relationship_type": "quotation",
+    "strength": 1.0,
+    "notes": "Jesus quotes Deuteronomy's reference to Massah during His temptation."
+  },
+  {
+    "source_key": "exo_17_05_01",
+    "target_key": "exo_14_16_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.73,
+    "notes": "The rod used at the Red Sea reappears as an instrument of divine power."
+  },
+  {
+    "source_key": "exo_17_06_01",
+    "target_key": "num_20_11_01",
+    "relationship_type": "parallel_account",
+    "strength": 0.9,
+    "notes": "Both passages involve miraculous water from a rock in the wilderness."
+  },
+  {
+    "source_key": "exo_17_06_01",
+    "target_key": "1co_10_04_01",
+    "relationship_type": "typology",
+    "strength": 0.98,
+    "notes": "Paul identifies the spiritual rock with Christ."
+  },
+  {
+    "source_key": "exo_17_09_01",
+    "target_key": "deu_25_17_01",
+    "relationship_type": "expansion",
+    "strength": 0.82,
+    "notes": "Deuteronomy expands upon Amalek's attack and Israel's required response."
+  },
+  {
+    "source_key": "exo_17_14_01",
+    "target_key": "1sa_15_03_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.91,
+    "notes": "Saul's campaign against Amalek fulfills the earlier divine judgment declaration."
+  },
+  {
+    "source_key": "exo_17_14_01",
+    "target_key": "hab_02_02_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.65,
+    "notes": "Both passages command the preservation of divine revelation in written form."
+  },
+  {
+    "source_key": "exo_18_19_01",
+    "target_key": "exo_18_20_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Jethro first instructs Moses to represent the people before God, then to teach them."
+  },
+  {
+    "source_key": "exo_18_20_01",
+    "target_key": "exo_18_21_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Teaching the people is followed by appointing qualified leaders."
+  },
+  {
+    "source_key": "exo_18_21_01",
+    "target_key": "exo_18_22_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "The appointment of judges enables continual judgment among the people."
+  },
+  {
+    "source_key": "exo_18_22_01",
+    "target_key": "exo_18_22_02",
+    "relationship_type": "expansion",
+    "strength": 0.96,
+    "notes": "Verse 22 expands how delegated judgment responsibilities are divided."
+  },
+  {
+    "source_key": "exo_18_22_02",
+    "target_key": "exo_18_23_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.90,
+    "notes": "Delegated leadership would allow Moses to endure and the people to remain at peace."
+  },
+  {
+    "source_key": "exo_18_21_01",
+    "target_key": "exo_18_23_01",
+    "relationship_type": "application",
+    "strength": 0.82,
+    "notes": "The leadership structure serves as the practical application of Jethro's counsel."
+  },
+  {
+    "source_key": "exo_18_20_01",
+    "target_key": "exo_18_22_02",
+    "relationship_type": "continuation",
+    "strength": 0.74,
+    "notes": "Instruction and judicial delegation together form the administrative structure of Israel."
+  },
+  {
+    "source_key": "exo_19_05_01",
+    "target_key": "exo_19_06_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Obedience to the covenant results in Israel becoming a holy priestly nation."
+  },
+  {
+    "source_key": "exo_19_10_01",
+    "target_key": "exo_19_11_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.92,
+    "notes": "Sanctification and washing precede readiness for the LORD's descent."
+  },
+  {
+    "source_key": "exo_19_12_01",
+    "target_key": "exo_19_12_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.96,
+    "notes": "Crossing the boundary results in death."
+  },
+  {
+    "source_key": "exo_19_12_02",
+    "target_key": "exo_19_13_01",
+    "relationship_type": "expansion",
+    "strength": 0.89,
+    "notes": "Verse 13 expands the judicial procedure for executing violators."
+  },
+  {
+    "source_key": "exo_19_12_01",
+    "target_key": "exo_19_21_01",
+    "relationship_type": "restatement",
+    "strength": 0.94,
+    "notes": "God repeats the warning not to cross into the holy mountain area."
+  },
+  {
+    "source_key": "exo_19_21_01",
+    "target_key": "exo_19_24_01",
+    "relationship_type": "restatement",
+    "strength": 0.93,
+    "notes": "The prohibition against breaking through to the LORD is repeated again."
+  },
+  {
+    "source_key": "exo_19_10_01",
+    "target_key": "exo_19_22_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.84,
+    "notes": "Both commands emphasize sanctification before approaching God."
+  },
+  {
+    "source_key": "exo_19_15_01",
+    "target_key": "exo_19_10_01",
+    "relationship_type": "application",
+    "strength": 0.73,
+    "notes": "Moses applies God's sanctification command through temporary abstinence."
+  },
+  {
+    "source_key": "exo_19_05_01",
+    "target_key": "exo_19_24_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.71,
+    "notes": "Covenant obedience includes respecting God's holiness boundaries."
+  },
+  {
+    "source_key": "exo_19_06_01",
+    "target_key": "exo_19_22_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.82,
+    "notes": "Priestly identity requires sanctification before God's presence."
+  },
+  {
+    "source_key": "exo_20_03_01",
+    "target_key": "exo_20_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Idolatry prohibition expands exclusive worship of God."
+  },
+  {
+    "source_key": "exo_20_04_01",
+    "target_key": "exo_20_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.92,
+    "notes": "Moves from worship purity to reverence for God's name."
+  },
+  {
+    "source_key": "exo_20_07_01",
+    "target_key": "exo_20_08_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.90,
+    "notes": "Continues covenant obligations toward God."
+  },
+  {
+    "source_key": "exo_20_08_01",
+    "target_key": "exo_20_12_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.88,
+    "notes": "Transitions from divine worship obligations to human relationships."
+  },
+  {
+    "source_key": "exo_20_12_01",
+    "target_key": "exo_20_13_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.90,
+    "notes": "Begins social prohibitions after family authority command."
+  },
+  {
+    "source_key": "exo_20_13_01",
+    "target_key": "exo_20_14_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Sequential protection of life and marriage."
+  },
+  {
+    "source_key": "exo_20_14_01",
+    "target_key": "exo_20_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.92,
+    "notes": "Sequential protection of marriage and property."
+  },
+  {
+    "source_key": "exo_20_15_01",
+    "target_key": "exo_20_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.91,
+    "notes": "Protects community trust through property and truthful testimony."
+  },
+  {
+    "source_key": "exo_20_16_01",
+    "target_key": "exo_20_17_01",
+    "relationship_type": "intensification",
+    "strength": 0.95,
+    "notes": "Moves from external false witness to inward covetous desire."
+  },
+  {
+    "source_key": "exo_20_03_01",
+    "target_key": "exo_20_08_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.79,
+    "notes": "Both commands concern covenant worship loyalty."
+  },
+  {
+    "source_key": "exo_20_13_01",
+    "target_key": "exo_20_17_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.71,
+    "notes": "Covetousness can lead to violence and murder."
+  },
+  {
+    "source_key": "exo_20_14_01",
+    "target_key": "exo_20_17_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.84,
+    "notes": "Coveting another's spouse can result in adultery."
+  },
+  {
+    "source_key": "exo_20_15_01",
+    "target_key": "exo_20_17_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.87,
+    "notes": "Covetousness may lead to theft."
+  },
+  {
+    "source_key": "exo_20_03_01",
+    "target_key": "exo_20_17_01",
+    "relationship_type": "summary",
+    "strength": 0.65,
+    "notes": "The commandments collectively establish covenant faithfulness toward God and neighbor."
+  },
+  {
+    "source_key": "exo_21_02_01",
+    "target_key": "deu_15_12_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.98,
+    "notes": "Deuteronomy repeats the seventh-year Hebrew servant release law."
+  },
+  {
+    "source_key": "exo_21_05_01",
+    "target_key": "deu_15_16_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.96,
+    "notes": "Deuteronomy reiterates voluntary lifelong servitude procedure."
+  },
+  {
+    "source_key": "exo_21_12_01",
+    "target_key": "gen_09_06_01",
+    "relationship_type": "continuation",
+    "strength": 0.92,
+    "notes": "Mosaic capital punishment law continues Noahic justice principle."
+  },
+  {
+    "source_key": "exo_21_13_01",
+    "target_key": "num_35_11_01",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Numbers expands accidental manslayer refuge legislation into cities of refuge system."
+  },
+  {
+    "source_key": "exo_21_14_01",
+    "target_key": "num_35_16_01",
+    "relationship_type": "expansion",
+    "strength": 0.90,
+    "notes": "Numbers further defines intentional murder deserving death."
+  },
+  {
+    "source_key": "exo_21_15_01",
+    "target_key": "mat_15_04_01",
+    "relationship_type": "quotation",
+    "strength": 0.97,
+    "notes": "Jesus quotes the parental honor judgment law in rebuking Pharisaic tradition."
+  },
+  {
+      "source_key": "exo_22_01_01",
+      "target_key": "exo_22_05_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.88,
+      "notes": "Both establish restitution principles for economic/property loss."
+    },
+    {
+      "source_key": "exo_22_02_01",
+      "target_key": "exo_22_03_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.95,
+      "notes": "Daylight distinction expands the burglary law."
+    },
+    {
+      "source_key": "exo_22_18_01",
+      "target_key": "exo_22_20_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.84,
+      "notes": "Both prohibit covenantal unfaithfulness through occult or idolatrous practice."
+    },
+    {
+      "source_key": "exo_22_19_01",
+      "target_key": "exo_22_18_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.81,
+      "notes": "Purity violations grouped together in Mosaic holiness legislation."
+    },
+    {
+      "source_key": "exo_22_20_01",
+      "target_key": "exo_22_21_01",
+      "relationship_type": "contrast",
+      "strength": 0.61,
+      "notes": "Transitions from covenant loyalty to ethical treatment of others."
+    },
+    {
+      "source_key": "exo_22_21_01",
+      "target_key": "exo_22_22_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.93,
+      "notes": "Both command protection of vulnerable social groups."
+    },
+    {
+      "source_key": "exo_22_22_01",
+      "target_key": "exo_22_25_01",
+      "relationship_type": "expansion",
+      "strength": 0.86,
+      "notes": "Economic mercy toward vulnerable people expands social justice laws."
+    },
+    {
+      "source_key": "exo_22_25_01",
+      "target_key": "exo_22_21_01",
+      "relationship_type": "continuation",
+      "strength": 0.82,
+      "notes": "Compassion toward foreigners continues into financial ethics."
+    },
+    {
+      "source_key": "exo_23_01_01",
+      "target_key": "exo_23_07_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.94,
+      "notes": "Both prohibit falsehood and corrupt judicial behavior."
+    },
+    {
+      "source_key": "exo_23_02_01",
+      "target_key": "exo_23_06_01",
+      "relationship_type": "expansion",
+      "strength": 0.87,
+      "notes": "Verse 6 expands impartial justice principles introduced in verse 2."
+    },
+    {
+      "source_key": "exo_23_03_01",
+      "target_key": "exo_23_06_01",
+      "relationship_type": "contrast",
+      "strength": 0.82,
+      "notes": "Together they balance favoritism and oppression toward the poor."
+    },
+    {
+      "source_key": "exo_23_04_01",
+      "target_key": "exo_23_05_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.96,
+      "notes": "Sequential commands teaching mercy toward enemies."
+    },
+    {
+      "source_key": "exo_23_07_01",
+      "target_key": "exo_23_08_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.83,
+      "notes": "Bribery is presented as a cause of false and unjust judgment."
+    },
+    {
+      "source_key": "exo_23_09_01",
+      "target_key": "exo_23_04_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.71,
+      "notes": "Both commands emphasize compassion toward others including enemies and strangers."
+    },
+    {
+      "source_key": "exo_23_10_01",
+      "target_key": "exo_23_12_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.95,
+      "notes": "Land sabbath and weekly sabbath form connected sabbath legislation."
+    },
+    {
+      "source_key": "exo_23_13_01",
+      "target_key": "exo_23_24_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.96,
+      "notes": "Both prohibit acknowledgment and worship of false gods."
+    },
+    {
+      "source_key": "exo_23_14_01",
+      "target_key": "exo_23_18_01",
+      "relationship_type": "expansion",
+      "strength": 0.84,
+      "notes": "Sacrificial instructions expand feast observance requirements."
+    },
+    {
+      "source_key": "exo_23_18_01",
+      "target_key": "exo_23_19_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.73,
+      "notes": "Both concern ritual offerings connected to worship festivals."
+    },
+    {
+      "source_key": "exo_23_20_01",
+      "target_key": "exo_23_24_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.69,
+      "notes": "Obedience to God's messenger is contrasted with pagan disobedience."
+    },
+    {
+      "source_key": "exo_23_24_01",
+      "target_key": "exo_23_25_01",
+      "relationship_type": "contrast",
+      "strength": 0.97,
+      "notes": "Rejecting pagan worship contrasts with serving the LORD."
+    },
+    {
+      "source_key": "exo_23_24_01",
+      "target_key": "exo_23_32_01",
+      "relationship_type": "continuation",
+      "strength": 0.91,
+      "notes": "Idolatry prohibition continues into covenant separation commands."
+    },
+    {
+      "source_key": "exo_23_32_01",
+      "target_key": "exo_23_33_01",
+      "relationship_type": "cause_effect",
+      "strength": 0.89,
+      "notes": "Avoiding pagan covenants prevents Israel from falling into sin."
+    },
+    {
+      "source_key": "exo_23_13_01",
+      "target_key": "exo_23_25_01",
+      "relationship_type": "contrast",
+      "strength": 0.88,
+      "notes": "Avoiding false gods is contrasted with exclusive service to the LORD."
+    },
+    {
+    "source_key": "exo_24_01_01",
+    "target_key": "exo_24_12_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "Both commands involve ascending toward God's presence on Sinai."
+  },
+  {
+    "source_key": "exo_24_03_01",
+    "target_key": "exo_24_07_01",
+    "relationship_type": "restatement",
+    "strength": 0.97,
+    "notes": "Israel repeats its covenant commitment after hearing the covenant formally read."
+  },
+  {
+    "source_key": "exo_24_04_01",
+    "target_key": "exo_24_08_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.89,
+    "notes": "The covenant memorials precede the blood covenant ritual."
+  },
+  {
+    "source_key": "exo_24_05_01",
+    "target_key": "exo_24_08_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.91,
+    "notes": "The sacrificial offerings provide the blood used in covenant ratification."
+  },
+  {
+    "source_key": "exo_24_08_01",
+    "target_key": "exo_24_12_01",
+    "relationship_type": "continuation",
+    "strength": 0.83,
+    "notes": "The covenant blood ceremony is followed by formal receipt of covenant law."
+  },
+  {
+    "source_key": "exo_24_12_01",
+    "target_key": "exo_24_13_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Moses obeys God's command to ascend the mountain."
+  },
+  {
+    "source_key": "exo_24_13_01",
+    "target_key": "exo_24_14_01",
+    "relationship_type": "expansion",
+    "strength": 0.88,
+    "notes": "Moses further explains governance arrangements during his absence."
+  },
+  {
+    "source_key": "exo_24_01_01",
+    "target_key": "exo_24_08_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.76,
+    "notes": "Both passages concern covenant worship and mediated access to God."
+  },
+  {
+    "source_key": "exo_24_08_01",
+    "target_key": "heb_09_19_01",
+    "relationship_type": "ot_reference",
+    "strength": 0.98,
+    "notes": "Hebrews references Moses sprinkling covenant blood upon the people."
+  },
+  {
+    "source_key": "exo_24_12_01",
+    "target_key": "deu_31_09_01",
+    "relationship_type": "continuation",
+    "strength": 0.82,
+    "notes": "Moses later formally delivers and teaches the law to Israel."
+  },
+  {
+    "source_key": "exo_25_02_01",
+    "target_key": "exo_25_08_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.84,
+    "notes": "Offerings enable construction of the sanctuary."
+  },
+  {
+    "source_key": "exo_25_08_01",
+    "target_key": "exo_25_09_01",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "The sanctuary command is expanded by requiring adherence to the revealed pattern."
+  },
+  {
+    "source_key": "exo_25_09_01",
+    "target_key": "exo_25_10_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "The ark instructions begin the detailed execution of the revealed pattern."
+  },
+  {
+    "source_key": "exo_25_10_01",
+    "target_key": "exo_25_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "The mercy seat instructions continue the ark construction sequence."
+  },
+  {
+    "source_key": "exo_25_17_01",
+    "target_key": "exo_25_23_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.89,
+    "notes": "Instructions transition from the mercy seat to the table of shewbread."
+  },
+  {
+    "source_key": "exo_25_23_01",
+    "target_key": "exo_25_31_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.9,
+    "notes": "The furnishing instructions continue with the golden candlestick."
+  },
+  {
+    "source_key": "exo_25_08_01",
+    "target_key": "exo_25_17_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.72,
+    "notes": "Both emphasize God's dwelling and meeting presence among Israel."
+  },
+  {
+    "source_key": "exo_25_09_01",
+    "target_key": "exo_25_31_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.88,
+    "notes": "Both explicitly command construction according to the heavenly pattern."
+  },
+  {
+    "source_key": "exo_25_10_01",
+    "target_key": "exo_25_17_01",
+    "relationship_type": "expansion",
+    "strength": 0.87,
+    "notes": "Mercy seat details expand upon the ark's covenant function."
+  },
+  {
+      "source_key": "exo_26_01_01",
+      "target_key": "exo_26_03_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.96,
+      "notes": "Curtain construction progresses into joining the curtains together."
+    },
+    {
+      "source_key": "exo_26_03_01",
+      "target_key": "exo_26_07_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.93,
+      "notes": "Inner curtains are followed by outer protective coverings."
+    },
+    {
+      "source_key": "exo_26_07_01",
+      "target_key": "exo_26_15_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.91,
+      "notes": "Protective coverings are followed by framework construction."
+    },
+    {
+      "source_key": "exo_26_15_01",
+      "target_key": "exo_26_26_01",
+      "relationship_type": "expansion",
+      "strength": 0.90,
+      "notes": "The structural boards require bars for reinforcement and unity."
+    },
+    {
+      "source_key": "exo_26_26_01",
+      "target_key": "exo_26_31_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.87,
+      "notes": "After structural completion the holy veil is established."
+    },
+    {
+      "source_key": "exo_26_31_01",
+      "target_key": "exo_26_36_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.89,
+      "notes": "The inner veil is followed by the entrance hanging."
+    },
+    {
+      "source_key": "exo_26_31_01",
+      "target_key": "exo_26_01_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.78,
+      "notes": "Both commands emphasize fine materials and cherubic craftsmanship in sacred worship."
+    },
+    {
+      "source_key": "exo_26_15_01",
+      "target_key": "exo_26_01_01",
+      "relationship_type": "continuation",
+      "strength": 0.82,
+      "notes": "The framework construction continues the overall tabernacle building instructions."
+    },
+    {
+      "source_key": "exo_26_36_01",
+      "target_key": "exo_26_31_01",
+      "relationship_type": "application",
+      "strength": 0.76,
+      "notes": "The entrance curtain applies the same holiness boundary principle as the inner veil."
+    },
+    {
+      "source_key": "exo_27_01_01",
+      "target_key": "exo_27_09_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.97,
+      "notes": "The altar instructions precede and integrate into the larger tabernacle court construction."
+    },
+    {
+      "source_key": "exo_27_09_01",
+      "target_key": "exo_27_20_01",
+      "relationship_type": "series_sequence",
+      "strength": 0.95,
+      "notes": "The court construction instructions transition into ongoing tabernacle maintenance commands."
+    },
+    {
+      "source_key": "exo_27_01_01",
+      "target_key": "exo_27_20_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.76,
+      "notes": "Both commands regulate ongoing worship practices connected to tabernacle service."
+    },
+    {
+      "source_key": "exo_27_20_01",
+      "target_key": "lev_24_02_01",
+      "relationship_type": "direct_repeat",
+      "strength": 0.98,
+      "notes": "Leviticus repeats the command concerning pure olive oil for the continual lamp."
+    },
+    {
+    "source_key": "exo_28_01_05",
+    "target_key": "exo_28_06_14",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "General priestly consecration flows into ephod design instructions"
+  },
+  {
+    "source_key": "exo_28_06_14",
+    "target_key": "exo_28_15_30",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Ephod design expands into breastpiece of judgment"
+  },
+  {
+    "source_key": "exo_28_15_30",
+    "target_key": "exo_28_31_35",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Judgment system transitions into robe of priestly safety"
+  },
+  {
+    "source_key": "exo_28_31_35",
+    "target_key": "exo_28_36_38",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Robe instructions culminate in holiness inscription plate"
+  },
+  {
+    "source_key": "exo_28_36_38",
+    "target_key": "exo_28_39_43",
+    "relationship_type": "covenant_transition",
+    "strength": 0.85,
+    "notes": "Holiness emblem extends into full priestly garment system for sons"
+  },
+
+  {
+    "source_key": "exo_28_06_14",
+    "target_key": "exo_28_15_30",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.7,
+    "notes": "Both emphasize representation of Israel before God via priestly mediation"
+  },
+  {
+    "source_key": "exo_28_15_30",
+    "target_key": "exo_28_36_38",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.8,
+    "notes": "Judgment stones and holiness plate both deal with atonement/representation"
+  },
+  {
+    "source_key": "exo_28_31_35",
+    "target_key": "exo_28_36_38",
+    "relationship_type": "intensification",
+    "strength": 0.6,
+    "notes": "Safety in ministry escalates into holiness inscription bearing sin"
+  },
+  {
+    "source_key": "exo_29_01",
+    "target_key": "exo_29_10",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Consecration instructions lead into sin offering preparation."
+  },
+  {
+    "source_key": "exo_29_10",
+    "target_key": "exo_29_15",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Sin offering precedes burnt offering in ordination order."
+  },
+  {
+    "source_key": "exo_29_15",
+    "target_key": "exo_29_19",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Burnt offering transitions into ordination blood ritual."
+  },
+  {
+    "source_key": "exo_29_19",
+    "target_key": "exo_29_29",
+    "relationship_type": "covenant_transition",
+    "strength": 0.7,
+    "notes": "Priestly ordination establishes generational succession."
+  },
+  {
+    "source_key": "exo_29_19",
+    "target_key": "exo_29_31",
+    "relationship_type": "continuation",
+    "strength": 0.9,
+    "notes": "Blood consecration continues into seven-day purification process."
+  },
+  {
+    "source_key": "exo_29_31",
+    "target_key": "exo_29_38",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Completion of consecration leads into daily worship system."
+  },
+  {
+    "source_key": "exo_29_38",
+    "target_key": "exo_29_01",
+    "relationship_type": "covenant_transition",
+    "strength": 0.8,
+    "notes": "Daily offerings sustain the priestly system established at ordination."
+  },
+  {
+    "source_key": "exo_29_10",
+    "target_key": "exo_29_19",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.85,
+    "notes": "Both sacrifices and ordination rituals emphasize atonement and sanctification."
+  },
+  {
+    "source_key": "exo_29_19",
+    "target_key": "exo_29_38",
+    "relationship_type": "typology",
+    "strength": 0.75,
+    "notes": "Priestly consecration foreshadows continual worship system."
+  },
+  {
+    "source_key": "exo_29_01",
+    "target_key": "exo_29_38",
+    "relationship_type": "summary",
+    "strength": 0.9,
+    "notes": "Entire chapter culminates in God dwelling among Israel through sacrifice system."
+  },
+  {
+    "source_key": "exo_30_01",
+    "target_key": "exo_30_22",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.6,
+    "notes": "Both define sacred worship objects (altar, oil) for tabernacle service"
+  },
+
+  {
+    "source_key": "exo_30_01",
+    "target_key": "exo_30_34",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.6,
+    "notes": "Incense altar and incense formula both regulate worship offering"
+  },
+
+  {
+    "source_key": "exo_30_11",
+    "target_key": "exo_30_17",
+    "relationship_type": "covenant_transition",
+    "strength": 0.7,
+    "notes": "Atonement money (legal covenant) transitions into priestly purity system"
+  },
+
+  {
+    "source_key": "exo_30_17",
+    "target_key": "exo_30_01",
+    "relationship_type": "typology",
+    "strength": 0.5,
+    "notes": "Priestly cleansing supports access to altar of incense worship"
+  },
+
+  {
+    "source_key": "exo_30_22",
+    "target_key": "exo_30_34",
+    "relationship_type": "parallel_account",
+    "strength": 0.8,
+    "notes": "Oil and incense are paired consecration substances for sacred space"
+  },
+
+  {
+    "source_key": "exo_30_11",
+    "target_key": "exo_30_22",
+    "relationship_type": "cause_effect",
+    "strength": 0.4,
+    "notes": "Atonement provision enables consecration system funding and maintenance"
+  },
+  {
+    "source_key": "exo_31_01",
+    "target_key": "exo_31_06",
+    "relationship_type": "expansion",
+    "strength": 0.8,
+    "notes": "Initial appointment of Bezalel expanded to include Aholiab and wider wisdom distribution"
+  },
+  {
+    "source_key": "exo_31_06",
+    "target_key": "exo_31_07",
+    "relationship_type": "series_sequence",
+    "strength": 0.9,
+    "notes": "From empowerment of craftsmen to execution of tabernacle instructions"
+  },
+  {
+    "source_key": "exo_31_07",
+    "target_key": "exo_31_12",
+    "relationship_type": "covenant_transition",
+    "strength": 0.7,
+    "notes": "Shift from sacred construction laws to covenant sign (Sabbath)"
+  },
+  {
+    "source_key": "exo_31_12",
+    "target_key": "exo_31_18",
+    "relationship_type": "continuation",
+    "strength": 0.6,
+    "notes": "Sabbath covenant identity continues into formal covenant inscription on tablets"
+  },
+  {
+    "source_key": "exo_31_12",
+    "target_key": "exo_31_18",
+    "relationship_type": "typology",
+    "strength": 0.5,
+    "notes": "Sabbath as covenant sign foreshadows written covenant law on stone tablets"
+  },
+  {
+    "source_key": "exo_31_07",
+    "target_key": "exo_31_18",
+    "relationship_type": "fulfillment",
+    "strength": 0.6,
+    "notes": "Tabernacle law and covenant law converge in written divine testimony"
+  },
+  {
+    "source_key": "exo_32_01",
+    "target_key": "exo_32_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.85,
+    "notes": "Idolatry triggers divine judgment and intercession response"
+  },
+  {
+    "source_key": "exo_32_02",
+    "target_key": "exo_32_03",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Moses receives report then descends and reacts physically"
+  },
+  {
+    "source_key": "exo_32_03",
+    "target_key": "exo_32_04",
+    "relationship_type": "continuation",
+    "strength": 0.9,
+    "notes": "Descent leads directly to destruction of idol and confrontation"
+  },
+  {
+    "source_key": "exo_32_04",
+    "target_key": "exo_32_05",
+    "relationship_type": "judgment",
+    "strength": 0.95,
+    "notes": "Purification action escalates into judicial execution"
+  },
+  {
+    "source_key": "exo_32_05",
+    "target_key": "exo_32_06",
+    "relationship_type": "covenant_transition",
+    "strength": 0.8,
+    "notes": "Judgment leads to intercession and plague outcome"
+  },
+  {
+    "source_key": "exo_32_01",
+    "target_key": "exo_32_05",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.6,
+    "notes": "Idolatry theme continues through judicial response"
+  },
+  {
+    "source_key": "exo_32_03",
+    "target_key": "exo_32_06",
+    "relationship_type": "contrast",
+    "strength": 0.7,
+    "notes": "Moses breaks tablets but later offers himself for mercy"
+  },
+  {
+    "source_key": "exo_32_02",
+    "target_key": "exo_32_06",
+    "relationship_type": "intercession",
+    "strength": 0.9,
+    "notes": "Divine accusation leads to prophetic intercession"
+  },
+  {
+    "source_key": "exo_33_01_01",
+    "target_key": "exo_33_02_03",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Direct narrative continuation of God's instruction"
+  },
+  {
+    "source_key": "exo_33_02_03",
+    "target_key": "exo_33_04_06",
+    "relationship_type": "cause_effect",
+    "strength": 0.9,
+    "notes": "God's withdrawal causes national mourning"
+  },
+  {
+    "source_key": "exo_33_04_06",
+    "target_key": "exo_33_07_11",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.8,
+    "notes": "Repentance leads to restructured worship space"
+  },
+  {
+    "source_key": "exo_33_07_11",
+    "target_key": "exo_33_12_17",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "Moses builds on separation by pressing for divine presence"
+  },
+  {
+    "source_key": "exo_33_12_17",
+    "target_key": "exo_33_18_23",
+    "relationship_type": "intensification",
+    "strength": 1.0,
+    "notes": "Intercession escalates into request for divine glory"
+  },
+  {
+    "source_key": "exo_33_02_03",
+    "target_key": "exo_33_12_17",
+    "relationship_type": "contrast",
+    "strength": 0.9,
+    "notes": "God refuses presence; Moses insists presence is essential"
+  },
+  {
+    "source_key": "exo_33_07_11",
+    "target_key": "exo_33_18_23",
+    "relationship_type": "typology",
+    "strength": 0.7,
+    "notes": "Tent of Meeting anticipates deeper divine revelation experience"
+  },
+  {
+    "source_key": "exo_33_12_17",
+    "target_key": "exo_33_02_03",
+    "relationship_type": "covenant_transition",
+    "strength": 0.85,
+    "notes": "Moses negotiates restoration of covenant presence after judgment withdrawal"
+  },
+  {
+    "source_key": "exo_34_01_01",
+    "target_key": "exo_34_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Immediate procedural sequence of covenant renewal instructions"
+  },
+  {
+    "source_key": "exo_34_02_01",
+    "target_key": "exo_34_03_01",
+    "relationship_type": "restriction",
+    "strength": 0.9,
+    "notes": "Ascent command followed by boundary restriction for holiness"
+  },
+  {
+    "source_key": "exo_34_06_01",
+    "target_key": "exo_34_10_01",
+    "relationship_type": "covenant_transition",
+    "strength": 0.85,
+    "notes": "Divine character revelation grounds covenant renewal obligations"
+  },
+  {
+    "source_key": "exo_34_10_01",
+    "target_key": "exo_34_14_01",
+    "relationship_type": "application",
+    "strength": 0.9,
+    "notes": "Covenant promise flows into exclusive worship command"
+  },
+  {
+    "source_key": "exo_34_06_01",
+    "target_key": "exo_34_14_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.8,
+    "notes": "God’s jealousy and mercy define exclusivity of worship requirement"
+  },
+  {
+    "source_key": "exo_35_01_03",
+    "target_key": "exo_35_04_09",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Sabbath command precedes offering instructions, establishing worship priority before work"
+  },
+  {
+    "source_key": "exo_35_04_09",
+    "target_key": "exo_35_10_19",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Material gathering flows into construction assignment"
+  },
+  {
+    "source_key": "exo_35_10_19",
+    "target_key": "exo_35_20_29",
+    "relationship_type": "continuation",
+    "strength": 0.9,
+    "notes": "Instruction phase transitions into voluntary execution response"
+  },
+  {
+    "source_key": "exo_35_20_29",
+    "target_key": "exo_35_30_35",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.85,
+    "notes": "Generosity and skill converge in Spirit-empowered craftsmanship"
+  },
+  {
+    "source_key": "exo_35_30_35",
+    "target_key": "exo_35_10_19",
+    "relationship_type": "expansion",
+    "strength": 0.8,
+    "notes": "Spirit empowerment expands earlier instruction for skilled workers"
+  },
+  {
+    "source_key": "exo_35_01_03",
+    "target_key": "exo_35_30_35",
+    "relationship_type": "covenant_transition",
+    "strength": 0.7,
+    "notes": "Sabbath holiness connects to Spirit-filled work under Mosaic covenant"
+  },
+  {
+    "source_key": "exo_36_01_01",
+    "target_key": "exo_36_03_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.9,
+    "notes": "Spirit-enabled craftsmen enable overflow of offerings and work commencement"
+  },
+
+  {
+    "source_key": "exo_36_03_01",
+    "target_key": "exo_36_08_01",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Offering regulation precedes construction of curtains"
+  },
+
+  {
+    "source_key": "exo_36_08_01",
+    "target_key": "exo_36_14_01",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Curtain construction continues into secondary coverings"
+  },
+
+  {
+    "source_key": "exo_36_14_01",
+    "target_key": "exo_36_20_01",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Coverings transition into structural framework"
+  },
+
+  {
+    "source_key": "exo_36_20_01",
+    "target_key": "exo_36_35_01",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Structural assembly leads to veil and entrance completion"
+  },
+
+  {
+    "source_key": "exo_36_03_01",
+    "target_key": "exo_36_20_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.6,
+    "notes": "Both reflect regulated obedience in construction process"
+  },
+
+  {
+    "source_key": "exo_36_08_01",
+    "target_key": "exo_36_35_01",
+    "relationship_type": "intensification",
+    "strength": 0.7,
+    "notes": "From external coverings to inner holy separation (veil)"
+  },
+  {
+      "source_key": "exo_37_01_01",
+      "target_key": "exo_37_02_01",
+      "relationship_type": "series_sequence",
+      "strength": 1.0,
+      "notes": "Ark construction precedes table construction in tabernacle order."
+    },
+    {
+      "source_key": "exo_37_02_01",
+      "target_key": "exo_37_03_01",
+      "relationship_type": "series_sequence",
+      "strength": 1.0,
+      "notes": "Table of showbread followed by lampstand in sanctuary furnishing."
+    },
+    {
+      "source_key": "exo_37_03_01",
+      "target_key": "exo_37_04_01",
+      "relationship_type": "series_sequence",
+      "strength": 1.0,
+      "notes": "Lampstand construction precedes incense altar."
+    },
+    {
+      "source_key": "exo_37_04_01",
+      "target_key": "exo_37_05_01",
+      "relationship_type": "series_sequence",
+      "strength": 1.0,
+      "notes": "Altar of incense followed by preparation of holy anointing materials."
+    },
+    {
+      "source_key": "exo_37_01_01",
+      "target_key": "exo_37_03_01",
+      "relationship_type": "thematic_repeat",
+      "strength": 0.6,
+      "notes": "Both emphasize sacred furnishings expressing divine presence."
+    },
+    {
+      "source_key": "exo_37_03_01",
+      "target_key": "exo_37_04_01",
+      "relationship_type": "typology",
+      "strength": 0.5,
+      "notes": "Lampstand (light/presence) connects typologically to incense altar (prayer/mediation)."
+    },
+    {
+    "source_key": "exo_38_01_01",
+    "target_key": "exo_38_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Continues altar construction from structure to detailing"
+  },
+  {
+    "source_key": "exo_38_02_01",
+    "target_key": "exo_38_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Moves from structural features to functional implements"
+  },
+  {
+    "source_key": "exo_38_01_01",
+    "target_key": "exo_38_03_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.7,
+    "notes": "All verses describe unified altar construction system"
+  },
+  {
+    "source_key": "exo_39_01",
+    "target_key": "exo_39_02",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Flow from general priestly garment construction into ephod construction"
+  },
+  {
+    "source_key": "exo_39_02",
+    "target_key": "exo_39_03",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Ephod directly leads into breastplate design as part of high priest set"
+  },
+  {
+    "source_key": "exo_39_03",
+    "target_key": "exo_39_04",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Breastplate sequence continues into robe of ephod"
+  },
+  {
+    "source_key": "exo_39_04",
+    "target_key": "exo_39_05",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Robe transitions into tunics and priestly garments"
+  },
+  {
+    "source_key": "exo_39_05",
+    "target_key": "exo_39_06",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Garment construction concludes into completion of tabernacle work"
+  },
+
+  {
+    "source_key": "exo_39_02",
+    "target_key": "exo_28_6",
+    "relationship_type": "ot_fulfillment",
+    "strength": 0.95,
+    "notes": "Ephod construction fulfills Exodus 28 instructions"
+  },
+  {
+    "source_key": "exo_39_03",
+    "target_key": "exo_28_15",
+    "relationship_type": "ot_fulfillment",
+    "strength": 0.95,
+    "notes": "Breastplate fulfills prior design command in Exodus 28"
+  },
+  {
+    "source_key": "exo_39_04",
+    "target_key": "exo_28_31",
+    "relationship_type": "ot_fulfillment",
+    "strength": 0.95,
+    "notes": "Robe with bells fulfills priestly garment instruction"
+  },
+  {
+    "source_key": "exo_39_06",
+    "target_key": "exo_38_22",
+    "relationship_type": "continuation",
+    "strength": 0.9,
+    "notes": "Completion of Exodus 39 continues tabernacle construction narrative from Exodus 38"
+  },
+
+  {
+    "source_key": "exo_39_06",
+    "target_key": "exo_40_33",
+    "relationship_type": "series_sequence",
+    "strength": 0.9,
+    "notes": "Completion of work leads into setting up the tabernacle in Exodus 40"
+  },
+  {
+    "source_key": "exo_40_01_01",
+    "target_key": "exo_40_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 1.0,
+    "notes": "Sequential instruction flow for tabernacle setup"
+  },
+  {
+    "source_key": "exo_40_02_01",
+    "target_key": "exo_40_38_01",
+    "relationship_type": "covenant_transition",
+    "strength": 0.9,
+    "notes": "Movement from construction instructions to divine presence manifestation"
+  },
+  {
+    "source_key": "exo_40_01_01",
+    "target_key": "exo_40_38_01",
+    "relationship_type": "fulfillment",
+    "strength": 1.0,
+    "notes": "Instruction culminates in God's presence filling the tabernacle"
+  },
+  {
+    "source_key": "exo_40_02_01",
+    "target_key": "exo_40_01_01",
+    "relationship_type": "expansion",
+    "strength": 0.6,
+    "notes": "Detailed execution expands initial command framework"
+  }
+]

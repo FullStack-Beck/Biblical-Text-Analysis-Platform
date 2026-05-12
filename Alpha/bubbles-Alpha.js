@@ -33,9 +33,41 @@ const AVAILABLE_FIELDS = [
 // ─── DATA LOAD ────────────────────────────────────────────────────────────────
 
 Promise.all([
-  d3.json("Genesis.json"),
-  d3.json("GenesisR.json")
+  d3.json("NodesCombined.json"),
+  d3.json("RelationshipsCombined.json")
 ]).then(([nodeData, relationshipData]) => {
+
+function normalizeSpeakerFamily(name) {
+  return SPEAKER_FAMILIES[name] || 'Other';
+}
+
+  const SPEAKER_GROUPS = {
+  
+  "Angel of the LORD": 'Angels',
+  "Angel": 'Angels',
+
+  "Josephs brothers": 'Sons of Jacob',
+  "Sons of Jacob": 'Sons of Jacob',
+
+  Jacob: 'Jacob-Israel',
+  Israel: 'Jacob-Israel',
+
+  Abram: 'Abraham',
+  Abraham: 'Abraham',
+
+  Sarai: 'Sarah',
+  Sarah: 'Sarah',
+
+  Simon: 'Peter',
+  Peter: 'Peter',
+
+  Saul: 'Paul',
+  Paul: 'Paul'
+};
+
+function normalizeSpeakerGroup(name) {
+  return SPEAKER_GROUPS[name] || name || 'Unknown';
+}
 
   nodes = nodeData.map(d => ({
     ...d,
@@ -43,6 +75,7 @@ Promise.all([
     verse_start:          +d.verse_start,
     chapter_end:          +d.chapter_end,
     verse_end:            +d.verse_end,
+    speaker_group: normalizeSpeakerGroup(d.speaker),
     repetition_count:     +d.repetition_count     || 0,
     cross_reference_count:+d.cross_reference_count || 0,
     confidence_score:
