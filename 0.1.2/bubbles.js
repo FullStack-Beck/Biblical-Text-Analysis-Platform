@@ -564,8 +564,152 @@ function setGroup(field) {
   const w = W();
   const h = H();
 
+  if (field === "InOrder") {
+    const w = W();
+    const h = H();
+
+    const BOOK_ORDER = [
+      "Genesis","Exodus","Leviticus","Numbers","Deuteronomy",
+      "Joshua","Judges","Ruth","1 Samuel","2 Samuel",
+      "1 Kings","2 Kings","1 Chronicles","2 Chronicles",
+      "Ezra","Nehemiah","Esther","Job","Psalms","Proverbs",
+      "Ecclesiastes","Song of Solomon","Isaiah","Jeremiah",
+      "Lamentations","Ezekiel","Daniel","Hosea","Joel","Amos",
+      "Obadiah","Jonah","Micah","Nahum","Habakkuk","Zephaniah",
+      "Haggai","Zechariah","Malachi",
+      "Matthew","Mark","Luke","John","Acts",
+      "Romans","1 Corinthians","2 Corinthians","Galatians","Ephesians",
+      "Philippians","Colossians","1 Thessalonians","2 Thessalonians",
+      "1 Timothy","2 Timothy","Titus","Philemon","Hebrews",
+      "James","1 Peter","2 Peter","1 John","2 John","3 John",
+      "Jude","Revelation"
+    ];
+
+    const bookIndex = b => {
+      const i = BOOK_ORDER.indexOf(b);
+      return i === -1 ? 999 : i;
+    };
+
+    // Extract the trailing sub-index from canonical key e.g. gen_01_28_02 → 2
+    const subIndex = key => parseInt(key.split("_").at(-1), 10) || 0;
+
+    // Group by "Book|Chapter" so Genesis 1 and Exodus 1 are separate columns
+    const chapterMap = new Map();
+    nodes.forEach(d => {
+      const colKey = `${d.book}|${d.chapter_start}`;
+      if (!chapterMap.has(colKey)) chapterMap.set(colKey, []);
+      chapterMap.get(colKey).push(d);
+    });
+
+    // Sort columns by canonical book order, then chapter number
+    const columns = [...chapterMap.keys()].sort((a, b) => {
+      const [bookA, chA] = a.split("|");
+      const [bookB, chB] = b.split("|");
+      const bookDiff = bookIndex(bookA) - bookIndex(bookB);
+      return bookDiff !== 0 ? bookDiff : +chA - +chB;
+    });
+
+    // Sort nodes within each column by verse, then sub-index
+    columns.forEach(col => {
+      chapterMap.get(col).sort((a, b) =>
+        a.verse_start !== b.verse_start
+          ? a.verse_start - b.verse_start
+          : subIndex(a.canonical_key) - subIndex(b.canonical_key)
+      );
+    });
+
+    const topPadding  = 90;
+    const nodeSpacing = 34;
+    const colPadding  = 60;
+    const colGap      = 25;   // gap between chapters in the same book
+    const bookGap     = 55;  // double between books
+
+    // Build column x-positions manually so book boundaries get extra space
+    const colPositions = {};
+    let cursor = colPadding;
+
+    columns.forEach((col, i) => {
+      colPositions[col] = cursor;
+
+      if (i < columns.length - 1) {
+        const [thisBook] = col.split("|");
+        const [nextBook] = columns[i + 1].split("|");
+        cursor += thisBook === nextBook ? colGap : bookGap;
+      }
+    });
+
+    columns.forEach(col => {
+      const x = columns.length === 1 ? w / 2 : colPositions[col];
+      chapterMap.get(col).forEach((d, j) => {
+        d.fx = x;
+        d.fy = topPadding + j * nodeSpacing;
+      });
+    });
+
+    // Draw labels
+    const layer = d3.select("#labelsLayer");
+    layer.selectAll("*").remove();
+
+    // Chapter number above each column
+    columns.forEach((col, i) => {
+      const [, ch] = col.split("|");
+      const x = columns.length === 1 ? w / 2 : colPositions[col];
+
+      layer.append("text")
+        .attr("x", x).attr("y", 50)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#e2e8f0")
+        .attr("font-size", "13px")
+        .attr("font-weight", "700")
+        .style("pointer-events", "none")
+        .text(ch);
+    });
+
+    // Book name centered above its group of columns
+    const bookGroups = new Map();
+    columns.forEach((col, i) => {
+      const [book] = col.split("|");
+      if (!bookGroups.has(book)) bookGroups.set(book, []);
+      bookGroups.get(book).push(col);
+    });
+
+    bookGroups.forEach((cols, book) => {
+      const firstX  = colPositions[cols[0]];
+      const lastX   = colPositions[cols[cols.length - 1]];
+      const centerX = (firstX + lastX) / 2;
+
+      layer.append("text")
+        .attr("x", centerX)
+        .attr("y", 22)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#94a3b8")
+        .attr("font-size", "11px")
+        .attr("font-weight", "600")
+        .attr("letter-spacing", "0.08em")
+        .style("pointer-events", "none")
+        .text(book.toUpperCase());
+    });
+
+    simulation
+      .force("slice",     null)
+      .force("groupX",    null)
+      .force("groupY",    null)
+      .force("center",    null)
+      .force("x",         null)
+      .force("y",         null)
+      .force("charge",    d3.forceManyBody().strength(-4))
+      .force("collision", d3.forceCollide().radius(d =>
+        Math.sqrt(getNodeSize(d)) * 0.04 + 2
+      ));
+
+    simulation.alpha(0.4).restart();
+    return;
+  }
+
+
   if (field === "none") {
 
+    nodes.forEach(d => { d.fx = null; d.fy = null; });
     d3.select("#labelsLayer")
       .selectAll("*")
       .remove();
