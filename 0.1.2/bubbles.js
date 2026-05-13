@@ -507,13 +507,30 @@ function clearRelationshipHighlight() {
 
 function relationshipColor(type) {
   const map = {
-    quotation:           "#f59e0b",
-    direct_repeat:       "#10b981",
-    thematic_repeat:     "#3b82f6",
-    fulfillment:         "#ef4444",
-    contrast:            "#8b5cf6",
-    typology:            "#14b8a6",
-    covenant_transition: "#f97316"
+    series_sequence:        "#FFBE00",
+    parallel_account:       "#FF6D00",
+    quotation:              "#F8FF00",
+    direct_repeat:          "#FA1C00",
+    thematic_repeat:        "#FEFFCC",
+    ot_reference:           "#ff0099",
+    ot_fulfillment:         "#BE00FF",
+    prophetic_connection:   "#0094FF",
+    expansion:              "#0500FF",
+    restriction:            "#00FFD2",
+    contrast:               "#06FF00",
+    cause_effect:           "#8C6900",
+    application:            "#FFD6B8",
+    summary:                "#ff8170",
+    restatement:            "#FF99CB",
+    covenant_transition:    "#69008C",
+    echo:                   "#00518C",
+    allusion:               "#808080",
+    typology:               "#008C74",
+    fulfillment:            "#9AD199",
+    reversal:               "#C95D51",
+    intensification:        "#CCE8E3",
+    continuation:           "#B27DD1",
+    reinterpretation:       "#ffffff"
   };
   return map[type] || "#64748b";
 }
