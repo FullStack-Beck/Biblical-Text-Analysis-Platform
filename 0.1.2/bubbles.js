@@ -1,6 +1,7 @@
 let nodes = [];
 let relationships = [];
 let relationshipMap = new Map();
+let showAllRelationships = false;
 
 let simulation;
 let circles;
@@ -37,10 +38,6 @@ Promise.all([
   d3.json("RelationshipsCombined.json")
 ]).then(([nodeData, relationshipData]) => {
 
-function normalizeSpeakerFamily(name) {
-  return SPEAKER_FAMILIES[name] || 'Other';
-}
-
   const SPEAKER_GROUPS = {
   
   "Angel of the LORD": 'Angels',
@@ -75,6 +72,7 @@ function normalizeSpeakerGroup(name) {
     verse_start:          +d.verse_start,
     chapter_end:          +d.chapter_end,
     verse_end:            +d.verse_end,
+    sliceAngle: Math.random(),
     speaker_group: normalizeSpeakerGroup(d.speaker),
     repetition_count:     +d.repetition_count     || 0,
     cross_reference_count:+d.cross_reference_count || 0,
@@ -144,6 +142,18 @@ function initControls() {
   document.getElementById("searchInput").addEventListener("input", e =>
     applySearch(e.target.value.toLowerCase()));
 
+  document.getElementById("toggleRelationshipBtn").onclick = () => {
+
+    showAllRelationships = !showAllRelationships;
+    const btn = document.getElementById("toggleRelationshipBtn");
+    btn.textContent = showAllRelationships ? "Hide Relationships" : "Show Relationships";
+    if (showAllRelationships) {
+      activeNodeKey = null; // Clear any active node selection
+    }
+
+    toggleRelationshipVisibility();
+  };
+
   buildRelationshipFilters();
 }
 
@@ -199,6 +209,14 @@ function initVisualization() {
 
     activeNodeKey = d.canonical_key;
 
+    showAllRelationships = false;
+
+    const btn = document.getElementById("toggleRelationshipBtn");
+
+    if (btn) {
+      btn.textContent = "Show All Relationships";
+    }
+
     showDetails(d);
     highlightRelationships(d);
     })
@@ -218,7 +236,12 @@ function initVisualization() {
     .force("center",    d3.forceCenter(w / 2, h / 2))
     .force("x",         d3.forceX(w / 2).strength(0.05))
     .force("y",         d3.forceY(h / 2).strength(0.05))
-    .force("collision", d3.forceCollide().radius(d => d.radius + 2))
+    .force(
+      "collision",
+      d3.forceCollide().radius(d =>
+        Math.sqrt(getNodeSize(d)) * 0.055 + 1.5
+      )
+    )
     .on("tick", ticked);
 
   window.addEventListener("resize", () => {
@@ -250,6 +273,27 @@ function ticked() {
     .attr("y1", d => getNode(d.source_key)?.y ?? 0)
     .attr("x2", d => getNode(d.target_key)?.x ?? 0)
     .attr("y2", d => getNode(d.target_key)?.y ?? 0);
+
+  // Keep group labels anchored to the live centroid of their nodes
+  if (currentGroup !== "none") {
+    d3.select("#labelsLayer").selectAll("text").attr("x", function() {
+      const g = this.__groupKey__;
+      if (!g) return +this.getAttribute("x");
+      const members = nodes.filter(d => d[currentGroup] === g);
+      if (!members.length) return +this.getAttribute("x");
+      return members.reduce((s, d) => s + d.x, 0) / members.length;
+    })
+    .attr("y", function() {
+      const g = this.__groupKey__;
+      if (!g) return +this.getAttribute("y");
+      const members = nodes.filter(d => d[currentGroup] === g);
+      if (!members.length) return +this.getAttribute("y");
+      // Place label above the group centroid
+      const cy = members.reduce((s, d) => s + d.y, 0) / members.length;
+      const minY = Math.min(...members.map(d => d.y));
+      return minY - 22;
+    });
+  }
 }
 
 function getNode(key) {
@@ -282,16 +326,6 @@ function getShapeScale(field) {
     d3.symbolDiamond, d3.symbolCross, d3.symbolStar, d3.symbolWye
   ];
   return d3.scaleOrdinal().domain(values).range(shapes);
-}
-
-function applyShapes(field) {
-  currentShape = field;
-  const scale  = getShapeScale(field);
-  circles.transition().duration(400)
-    .attr("d", d => {
-      const symbol = scale(d[field]) || d3.symbolCircle;
-      return d3.symbol().type(symbol).size(getNodeSize(d))();
-    });
 }
 
 function applySizing(field) {
@@ -410,7 +444,36 @@ function updateHighlights() {
 }
 
 // ─── RELATIONSHIP HIGHLIGHTING ────────────────────────────────────────────────
+function toggleRelationshipVisibility() {
+  
+  if(showAllRelationships) {
 
+    relatedActive.clear(); // Clear any active relationship highlights
+
+    circles.attr("opacity", 1); // Reset all nodes to full opacity
+
+    links.attr("stroke-opacity", d => {
+      if (activeRelationshipTypes.size > 0 && !activeRelationshipTypes.has(d.relationship_type)) return 0;
+      return 0.25; // Show all relationships with a default opacity
+    })
+    .attr("stroke", d => relationshipColor(d.relationship_type)); // Set stroke color based on relationship type
+
+    return;
+  }
+
+  if (activeNodeKey) { // if there's an active node
+
+    const node = getNode(activeNodeKey); // Get the active node using its canonical key
+
+    if (node) {
+      highlightRelationships(node); // Re-apply highlight to the active node and its relationships
+      return;
+    }
+  }
+
+  links.attr("stroke-opacity", 0); // If no active node, hide all relationships
+  circles.attr("opacity", 1); // Reset all nodes to full opacity
+}
 function highlightRelationships(node) {
   relatedActive.clear();
   relatedActive.add(node.canonical_key);
@@ -435,12 +498,11 @@ function clearRelationshipHighlight() {
 
   relatedActive.clear();
 
-  links.attr("stroke-opacity", 0);
+  activeNodeKey = null;
 
-  circles.attr("opacity", 1);
+  document.getElementById("detailPanel").classList.remove("open");
 
-  document.getElementById("detailPanel")
-    .classList.remove("open");
+  toggleRelationshipVisibility(); // This will reset all relationship highlights and node opacities
 }
 
 function relationshipColor(type) {
@@ -467,9 +529,12 @@ function buildRelationshipFilters() {
       <div class="legend-color" style="background:${relationshipColor(type)}"></div>
       <div>${type}</div>`;
     row.onclick = () => {
+
       activeRelationshipTypes.has(type)
         ? activeRelationshipTypes.delete(type)
         : activeRelationshipTypes.add(type);
+
+      toggleRelationshipVisibility();
     };
     container.appendChild(row);
   });
@@ -483,14 +548,30 @@ function setGroup(field) {
   const h = H();
 
   if (field === "none") {
-    d3.select("#labelsLayer").selectAll("*").remove();
+
+    d3.select("#labelsLayer")
+      .selectAll("*")
+      .remove();
+
     simulation
+      .force("slice", null)
       .force("groupX", null)
-      .force("groupY",  null)
-      .force("center",  d3.forceCenter(w / 2, h / 2))
-      .force("x",       d3.forceX(w / 2).strength(0.05))
-      .force("y",       d3.forceY(h / 2).strength(0.05));
+      .force("groupY", null)
+
+      .force("center",
+        d3.forceCenter(w / 2, h / 2)
+      )
+
+      .force("x",
+        d3.forceX(w / 2).strength(0.05)
+      )
+
+      .force("y",
+        d3.forceY(h / 2).strength(0.05)
+      );
+
     simulation.alpha(1).restart();
+
     return;
   }
 
@@ -498,23 +579,40 @@ function setGroup(field) {
   const angleMap = {};
   groups.forEach((g, i) => { angleMap[g] = (i / groups.length) * Math.PI * 2; });
 
-  const radius = Math.min(w, h) * 0.28;
+  const radius = Math.min(w, h) * 0.34;
 
-  // When grouping, replace the generic x/y centering with group-specific targets
+  const slices = buildSlices(field);
+
   simulation
-    .force("x",      null)
-    .force("y",      null)
+    .force("x", null)
+    .force("y", null)
     .force("center", null)
-    .force("groupX", d3.forceX(d => {
-      const angle = angleMap[d[field]] ?? 0;
-      return w / 2 + Math.cos(angle) * radius;
-    }).strength(0.15))
-    .force("groupY", d3.forceY(d => {
-      const angle = angleMap[d[field]] ?? 0;
-      return h / 2 + Math.sin(angle) * radius;
-    }).strength(0.15));
 
-  drawGroupLabels(groups, angleMap, w, h, radius);
+    .force(
+      "slice",
+      sliceForce(
+        field,
+        slices,
+        w / 2,
+        h / 2,
+        radius
+      )
+    )
+
+    .force(
+      "collision",
+      d3.forceCollide().radius(d =>
+        Math.sqrt(getNodeSize(d)) * 0.055 + 1.5
+      )
+    );
+
+  drawSliceLabels(
+    slices,
+    w / 2,
+    h / 2,
+    radius 
+  );
+
   simulation.alpha(1).restart();
 }
 
@@ -522,20 +620,167 @@ function drawGroupLabels(groups, angleMap, w, h, radius) {
   const layer = d3.select("#labelsLayer");
   layer.selectAll("*").remove();
 
-  layer.selectAll("text")
-    .data(groups)
-    .enter()
-    .append("text")
-    .attr("x", g => w / 2 + Math.cos(angleMap[g]) * (radius + 110))
-    .attr("y", g => h / 2 + Math.sin(angleMap[g]) * (radius + 110))
-    .attr("text-anchor",       "middle")
-    .attr("dominant-baseline", "middle")
-    .attr("fill",        "#e2e8f0")
-    .attr("font-size",   "16px")
-    .attr("font-weight", "700")
-    .attr("opacity",     0.9)
-    .style("pointer-events", "none")
-    .text(g => prettify(g));
+  groups.forEach(g => {
+    const members = nodes.filter(d => d[currentGroup] === g);
+    let x, y;
+    if (members.length) {
+      x = members.reduce((s, d) => s + (d.x || w / 2), 0) / members.length;
+      const minY = Math.min(...members.map(d => d.y || h / 2));
+      y = minY - 22;
+    } else {
+      x = w / 2 + Math.cos(angleMap[g]) * (radius + 110);
+      y = h / 2 + Math.sin(angleMap[g]) * (radius + 110);
+    }
+
+    const el = layer.append("text")
+      .attr("x", x)
+      .attr("y", y)
+      .attr("text-anchor",       "middle")
+      .attr("dominant-baseline", "middle")
+      .attr("fill",        "#e2e8f0")
+      .attr("font-size",   "16px")
+      .attr("font-weight", "700")
+      .attr("opacity",     0.9)
+      .style("pointer-events", "none")
+      .text(prettify(g));
+
+    el.node().__groupKey__ = g;
+  });
+}
+
+function buildSlices(type) {
+
+  const groups = [
+    ...new Set(
+      nodes.map(d => d[type]).filter(Boolean)
+    )
+  ];
+
+  // count nodes per group
+  const counts = {};
+
+  groups.forEach(g => counts[g] = 0);
+
+  nodes.forEach(d => {
+    counts[d[type]]++;
+  });
+
+  // sort biggest first
+  groups.sort((a, b) => counts[b] - counts[a]);
+
+  const slices = {};
+
+  // ---------- KEY SETTINGS ----------
+
+  const minSlice = 0.28; // minimum radians per group
+  const extraWeight = 0.0025; // how much bigger groups expand
+
+  // ----------------------------------
+
+  let totalWeight = 0;
+
+  groups.forEach(g => {
+    totalWeight += minSlice + counts[g] * extraWeight;
+  });
+
+  let current = 0;
+  const gap = 0.12;
+
+  groups.forEach(g => {
+
+    const weight =
+      minSlice +
+      counts[g] * extraWeight;
+
+    const angleSize =
+      (weight / totalWeight) *
+      Math.PI * 2;
+
+    slices[g] = {
+      start: current + gap,
+      end: current + angleSize - gap,
+      count: counts[g]
+    };
+
+    current += angleSize;
+  });
+
+  return slices;
+}
+
+function drawSliceLabels(slices, cx, cy, radius) {
+
+  const layer = d3.select("#labelsLayer");
+
+  layer.selectAll("*").remove();
+
+  Object.entries(slices).forEach(([g, s]) => {
+
+    // Use the current centroid of the group's nodes as the initial position
+    const members = nodes.filter(d => d[currentGroup] === g);
+    let x = cx, y = cy;
+    if (members.length) {
+      x = members.reduce((sum, d) => sum + (d.x || cx), 0) / members.length;
+      const minY = Math.min(...members.map(d => d.y || cy));
+      y = minY - 22;
+    } else {
+      // Fallback to angle-based position
+      const angle = (s.start + s.end) / 2;
+      const offset = 260;
+      const labelRadius = radius + offset;
+      x = cx + Math.cos(angle) * labelRadius;
+      y = cy + Math.sin(angle) * labelRadius;
+    }
+
+    const el = layer.append("text")
+      .attr("x", x)
+      .attr("y", y)
+      .attr("text-anchor", "middle")
+      .attr("dominant-baseline", "middle")
+      .attr("fill", "#e2e8f0")
+      .attr("font-size", "15px")
+      .attr("font-weight", "700")
+      .style("pointer-events", "none")
+      .text(prettify(g));
+
+    // Store the group key so ticked() can reposition by centroid
+    el.node().__groupKey__ = g;
+  });
+}
+
+function sliceForce(type, slices, cx, cy, radius) {
+  return function(alpha) {
+
+    nodes.forEach(d => {
+      const g = d[type];
+      if (!g || !slices[g]) return;
+
+      const slice = slices[g];
+
+      const angle =
+  slice.start +
+  d.sliceAngle * (slice.end - slice.start);
+
+      const groupSize = slices[g].count;
+
+      // bigger groups get pulled inward
+      const localRadius =
+        radius -
+        Math.sqrt(groupSize) * 6;
+
+      const targetX =
+        cx + Math.cos(angle) * localRadius;
+
+      const targetY =
+        cy + Math.sin(angle) * localRadius;
+      // stable pull (NOT velocity injection)
+      d.vx += (targetX - d.x) * 0.12 * alpha;
+      d.vy += (targetY - d.y) * 0.12 * alpha;
+
+      d.vx *= 0.78;
+      d.vy *= 0.78;
+    });
+  };
 }
 
 // ─── SEARCH ───────────────────────────────────────────────────────────────────
