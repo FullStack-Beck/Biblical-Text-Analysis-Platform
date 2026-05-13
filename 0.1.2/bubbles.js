@@ -34,7 +34,7 @@ const AVAILABLE_FIELDS = [
 // ─── DATA LOAD ────────────────────────────────────────────────────────────────
 
 Promise.all([
-  d3.json("NodesCombined.json"),
+  d3.json("NodesCombinedValidated.json"),
   d3.json("RelationshipsCombined.json")
 ]).then(([nodeData, relationshipData]) => {
 
