@@ -564,6 +564,9 @@ function setGroup(field) {
   const w = W();
   const h = H();
 
+  // Always release any pinned positions from InOrder before switching layouts
+  nodes.forEach(d => { d.fx = null; d.fy = null; });
+
   if (field === "InOrder") {
     const w = W();
     const h = H();
@@ -715,6 +718,7 @@ function setGroup(field) {
       .remove();
 
     simulation
+      .force("charge", d3.forceManyBody().strength(-25))
       .force("slice", null)
       .force("groupX", null)
       .force("groupY", null)
@@ -745,6 +749,7 @@ function setGroup(field) {
   const slices = buildSlices(field);
 
   simulation
+    .force("charge", d3.forceManyBody().strength(-25))
     .force("x", null)
     .force("y", null)
     .force("center", null)
