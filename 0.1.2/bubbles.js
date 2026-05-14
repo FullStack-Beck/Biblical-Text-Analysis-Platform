@@ -13,6 +13,10 @@ let currentShape = "action_type";
 let currentSize  = "cross_reference_count";
 let currentGroup = "none";
 
+// Cache scales so refresh helpers can access them without rebuilding
+let _colorScale = null;
+let _shapeScale = null;
+
 let hoverHighlight          = null;
 let activeHighlights        = new Map();
 let activeRelationshipTypes = new Set();
@@ -183,7 +187,6 @@ function initControls() {
 
     showAllRelationships = !showAllRelationships;
     const btn = document.getElementById("toggleRelationshipBtn");
-    btn.textContent = showAllRelationships ? "Hide Relationships" : "Show Relationships";
     if (showAllRelationships) {
       activeNodeKey = null; // Clear any active node selection
     }
@@ -192,6 +195,14 @@ function initControls() {
   };
 
   buildRelationshipFilters();
+
+  // Set initial max-heights so CSS transitions work correctly
+  requestAnimationFrame(() => {
+    ["color", "shape", "rel"].forEach(id => {
+      const body = document.getElementById(`${id}LegendBody`);
+      if (body) body.style.maxHeight = body.scrollHeight + 600 + "px";
+    });
+  });
 }
 
 // ─── VISUALIZATION INIT ───────────────────────────────────────────────────────
@@ -349,6 +360,7 @@ function getColorScale(field) {
 function applyColors(field) {
   currentColor = field;
   const scale  = getColorScale(field);
+  _colorScale  = scale;
   circles.transition().duration(400)
     .attr("fill", d => scale(d[field] || "unknown"));
   buildColorLegend(field, scale);
@@ -390,74 +402,81 @@ function buildColorLegend(field, scale) {
   const container = document.getElementById("colorLegend");
   container.innerHTML = "";
 
+  const activeSet = activeHighlights.get(field) || new Set();
+
   scale.domain().forEach(value => {
+    const isActive = activeSet.has(value);
     const row = document.createElement("div");
-    row.className = "legend-item";
+    row.className = "legend-item" + (isActive ? " active" : "");
+    row.dataset.field = field;
+    row.dataset.value = value;
     row.innerHTML = `
       <div class="legend-color" style="background:${scale(value)}"></div>
-      <div>${value}</div>`;
+      <div>${prettify(value)}</div>`;
     row.onmouseenter = () => { hoverHighlight = { field, value }; updateHighlights(); };
     row.onmouseleave = () => { hoverHighlight = null;             updateHighlights(); };
-    row.onclick      = () => toggleHighlight(field, value);
+    row.onclick      = () => { toggleHighlight(field, value); refreshColorLegend(field, scale); };
     container.appendChild(row);
   });
+
+  refreshLegendMeta("color", field, scale.domain());
+}
+
+function refreshColorLegend(field, scale) {
+  const activeSet = activeHighlights.get(field) || new Set();
+  document.querySelectorAll("#colorLegend .legend-item").forEach(row => {
+    const v = row.dataset.value;
+    row.classList.toggle("active", activeSet.has(v));
+  });
+  refreshLegendMeta("color", field, scale.domain());
 }
 
 function buildShapeLegend(field, scale) {
-
   const container = document.getElementById("shapeLegend");
   container.innerHTML = "";
 
+  const activeSet = activeHighlights.get(field) || new Set();
+
   scale.domain().forEach(value => {
-
+    const isActive = activeSet.has(value);
     const row = document.createElement("div");
-    row.className = "legend-item";
+    row.className = "legend-item" + (isActive ? " active" : "");
+    row.dataset.field = field;
+    row.dataset.value = value;
 
-    // icon
     const icon = document.createElement("div");
-    icon.style.width = "18px";
-    icon.style.height = "18px";
-    icon.style.display = "flex";
-    icon.style.alignItems = "center";
-    icon.style.justifyContent = "center";
+    icon.style.cssText = "width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;";
 
-    const svg = d3.create("svg")
-      .attr("width", 18)
-      .attr("height", 18);
-
+    const svg = d3.create("svg").attr("width", 18).attr("height", 18);
     svg.append("path")
-      .attr(
-        "d",
-        d3.symbol()
-          .type(scale(value))
-          .size(70)()
-      )
+      .attr("d", d3.symbol().type(scale(value)).size(70)())
       .attr("transform", "translate(9,9)")
       .attr("fill", "#cbd5e1");
-
     icon.appendChild(svg.node());
 
-    // label
     const label = document.createElement("div");
     label.textContent = prettify(value);
 
     row.appendChild(icon);
     row.appendChild(label);
 
-    row.onmouseenter = () => {
-      hoverHighlight = { field, value };
-      updateHighlights();
-    };
-
-    row.onmouseleave = () => {
-      hoverHighlight = null;
-      updateHighlights();
-    };
-
-    row.onclick = () => toggleHighlight(field, value);
+    row.onmouseenter = () => { hoverHighlight = { field, value }; updateHighlights(); };
+    row.onmouseleave = () => { hoverHighlight = null;             updateHighlights(); };
+    row.onclick = () => { toggleHighlight(field, value); refreshShapeLegend(field, scale); };
 
     container.appendChild(row);
   });
+
+  refreshLegendMeta("shape", field, scale.domain());
+}
+
+function refreshShapeLegend(field, scale) {
+  const activeSet = activeHighlights.get(field) || new Set();
+  document.querySelectorAll("#shapeLegend .legend-item").forEach(row => {
+    const v = row.dataset.value;
+    row.classList.toggle("active", activeSet.has(v));
+  });
+  refreshLegendMeta("shape", field, scale.domain());
 }
 
 function toggleHighlight(field, value) {
@@ -613,24 +632,114 @@ function relationshipColor(type) {
 
 function buildRelationshipFilters() {
   const container = document.getElementById("relationshipFilters");
+  container.innerHTML = "";
   const types = [...new Set(relationships.map(r => r.relationship_type))].sort();
 
   types.forEach(type => {
+    const isActive = activeRelationshipTypes.has(type);
     const row = document.createElement("div");
-    row.className = "legend-item";
+    row.className = "legend-item" + (isActive ? " active" : "");
+    row.dataset.reltype = type;
     row.innerHTML = `
       <div class="legend-color" style="background:${relationshipColor(type)}"></div>
-      <div>${type}</div>`;
+      <div>${prettify(type)}</div>`;
     row.onclick = () => {
-
       activeRelationshipTypes.has(type)
         ? activeRelationshipTypes.delete(type)
         : activeRelationshipTypes.add(type);
-
+      refreshRelLegend();
       toggleRelationshipVisibility();
     };
     container.appendChild(row);
   });
+
+  refreshLegendMeta("rel", null, types);
+}
+
+function refreshRelLegend() {
+  const types = [...new Set(relationships.map(r => r.relationship_type))].sort();
+  document.querySelectorAll("#relationshipFilters .legend-item").forEach(row => {
+    const t = row.dataset.reltype;
+    row.classList.toggle("active", activeRelationshipTypes.has(t));
+  });
+  refreshLegendMeta("rel", null, types);
+}
+
+// ─── LEGEND COLLAPSIBLE + SELECT-ALL HELPERS ─────────────────────────────────
+
+// Updates the badge count and Select All / Deselect All button text
+function refreshLegendMeta(legendId, field, allValues) {
+  const badge   = document.getElementById(`${legendId}LegendBadge`);
+  const allBtn  = document.getElementById(`${legendId}AllBtn`);
+  if (!badge || !allBtn) return;
+
+  let selectedCount = 0;
+  if (legendId === "rel") {
+    selectedCount = activeRelationshipTypes.size;
+  } else if (field) {
+    selectedCount = (activeHighlights.get(field) || new Set()).size;
+  }
+
+  if (selectedCount > 0) {
+    badge.textContent = selectedCount;
+    badge.style.display = "inline-block";
+  } else {
+    badge.style.display = "none";
+  }
+
+  const allSelected = selectedCount === allValues.length;
+  allBtn.textContent = allSelected ? "Deselect All" : "Select All";
+}
+
+// Collapse / expand a legend body
+function toggleLegendSection(legendId) {
+  const body    = document.getElementById(`${legendId}LegendBody`);
+  const chevron = document.getElementById(`${legendId}Chevron`);
+  if (!body) return;
+  const isCollapsed = body.classList.toggle("collapsed");
+  // Set max-height so the CSS transition works
+  if (!isCollapsed) body.style.maxHeight = body.scrollHeight + "px";
+  chevron?.classList.toggle("open", !isCollapsed);
+}
+
+// Select All / Deselect All for a legend group
+function toggleAllLegend(legendId) {
+  if (legendId === "color") {
+    const field = currentColor;
+    const scale = _colorScale || getColorScale(field);
+    const allValues = scale.domain();
+    const existing = activeHighlights.get(field) || new Set();
+    if (existing.size === allValues.length) {
+      activeHighlights.delete(field);
+    } else {
+      activeHighlights.set(field, new Set(allValues));
+    }
+    updateHighlights();
+    refreshColorLegend(field, scale);
+
+  } else if (legendId === "shape") {
+    const field = currentShape;
+    const scale = _shapeScale || getShapeScale(field);
+    const allValues = scale.domain();
+    const existing = activeHighlights.get(field) || new Set();
+    if (existing.size === allValues.length) {
+      activeHighlights.delete(field);
+    } else {
+      activeHighlights.set(field, new Set(allValues));
+    }
+    updateHighlights();
+    refreshShapeLegend(field, scale);
+
+  } else if (legendId === "rel") {
+    const types = [...new Set(relationships.map(r => r.relationship_type))];
+    if (activeRelationshipTypes.size === types.length) {
+      activeRelationshipTypes.clear();
+    } else {
+      types.forEach(t => activeRelationshipTypes.add(t));
+    }
+    refreshRelLegend();
+    toggleRelationshipVisibility();
+  }
 }
 
 // ─── GROUPING ─────────────────────────────────────────────────────────────────
@@ -1031,6 +1140,7 @@ function applyShapes(field) {
   currentShape = field;
 
   const scale = getShapeScale(field);
+  _shapeScale = scale;
 
   circles.transition().duration(400)
     .attr("d", d => {
@@ -1144,6 +1254,7 @@ function prettify(text) {
 function resetView() {
   relatedActive.clear();
   activeHighlights.clear();
+  activeRelationshipTypes.clear();
   hoverHighlight = null;
   activeSearchTags = [];
   liveSearchQuery  = "";
@@ -1151,6 +1262,11 @@ function resetView() {
   document.getElementById("searchInput").value = "";
   links.attr("stroke-opacity", 0);
   circles.attr("opacity", 1).attr("stroke-width", 1);
+
+  // Refresh legend UI to clear selected states
+  if (_colorScale) refreshColorLegend(currentColor, _colorScale);
+  if (_shapeScale) refreshShapeLegend(currentShape, _shapeScale);
+  refreshRelLegend();
 
   simulation.alpha(0.5).restart();
 }

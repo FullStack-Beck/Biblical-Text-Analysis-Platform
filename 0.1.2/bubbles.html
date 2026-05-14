@@ -92,28 +92,6 @@
       padding: 10px;
     }
 
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 6px;
-      cursor: pointer;
-      font-size: 12px;
-      padding: 4px;
-      border-radius: 6px;
-    }
-
-    .legend-item:hover {
-      background: rgba(255,255,255,0.06);
-    }
-
-    .legend-color {
-      width: 14px;
-      height: 14px;
-      border-radius: 4px;
-      flex-shrink: 0;
-    }
-
     #detailPanel {
       position: fixed;
       right: 0;
@@ -216,6 +194,123 @@
       font-size: 12px;
     }
 
+    /* ── Collapsible legend sections ── */
+    .legend-section {
+      margin-bottom: 24px;
+      border-bottom: 1px solid #1e293b;
+      padding-bottom: 18px;
+    }
+
+    .legend-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+      padding: 4px 0 6px 0;
+    }
+
+    .legend-title {
+      color: #e2e8f0;
+      font-size: 14px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .legend-badge {
+      background: #1e40af;
+      color: #bfdbfe;
+      border-radius: 10px;
+      padding: 1px 7px;
+      font-size: 10px;
+      font-weight: 700;
+      min-width: 18px;
+      text-align: center;
+    }
+
+    .legend-chevron {
+      color: #64748b;
+      font-size: 11px;
+      transition: transform 0.2s;
+      flex-shrink: 0;
+    }
+
+    .legend-chevron.open {
+      transform: rotate(180deg);
+    }
+
+    .legend-controls {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .legend-all-btn {
+      font-size: 10px;
+      font-weight: 600;
+      color: #64748b;
+      background: transparent;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 2px 7px;
+      cursor: pointer;
+      width: auto;
+      margin: 0;
+      white-space: nowrap;
+      transition: 0.15s;
+    }
+
+    .legend-all-btn:hover {
+      color: #e2e8f0;
+      border-color: #64748b;
+      background: #1e293b;
+    }
+
+    .legend-body {
+      overflow: hidden;
+      transition: max-height 0.25s ease;
+    }
+
+    .legend-body.collapsed {
+      max-height: 0 !important;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      padding: 5px 6px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      transition: background 0.12s, border-color 0.12s;
+    }
+
+    .legend-item:hover {
+      background: rgba(255,255,255,0.06);
+    }
+
+    .legend-item.active {
+      background: rgba(59,130,246,0.15);
+      border-color: rgba(59,130,246,0.4);
+    }
+
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      flex-shrink: 0;
+      transition: box-shadow 0.12s;
+    }
+
+    .legend-item.active .legend-color {
+      box-shadow: 0 0 0 2px rgba(255,255,255,0.5);
+    }
+
     #statsBar {
       position: fixed;
       bottom: 12px;
@@ -273,7 +368,6 @@
       <option value="confidence_score">Confidence</option>
     </select>
 
-    <button id="toggleRelationshipBtn">Toggle Relationships</button>
     <button onclick="resetView()">Reset View</button>
   </div>
 
@@ -283,19 +377,56 @@
     <input id="searchInput" placeholder="Type to filter · press Enter or use #tag to pin" />
   </div>
 
-  <div class="section">
-    <h3>Color Legend</h3>
-    <div id="colorLegend"></div>
+  <!-- Color Legend -->
+  <div class="legend-section">
+    <div class="legend-header" onclick="toggleLegendSection('color')">
+      <div class="legend-title">
+        Color Legend
+        <span class="legend-badge" id="colorLegendBadge" style="display:none"></span>
+      </div>
+      <div class="legend-controls">
+        <button class="legend-all-btn" id="colorAllBtn" onclick="event.stopPropagation(); toggleAllLegend('color')">Select All</button>
+        <span class="legend-chevron open" id="colorChevron">▼</span>
+      </div>
+    </div>
+    <div class="legend-body" id="colorLegendBody">
+      <div id="colorLegend"></div>
+    </div>
   </div>
 
-  <div class="section">
-    <h3>Shape Legend</h3>
-    <div id="shapeLegend"></div>
+  <!-- Shape Legend -->
+  <div class="legend-section">
+    <div class="legend-header" onclick="toggleLegendSection('shape')">
+      <div class="legend-title">
+        Shape Legend
+        <span class="legend-badge" id="shapeLegendBadge" style="display:none"></span>
+      </div>
+      <div class="legend-controls">
+        <button class="legend-all-btn" id="shapeAllBtn" onclick="event.stopPropagation(); toggleAllLegend('shape')">Select All</button>
+        <span class="legend-chevron open" id="shapeChevron">▼</span>
+      </div>
+    </div>
+    <div class="legend-body" id="shapeLegendBody">
+      <div id="shapeLegend"></div>
+    </div>
   </div>
 
-  <div class="section">
-    <h3>Relationship Filters</h3>
-    <div id="relationshipFilters"></div>
+  <!-- Relationship Filters -->
+  <div class="legend-section">
+    <div class="legend-header" onclick="toggleLegendSection('rel')">
+      <div class="legend-title">
+        Relationship Filters
+        <span class="legend-badge" id="relLegendBadge" style="display:none"></span>
+      </div>
+      <div class="legend-controls">
+        <button class="legend-all-btn" id="relAllBtn" onclick="event.stopPropagation(); toggleAllLegend('rel')">Select All</button>
+        <span class="legend-chevron open" id="relChevron">▼</span>
+      </div>
+    </div>
+    <button id="toggleRelationshipBtn">Toggle Relationships</button>
+    <div class="legend-body" id="relLegendBody">
+      <div id="relationshipFilters"></div>
+    </div>
   </div>
 
 </div>
