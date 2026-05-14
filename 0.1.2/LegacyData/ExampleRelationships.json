@@ -1,0 +1,30 @@
+[
+    {
+    "source_key": "exo_14_15_01",
+    "target_key": "exo_14_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The command for Israel to advance is immediately followed by instructions to divide the sea."
+  },
+  {
+    "source_key": "exo_14_16_01",
+    "target_key": "exo_14_26_01",
+    "relationship_type": "parallel_account",
+    "strength": 0.91,
+    "notes": "Both commands involve Moses stretching out his hand over the sea for divine intervention."
+  },
+  {
+    "source_key": "exo_14_16_01",
+    "target_key": "psa_106_09_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.81,
+    "notes": "Psalm 106 recalls the LORD rebuking and dividing the Red Sea."
+  },
+  {
+    "source_key": "exo_17_05_01",
+    "target_key": "exo_14_16_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.73,
+    "notes": "The rod used at the Red Sea reappears as an instrument of divine power."
+  }
+]

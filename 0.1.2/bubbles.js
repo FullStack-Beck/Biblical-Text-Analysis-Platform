@@ -19,6 +19,10 @@ let activeRelationshipTypes = new Set();
 let relatedActive           = new Set();
 let activeNodeKey = null;
 
+// ─── SEARCH STATE ─────────────────────────────────────────────────────────────
+let activeSearchTags = [];   // persistent pinned tags  [{ raw, terms[] }]
+let liveSearchQuery  = "";   // ephemeral live text while typing
+
 const BASE_SIZE = 120;
 
 function W() { return window.innerWidth;  }
@@ -139,8 +143,41 @@ function initControls() {
   document.getElementById("closePanel").onclick = () =>
     document.getElementById("detailPanel").classList.remove("open");
 
-  document.getElementById("searchInput").addEventListener("input", e =>
-    applySearch(e.target.value.toLowerCase()));
+  const searchInput = document.getElementById("searchInput");
+
+  searchInput.addEventListener("input", e => {
+    const raw = e.target.value;
+
+    // If user typed a # tag followed by a space, auto-pin it
+    const hashSpaceMatch = raw.match(/^(#\S+)\s$/);
+    if (hashSpaceMatch) {
+      pinSearchTag(hashSpaceMatch[1]);
+      e.target.value = "";
+      liveSearchQuery = "";
+      updateHighlights();
+      return;
+    }
+
+    liveSearchQuery = raw.toLowerCase();
+    updateHighlights();
+  });
+
+  searchInput.addEventListener("keydown", e => {
+    if (e.key === "Enter") {
+      const raw = e.target.value.trim();
+      if (!raw) return;
+      pinSearchTag(raw.startsWith("#") ? raw : `#${raw}`);
+      e.target.value = "";
+      liveSearchQuery = "";
+      updateHighlights();
+    }
+    // Backspace on empty input removes last tag
+    if (e.key === "Backspace" && e.target.value === "" && activeSearchTags.length > 0) {
+      activeSearchTags.pop();
+      renderTagChips();
+      updateHighlights();
+    }
+  });
 
   document.getElementById("toggleRelationshipBtn").onclick = () => {
 
@@ -432,14 +469,53 @@ function toggleHighlight(field, value) {
 
 function updateHighlights() {
   circles.attr("opacity", d => {
-    if (relatedActive.size > 0)
-      return relatedActive.has(d.canonical_key) ? 1 : 0.08;
-    if (hoverHighlight)
-      return d[hoverHighlight.field] === hoverHighlight.value ? 1 : 0.1;
-    if (activeHighlights.size === 0) return 1;
-    for (const [field, values] of activeHighlights.entries())
-      if (values.has(d[field])) return 1;
-    return 0.1;
+
+    // ── 1. Relationship-based isolation (node click) ──────────────────────────
+    if (relatedActive.size > 0) {
+      if (!relatedActive.has(d.canonical_key)) return 0.06;
+      // Still apply search filters on top of relationship highlight
+    }
+
+    // ── 2. Search filters (tags + live query) ────────────────────────────────
+    const haystack = [
+      d.full_scripture,
+      d.command_summary,
+      d.semantic_domain,
+      d.theological_theme,
+      d.action_type,
+      d.book,
+      d.speaker,
+      d.covenant,
+      d.literary_form,
+      d.speech_act,
+      d.audience_identity,
+      d.polarity
+    ].join(" ").toLowerCase();
+
+    // All pinned tags must match (AND logic between tags)
+    for (const tag of activeSearchTags) {
+      const matchesTag = tag.terms.some(term => haystack.includes(term));
+      if (!matchesTag) return relatedActive.size > 0 ? 0.06 : 0.06;
+    }
+
+    // Live query must also match if present
+    if (liveSearchQuery && !haystack.includes(liveSearchQuery)) {
+      return relatedActive.size > 0 ? 0.06 : 0.06;
+    }
+
+    // ── 3. Legend hover ───────────────────────────────────────────────────────
+    if (hoverHighlight) {
+      return d[hoverHighlight.field] === hoverHighlight.value ? 1 : 0.08;
+    }
+
+    // ── 4. Pinned legend filters ──────────────────────────────────────────────
+    if (activeHighlights.size > 0) {
+      for (const [field, values] of activeHighlights.entries())
+        if (values.has(d[field])) return 1;
+      return 0.08;
+    }
+
+    return 1;
   });
 }
 
@@ -971,12 +1047,29 @@ function applyShapes(field) {
 // ─── HOVER ────────────────────────────────────────────────────────────────────
 
 function hoverNode(node) {
-  const rels = relationshipMap.get(node.canonical_key) || [];
-  circles.attr("opacity", d => {
-    if (d.canonical_key === node.canonical_key) return 1;
-    return rels.some(r => r.target_key === d.canonical_key || r.source_key === d.canonical_key)
-      ? 0.9 : 0.12;
-  });
+  // Only apply hover dim if no relationship isolation is active
+  if (relatedActive.size === 0) {
+    const rels = relationshipMap.get(node.canonical_key) || [];
+    const connected = new Set([node.canonical_key, ...rels.map(r =>
+      r.direction === "outgoing" ? r.target_key : r.source_key
+    )]);
+    hoverHighlight = null; // don't conflict with legend hover
+    circles.attr("opacity", d => {
+      // Respect search tags even during hover
+      const haystack = [
+        d.full_scripture, d.command_summary, d.semantic_domain,
+        d.theological_theme, d.action_type, d.book, d.speaker,
+        d.covenant, d.literary_form, d.speech_act, d.audience_identity, d.polarity
+      ].join(" ").toLowerCase();
+
+      for (const tag of activeSearchTags) {
+        if (!tag.terms.some(term => haystack.includes(term))) return 0.04;
+      }
+      if (liveSearchQuery && !haystack.includes(liveSearchQuery)) return 0.04;
+
+      return connected.has(d.canonical_key) ? 1 : 0.1;
+    });
+  }
 }
 
 function clearHover() { updateHighlights(); }
@@ -1052,24 +1145,48 @@ function resetView() {
   relatedActive.clear();
   activeHighlights.clear();
   hoverHighlight = null;
+  activeSearchTags = [];
+  liveSearchQuery  = "";
+  renderTagChips();
+  document.getElementById("searchInput").value = "";
   links.attr("stroke-opacity", 0);
   circles.attr("opacity", 1).attr("stroke-width", 1);
 
   simulation.alpha(0.5).restart();
 }
 
-function applySearch(query) {
-  circles.attr("opacity", d => {
-    if (!query) return 1;
+// ─── SEARCH TAG HELPERS ───────────────────────────────────────────────────────
 
-    const haystack = [
-      d.full_scripture,
-      d.command_summary,
-      d.semantic_domain,
-      d.theological_theme,
-      d.action_type
-    ].join(" ").toLowerCase();
+function pinSearchTag(raw) {
+  // Normalize: strip leading #, split on | for OR within a tag
+  const label = raw.replace(/^#+/, "");
+  const terms  = label.toLowerCase().split("|").map(t => t.trim()).filter(Boolean);
+  if (!terms.length) return;
 
-    return haystack.includes(query) ? 1 : 0.08;
+  // Don't add duplicates
+  const already = activeSearchTags.some(t => t.raw === raw);
+  if (already) return;
+
+  activeSearchTags.push({ raw, label, terms });
+  renderTagChips();
+}
+
+function removeSearchTag(raw) {
+  activeSearchTags = activeSearchTags.filter(t => t.raw !== raw);
+  renderTagChips();
+  updateHighlights();
+}
+
+function renderTagChips() {
+  const container = document.getElementById("searchTagsContainer");
+  container.innerHTML = "";
+  activeSearchTags.forEach(tag => {
+    const chip = document.createElement("div");
+    chip.className = "search-tag";
+    chip.innerHTML = `
+      <span>#${tag.label}</span>
+      <span class="tag-remove" title="Remove filter">✕</span>`;
+    chip.querySelector(".tag-remove").onclick = () => removeSearchTag(tag.raw);
+    container.appendChild(chip);
   });
 }
