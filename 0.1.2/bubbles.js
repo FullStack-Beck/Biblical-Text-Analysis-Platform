@@ -115,6 +115,27 @@ function buildRelationshipMap() {
     if (!relationshipMap.has(rel.target_key)) relationshipMap.set(rel.target_key, []);
     relationshipMap.get(rel.target_key).push({ ...rel, direction: "incoming" });
   });
+
+  // ── Recompute counts from actual relationship data ────────────────────────
+  // cross_reference_count  = total relationships touching this node
+  // repetition_count       = relationships that are direct repetitions/echoes
+  const REPETITION_TYPES = new Set([
+    "direct_repeat", "thematic_repeat", "parallel_account",
+    "restatement", "echo", "continuation"
+  ]);
+
+  const CROSS_REFERENCE_TYPES = new Set([
+    "series_sequence", "quotation", "ot_reference", "ot_fulfillment", "prophetic_connection",
+    "expansion", "restriction", "reversal", "intensification", "reinterpretation",
+    "contrast", "cause_effect", "application", "summary", "covenant_transition", "allusion", 
+    "typology", "fulfillment"
+  ]);
+
+  nodes.forEach(d => {
+    const rels = relationshipMap.get(d.canonical_key) || [];
+    d.cross_reference_count = rels.filter(r => CROSS_REFERENCE_TYPES.has(r.relationship_type)).length;
+    d.repetition_count      = rels.filter(r => REPETITION_TYPES.has(r.relationship_type)).length;
+  });
 }
 
 // ─── CONTROLS ────────────────────────────────────────────────────────────────
@@ -536,23 +557,77 @@ function updateHighlights() {
 
     return 1;
   });
+
+  // ── 5. When "show all" is on, re-filter links to match current visible set ──
+  if (showAllRelationships) {
+    const visibleKeys = getVisibleNodeKeys();
+    links.attr("stroke-opacity", d => {
+      if (!visibleKeys.has(d.source_key)) return 0;
+      if (activeRelationshipTypes.size > 0 && !activeRelationshipTypes.has(d.relationship_type)) return 0;
+      return 0.25;
+    })
+    .attr("stroke", d => relationshipColor(d.relationship_type));
+  }
+}
+
+// ─── VISIBILITY HELPERS ───────────────────────────────────────────────────────
+
+// Returns a Set of canonical_keys for nodes that pass ALL active filters:
+//   • search tags + live query
+//   • pinned legend highlights (color/shape)
+// Does NOT consider relatedActive (relationship isolation) — that's separate.
+function getVisibleNodeKeys() {
+  const visible = new Set();
+
+  nodes.forEach(d => {
+    // ── Search filter ─────────────────────────────────────────────────────────
+    const haystack = [
+      d.full_scripture, d.command_summary, d.semantic_domain,
+      d.theological_theme, d.action_type, d.book, d.speaker,
+      d.covenant, d.literary_form, d.speech_act, d.audience_identity, d.polarity
+    ].join(" ").toLowerCase();
+
+    for (const tag of activeSearchTags) {
+      if (!tag.terms.some(term => haystack.includes(term))) return;
+    }
+    if (liveSearchQuery && !haystack.includes(liveSearchQuery)) return;
+
+    // ── Legend highlight filter ───────────────────────────────────────────────
+    if (activeHighlights.size > 0) {
+      let matchesAny = false;
+      for (const [field, values] of activeHighlights.entries()) {
+        if (values.has(d[field])) { matchesAny = true; break; }
+      }
+      if (!matchesAny) return;
+    }
+
+    visible.add(d.canonical_key);
+  });
+
+  return visible;
 }
 
 // ─── RELATIONSHIP HIGHLIGHTING ────────────────────────────────────────────────
 function toggleRelationshipVisibility() {
-  
-  if(showAllRelationships) {
+
+  if (showAllRelationships) {
 
     relatedActive.clear(); // Clear any active relationship highlights
 
     circles.attr("opacity", 1); // Reset all nodes to full opacity
 
-    links.attr("stroke-opacity", d => {
-      if (activeRelationshipTypes.size > 0 && !activeRelationshipTypes.has(d.relationship_type)) return 0;
-      return 0.25; // Show all relationships with a default opacity
-    })
-    .attr("stroke", d => relationshipColor(d.relationship_type)); // Set stroke color based on relationship type
+    // Only show links where BOTH endpoints pass the current filters
+    const visibleKeys = getVisibleNodeKeys();
 
+    links.attr("stroke-opacity", d => {
+      if (!visibleKeys.has(d.source_key) || !visibleKeys.has(d.target_key)) return 0;
+      if (activeRelationshipTypes.size > 0 && !activeRelationshipTypes.has(d.relationship_type)) return 0;
+      return 0.25;
+    })
+    .attr("stroke", d => relationshipColor(d.relationship_type));
+
+    // Re-apply node opacity so search/legend filters still dim non-matching nodes
+    updateHighlights();
     return;
   }
 
