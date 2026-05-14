@@ -54,6 +54,103 @@
       margin-bottom: 10px;
     }
 
+    .timeline {
+      margin-top: 50px;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 18px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #1e293b;
+    }
+
+    .release-card {
+      position: relative;
+      margin-left: 50px;
+      margin-bottom: 24px;
+      background: #141a27;
+      border: 1px solid #1e293b;
+      border-radius: 14px;
+      padding: 18px 20px;
+      transition: 0.25s;
+      box-shadow: 0 0 0 rgba(0,0,0,0);
+    }
+
+    .release-card:hover {
+      transform: translateY(-2px);
+      background: #1b2433;
+      border-color: #334155;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    }
+
+    .release-dot {
+      position: absolute;
+      left: -42px;
+      top: 24px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #3b82f6;
+      border: 3px solid #0f172a;
+      box-shadow: 0 0 12px #3b82f6;
+    }
+
+    .release-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .release-version {
+      font-size: 18px;
+      font-weight: 700;
+      color: white;
+    }
+
+    .release-date {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    .release-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .physics { background: rgba(59,130,246,.18); color: #60a5fa; }
+    .graph   { background: rgba(168,85,247,.18); color: #c084fc; }
+    .data    { background: rgba(34,197,94,.18); color: #4ade80; }
+    .ui      { background: rgba(249,115,22,.18); color: #fb923c; }
+
+    .release-list {
+      margin: 0;
+      padding-left: 18px;
+      color: #cbd5e1;
+      line-height: 1.7;
+    }
+
+    .release-list li {
+      margin-bottom: 6px;
+    }
+
     textarea {
       width: 100%;
       height: 100px;
@@ -107,13 +204,179 @@
       revealing patterns that are difficult to see through linear reading alone.
     </p>
 
-    <!-- ROADMAP -->
-    <div class="roadmap">
-      <h2>Roadmap</h2>
-      <div class="roadmap-item"></div>
-      <div class="roadmap-item"></div>
-      <div class="roadmap-item"></div>
+    <div class="timeline">
+
+  <h2>Development Timeline</h2>
+
+  <div class="release-card">
+
+    <div class="release-dot"></div>
+
+    <div class="release-header">
+      <div class="release-version">v0.1.2</div>
+      <div class="release-date">May 14, 2026</div>
     </div>
+
+    <div class="release-tags">
+      <div class="tag physics">Physics</div>
+      <div class="tag graph">Graph</div>
+    </div>
+
+    <ul class="release-list">
+      <li>Fixed InOrder node pinning bug</li>
+      <li>Resolved overlap caused by force charge imbalance</li>
+      <li>Improved node movement between grouping modes</li>
+      <li>Stabilized relationship rendering behavior</li>
+    </ul>
+
+  </div>
+
+  <div class="release-card">
+
+    <div class="release-dot"></div>
+
+    <div class="release-header">
+      <div class="release-version">v0.1.1</div>
+      <div class="release-date">May 13, 2026</div>
+    </div>
+
+    <div class="release-tags">
+      <div class="tag graph">Visualization</div>
+      <div class="tag data">Data</div>
+    </div>
+
+    <ul class="release-list">
+      <li>Added InOrder grouping mode</li>
+      <li>Fixed Genesis relationship dataset issues</li>
+      <li>Improved relationship color system</li>
+      <li>Validated merged node metadata</li>
+      <li>Added relationship visibility toggle</li>
+    </ul>
+
+  </div>
+
+  <div class="release-card">
+
+    <div class="release-dot"></div>
+
+    <div class="release-header">
+      <div class="release-version">v0.1.0</div>
+      <div class="release-date">May 11, 2026</div>
+    </div>
+
+    <div class="release-tags">
+      <div class="tag graph">Visualization</div>
+      <div class="tag ui">UI</div>
+    </div>
+
+    <ul class="release-list">
+      <li>Released first alpha Bubble Explorer</li>
+      <li>Added labels and shape legends</li>
+      <li>Fixed graph drifting issues</li>
+      <li>Improved cross-reference navigation</li>
+      <li>Added experimental graph systems</li>
+    </ul>
+
+  </div>
+
+  <div class="release-card">
+
+    <div class="release-dot"></div>
+
+    <div class="release-header">
+      <div class="release-version">v0.0.4</div>
+      <div class="release-date">May 6, 2026</div>
+    </div>
+
+    <div class="release-tags">
+      <div class="tag physics">Dataset + Experimental Pages</div>
+      <div class="tag data">Data</div>
+    </div>
+
+    <ul class="release-list">
+      <li>Added DataV.3.tsv Included Romans command datasets for chapters 6, 12, and 13</li>
+      <li>Added experimental bubbles2.0 visualization page</li>
+      <li>Modified index page to support experimental navigation structure</li>
+      <li>Began branching visualization systems into modular testing environments</li>
+      <li>Fixed index page routing, Added data parsing fixes for DataV.3.tsv</li>
+    </ul>
+
+  </div>
+
+    <div class="release-card">
+
+    <div class="release-dot"></div>
+
+    <div class="release-header">
+      <div class="release-version">v0.0.3</div>
+      <div class="release-date">May 3, 2026</div>
+    </div>
+
+    <div class="release-tags">
+      <div class="tag graph">Data Logic Improvements</div>
+      <div class="tag data">Data</div>
+    </div>
+
+    <ul class="release-list">
+      <li>Fixed sorting logic</li>
+      <li>Improved data ordering consistency</li>
+      <li>Began separating experimental visualization systems from stable interfaces</li>
+    </ul>
+
+  </div>
+
+    <div class="release-card">
+
+    <div class="release-dot"></div>
+
+    <div class="release-header">
+      <div class="release-version">v0.0.2</div>
+      <div class="release-date">May 1, 2026</div>
+    </div>
+
+    <div class="release-tags">
+      <div class="tag physics">First Visualization Layer</div>
+      <div class="tag ui">UI</div>
+    </div>
+
+    <ul class="release-list">
+      <li>Added landing page</li>
+      <li>Introduced initial “Bubbles” visualization page</li>
+      <li>Improved UI card color system</li>
+    </ul>
+
+  </div>
+
+  </div>
+
+    <div class="release-card">
+
+    <div class="release-dot"></div>
+
+    <div class="release-header">
+      <div class="release-version">v0.0.1</div>
+      <div class="release-date">April 30, 2026</div>
+    </div>
+
+    <div class="release-tags">
+      <div class="tag graph">Foundation Phase</div>
+      <div class="tag data">Data</div>
+    </div>
+
+    <ul class="release-list">
+      <li>Initial project commit
+      <li>Added Speaker column to command table</li>
+      <li>Implemented multi-domain selection system</li>
+      <li>Fixed worship group classification inconsistencies</li>
+      <li>Corrected early color mapping issues</li>
+      <li>Resolved num_19 parsing and indexing problems</li>
+      <li>Extended command table functionality</li>
+      <li>Improved dataset browsing and organization</li>
+    </ul>
+
+  </div>
+
+</div>
 
     <!-- FEEDBACK -->
     <h2>Suggestions</h2>
