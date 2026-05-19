@@ -1,0 +1,1969 @@
+[
+  {
+    "source_key": "lev_01_02_01",
+    "target_key": "lev_01_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The general instruction regarding offerings is followed by the specific requirement for a blemish-free male animal."
+  },
+  {
+    "source_key": "lev_01_03_01",
+    "target_key": "lev_01_03_02",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "The requirement concerning the acceptable animal is expanded with instructions about voluntary presentation before the LORD."
+  },
+  {
+    "source_key": "lev_01_03_02",
+    "target_key": "lev_01_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "The worshiper presenting the offering is next instructed to lay hands upon the sacrifice."
+  },
+  {
+    "source_key": "lev_01_04_01",
+    "target_key": "lev_01_05_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.90,
+    "notes": "Identification with the sacrifice through laying on of hands precedes the sacrificial slaughter and blood ritual."
+  },
+  {
+    "source_key": "lev_01_05_01",
+    "target_key": "lev_01_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "After the blood ritual, the sacrifice is skinned and divided according to the ritual order."
+  },
+  {
+    "source_key": "lev_01_06_01",
+    "target_key": "lev_01_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Preparation of the sacrifice is followed by preparation of the altar fire by the priests."
+  },
+  {
+    "source_key": "lev_01_03_01",
+    "target_key": "heb_09_14_01",
+    "relationship_type": "typology",
+    "strength": 0.89,
+    "notes": "The spotless sacrificial animal foreshadows Christ offering Himself without blemish."
+  },
+  {
+    "source_key": "lev_01_04_01",
+    "target_key": "isa_53_06_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.76,
+    "notes": "The transfer symbolism in laying hands on the sacrifice parallels the LORD laying iniquity upon the suffering servant."
+  },
+  {
+    "source_key": "lev_01_05_01",
+    "target_key": "heb_09_22_01",
+    "relationship_type": "continuation",
+    "strength": 0.84,
+    "notes": "The blood sacrifice principle continues into New Testament theology regarding remission of sins."
+  },
+    {
+    "source_key": "lev_01_07_01",
+    "target_key": "lev_01_08_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "After preparing the altar fire, the priests arrange the sacrifice upon the altar."
+  },
+  {
+    "source_key": "lev_01_08_01",
+    "target_key": "lev_01_09_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "The arranged sacrifice is washed and then fully burned before the LORD."
+  },
+  {
+    "source_key": "lev_01_09_01",
+    "target_key": "lev_01_13_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.93,
+    "notes": "The flock offering ritual repeats the washing and burning procedures established for herd offerings."
+  },
+  {
+    "source_key": "lev_01_10_01",
+    "target_key": "lev_01_03_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.91,
+    "notes": "Both passages require a spotless male animal for burnt offerings."
+  },
+  {
+    "source_key": "lev_01_10_01",
+    "target_key": "lev_01_11_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The acceptable flock offering is followed by instructions for slaughter and blood application."
+  },
+  {
+    "source_key": "lev_01_11_01",
+    "target_key": "lev_01_12_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "After the blood ritual, the sacrifice is divided and arranged upon the altar."
+  },
+  {
+    "source_key": "lev_01_12_01",
+    "target_key": "lev_01_13_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "The prepared sacrifice is washed and completely consumed on the altar."
+  },
+  {
+    "source_key": "lev_01_14_01",
+    "target_key": "lev_01_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The instructions for acceptable bird offerings are followed by priestly preparation procedures."
+  },
+  {
+    "source_key": "lev_01_15_01",
+    "target_key": "lev_01_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "After the bird is presented and blood applied, unwanted portions are removed."
+  },
+  {
+    "source_key": "lev_01_16_01",
+    "target_key": "lev_01_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "The bird offering preparation concludes with complete burning upon the altar."
+  },
+  {
+    "source_key": "lev_01_03_01",
+    "target_key": "1pe_01_19_01",
+    "relationship_type": "typology",
+    "strength": 0.90,
+    "notes": "The spotless sacrificial animal foreshadows Christ as a lamb without blemish and without spot."
+  },
+  {
+    "source_key": "lev_01_09_01",
+    "target_key": "eph_05_02_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.86,
+    "notes": "The pleasing aroma of the burnt offering anticipates Christ's sacrificial offering to God."
+  },
+  {
+    "source_key": "lev_01_14_01",
+    "target_key": "luk_02_24_01",
+    "relationship_type": "continuation",
+    "strength": 0.83,
+    "notes": "The allowance for bird offerings continues into the temple practices observed during the time of Jesus."
+  },
+    {
+    "source_key": "lev_02_01_01",
+    "target_key": "lev_02_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The preparation of the grain offering is followed by priestly presentation and burning of the memorial portion."
+  },
+  {
+    "source_key": "lev_02_02_01",
+    "target_key": "lev_02_03_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.91,
+    "notes": "After the memorial portion is burned, the remaining offering is assigned to the priests."
+  },
+  {
+    "source_key": "lev_02_04_01",
+    "target_key": "lev_02_05_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.92,
+    "notes": "Both passages describe unleavened grain offerings prepared in different cooking methods."
+  },
+  {
+    "source_key": "lev_02_05_01",
+    "target_key": "lev_02_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "The pan-cooked offering instructions are followed by commands to divide it and pour oil upon it."
+  },
+  {
+    "source_key": "lev_02_07_01",
+    "target_key": "lev_02_05_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.88,
+    "notes": "Both instructions concern grain offerings prepared with flour and oil using different vessels."
+  },
+  {
+    "source_key": "lev_02_08_01",
+    "target_key": "lev_02_09_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The grain offering is presented to the priest, who then burns the memorial portion upon the altar."
+  },
+  {
+    "source_key": "lev_02_09_01",
+    "target_key": "lev_02_10_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "Following the altar memorial, the remaining portion becomes the priests' provision."
+  },
+  {
+    "source_key": "lev_02_04_01",
+    "target_key": "1co_05_07_01",
+    "relationship_type": "typology",
+    "strength": 0.82,
+    "notes": "The unleavened offering symbolizes purity and foreshadows the New Testament imagery of sincerity and truth without leaven."
+  },
+  {
+    "source_key": "lev_02_01_01",
+    "target_key": "php_04_18_01",
+    "relationship_type": "continuation",
+    "strength": 0.79,
+    "notes": "The pleasing sacrificial offering imagery continues in Paul's description of spiritual gifts offered unto God."
+  },
+  {
+    "source_key": "lev_02_09_01",
+    "target_key": "eph_05_02_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.85,
+    "notes": "The sweet savour offering anticipates Christ's sacrificial offering unto God."
+  },
+    {
+    "source_key": "lev_02_10_01",
+    "target_key": "lev_02_11_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "After instructions concerning priestly portions, regulations regarding prohibited ingredients are introduced."
+  },
+  {
+    "source_key": "lev_02_11_01",
+    "target_key": "lev_02_04_01",
+    "relationship_type": "restriction",
+    "strength": 0.96,
+    "notes": "The prohibition of leaven clarifies and reinforces the unleavened requirement in baked grain offerings."
+  },
+  {
+    "source_key": "lev_02_11_01",
+    "target_key": "1co_05_08_01",
+    "relationship_type": "typology",
+    "strength": 0.84,
+    "notes": "The exclusion of leaven foreshadows New Testament imagery of purity and separation from corruption."
+  },
+  {
+    "source_key": "lev_02_12_01",
+    "target_key": "lev_02_14_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "The instruction regarding firstfruit offerings is expanded with details about acceptable preparation."
+  },
+  {
+    "source_key": "lev_02_13_01",
+    "target_key": "num_18_19_01",
+    "relationship_type": "continuation",
+    "strength": 0.88,
+    "notes": "The covenant symbolism of salt continues in later covenant language concerning permanence and faithfulness."
+  },
+  {
+    "source_key": "lev_02_13_01",
+    "target_key": "mat_05_13_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.78,
+    "notes": "The symbolic significance of salt reappears in Jesus' teaching about covenant faithfulness and preservation."
+  },
+  {
+    "source_key": "lev_02_14_01",
+    "target_key": "pro_03_09_01",
+    "relationship_type": "continuation",
+    "strength": 0.81,
+    "notes": "The dedication of firstfruits unto the LORD continues as a principle of honoring God with increase."
+  },
+  {
+    "source_key": "lev_02_14_01",
+    "target_key": "jas_01_18_01",
+    "relationship_type": "typology",
+    "strength": 0.73,
+    "notes": "Firstfruit imagery later becomes symbolic of believers dedicated unto God."
+  },
+  {
+    "source_key": "lev_02_15_01",
+    "target_key": "lev_02_01_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.91,
+    "notes": "The use of oil and frankincense repeats the foundational grain offering formula established earlier in the chapter."
+  },
+  {
+    "source_key": "lev_02_15_01",
+    "target_key": "lev_02_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "After the offering is prepared with oil and frankincense, the priest burns the memorial portion."
+  },
+    {
+    "source_key": "lev_03_01_01",
+    "target_key": "lev_03_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The requirements for an acceptable peace offering are followed by instructions for laying hands and blood application."
+  },
+  {
+    "source_key": "lev_03_02_01",
+    "target_key": "lev_03_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "After the offering is slaughtered and blood applied, the fat portions are dedicated upon the altar."
+  },
+  {
+    "source_key": "lev_03_03_01",
+    "target_key": "lev_03_06_01",
+    "relationship_type": "expansion",
+    "strength": 0.84,
+    "notes": "The instructions for herd peace offerings are expanded to include flock offerings."
+  },
+  {
+    "source_key": "lev_03_06_01",
+    "target_key": "lev_03_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The general instructions regarding flock offerings are followed by specific instructions concerning lamb offerings."
+  },
+  {
+    "source_key": "lev_03_07_01",
+    "target_key": "lev_03_12_01",
+    "relationship_type": "expansion",
+    "strength": 0.88,
+    "notes": "The lamb offering instructions are expanded further to include goat offerings."
+  },
+  {
+    "source_key": "lev_03_12_01",
+    "target_key": "lev_03_17_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.82,
+    "notes": "Because the fat and blood belong unto the LORD in sacrifice, Israel is forbidden from consuming them."
+  },
+  {
+    "source_key": "lev_03_01_01",
+    "target_key": "lev_22_21_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.93,
+    "notes": "The requirement for offerings without blemish is repeated later in Levitical sacrificial law."
+  },
+  {
+    "source_key": "lev_03_02_01",
+    "target_key": "heb_10_10_01",
+    "relationship_type": "typology",
+    "strength": 0.84,
+    "notes": "The sacrificial system foreshadows sanctification through the offering of Christ."
+  },
+  {
+    "source_key": "lev_03_03_01",
+    "target_key": "rom_12_01_01",
+    "relationship_type": "reinterpretation",
+    "strength": 0.76,
+    "notes": "The offering devoted unto God is later reframed spiritually as believers presenting themselves as living sacrifices."
+  },
+  {
+    "source_key": "lev_03_17_01",
+    "target_key": "act_15_20_01",
+    "relationship_type": "continuation",
+    "strength": 0.87,
+    "notes": "The apostolic instructions in Acts continue the prohibition regarding blood consumption."
+  },
+    {
+    "source_key": "lev_04_02_01",
+    "target_key": "lev_04_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "General instructions for sin offerings are followed by priest-specific sin requirements."
+  },
+  {
+    "source_key": "lev_04_03_01",
+    "target_key": "lev_04_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Priestly sin condition is followed by requirement to bring a bull to the tabernacle."
+  },
+  {
+    "source_key": "lev_04_04_01",
+    "target_key": "lev_04_05_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The offering is brought before the LORD and then blood is taken for atonement ritual."
+  },
+  {
+    "source_key": "lev_04_05_01",
+    "target_key": "lev_04_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Blood is brought into the tabernacle and then sprinkled seven times before the LORD."
+  },
+  {
+    "source_key": "lev_04_06_01",
+    "target_key": "lev_04_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Sprinkling blood before the LORD is followed by application to altar horns."
+  },
+  {
+    "source_key": "lev_04_07_01",
+    "target_key": "lev_04_08_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "After blood application, fat portions are removed for offering."
+  },
+  {
+    "source_key": "lev_04_08_01",
+    "target_key": "lev_04_09_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "Removed portions are identified and prepared for burning."
+  },
+  {
+    "source_key": "lev_04_09_01",
+    "target_key": "lev_04_10_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.91,
+    "notes": "Sin offering fat removal follows similar pattern to peace offerings."
+  },
+  {
+    "source_key": "lev_04_02_01",
+    "target_key": "lev_04_06_01",
+    "relationship_type": "expansion",
+    "strength": 0.88,
+    "notes": "General sin offering instructions expand into detailed blood ritual procedures."
+  },
+  {
+    "source_key": "lev_04_03_01",
+    "target_key": "lev_03_01_01",
+    "relationship_type": "contrast",
+    "strength": 0.82,
+    "notes": "Sin offering contrasts with voluntary peace offerings in Levitical system."
+  },
+  {
+    "source_key": "lev_04_06_01",
+    "target_key": "heb_09_13_01",
+    "relationship_type": "typology",
+    "strength": 0.90,
+    "notes": "Blood sprinkling foreshadows Christ's cleansing of conscience through sacrifice."
+  },
+  {
+    "source_key": "lev_04_07_01",
+    "target_key": "heb_10_22_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.87,
+    "notes": "Altar purification points toward believer access through Christ's blood."
+  },
+    {
+    "source_key": "lev_01_17_01",
+    "target_key": "lev_04_11_01",
+    "relationship_type": "contrast",
+    "strength": 0.87,
+    "notes": "Burnt offering is a pleasing aroma; sin offering is taken outside the camp indicating judgment and impurity removal."
+  },
+  {
+    "source_key": "lev_04_11_01",
+    "target_key": "lev_04_13_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "The sin offering for priests transitions into instructions for corporate sin."
+  },
+  {
+    "source_key": "lev_04_13_01",
+    "target_key": "lev_04_14_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Unintentional corporate sin is followed by required atoning sacrifice."
+  },
+  {
+    "source_key": "lev_04_14_01",
+    "target_key": "lev_04_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "The prescribed sacrifice is followed by laying on of hands and slaughter."
+  },
+  {
+    "source_key": "lev_04_15_01",
+    "target_key": "lev_04_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "After slaughter, blood is brought into the tabernacle by the priest."
+  },
+  {
+    "source_key": "lev_04_16_01",
+    "target_key": "lev_04_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Blood is brought into the tabernacle and then sprinkled before the LORD as atonement."
+  },
+  {
+    "source_key": "lev_04_17_01",
+    "target_key": "lev_04_04_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.82,
+    "notes": "Blood sprinkling reflects earlier atonement principles in Leviticus sin offering structure."
+  },
+  {
+    "source_key": "lev_04_15_01",
+    "target_key": "heb_10_22_01",
+    "relationship_type": "typology",
+    "strength": 0.88,
+    "notes": "Laying hands and sacrificial death foreshadow New Covenant cleansing through Christ."
+  },
+    {
+    "source_key": "lev_04_21_01",
+    "target_key": "lev_04_22_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "After the communal sin offering procedure, the text transitions to sin offerings for rulers."
+  },
+  {
+    "source_key": "lev_04_22_01",
+    "target_key": "lev_04_23_01",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "General ruler sin condition is expanded into specific sacrificial requirement."
+  },
+  {
+    "source_key": "lev_04_23_01",
+    "target_key": "lev_04_24_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The prescribed offering is followed by laying hands and slaughter."
+  },
+  {
+    "source_key": "lev_04_24_01",
+    "target_key": "lev_04_25_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "After slaughter, priest performs blood application ritual."
+  },
+  {
+    "source_key": "lev_04_25_01",
+    "target_key": "lev_04_26_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Blood ritual is followed by burning fat and declaration of forgiveness."
+  },
+  {
+    "source_key": "lev_04_21_01",
+    "target_key": "lev_04_25_01",
+    "relationship_type": "parallel_account",
+    "strength": 0.89,
+    "notes": "Leader and congregation sin offerings share identical blood application structure."
+  },
+  {
+    "source_key": "lev_04_26_01",
+    "target_key": "lev_04_20_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.85,
+    "notes": "Forgiveness formula repeats across different sin offering categories."
+  },
+  {
+  "source_key": "lev_04_27_01",
+  "target_key": "lev_04_28_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.98,
+  "notes": "General sin condition is followed by required offering provision."
+},
+{
+  "source_key": "lev_04_28_01",
+  "target_key": "lev_04_29_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.98,
+  "notes": "Identification with sin offering precedes its slaughter."
+},
+{
+  "source_key": "lev_04_29_01",
+  "target_key": "lev_04_30_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.97,
+  "notes": "After slaughter, blood ritual is performed by the priest."
+},
+{
+  "source_key": "lev_04_30_01",
+  "target_key": "lev_04_31_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.96,
+  "notes": "Blood manipulation is followed by burning of fat portions."
+},
+{
+  "source_key": "lev_04_31_01",
+  "target_key": "lev_04_32_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.95,
+  "notes": "Ritual structure transitions from herd/goat offering to lamb option."
+},
+{
+  "source_key": "lev_04_32_01",
+  "target_key": "lev_04_33_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.97,
+  "notes": "Lamb offering is followed by slaughter and blood application procedures."
+},
+{
+  "source_key": "lev_04_33_01",
+  "target_key": "lev_04_34_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.96,
+  "notes": "After slaughter, priests perform the same blood ritual as earlier offerings."
+},
+{
+  "source_key": "lev_04_34_01",
+  "target_key": "lev_04_35_01",
+  "relationship_type": "cause_effect",
+  "strength": 0.99,
+  "notes": "Completion of sacrificial ritual results in atonement and forgiveness."
+},
+{
+  "source_key": "lev_04_28_01",
+  "target_key": "lev_04_32_01",
+  "relationship_type": "expansion",
+  "strength": 0.92,
+  "notes": "Goat offering instructions are expanded by lamb offering alternative."
+},
+{
+  "source_key": "lev_04_30_01",
+  "target_key": "lev_04_34_01",
+  "relationship_type": "direct_repeat",
+  "strength": 0.94,
+  "notes": "Blood application procedures are repeated in both goat and lamb offerings."
+},
+{
+  "source_key": "lev_04_35_01",
+  "target_key": "lev_01_04_01",
+  "relationship_type": "typology",
+  "strength": 0.85,
+  "notes": "Atonement through sacrifice connects back to foundational Levitical burnt offering system."
+},
+      {
+    "source_key": "lev_05_01_01",
+    "target_key": "lev_05_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Witness withholding testimony leads into broader purity violations."
+  },
+  {
+    "source_key": "lev_05_02_01",
+    "target_key": "lev_05_04_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.88,
+    "notes": "Uncleanness and oath violations both produce guilt under Mosaic law."
+  },
+  {
+    "source_key": "lev_05_04_01",
+    "target_key": "lev_05_05_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Realization of guilt leads directly to required confession."
+  },
+  {
+    "source_key": "lev_05_05_01",
+    "target_key": "lev_05_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Confession is followed by required trespass offering."
+  },
+  {
+    "source_key": "lev_05_06_01",
+    "target_key": "lev_05_07_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "The sacrificial requirement is expanded to accommodate economic inability."
+  },
+  {
+    "source_key": "lev_05_07_01",
+    "target_key": "lev_05_11_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "If the person cannot afford birds, the offering is further reduced to flour."
+  },
+  {
+    "source_key": "lev_05_05_01",
+    "target_key": "psa_51_04_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.91,
+    "notes": "Confession of sin parallels David’s confession against God alone."
+  },
+  {
+    "source_key": "lev_05_06_01",
+    "target_key": "heb_10_18_01",
+    "relationship_type": "fulfillment",
+    "strength": 0.89,
+    "notes": "Sacrificial atonement system points toward final forgiveness in Christ."
+  },
+  {
+    "source_key": "lev_05_07_01",
+    "target_key": "2co_08_09_01",
+    "relationship_type": "continuation",
+    "strength": 0.84,
+    "notes": "Provision for the poor in atonement reflects New Testament grace principles."
+  },
+  {
+    "source_key": "lev_05_12_01",
+    "target_key": "lev_05_13_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The sin offering is presented and followed by priestly atonement and forgiveness."
+  },
+  {
+    "source_key": "lev_05_13_01",
+    "target_key": "lev_05_14_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Forgiveness framework transitions into instructions for trespass offerings."
+  },
+  {
+    "source_key": "lev_05_14_01",
+    "target_key": "lev_05_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Conditional definition of trespass is followed by required sacrificial response."
+  },
+  {
+    "source_key": "lev_05_15_01",
+    "target_key": "lev_05_16_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "The ram offering requirement is expanded with restitution obligations."
+  },
+  {
+    "source_key": "lev_05_16_01",
+    "target_key": "lev_05_17_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.91,
+    "notes": "Restitution law is grounded in the principle that even unintentional sin creates guilt."
+  },
+  {
+    "source_key": "lev_05_17_01",
+    "target_key": "lev_05_18_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Recognition of guilt is followed by sacrificial atonement through a ram."
+  },
+  {
+    "source_key": "lev_05_18_01",
+    "target_key": "lev_05_19_01",
+    "relationship_type": "summary",
+    "strength": 0.92,
+    "notes": "The trespass offering process concludes with confirmation of guilt against the LORD."
+  },
+  {
+    "source_key": "lev_05_15_01",
+    "target_key": "heb_09_22_01",
+    "relationship_type": "typology",
+    "strength": 0.87,
+    "notes": "Blood sacrifice requirement anticipates New Testament theology of atonement through sacrifice."
+  },
+  {
+    "source_key": "lev_05_16_01",
+    "target_key": "luk_19_08_01",
+    "relationship_type": "continuation",
+    "strength": 0.80,
+    "notes": "Restitution principle is reflected in Zacchaeus' repentance and repayment."
+  },
+    {
+    "source_key": "lev_06_02_01",
+    "target_key": "lev_06_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "General sin condition is followed by requirement to restore what was taken."
+  },
+  {
+    "source_key": "lev_06_03_01",
+    "target_key": "lev_06_04_01",
+    "relationship_type": "expansion",
+    "strength": 0.94,
+    "notes": "Restitution requirement is expanded into cases of violent theft."
+  },
+  {
+    "source_key": "lev_06_04_01",
+    "target_key": "lev_06_05_01",
+    "relationship_type": "intensification",
+    "strength": 0.93,
+    "notes": "Restoration is intensified by requiring an additional fifth as penalty."
+  },
+  {
+    "source_key": "lev_06_05_01",
+    "target_key": "lev_06_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "After restitution, the trespass offering is required before the LORD."
+  },
+  {
+    "source_key": "lev_06_06_01",
+    "target_key": "lev_06_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "The priest completes atonement after the trespass offering is brought."
+  },
+  {
+    "source_key": "lev_06_03_01",
+    "target_key": "lev_06_04_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.90,
+    "notes": "Restoration principle repeated with emphasis on different forms of theft."
+  },
+  {
+    "source_key": "lev_06_05_01",
+    "target_key": "mat_05_40_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.78,
+    "notes": "Principle of giving more than what was taken echoes Jesus' teaching on generosity and restitution."
+  },
+    {
+    "source_key": "lev_06_08_01",
+    "target_key": "lev_06_09_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Introduction is followed by specific instructions for the burnt offering law."
+  },
+  {
+    "source_key": "lev_06_09_01",
+    "target_key": "lev_06_10_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Instruction for burnt offering is followed by its continual burning requirement."
+  },
+  {
+    "source_key": "lev_06_10_01",
+    "target_key": "lev_06_12_01",
+    "relationship_type": "expansion",
+    "strength": 0.92,
+    "notes": "Continual burning requirement expands into priestly handling of altar fire and garments."
+  },
+  {
+    "source_key": "lev_06_12_01",
+    "target_key": "lev_06_13_01",
+    "relationship_type": "intensification",
+    "strength": 0.98,
+    "notes": "The command to keep fire burning is intensified into absolute permanence."
+  },
+  {
+    "source_key": "lev_06_13_01",
+    "target_key": "lev_06_14_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Burnt offering law concludes and transitions into grain offering law."
+  },
+  {
+    "source_key": "lev_06_14_01",
+    "target_key": "lev_06_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Introduction of grain offering law followed by instruction on burning memorial portion."
+  },
+  {
+    "source_key": "lev_06_15_01",
+    "target_key": "lev_06_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "After memorial portion is burned, remaining portion is eaten by priests."
+  },
+  {
+    "source_key": "lev_06_16_01",
+    "target_key": "lev_06_17_01",
+    "relationship_type": "restriction",
+    "strength": 0.94,
+    "notes": "Priestly consumption is restricted by purity rules excluding leaven."
+  },
+  {
+    "source_key": "lev_06_17_01",
+    "target_key": "lev_06_18_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "Purity restriction expands into statute governing priestly participation."
+  },
+  {
+    "source_key": "lev_06_18_01",
+    "target_key": "lev_06_20_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.92,
+    "notes": "Statute transitions into new priestly offering instructions at consecration."
+  },
+  {
+    "source_key": "lev_06_20_01",
+    "target_key": "lev_06_21_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Daily grain offering is followed by specific preparation method."
+  },
+  {
+    "source_key": "lev_06_21_01",
+    "target_key": "lev_06_22_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Preparation is followed by priestly offering duty across generations."
+  },
+  {
+    "source_key": "lev_06_22_01",
+    "target_key": "lev_06_23_01",
+    "relationship_type": "contrast",
+    "strength": 0.88,
+    "notes": "Priestly grain offering is distinguished by being wholly burnt and not eaten."
+  },
+  {
+    "source_key": "lev_06_23_01",
+    "target_key": "lev_06_24_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Transition from grain offering laws to sin offering regulations."
+  },
+  {
+    "source_key": "lev_06_24_01",
+    "target_key": "lev_06_25_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "General introduction leads into specific instructions about sin offering location."
+  },
+  {
+    "source_key": "lev_06_25_01",
+    "target_key": "lev_06_26_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Sacrificial location is followed by priestly consumption rules."
+  },
+  {
+    "source_key": "lev_06_26_01",
+    "target_key": "lev_06_27_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Consumption rules are followed by purity handling regulations."
+  },
+  {
+    "source_key": "lev_06_27_01",
+    "target_key": "lev_06_28_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Purity handling extends to vessel contamination rules."
+  },
+  {
+    "source_key": "lev_06_28_01",
+    "target_key": "lev_06_29_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "Object purification rules lead to priestly consumption restriction."
+  },
+  {
+    "source_key": "lev_06_29_01",
+    "target_key": "lev_06_30_01",
+    "relationship_type": "restriction",
+    "strength": 0.97,
+    "notes": "Priestly eating is restricted when blood is brought into the tabernacle."
+  },
+  {
+    "source_key": "lev_06_17_01",
+    "target_key": "lev_06_30_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.75,
+    "notes": "Both verses emphasize boundaries of consumption tied to holiness and purity."
+  },
+  {
+    "source_key": "lev_07_01_01",
+    "target_key": "lev_07_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Introduction of trespass offering law is followed by its sacrificial procedure."
+  },
+  {
+    "source_key": "lev_07_02_01",
+    "target_key": "lev_07_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Blood ritual is followed by offering of fat portions."
+  },
+  {
+    "source_key": "lev_07_03_01",
+    "target_key": "lev_07_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Fat offering is followed by removal of internal organs."
+  },
+  {
+    "source_key": "lev_07_04_01",
+    "target_key": "lev_07_05_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Removal of organs precedes burning of the sacrifice on the altar."
+  },
+  {
+    "source_key": "lev_07_01_01",
+    "target_key": "lev_01_09_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.78,
+    "notes": "Trespass offering shares holiness and burning themes with burnt offering system."
+  },
+  {
+    "source_key": "lev_07_05_01",
+    "target_key": "heb_10_10_01",
+    "relationship_type": "typology",
+    "strength": 0.88,
+    "notes": "Burning of sacrificial offering foreshadows once-for-all sacrifice of Christ."
+  },
+    {
+    "source_key": "lev_07_06_01",
+    "target_key": "lev_07_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Instructions for priestly consumption are followed by clarification of legal equivalence between offerings."
+  },
+  {
+    "source_key": "lev_07_07_01",
+    "target_key": "lev_07_08_01",
+    "relationship_type": "expansion",
+    "strength": 0.90,
+    "notes": "The legal equivalence of offerings expands into specific priestly entitlements."
+  },
+  {
+    "source_key": "lev_07_08_01",
+    "target_key": "lev_07_09_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Skin rights of burnt offerings are followed by grain offering distribution rules."
+  },
+  {
+    "source_key": "lev_07_09_01",
+    "target_key": "lev_07_10_01",
+    "relationship_type": "expansion",
+    "strength": 0.94,
+    "notes": "Specific grain offering allocations expand into equal distribution among priests."
+  },
+  {
+    "source_key": "lev_07_07_01",
+    "target_key": "rom_03_29_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.78,
+    "notes": "The principle of one law echoes New Testament teaching on God of both Jews and Gentiles."
+  },
+  {
+    "source_key": "lev_07_06_01",
+    "target_key": "heb_13_10_01",
+    "relationship_type": "typology",
+    "strength": 0.85,
+    "notes": "Priestly consumption of holy offerings foreshadows participation in Christ's altar."
+  },
+  {
+    "source_key": "lev_07_11_01",
+    "target_key": "lev_07_12_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "General law of peace offerings is followed by specific thanksgiving requirements."
+  },
+  {
+    "source_key": "lev_07_12_01",
+    "target_key": "lev_07_13_01",
+    "relationship_type": "expansion",
+    "strength": 0.94,
+    "notes": "Unleavened requirements are expanded with inclusion of leavened bread."
+  },
+  {
+    "source_key": "lev_07_13_01",
+    "target_key": "lev_07_14_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Bread instructions transition into priestly portion allocation."
+  },
+  {
+    "source_key": "lev_07_14_01",
+    "target_key": "lev_07_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Heave offering portion is followed by consumption timing rules."
+  },
+  {
+    "source_key": "lev_07_15_01",
+    "target_key": "lev_07_16_01",
+    "relationship_type": "restriction",
+    "strength": 0.92,
+    "notes": "Thanksgiving eating is restricted to one day, while vow offerings extend longer."
+  },
+  {
+    "source_key": "lev_07_16_01",
+    "target_key": "lev_07_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Allowed eating window is followed by disposal instructions for leftovers."
+  },
+  {
+    "source_key": "lev_07_17_01",
+    "target_key": "lev_07_18_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.93,
+    "notes": "Failure to properly dispose or consume leads to invalidation of the offering."
+  },
+  {
+    "source_key": "lev_07_15_01",
+    "target_key": "lev_01_09_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.78,
+    "notes": "Proper handling of sacrificial meat echoes holiness requirements in burnt offerings."
+  },
+  {
+    "source_key": "lev_07_11_01",
+    "target_key": "lev_03_01_01",
+    "relationship_type": "continuation",
+    "strength": 0.82,
+    "notes": "Peace offering law continues themes established in earlier sacrificial regulations."
+  },
+  {
+    "source_key": "lev_07_19_01",
+    "target_key": "lev_07_20_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Instruction about unclean sacrificial meat is followed by penalties for eating while unclean."
+  },
+  {
+    "source_key": "lev_07_20_01",
+    "target_key": "lev_07_21_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "The penalty is expanded to include multiple sources of uncleanness."
+  },
+  {
+    "source_key": "lev_07_21_01",
+    "target_key": "lev_07_23_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Uncleanness laws transition into dietary prohibition of fat."
+  },
+  {
+    "source_key": "lev_07_23_01",
+    "target_key": "lev_07_24_01",
+    "relationship_type": "restriction",
+    "strength": 0.92,
+    "notes": "General prohibition on fat is narrowed with exceptions for non-sacred use."
+  },
+  {
+    "source_key": "lev_07_24_01",
+    "target_key": "lev_07_25_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Permitted uses of fat are followed by prohibition on eating sacrificial fat."
+  },
+  {
+    "source_key": "lev_07_25_01",
+    "target_key": "lev_07_26_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Fat laws transition into broader prohibition on consuming blood."
+  },
+  {
+    "source_key": "lev_07_26_01",
+    "target_key": "lev_07_27_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The prohibition is reinforced with consequences for eating blood."
+  },
+  {
+    "source_key": "lev_07_28_01",
+    "target_key": "lev_07_29_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Transition from introduction to peace offering instructions."
+  },
+  {
+    "source_key": "lev_07_29_01",
+    "target_key": "lev_07_30_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Peace offering presentation is followed by wave offering procedure."
+  },
+  {
+    "source_key": "lev_07_30_01",
+    "target_key": "lev_07_31_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Wave offering leads to priestly allocation of portions."
+  },
+  {
+    "source_key": "lev_07_31_01",
+    "target_key": "lev_07_32_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Priestly portions are further specified to include the right shoulder."
+  },
+  {
+    "source_key": "lev_07_32_01",
+    "target_key": "lev_07_34_01",
+    "relationship_type": "expansion",
+    "strength": 0.94,
+    "notes": "Specific portion rules are expanded into a perpetual statute."
+  },
+  {
+    "source_key": "lev_07_34_01",
+    "target_key": "lev_07_35_01",
+    "relationship_type": "covenant_transition",
+    "strength": 0.91,
+    "notes": "Statute is linked to priestly anointing and ordination context."
+  },
+  {
+    "source_key": "lev_07_35_01",
+    "target_key": "lev_07_36_01",
+    "relationship_type": "summary",
+    "strength": 0.93,
+    "notes": "Priestly portion explanation is summarized as a perpetual command."
+  },
+  {
+    "source_key": "lev_07_37_01",
+    "target_key": "lev_07_38_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Final summary of sacrificial laws is followed by historical framing at Sinai."
+  },
+    {
+    "source_key": "lev_08_01_01",
+    "target_key": "lev_08_02_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.99,
+    "notes": "God’s initiation of the ordination instructions is followed by the gathering of necessary people and materials."
+  },
+  {
+    "source_key": "lev_08_02_01",
+    "target_key": "lev_08_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Preparation of materials leads to assembling the congregation for the ordination ceremony."
+  },
+  {
+    "source_key": "lev_08_03_01",
+    "target_key": "lev_08_05_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "The assembled congregation is addressed by Moses announcing divine command."
+  },
+  {
+    "source_key": "lev_08_05_01",
+    "target_key": "lev_08_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "After announcement, the ritual purification of Aaron and his sons begins."
+  },
+  {
+    "source_key": "lev_08_06_01",
+    "target_key": "lev_08_08_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "After washing, the priestly garments are placed upon Aaron."
+  },
+  {
+    "source_key": "lev_08_06_01",
+    "target_key": "lev_01_09_01",
+    "relationship_type": "typology",
+    "strength": 0.80,
+    "notes": "Priestly washing parallels purification requirements in burnt offering rituals."
+  },
+  {
+    "source_key": "lev_08_07_01",
+    "target_key": "heb_04_14_01",
+    "relationship_type": "typology",
+    "strength": 0.88,
+    "notes": "Aaronic priestly clothing foreshadows Christ as the great high priest."
+  },
+  {
+  "source_key": "lev_08_07_01",
+  "target_key": "lev_08_08_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.98,
+  "notes": "After clothing and consecration begins, priestly garments are completed with breastplate."
+},
+{
+  "source_key": "lev_08_08_01",
+  "target_key": "lev_08_09_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.96,
+  "notes": "Breastplate installation is followed by completion of head garments and crown."
+},
+{
+  "source_key": "lev_08_09_01",
+  "target_key": "lev_08_10_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.95,
+  "notes": "After clothing the priest, Moses begins sanctification of tabernacle items."
+},
+{
+  "source_key": "lev_08_10_01",
+  "target_key": "lev_08_11_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.94,
+  "notes": "Anointing of tabernacle is extended to altar and vessels."
+},
+{
+  "source_key": "lev_08_11_01",
+  "target_key": "lev_08_12_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.97,
+  "notes": "After sanctifying sacred space, Aaron himself is anointed."
+},
+{
+  "source_key": "lev_08_12_01",
+  "target_key": "lev_08_13_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.96,
+  "notes": "After high priest anointing, Aaron’s sons are clothed for service."
+},
+{
+  "source_key": "lev_08_12_01",
+  "target_key": "heb_07_26_01",
+  "relationship_type": "typology",
+  "strength": 0.88,
+  "notes": "High priest sanctification foreshadows Christ as the ultimate holy high priest."
+},
+{
+  "source_key": "lev_08_10_01",
+  "target_key": "exo_40_09_01",
+  "relationship_type": "parallel_account",
+  "strength": 0.91,
+  "notes": "Anointing of tabernacle parallels earlier Exodus instructions for consecration of sacred space."
+},
+      {
+    "source_key": "lev_08_14_01",
+    "target_key": "lev_08_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Sin offering begins consecration process with laying on of hands followed by blood application."
+  },
+  {
+    "source_key": "lev_08_15_01",
+    "target_key": "lev_08_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "After purification of the altar, fat portions are burned as offering."
+  },
+  {
+    "source_key": "lev_08_16_01",
+    "target_key": "lev_08_17_01",
+    "relationship_type": "contrast",
+    "strength": 0.88,
+    "notes": "Sacrificial portions are offered to God while remaining body is removed outside camp."
+  },
+  {
+    "source_key": "lev_08_17_01",
+    "target_key": "lev_08_18_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "After sin offering, burnt offering ram is presented for priestly consecration."
+  },
+  {
+    "source_key": "lev_08_18_01",
+    "target_key": "lev_08_19_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Burnt offering is followed by blood sprinkling on altar."
+  },
+  {
+    "source_key": "lev_08_19_01",
+    "target_key": "lev_08_20_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "After blood ritual, ram is cut and burned in ordered sequence."
+  },
+  {
+    "source_key": "lev_08_20_01",
+    "target_key": "lev_08_21_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Final washing precedes complete burning of the ram."
+  },
+    {
+    "source_key": "lev_08_22_01",
+    "target_key": "lev_08_23_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The ram of consecration is followed by the blood application ritual."
+  },
+  {
+    "source_key": "lev_08_23_01",
+    "target_key": "lev_08_24_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Aaron’s consecration is extended to his sons using the same blood ritual."
+  },
+  {
+    "source_key": "lev_08_24_01",
+    "target_key": "lev_08_25_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Blood consecration is followed by selection of sacrificial portions."
+  },
+  {
+    "source_key": "lev_08_25_01",
+    "target_key": "lev_08_26_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Meat portions are accompanied by grain offerings in the consecration ritual."
+  },
+  {
+    "source_key": "lev_08_26_01",
+    "target_key": "lev_08_27_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Offerings are placed into the hands of priests for wave offering before the LORD."
+  },
+  {
+    "source_key": "lev_08_27_01",
+    "target_key": "lev_08_28_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Wave offering is followed by burning on the altar as consecration sacrifice."
+  },
+  {
+    "source_key": "lev_08_28_01",
+    "target_key": "lev_08_29_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Consecration offerings are followed by Moses receiving designated portions."
+  },
+  {
+    "source_key": "lev_08_29_01",
+    "target_key": "lev_08_30_01",
+    "relationship_type": "expansion",
+    "strength": 0.93,
+    "notes": "Moses’ portioning expands into full sanctification of Aaron and his sons through oil and blood."
+  },
+  {
+    "source_key": "lev_08_30_01",
+    "target_key": "lev_08_31_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Sanctification is followed by the consecration meal at the tabernacle entrance."
+  },
+  {
+    "source_key": "lev_08_31_01",
+    "target_key": "lev_08_32_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Meal consumption is followed by burning remaining sacred portions."
+  },
+  {
+    "source_key": "lev_08_32_01",
+    "target_key": "lev_08_33_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "Completion of offerings leads to a seven-day consecration period of separation."
+  },
+  {
+    "source_key": "lev_08_33_01",
+    "target_key": "lev_08_34_01",
+    "relationship_type": "summary",
+    "strength": 0.90,
+    "notes": "Moses summarizes the ordination process as commanded by the LORD."
+  },
+  {
+    "source_key": "lev_08_34_01",
+    "target_key": "lev_08_35_01",
+    "relationship_type": "intensification",
+    "strength": 0.92,
+    "notes": "The command is intensified with strict warning of death for disobedience."
+  },
+  {
+    "source_key": "lev_08_35_01",
+    "target_key": "lev_08_36_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Obedience to the command results in complete compliance by Aaron and his sons."
+  },
+  {
+  "source_key": "lev_09_01_01",
+  "target_key": "lev_09_02_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.98,
+  "notes": "Moses calls Aaron and leaders, then instructs sacrificial preparation."
+},
+{
+  "source_key": "lev_09_02_01",
+  "target_key": "lev_09_03_01",
+  "relationship_type": "expansion",
+  "strength": 0.94,
+  "notes": "Priestly offerings expand into national offerings."
+},
+{
+  "source_key": "lev_09_03_01",
+  "target_key": "lev_09_05_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.96,
+  "notes": "Israel brings offerings and assembles before the LORD."
+},
+{
+  "source_key": "lev_09_05_01",
+  "target_key": "lev_09_07_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.95,
+  "notes": "Assembly is followed by instruction for atonement."
+},
+{
+  "source_key": "lev_09_07_01",
+  "target_key": "lev_09_08_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.97,
+  "notes": "Command to make atonement leads to Aaron's first sacrifice."
+},
+{
+  "source_key": "lev_09_08_01",
+  "target_key": "lev_09_12_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.96,
+  "notes": "Sin offering is followed by burnt offering ritual."
+},
+{
+  "source_key": "lev_09_12_01",
+  "target_key": "lev_09_15_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.96,
+  "notes": "Burnt offering leads to communal sin offering."
+},
+{
+  "source_key": "lev_09_15_01",
+  "target_key": "lev_09_17_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.93,
+  "notes": "Sin offering transitions into grain offering."
+},
+{
+  "source_key": "lev_09_17_01",
+  "target_key": "lev_09_22_01",
+  "relationship_type": "series_sequence",
+  "strength": 0.95,
+  "notes": "Offerings culminate in Aaron’s blessing of the people."
+},
+{
+  "source_key": "lev_09_22_01",
+  "target_key": "lev_09_23_01",
+  "relationship_type": "cause_effect",
+  "strength": 0.97,
+  "notes": "Blessing precedes divine manifestation of glory."
+},
+{
+  "source_key": "lev_09_23_01",
+  "target_key": "lev_09_24_01",
+  "relationship_type": "cause_effect",
+  "strength": 0.98,
+  "notes": "God’s glory is followed by fire consuming the offering."
+},
+      {
+    "source_key": "lev_10_01_01",
+    "target_key": "lev_10_02_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.99,
+    "notes": "Unauthorized offering directly results in divine judgment by fire."
+  },
+  {
+    "source_key": "lev_10_02_01",
+    "target_key": "lev_10_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "After judgment, Moses interprets the event as a demonstration of God's holiness."
+  },
+  {
+    "source_key": "lev_10_03_01",
+    "target_key": "lev_10_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.93,
+    "notes": "The theological explanation is followed by practical instructions to remove the bodies."
+  },
+  {
+    "source_key": "lev_10_04_01",
+    "target_key": "lev_10_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "After removal, priests are instructed regarding mourning restrictions."
+  },
+  {
+    "source_key": "lev_10_06_01",
+    "target_key": "lev_10_08_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Mourning restrictions are followed by further holiness requirements regarding alcohol."
+  },
+  {
+    "source_key": "lev_10_08_01",
+    "target_key": "lev_10_12_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Purity requirements are followed by instructions on proper consumption of offerings."
+  },
+  {
+    "source_key": "lev_10_12_01",
+    "target_key": "lev_10_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.90,
+    "notes": "Instruction about offerings leads to corrective inquiry about possible mishandling."
+  },
+  {
+    "source_key": "lev_10_16_01",
+    "target_key": "lev_10_19_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.88,
+    "notes": "Moses' inquiry prompts Aaron's explanation regarding circumstances of the sin offering."
+  },
+  {
+    "source_key": "lev_10_01_01",
+    "target_key": "lev_10_03_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.92,
+    "notes": "Both emphasize sanctity and correct worship before God."
+  },
+  {
+    "source_key": "lev_10_02_01",
+    "target_key": "lev_09_24_01",
+    "relationship_type": "contrast",
+    "strength": 0.87,
+    "notes": "Divine fire of judgment contrasts with earlier divine fire of acceptance."
+  },
+    {
+    "source_key": "lev_11_02_01",
+    "target_key": "lev_11_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "General instruction is followed by specific dietary criteria for land animals."
+  },
+  {
+    "source_key": "lev_11_03_01",
+    "target_key": "lev_11_04_01",
+    "relationship_type": "restriction",
+    "strength": 0.95,
+    "notes": "Positive criteria are followed by exceptions limiting what is actually permitted."
+  },
+  {
+    "source_key": "lev_11_03_01",
+    "target_key": "lev_11_09_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.92,
+    "notes": "Land animal laws are followed by aquatic animal dietary laws."
+  },
+  {
+    "source_key": "lev_11_09_01",
+    "target_key": "lev_11_10_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "Clean fish criteria are followed by declaration of unclean aquatic life."
+  },
+  {
+    "source_key": "lev_11_10_01",
+    "target_key": "lev_11_13_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.94,
+    "notes": "Aquatic laws are followed by classification of unclean birds."
+  },
+  {
+    "source_key": "lev_11_03_01",
+    "target_key": "lev_11_13_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.90,
+    "notes": "Both land and bird classifications reflect the broader holiness distinction in diet."
+  },
+  {
+    "source_key": "lev_11_10_01",
+    "target_key": "lev_11_03_01",
+    "relationship_type": "contrast",
+    "strength": 0.88,
+    "notes": "Clean vs unclean classification system is applied across domains (land vs sea)."
+  },
+  {
+    "source_key": "lev_11_02_01",
+    "target_key": "lev_11_10_01",
+    "relationship_type": "summary",
+    "strength": 0.85,
+    "notes": "General dietary principle is summarized in explicit clean/unclean declarations."
+  },
+    {
+    "source_key": "lev_11_14_01",
+    "target_key": "lev_11_15_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The list of unclean birds continues from vultures and kites to ravens."
+  },
+  {
+    "source_key": "lev_11_15_01",
+    "target_key": "lev_11_16_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Additional unclean birds are sequentially identified."
+  },
+  {
+    "source_key": "lev_11_16_01",
+    "target_key": "lev_11_17_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The dietary prohibition list continues with more birds classified as unclean."
+  },
+  {
+    "source_key": "lev_11_17_01",
+    "target_key": "lev_11_18_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The sequence of prohibited birds proceeds through additional species."
+  },
+  {
+    "source_key": "lev_11_18_01",
+    "target_key": "lev_11_19_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The final set of unclean birds concludes the bird prohibition section."
+  },
+  {
+    "source_key": "lev_11_19_01",
+    "target_key": "lev_11_20_01",
+    "relationship_type": "expansion",
+    "strength": 0.88,
+    "notes": "The dietary laws expand from birds specifically named to broader classes of winged creeping creatures."
+  },
+  {
+    "source_key": "lev_11_20_01",
+    "target_key": "lev_11_21_01",
+    "relationship_type": "restriction",
+    "strength": 0.94,
+    "notes": "An exception is introduced to the general prohibition against flying creeping things."
+  },
+  {
+    "source_key": "lev_11_21_01",
+    "target_key": "lev_11_22_01",
+    "relationship_type": "expansion",
+    "strength": 0.95,
+    "notes": "The permitted category of leaping insects is expanded with specific examples."
+  },
+  {
+    "source_key": "lev_11_22_01",
+    "target_key": "lev_11_23_01",
+    "relationship_type": "contrast",
+    "strength": 0.91,
+    "notes": "Approved insects are contrasted with all remaining flying creeping things deemed abominable."
+  },
+  {
+    "source_key": "lev_11_20_01",
+    "target_key": "act_10_14_01",
+    "relationship_type": "covenant_transition",
+    "strength": 0.83,
+    "notes": "The dietary restrictions concerning unclean creatures are later addressed in Peter's vision regarding covenantal inclusion."
+  },
+  {
+    "source_key": "lev_11_21_01",
+    "target_key": "mat_03_04_01",
+    "relationship_type": "continuation",
+    "strength": 0.79,
+    "notes": "John the Baptist's consumption of locusts reflects the continuing recognition of permitted insects under Jewish dietary law."
+  },
+  {
+    "source_key": "lev_11_23_01",
+    "target_key": "mar_07_19_01",
+    "relationship_type": "reinterpretation",
+    "strength": 0.81,
+    "notes": "Jesus' teaching concerning purity and defilement reframes ceremonial food distinctions."
+  },
+    {
+    "source_key": "lev_11_24_01",
+    "target_key": "lev_11_25_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "The declaration of uncleanness is followed by required purification procedures."
+  },
+  {
+    "source_key": "lev_11_25_01",
+    "target_key": "lev_11_28_01",
+    "relationship_type": "direct_repeat",
+    "strength": 0.94,
+    "notes": "Both passages command washing clothes after handling unclean carcasses."
+  },
+  {
+    "source_key": "lev_11_26_01",
+    "target_key": "lev_11_27_01",
+    "relationship_type": "expansion",
+    "strength": 0.89,
+    "notes": "The category of unclean beasts is expanded to include pawed animals."
+  },
+  {
+    "source_key": "lev_11_27_01",
+    "target_key": "lev_11_28_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.92,
+    "notes": "Contact with pawed carcasses causes the need for ceremonial washing."
+  },
+  {
+    "source_key": "lev_11_29_01",
+    "target_key": "lev_11_30_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "The list of unclean creeping creatures continues with additional species."
+  },
+  {
+    "source_key": "lev_11_24_01",
+    "target_key": "lev_15_11_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.82,
+    "notes": "Both passages teach temporary ceremonial uncleanness through contact."
+  },
+  {
+    "source_key": "lev_11_25_01",
+    "target_key": "num_19_07_01",
+    "relationship_type": "continuation",
+    "strength": 0.84,
+    "notes": "Ritual washing after impurity continues in later Mosaic purification laws."
+  },
+  {
+    "source_key": "lev_11_29_01",
+    "target_key": "isa_66_17_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.75,
+    "notes": "Isaiah later condemns participation in practices involving unclean creatures."
+  },
+    {
+    "source_key": "lev_11_31_01",
+    "target_key": "lev_11_32_01",
+    "relationship_type": "expansion",
+    "strength": 0.96,
+    "notes": "The impurity from touching carcasses is expanded to include contamination of objects."
+  },
+  {
+    "source_key": "lev_11_32_01",
+    "target_key": "lev_11_32_02",
+    "relationship_type": "cause_effect",
+    "strength": 0.95,
+    "notes": "Once objects become unclean, washing procedures are prescribed for purification."
+  },
+  {
+    "source_key": "lev_11_32_02",
+    "target_key": "lev_11_33_01",
+    "relationship_type": "contrast",
+    "strength": 0.84,
+    "notes": "Some contaminated objects may be washed, but earthen vessels must be destroyed."
+  },
+  {
+    "source_key": "lev_11_33_01",
+    "target_key": "lev_11_35_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.90,
+    "notes": "Both commands require destruction of contaminated porous items."
+  },
+  {
+    "source_key": "lev_11_36_01",
+    "target_key": "lev_11_37_01",
+    "relationship_type": "contrast",
+    "strength": 0.79,
+    "notes": "The passage distinguishes situations where impurity transfers from situations where it does not."
+  },
+  {
+    "source_key": "lev_11_37_01",
+    "target_key": "lev_11_38_01",
+    "relationship_type": "contrast",
+    "strength": 0.97,
+    "notes": "Dry seed remains clean, while wet seed becomes unclean through carcass contact."
+  },
+  {
+    "source_key": "lev_11_39_01",
+    "target_key": "lev_11_40_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.94,
+    "notes": "Contact with or consumption of carcasses requires ceremonial washing."
+  },
+  {
+    "source_key": "lev_11_31_01",
+    "target_key": "lev_15_05_01",
+    "relationship_type": "thematic_repeat",
+    "strength": 0.76,
+    "notes": "Both passages teach that touching unclean things produces ceremonial impurity until evening."
+  },
+  {
+    "source_key": "lev_11_32_02",
+    "target_key": "num_19_19_01",
+    "relationship_type": "continuation",
+    "strength": 0.74,
+    "notes": "Water purification rituals continue throughout Mosaic ceremonial law."
+  },
+  {
+    "source_key": "lev_11_39_01",
+    "target_key": "act_10_14_01",
+    "relationship_type": "covenant_transition",
+    "strength": 0.82,
+    "notes": "New Testament dietary and purity discussions revisit Mosaic distinctions concerning clean and unclean animals."
+  },
+  {
+    "source_key": "lev_11_41_01",
+    "target_key": "lev_11_42_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "General prohibition of creeping things is expanded into specific classifications of unclean creatures."
+  },
+  {
+    "source_key": "lev_11_42_01",
+    "target_key": "lev_11_43_01",
+    "relationship_type": "cause_effect",
+    "strength": 0.91,
+    "notes": "Identification of unclean animals leads to warning against personal defilement."
+  },
+  {
+    "source_key": "lev_11_43_01",
+    "target_key": "lev_11_44_01",
+    "relationship_type": "intensification",
+    "strength": 0.95,
+    "notes": "Avoidance of defilement is intensified into a call to holiness reflecting God's nature."
+  },
+  {
+    "source_key": "lev_11_44_01",
+    "target_key": "lev_11_45_01",
+    "relationship_type": "covenant_transition",
+    "strength": 0.93,
+    "notes": "Holiness command is grounded in redemption from Egypt and covenant identity."
+  },
+  {
+    "source_key": "lev_11_45_01",
+    "target_key": "lev_11_46_01",
+    "relationship_type": "summary",
+    "strength": 0.96,
+    "notes": "Covenant holiness principle is summarized as the law of clean and unclean creatures."
+  },
+  {
+    "source_key": "lev_11_46_01",
+    "target_key": "lev_11_47_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Summary statement concludes with the purpose of distinguishing clean and unclean for Israel."
+  },
+  {
+    "source_key": "lev_11_44_01",
+    "target_key": "lev_11_47_01",
+    "relationship_type": "reinterpretation",
+    "strength": 0.88,
+    "notes": "Holiness command is reframed as practical discernment in dietary practice."
+  },
+  {
+    "source_key": "lev_12_02_01",
+    "target_key": "lev_12_03_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.97,
+    "notes": "After defining postpartum impurity, circumcision is commanded on the eighth day."
+  },
+  {
+    "source_key": "lev_12_03_01",
+    "target_key": "lev_12_04_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.95,
+    "notes": "Circumcision is followed by the mother’s continued purification period."
+  },
+  {
+    "source_key": "lev_12_04_01",
+    "target_key": "lev_12_05_01",
+    "relationship_type": "contrast",
+    "strength": 0.88,
+    "notes": "The law contrasts male and female childbirth purification durations."
+  },
+  {
+    "source_key": "lev_12_05_01",
+    "target_key": "lev_12_06_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.96,
+    "notes": "After purification time, offerings are required for restoration."
+  },
+  {
+    "source_key": "lev_12_06_01",
+    "target_key": "lev_12_07_01",
+    "relationship_type": "series_sequence",
+    "strength": 0.98,
+    "notes": "Offerings are completed by priestly atonement and declaration of cleansing."
+  },
+  {
+    "source_key": "lev_12_03_01",
+    "target_key": "gen_17_12_01",
+    "relationship_type": "continuation",
+    "strength": 0.92,
+    "notes": "Circumcision continues Abrahamic covenant practice established in Genesis 17."
+  },
+  {
+    "source_key": "lev_12_06_01",
+    "target_key": "luk_02_24_01",
+    "relationship_type": "continuation",
+    "strength": 0.85,
+    "notes": "Post-birth offerings continue into Second Temple practice seen in Luke 2."
+  }
+]
